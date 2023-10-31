@@ -1,0 +1,838 @@
+body{
+ background-image: url(./assets/light\ paper.jpg);
+ background-repeat: repeat;
+ background-size: cover;
+ background-color: var(--primary-color);
+ transition: 0.5s;
+ margin: 0;
+ overflow: hidden;  
+ max-height: 1540px;
+}
+
+:root{
+--primary-color: white;
+--secondary-color: black;
+}
+
+.dark-theme{
+    --primary-color: black ;
+    --secondary-color: white ;
+    background-image: url(./assets/dark\ paper.jpg);
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(-100%);
+    transition: 5s;
+}
+
+header{
+display: flex;
+justify-content: end;
+margin-top: 15px;
+}
+
+.search input{
+   font-family: "IM Fell English SC";
+   border: 2px solid black;
+   border-radius: 2rem;
+   font-size: 30px;
+   width: 300px;
+   height: 50px;
+   margin-right: 25px;
+   transition: 0.5s;
+}
+
+input:placeholder-shown{
+text-align: center;
+}
+
+.dark label{
+    border: 2px solid var(--secondary-color);
+    border-radius: 5rem;
+    width: 52px;
+    height:52px;
+    margin-top: -17px;
+    margin-right: 25px;
+    background-color: white;
+    display: block;
+    transition: 0.5s;
+    box-shadow: 0 0 15px 5px #ffffff;
+    
+}
+
+.dark input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.strawhat{
+  fill: #000000;
+   opacity: 1; 
+   transition: 0.5s;
+}
+
+input:checked + label .strawhat{
+    opacity: 0;
+  
+}
+
+.nika{
+    transform: translate(1px, -53px);
+    fill: #000000;
+   opacity: 0;
+   transition: 0.5s;
+}
+
+input:checked + label .nika{
+    opacity: 1;
+}
+
+.title h1{
+color: var(--secondary-color);
+text-align: center;
+word-spacing: 15px;
+font-size: 5.5rem;
+font-family: "IM Fell English SC";
+padding-top: 20px;
+margin: 0;
+transition: 0.5s;
+display: none;
+
+}
+
+.title2{
+    color: var(--secondary-color);
+    margin: -80px 20px 0px 20px;
+  text-align: start;
+    font-size: 13px;
+    font-family: "IM Fell English SC";
+    display: block;
+    transition: 0.5s;
+ 
+}
+
+#return a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: "IM Fell English SC";
+    cursor: pointer;
+}
+
+.contentBox{
+padding-top: 70px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+transition: 0.5s;
+margin-top: 130px;
+
+}
+
+.contentBox img{
+position: relative; top: -95%;
+transition: 0.5s;
+}
+
+.contentBox h1{
+color: white;
+text-align: center;
+padding: 0px;
+position: relative; top: 40%;
+font-size: 3rem;
+font-family: "IM Fell English SC";
+}
+
+.df{
+border: 2px solid black;
+border-radius: 1rem;
+background-color: white;
+float: left;
+width: 30rem;
+height: 35rem;
+margin: 0px 50px;
+transition: 0.5s;
+overflow: hidden;
+}
+
+.zd{
+    z-index: 1;
+width: 17rem;
+margin-top: -5px;
+transition: 0.5s;
+}
+
+.ld{
+width: 23rem;
+margin-left: 20px;
+margin-top: 75px;
+transition: 0.5s;
+}
+
+.pd{
+width: 23rem;
+margin-top: 1px;
+transition: 0.5s;
+}
+
+.layer{
+z-index: 100;
+position: relative; top: 44.1%; left: 50%;
+transform: translate(-50%, -50%);
+padding: 0px 50px;
+border: 0px;
+border-radius: 1rem;
+background-color: rgba(83, 83, 83, 0.6);
+width: 25rem;
+height: 35rem;
+transition: 0.5s;
+opacity: 1;
+
+}
+
+.layer:hover{
+    opacity: 0;
+}
+
+.df:hover .info{
+    transform: translateY(-102.5%);
+
+}
+
+.info{
+    z-index: 1000;
+    background-color: var(--primary-color);
+    border:2px solid var(--secondary-color);
+    border-radius: 1rem;
+    width: 30rem;
+    height: 35rem;
+    position: relative; top: -81%;
+    transition: 1s;
+    margin-left: -10px;
+    
+}
+
+.info h1{
+    color: var(--secondary-color);
+    text-align: start;
+    margin: -215px 0px 0px 20px;
+    font-size: 24px;
+}
+
+.info h2{
+    padding: 10px;
+font-size: 18px;
+text-align: start;
+margin: 260px 5px 0px 5px;
+color: var(--secondary-color);
+}
+
+#optionBox{
+    border: 2px solid var(--secondary-color);
+    border-radius: 1.5rem;
+    background-color: rgba(63, 63, 63, 0.7);
+    width: 100rem;
+    height: 50rem;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none;
+    color: var(--secondary-color);
+    transition: 0.5s;
+    padding: 5px;
+
+}
+
+#optionBox header{
+justify-content: start; 
+margin: 10px;
+
+}
+
+#x{
+margin-right: 10px;
+border: 1px solid var(--secondary-color);
+border-radius: 10rem;
+font-size: 19px;
+width: 2rem;
+height: 2rem;
+transition: 0.5s;
+}
+
+#back{
+    margin-right: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 10rem;
+    width: 2rem;
+    height: 2rem;
+    transition: 0.5s;
+    display: none;
+}
+
+#back p{
+    margin: 0px 0px 0px -4px;
+    font-size: 25px;
+    color: #000000;
+}
+
+#optionBox img{
+    display: block;
+    width: 100%;
+    
+}
+
+#optionBox ul{
+    padding: 0px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100rem;
+    height: 50rem;
+    position: absolute; top: 52%; left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+}
+
+#oL button{
+    font-family: "IM Fell English SC";
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 15px 15px 20px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#op1 button{
+    font-family: "IM Fell English SC";
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 15px 15px 20px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#oz1 button{
+    font-family: "IM Fell English SC";
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 15px 15px 20px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+#optionBox button:hover{
+   background-color: #a7a7a7;
+   transition: 0.2s;
+}
+
+#zbutton button{
+    text-align:center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    width: 23rem;
+    height: 45rem;
+    z-index: 1000;
+    margin: 5px 14px 0px 14px;
+    font-size: 3.5rem;
+    font-family: "IM Fell English SC";
+    color: white;
+    text-shadow:rgb(0, 0, 0) 5px 0px 10px; ;
+    transition: 0.5s;
+}
+
+#mythical{
+    background-image: url(./assets/luffy1.jpg);
+    background-size:cover;
+    transition: 5s;
+}
+
+#artificial{
+    background-image: url(./assets/momonosuke.jpg);
+    background-size: cover;
+    transition: 5s;
+}
+
+#ancient{
+    background-image: url(./assets/xdrake.png);
+    background-size: cover;
+    transition: 5s;
+}
+
+#normal{
+    background-image: url(./assets/chopper.jpg);
+    background-size: cover;
+    transition: 5s;
+}
+
+#ancient:hover{
+    background-image: url(./assets/king.jpg);
+    background-size: cover;
+    background-position-x: -40;
+    transition: 5s;
+}
+
+#artificial:hover{
+    background-image: url(./assets/monkey.jpg);
+    background-size: cover;
+    transition: 5s;
+}
+
+#mythical:hover{
+    background-image: url(./assets/marco.jpg);
+    background-size:cover;
+    transition: 5s;
+}
+
+#normal:hover{
+    background-image: url(./assets/pell.jpg);
+    background-size: cover;
+    transition: 5s;
+
+}
+
+#pbutton button{
+    text-align:center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    width: 23rem;
+    height: 45rem;
+    z-index: 1000;
+    margin: 5px 14px 0px 14px;
+    font-size: 3rem;
+    font-family: "IM Fell English SC";
+    color: white;
+    text-shadow:rgb(0, 0, 0) 0px 0px 10px; ;
+    transition: 0.5s;
+}
+
+#body{
+    background-image: url(./assets/kid.jpg);
+    background-size:cover;
+    background-position-x: -40px;
+    transition: 5s;
+}
+
+#environment{
+    background-image: url(./assets/Law.jpg);
+    background-size:cover;
+    background-position-x: -40px;
+    transition: 5s;
+}
+
+#power{
+    background-image: url(./assets/Brook.jpg);
+    background-size:cover;
+    background-position-x: -50px;
+    transition: 5s;
+}
+
+#substance{
+    background-image: url(./assets/Doflamingo.jpg);
+    background-size:cover;
+    background-position-x: -20px;
+    transition: 5s;
+  
+}
+
+#body:hover{
+    background-image: url(./assets/apoo.jpg);
+    background-size:cover;
+    background-position-x: -40px;
+    transition: 5s;
+}
+
+#environment:hover{
+    background-image: url(./assets/Corazon.jpg);
+    background-position-x: -40px;
+    transition: 5s;
+}
+
+#power:hover{
+    background-image: url(./assets/kuma.jpg);
+    background-size:cover;
+    background-position-x: -50px;
+    transition: 5s;
+}
+
+#substance:hover{
+    background-image: url(./assets/barto1.jpg);
+    background-size:cover;
+    transition: 5s;
+ 
+}
+
+#infoPage{
+    display: none;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#fruits{
+   width: 40rem;
+   position: absolute; top: 20vh; left: 4vw;
+   z-index: 1;
+   transition: 0.5s;
+}
+
+.switch{
+    width: 30rem;
+    position: absolute; top: 10vh; left: 15vw;
+    z-index: 0;
+ }
+
+#user{
+    width: 20rem;
+    position: absolute; top: 15vh; left: 30vw;
+    z-index: 0;
+    transition: 0.5s;
+}
+
+#user::after{
+    width: 30rem;
+    position: absolute; top: 20vh; left: 5vw;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+#allInfo{
+    position: relative; top: 20vh; left: 50vw;
+    display: grid;
+    grid-template-areas: 
+        'topLeft topRight'
+        'left left'
+        'right right'
+        'main main'
+        'main main'
+        'footer footer';
+    color: var(--secondary-color);
+    transition: 0.5s;
+    font-family: "IM Fell English SC";
+}
+
+#Dname{
+    grid-area: topLeft;
+    margin: 0px 20px 0px 0px;
+}
+
+#Jname{
+    grid-area: topRight;
+    margin: 0px 0px 0px 5px;
+}
+
+#ability{
+    grid-area: right;
+    font-size: 1.5rem;
+    margin-top: -17px;
+}
+
+#Duser{
+    grid-area: left; 
+    font-size: 1.5rem;
+}
+
+#Dinfo{
+    grid-area: main;
+    font-size: 1.5rem;
+}
+
+#extra{
+    grid-area: footer;
+    font-size: 1.5rem;
+}
+
+
+@media only screen and (max-height: 1000px){
+}
+@media only screen and (max-width: 1750px){
+
+
+    .df{
+        margin: 10px 20px;
+    }
+    .contentBox{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+}
+@media only screen and (max-width: 1610px){
+
+
+    .df{
+        margin: -10px 10px;
+    }
+    .contentBox{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+}
+@media only screen and (max-width: 1510px){
+    
+    .df{
+        width: 25rem;
+        margin: -10px 30px;
+        }
+
+        .info{
+            width: 25rem;
+        }
+
+        .info h2{
+        font-size: 17px;
+        margin: 240px 0px;
+        padding: 15px;
+        }
+        
+}
+@media only screen and (max-width: 1400px){
+    
+    .df{
+        width: 25rem;
+        margin: -20px 10px;
+        }
+        
+}
+@media only screen and (max-width: 1260px){
+        .contentBox img{
+            top: -90%;
+            margin-left: -5px;
+        }
+
+        .df{
+        width: 19rem;
+        height: 35rem;   
+        }
+        
+        .zd{
+            width: 14rem;
+            margin-left: 45px;
+        }
+            
+        .ld{
+            width: 18rem;
+            margin-left: 10px;
+        }
+            
+        .pd{
+            margin-top: 17px;
+            width: 18rem;
+            margin-left: 10px;
+        }
+
+        .layer{
+        width: 13rem;
+        height: 35rem;
+        }
+
+        .contentBox{
+            margin-bottom: 100px;
+        }
+
+        .info{
+            margin-left: -10px;
+            width: 18.9rem;
+            position: relative; top: -67%;
+            
+        }
+        
+        .info h1{
+            font-size: 19px;
+        }
+        
+        .info h2{
+            margin-top: 14.5rem;
+        font-size: 15px;
+        }
+
+        
+}
+@media only screen and (max-width: 1000px){
+
+        body{
+        max-height: 1540px;
+        overflow-y: scroll;  
+       }
+
+        .title h1{
+        display: none;
+        }
+
+        .title2{
+        display: block;
+        }
+
+        .contentBox{
+        margin-top: 0px;
+        align-items: center;
+        padding-top: 40px;
+        transition: 0.5s;
+        flex-direction: column;
+            }
+
+        .df{
+        margin: 15px;
+        width: 45rem;
+        height: 25rem;   
+        }
+        
+        .layer{
+        width: 39rem;
+        height: 25.1rem;
+        transform: translate(-50%, -52%);
+        }
+
+        .contentBox img{
+        top: -105%;
+        margin-bottom: -300px;
+
+        }
+
+        .df:hover .info{
+            transform: translatex(-100%);
+        
+        }
+
+
+        .info{
+            width: 45rem;
+            height: 25rem;
+            margin-left: -2px;
+            position: relative; top: -125%; left: 102%;
+            
+        }
+        
+        .info h1{
+            margin: -145px 0px 0px 20px;
+            font-size: 25px;
+        }
+        
+        .info h2{
+        font-size: 17px;
+        margin: 170px 5px 0px 5px;
+        }
+
+}
+@media only screen and (max-width: 750px){
+
+
+    .df{
+        margin: 15px;
+        width: 30rem;
+        height: 25rem;   
+        }
+        
+        .layer{
+        width: 24rem;
+        height: 25.1rem;
+        transform: translate(-50%, -52%);
+        }
+
+
+
+        .df:hover .info{
+            transform: translatex(-99%);
+        
+        }
+  
+        .info{
+            width: 30.5rem;
+            height: 25rem;
+            position: relative; top: -125%; left: 102%;
+            
+        }
+
+        
+        .info h1{
+            margin: -145px 0px 0px 20px;
+            font-size: 20px;
+        }
+        
+        .info h2{
+        font-size: 14px;
+        margin: 170px 5px 0px 5px;
+        }
+        
+}
+@media only screen and (max-width: 600px){
+    .title2{
+       display: none;
+ 
+    }
+    .title h1{
+        display: block;
+        font-size: 2.5rem;
+    }
+
+  .contentBox{
+    margin-top: -40px;
+    margin-bottom: 50px;
+  }
+
+.df{
+    width: 20rem;
+    }
+    
+    .layer{
+    width: 14rem;
+
+    }
+
+    .dark label{
+        margin-right: 5px;
+
+    }
+
+    .info{
+        width: 20.5rem;
+        left: 20rem;
+    }
+
+    
+    .info h1{
+        margin: -150px 0px 0px 20px;
+        font-size: 20px;
+    }
+    
+    .info h2{
+    font-size: 12.5px;
+    margin: 170px 5px 0px 5px;
+    }
+        
+}
+@media only screen and (max-width: 420px) and (min-width: 340px){
+    .dark label{
+        width: 52px;
+        height:52px;
+    }
+
+    .search input{
+        width: 230px;
+        height: 50px;
+     }  
+}
