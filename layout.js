@@ -28,12 +28,11 @@ document.getElementById('ld').onclick = function (){
                
                 option.onclick = function(){
                     console.log(option);
-                        document.getElementById('Dname').innerHTML = logia[i].name;
-                            document.getElementById('Jname').innerHTML = "(" + logia[i].jname + ")";
-                                document.getElementById('Duser').innerHTML = logia[i].user;
-                                    document.getElementById('ability').innerHTML = logia[i].element;
-                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                            document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
+                        document.getElementById('Dname').innerHTML = logia[i].name + " (" + logia[i].jname + ")";
+                            document.getElementById('Duser').innerHTML = logia[i].user;
+                                document.getElementById('ability').innerHTML = logia[i].element;
+                                    document.getElementById('Dinfo').innerHTML = logia[i].info;
+                                        document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
 //                                        document.getElementById('fruits').src = ;
  //                                   document.getElementById('user').src =;
                                 document.getElementById('infoPage').style.display = "block";
@@ -69,12 +68,11 @@ document.getElementById('normal').onclick = function (){
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanNormal[i].name;
-                         document.getElementById('Jname').innerHTML = "(" + zoanNormal[i].jname + ")";
-                             document.getElementById('Duser').innerHTML = zoanNormal[i].user;
-                                 document.getElementById('ability').innerHTML = zoanNormal[i].element;
-                                     document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                         document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
+                     document.getElementById('Dname').innerHTML = zoanNormal[i].name + " (" + zoanNormal[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = zoanNormal[i].user;
+                            document.getElementById('ability').innerHTML = zoanNormal[i].element;
+                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                    document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
 //                                        document.getElementById('fruits').src = ;
 //                                   document.getElementById('user').src =;
                              document.getElementById('infoPage').style.display = "block";
@@ -99,12 +97,11 @@ document.getElementById('ancient').onclick = function (){
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanAnicent[i].name;
-                         document.getElementById('Jname').innerHTML = "(" + zoanAnicent[i].jname + ")";
-                             document.getElementById('Duser').innerHTML = zoanAnicent[i].user;
-                                 document.getElementById('ability').innerHTML = zoanAnicent[i].element;
-                                     document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                         document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
+                     document.getElementById('Dname').innerHTML = zoanAnicent[i].name + " (" + zoanAnicent[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = zoanAnicent[i].user;
+                            document.getElementById('ability').innerHTML = zoanAnicent[i].element;
+                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                    document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
 //                                        document.getElementById('fruits').src = ;
 //                                   document.getElementById('user').src =;
                              document.getElementById('infoPage').style.display = "block";
@@ -130,12 +127,11 @@ document.getElementById('mythical').onclick = function (){
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanMythical[i].name;
-                         document.getElementById('Jname').innerHTML = "(" + zoanMythical[i].jname + ")";
-                             document.getElementById('Duser').innerHTML = zoanMythical[i].user;
-                                 document.getElementById('ability').innerHTML = zoanMythical[i].element;
-                                     document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                         document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
+                     document.getElementById('Dname').innerHTML = zoanMythical[i].name + " (" + zoanMythical[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = zoanMythical[i].user;
+                            document.getElementById('ability').innerHTML = zoanMythical[i].element;
+                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                    document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
 //                                        document.getElementById('fruits').src = ;
 //                                   document.getElementById('user').src =;
                              document.getElementById('infoPage').style.display = "block";
@@ -160,12 +156,11 @@ document.getElementById('artificial').onclick = function (){
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanArtificial[i].name;
-                         document.getElementById('Jname').innerHTML = "(" + zoanArtificial[i].jname + ")";
-                             document.getElementById('Duser').innerHTML = zoanArtificial[i].user;
-                                 document.getElementById('ability').innerHTML = zoanArtificial[i].element;
-                                     document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                         document.getElementById('extra').innerHTML =zoanArtificial[i].manga + "<br>" + zoanArtificial[i].anime;
+                     document.getElementById('Dname').innerHTML = zoanArtificial[i].name + " (" + zoanArtificial[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = zoanArtificial[i].user;
+                            document.getElementById('ability').innerHTML = zoanArtificial[i].element;
+                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                    document.getElementById('extra').innerHTML =zoanArtificial[i].manga + "<br>" + zoanArtificial[i].anime;
 //                                        document.getElementById('fruits').src = ;
 //                                   document.getElementById('user').src =;
                              document.getElementById('infoPage').style.display = "block";
@@ -202,12 +197,11 @@ document.querySelector('#back').style.display = "block";
                 
                  option.onclick = function(){
                      console.log(option);
-                         document.getElementById('Dname').innerHTML = parBody[i].name;
-                             document.getElementById('Jname').innerHTML = "(" + parBody[i].jname + ")";
-                                 document.getElementById('Duser').innerHTML = parBody[i].user;
-                                     document.getElementById('ability').innerHTML = parBody[i].element;
-                                         document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                             document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
+                         document.getElementById('Dname').innerHTML = parBody[i].name + " (" + parBody[i].jname + ")";
+                            document.getElementById('Duser').innerHTML = parBody[i].user;
+                                document.getElementById('ability').innerHTML = parBody[i].element;
+                                    document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                        document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
     //                                        document.getElementById('fruits').src = ;
     //                                   document.getElementById('user').src =;
                                  document.getElementById('infoPage').style.display = "block";
@@ -232,12 +226,11 @@ document.getElementById('environment').onclick = function (){
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parEnv[i].name;
-                                 document.getElementById('Jname').innerHTML = "(" + parEnv[i].jname + ")";
-                                     document.getElementById('Duser').innerHTML = parEnv[i].user;
-                                         document.getElementById('ability').innerHTML = parEnv[i].element;
-                                             document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                                 document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
+                             document.getElementById('Dname').innerHTML = parEnv[i].name + " (" + parEnv[i].jname + ")";
+                                document.getElementById('Duser').innerHTML = parEnv[i].user;
+                                    document.getElementById('ability').innerHTML = parEnv[i].element;
+                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                            document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
         //                                        document.getElementById('fruits').src = ;
         //                                   document.getElementById('user').src =;
                                      document.getElementById('infoPage').style.display = "block";
@@ -262,12 +255,11 @@ document.getElementById('substance').onclick = function (){
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parSub[i].name;
-                                 document.getElementById('Jname').innerHTML = "(" + parSub[i].jname + ")";
-                                     document.getElementById('Duser').innerHTML = parSub[i].user;
-                                         document.getElementById('ability').innerHTML = parSub[i].element;
-                                             document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                                 document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
+                             document.getElementById('Dname').innerHTML = parSub[i].name + " (" + parSub[i].jname + ")";
+                                document.getElementById('Duser').innerHTML = parSub[i].user;
+                                    document.getElementById('ability').innerHTML = parSub[i].element;
+                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                            document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
         //                                        document.getElementById('fruits').src = ;
         //                                   document.getElementById('user').src =;
                                      document.getElementById('infoPage').style.display = "block";
@@ -292,12 +284,11 @@ document.getElementById('power').onclick = function (){
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parPow[i].name;
-                                 document.getElementById('Jname').innerHTML = "(" + parPow[i].jname + ")";
-                                     document.getElementById('Duser').innerHTML = parPow[i].user;
-                                         document.getElementById('ability').innerHTML = parPow[i].element;
-                                             document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                                 document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
+                             document.getElementById('Dname').innerHTML = parPow[i].name + " (" + parPow[i].jname + ")" ;
+                                document.getElementById('Duser').innerHTML = parPow[i].user;
+                                    document.getElementById('ability').innerHTML = parPow[i].element;
+                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                            document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
         //                                        document.getElementById('fruits').src = ;
         //                                   document.getElementById('user').src =;
                                      document.getElementById('infoPage').style.display = "block";
@@ -306,7 +297,7 @@ document.getElementById('power').onclick = function (){
                      }    
             }
 }
-}
+};
 
 document.getElementById('x').onclick = function (){
     document.querySelector('#zbutton').style.display = "block";
@@ -316,7 +307,7 @@ document.getElementById('x').onclick = function (){
             document.querySelector('#op1').style.display = "none";
                 document.querySelector('#back').style.display = "none";
            
-}
+};
 
 document.getElementById('back').onclick = function (){
     document.querySelector('#pbutton').style.display = "block";
@@ -324,24 +315,25 @@ document.getElementById('back').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
         document.querySelector('#op1').style.display = "none";
             document.querySelector('#back').style.display = "none";
-}
+};
 
 document.getElementById('r').onclick = function(){
     document.getElementById('back').style.display = 'none';
-    document.getElementById('wrapper').style.display = "block";
-    document.getElementById('infoPage').style.display = "none";
-}
+        document.getElementById('wrapper').style.display = "block";
+            document.getElementById('infoPage').style.display = "none";
+};
 
 document.getElementById('oz1').onclick = function(){
     document.getElementById('infoPage').style.display = "block";
-    document.querySelector('#optionBox').style.display = "none"; 
-    document.getElementById('wrapper').style.display = "none";
+        document.querySelector('#optionBox').style.display = "none"; 
+            document.getElementById('wrapper').style.display = "none";
 };
 document.getElementById('op1').onclick = function(){
     document.getElementById('infoPage').style.display = "block";
-    document.querySelector('#optionBox').style.display = "none"; 
-    document.getElementById('wrapper').style.display = "none";
+        document.querySelector('#optionBox').style.display = "none"; 
+            document.getElementById('wrapper').style.display = "none";
 };
+
 
  
 

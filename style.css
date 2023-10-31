@@ -483,6 +483,7 @@ transition: 0.5s;
 
 #infoPage{
     display: none;
+    margin-top: -150px;
 }
 
 main{
@@ -490,7 +491,6 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 
 #fruits{
    width: 40rem;
@@ -512,20 +512,12 @@ main{
     transition: 0.5s;
 }
 
-#user::after{
-    width: 30rem;
-    position: absolute; top: 20vh; left: 5vw;
-    z-index: 1;
-    transition: 0.5s;
-}
-
 #allInfo{
-    position: relative; top: 20vh; left: 50vw;
+    position: relative; top: 20vh; left: 47vw;
     display: grid;
     grid-template-areas: 
         'topLeft topRight'
-        'left left'
-        'right right'
+        'left right'
         'main main'
         'main main'
         'footer footer';
@@ -536,18 +528,18 @@ main{
 
 #Dname{
     grid-area: topLeft;
-    margin: 0px 20px 0px 0px;
+    margin: 0px;
 }
 
 #Jname{
     grid-area: topRight;
-    margin: 0px 0px 0px 5px;
+    margin: 0px 0px 0px -180px;
 }
 
 #ability{
     grid-area: right;
     font-size: 1.5rem;
-    margin-top: -17px;
+
 }
 
 #Duser{
@@ -557,12 +549,16 @@ main{
 
 #Dinfo{
     grid-area: main;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    width: 60rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
 }
 
 #extra{
     grid-area: footer;
     font-size: 1.5rem;
+    margin-top: 0px;
 }
 
 

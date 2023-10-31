@@ -8,6 +8,7 @@ const logia = [
         user: "User: Smoker",
         manga:"Manga Debut:  Chapter 100",
         anime:"Anime Debut: Episode 48",
+        info:"The user of this fruit is able to generate, manipulate, and become smoke. <br><br>Usage:<br> Like with most other Logia fruits, when Smoker is hit, he can simply use the fruit's power to become smoke, thus absorbing the attack and remaining unharmed. Like some of the other Logia type Devil Fruits, it allows its user to fly, by turning his body or the lower part of it into smoke, greatly enhancing his movement and speed. <br><br> The main offensive capabilities of the fruit stem from its user's ability to change the density of the smoke produced at will. This allows Smoker to surround his targets with his intangible smoke and then solidify it to grasp them. This power has granted Smoker his epithet The White Hunter. The smoke can also be used as a blunt weapon, hitting enemies with great strength.Another common tactic of Smoker’s is to transform his limbs into smoke, but not his hands, enabling him to strike opponents with his Seastone-tipped jitte from a much greater range, or to launch himself jitte-first at his opponents like a rocket by transforming his lower body into smoke. <br><br>Weakness:<br> It would seem that when confronted by fire, they will cancel out one another due to being the same temperature; other than that, no specific natural weakness has yet to be seen"
     },
     {
         name: "Sand-Sand Fruit",
@@ -15,7 +16,8 @@ const logia = [
         element : "Element: Sand",
         user: "User: Crocodile",
         manga:"Manga Debut: Chapter 127",
-        anime:"Anime Debut: Episode 77"     
+        anime:"Anime Debut: Episode 77",
+        info:"This fruit's power allows its user to transform their bodies into sand, as well as create and control sand in large quantities. <br><br>Usage:<br> This fruit can also give the ability to fly by morphing their lower body into jets of flowing sand, offering them a massive advantage in defense and mobility amid combat or pursuit.<br> Creating sand also grants the user various offensive capabilities; the user can create blades of sand in multiple shapes and sizes, large sandstorms that can travel great distances, and even vortexes that trap their opponents and pull them underground.<br><br> Besides basic elemental control, the fruit exhibits a unique ancillary ability: namely liquid absorption, allowing the user to dehydrate anything they touch and even extend said effect to their immediate surroundings, drying up vast areas of land like a drought. This ability is usually life-threatening to any living organism, causing plants, animals or people to suffer from dehydration. Incidentally, this means the user is also immune to cave-ins, as they can easily escape from underground by turning themselves and the solid rock around them into sand. Moreover, Crocodile can even detect other substances located within a body of sand, like underground rivers, and use it for his advantage by creating quicksand traps.<br><br>Weakness:<br> The Suna Suna no Mi is one of few Logia-type fruits that can naturally counteract their own weakness. The main weakness of this Logia power is exposure to liquids: specifically, the user's sand turns solid when in contact with liquids, such as water or blood."   
     },
     {
         name: "Flare-Flare Fruit",
@@ -23,7 +25,8 @@ const logia = [
         element : "Element: Fire",
         user: "User: Sabo(Current), Portgas D.Ace(Deceased)",
         manga:"Manga Debut: Chapter 158",
-        anime:"Anime Debut: Episode 94"
+        anime:"Anime Debut: Episode 94",
+        info:"The fruit's powers allows the user is able to create, control, and become fire.<br><br>Usage:<br>  With this in mind, the user can create devastating fire-based attacks and gain a high resistance towards most heat-based attacks. The flames can also be used to increase the force of physical attacks. By turning into fire, the user is capable of letting enemy attacks harmlessly pass through their fiery body or move around quickly in a stream of flames. Igniting oneself similarly has the added effect of burning an opponent if they had tried to physically harm the user.<br><br>When this power clashes against certain other Logia on equal grounds, this seems to come to a stalemate: neither smoke nor ice was able to overcome nor succumb to the flames, instead cancelling each other out when the two elements collided.<br><br>Weakness:<br> The Mera Mera no Mi is inferior to the Magu Magu no Mi in terms of elemental hierarchy. Magma is considerably hotter than fire, allowing it to overwhelm the Mera Mera no Mi's powers. The magma can neutralize even the intangibility and heat-immunity of the Mera Mera no Mi, thus leading the user to be burned and completely vulnerable. If the magma strikes through the body of the user, it cannot be phased through like most other attacks, and the damage inflicted will remain, as with any normal person's body."
     },
     {
         name: "Rumble-Rumble Fruit",
@@ -31,7 +34,8 @@ const logia = [
         element : "Element: Electricity",
         user: "User: Enel",
         manga:"Manga Debut: Chapter 241",
-        anime:"Anime Debut: Episode 155"
+        anime:"Anime Debut: Episode 155",
+        info:"A holder of this Logia power can create, control, and transform into electricity, effectively becoming lightning incarnate.<br><br>Usage:<br> They can discharge varying amounts of electricity from their body to manipulate as they please, including regulate the voltage: 200 million volts being the maximum output (roughly in the range of natural lightning). Given the sheer destructive power that is inherent to lightning, this ability seems remarkably strong even by Logia standards and grants overwhelming attack power, as well as high speed and versatility;<br><br> Nico Robin has mentioned that, among the many existing Devil Fruits, the Goro Goro no Mi's power is one of the few considered invincible.<br><br> By transforming fully, the user can move at the speed of lightning, allowing them to zip into and out of sight, cross large distances nigh-instantaneously, dodge most attacks, and overtake any fleeing target. Merging their lightning self with conductive materials (gold) to stealthily travel through them becomes also possible for the user, as does traversing thunderclouds in the sky. On top of that, the Goro Goro no Mi user, being wholly immune to electricity, can freely spawn it inside their body without repercussion; they can even restart their own heart with electricity in case they suffer cardiac arrest. <br><br>Weakness:<br> While extremely powerful, the Goro Goro no Mi's ability has a unique weakness in the form of rubber, an effective insulator. Thus, whoever ate the Gomu Gomu no Mi becomes the natural enemy of, and counter to, whoever wields this Logia power"
     },
     {
         name: "Dark-Dark Fruit",
@@ -39,7 +43,8 @@ const logia = [
         element : "Element: Darkness",
         user: "User: Marshall D.Teach",
         manga:"Manga Debut: Chapter 440",
-        anime:"Anime Debut: Episode 325"
+        anime:"Anime Debut: Episode 325",
+        info:"This fruit allows the user to control darkness and its unique property of gravity(black hole).<br><br>Usage:<br> The darkness is visually demonstrated by a black smoke-like substance spreading out from the user's body. The darkness is a void that devours and crushes everything. Due to this, the user can absorb physical matter and attacks of any type by sucking it into the darkness. The user can also use this ability to irresistibly pull the opponent to them, regardless of their current state.<br> Similar to a black hole, the user can absorb things inside a vortex. It seems that it does not completely compress and annihilate that which is sucked in as an actual black hole would do, but rather creates some form of space where things are stored. Blackbeard was able to suck an entire town into himself, and when he eventually regurgitated, everything that was expelled was reduced to scraps but not completely destroyed. Living beings who are absorbed seem to be able to survive being absorbed and expelled, but become heavily wounded and left in shock by the experience.<br><br> In addition to the previous abilities, this fruit somehow has one unique and frightening ability that separates it from all other Devil Fruits: the ability to absorb and completely nullify the powers of other Devil Fruit users by simply touching them. All types, be it Paramecia, Zoan, or Logia, are affected by this, though Logias are the most affected as they can no longer become intangible by transforming into their respective element.<br><br>Weakness:<br>The major strength of this particular fruit, the darkness that the user turns into which swallows up everything, is also its major weakness. Since the darkness also absorbs attacks, the user of the fruit is still vulnerable in battle, which does not pass through the darkness they turn into. If they fail to absorb an attack in time, the user can be hurt like any other normal human being or even more, as stated by Teach. Unlike other Logia fruits, the Yami Yami no Mi does not seem to give Blackbeard access to an elemental state where he can disperse, reform, or regenerate his body."
     },
     {
         name: "Chilly-Chilly Fruit",
@@ -47,7 +52,8 @@ const logia = [
         element : "Element: Ice",
         user: "User: Kuzan(Aokiji)",
         manga:"Manga Debut: Chapter 303",
-        anime:"Anime Debut: Episode 225"
+        anime:"Anime Debut: Episode 225",
+        info:"As a Logia, this fruit allows its user to transform into the element of ice, as well as create and control it on a potentially massive scale, especially to freeze their surroundings.<br><br>Usage:<br> Particularly potent even by Logia standards, with this power it was strong enough to permanently warp the very climate of one half of an island into a frozen, uninhabitable wasteland. The Hie Hie no Mi's power is considered a superior counterpart to the Yuki Yuki no Mi's, ice being a superior freezing agent to snow.<br> While other Logia fruits give their users the ability to dissipate out of harm's way by turning into their respective elements, it is interesting to note that this fruit is one of the few Logia fruits that can be hit with a physical attack. This is mainly because ice is a solid-state element, and thus, the user cannot simply dissolve out of harm's way as most Logia-users can with their fluid bodies, and it is slower in terms of reforming the body when damaged. However, most attacks are still ineffective against this fruit because its user can simply shatter and reform the ice composing them on impact. It is also apparent that the user can control the ice in his body to mold it and change its shape, as seen when Kuzan formed a hole in his chest before Whitebeard stabbed through Kuzan with his bisento.<br><br> The user can instantly freeze anything that comes in contact with them, whether the user grabs onto the foe or the foe makes contact with the user's body. If the frozen area is not treated properly and immediately, then the resultant frostbitten areas will suffer permanent tissue damage. It has not been shown, both Blackbeard and Garp have asked Kuzan to unfreeze their subordinates after he attacked them, implying that the user can manually undo the effects of the Devil Fruit.<br><br>Weakness:<br>Other than that, the user is also vulnerable to the standard Devil Fruit weaknesses. However, with the power over ice, this grants the user one of the few known powers capable of counteracting the standard Devil Fruit weakness."
     },
     {
         name: "Glint-Glint Fruit",
@@ -55,7 +61,8 @@ const logia = [
         element : "Element: Light",
         user: "User: Borsalino(Kizaru)",
         manga:"Manga Debut: Chapter 506",
-        anime:"Anime Debut: Episode 401"
+        anime:"Anime Debut: Episode 401",
+        info:"This fruit allows the user to control, create, and transform into the element of light.<br><br>Usage:<br> As such, the user is able to utilize light-based attacks, including shooting laser beams from their hands, fingers, or feet (which are capable of causing massive explosions), summoning light flashes to blind opponents, and undergoing partial transformations into light itself that enable physical attacks that connect at light-speed, which can cause devastating damage and sent enemies flying extremely far, destroying anything said enemy passes through due to the speed of the attack itself. The user, like any Logia, is able to transform into light to let incoming attacks pass right through them. The user is also able to travel at the speed of light, form hard light constructs, create or split into shining particles for locomotion, regeneration or even multiplication, and reflect themself between surfaces to any desired location.<br><br>Notably, the user's body becomes so lightweight that they become capable of standing over something as small and fast-moving as a cannonball in mid-launch, or float in mid-air for a few instants. That said, they can still accelerate into extreme speeds to transfer massive weight and momentum into physical moves, right before they make contact with the intended target. In addition, any application of light, whether in technology or weapon, is useless against the user's body, as they can simply bypass anything that is comprised of a laser or light system.<br><br>Weakness:<br>Since this fruit is light-based, some of the user's attacks, like lasers, can only travel in straight lines. It is subject to the standard Devil Fruit weaknesses."
     },
     {
         name: "Mag-Mag Fruit",
@@ -63,7 +70,8 @@ const logia = [
         element : "Element: Magma",
         user: "User: Sakazuki(Akainu)",
         manga:"Manga Debut: Chapter 554",
-        anime:"Anime Debut: Episode 463"
+        anime:"Anime Debut: Episode 463",
+        info:"Magu Magu no Mi possesses incredible power, particularly in terms of offense. The main strength of this Devil Fruit is that it allows the user to become, control and produce magma (molten rock) to attack their opponents with.<br><br>Usage:<br> The intense heat can vaporize an iceberg instantly and boil seawater that the magma happens to land in. Additionally, the heat from the magma melts away almost any flesh or metal it comes in contact with and is capable of burning away entire parts of a human body, leaving the victim in a scarred or disfigured shape. With this power It was strong enough to permanently change the weather of one half of an island into a blazing inferno.<br><br>Because of the fruit's natural element, if one were to attempt to strike the user with their own body, they would end up seriously injured or burned. Weapons, such as swords, were also shown to melt after coming into contact with Akainu. The Magu Magu no Mi has one of the highest offensive power among the Devil Fruits. Along with the incredible corrosion and temperatures, the magma-based attacks also carry highly explosive properties; one attack is enough to cause an explosion capable of inflicting tremendous damage throughout the entire battlefield. Just by forming an attack, the heat coming off his body has been shown to melt enemy weapons around him. Sakazuki has been shown to repeatedly pierce through the bodies of his adversaries with ease using his power. When it comes to transport, Sakazuki can move at extremely high speeds by launching himself like an actual volcano blast towards his target, and can even melt solid earth and rock to make tunnels to move through the underground.<br><br>Weakness:<br> Aside from the standard Devil Fruit weaknesses, the powers do not seem to be weak against anything specific. In fact, the only things that the Magu Magu no Mi could not burn were the flames produced by Marco's Mythical Zoan fruit"
     },
     {
         name: "Swamp-Swamp Fruit",
@@ -71,7 +79,8 @@ const logia = [
         element : "Element: Swamp",
         user: "User: Caribou",
         manga:"Manga Debut: Chapter 603",
-        anime:"Anime Debut: Episode 521"
+        anime:"Anime Debut: Episode 521",
+        info:"Numa Numa no Mi, Caribou can create bottomless swamps which are impossible to escape from.<br><br>Usage:<br> If someone is caught by the swamp created by Caribou, they will sink more if they struggle. The swamp also serves as a storage space, allowing Caribou to store an infinite amount of whatever he has captured inside his body. The storage space can also be used to help carry a large surplus of food which remains edible over long periods of time, with Caribou noting that he has a month's worth of rations stored within himself. He is able to keep several weapons within himself and bring them out when he needs them. While he can keep creatures alive when they are in his swamp, he can also use the swamp to drown his opponents if he wishes to.<br><br>Like most of the other Logia users, Caribou cannot be hit or sliced as his element is intangible, and any attacks will be absorbed into his body harmlessly.<br><br>Weakness:<br>The major weakness of this fruit is that the user cannot transform back to their normal form if they are confined in a space that their normal body cannot fit in. Due to this weakness, Franky was able to capture and seal Caribou in a barrel easily. Also this fruit has yet to demonstrate offensive capabilities other than 'drowning' opponents into the swamp. Also, since his mud is just basically earth that is mixed with water, this leaves him vulnerable to individuals who can manipulate water, such as Jinbe."
     },
     {
         name: "Gas-Gas Fruit",
@@ -79,7 +88,8 @@ const logia = [
         element : "Element: Gas",
         user: "User: Caesar Clown",
         manga:"Manga Debut: Chapter 658",
-        anime:"Anime Debut: Episode 582"
+        anime:"Anime Debut: Episode 582",
+        info:"This Devil Fruit's main strength is the ability to change into a gas-like form.<br><br>Usage:<br> This allows the user to float, fly and go inside places that normal beings cannot, as Caesar Clown was seen hiding inside some flasks when he was informed that the Marines were nearby. However, he can also become dense enough to hold objects, like his cocktail glass. The gas that Caesar produces is very poisonous. The gas appears to be explosive when set alight, which allows Caesar to create controlled explosions without harming himself. Additionally, the user has the power to manipulate other preexisting gases in any given location, and can suffocate their opponents by removing the oxygen in the area. This gives the user two options to instantly defeat their opponent, allowing Caesar to knock out Luffy after realizing that Luffy was immune to poison (however the area effect is finite, so if someone escapes the oxygen-free zone they will be able to breathe again). They can even merge with such gases to enhance his own power, depending on the gas being absorbed, all the while being immune to the toxic effects himself.<br><br>Weakness:<br>The gas form appears to be weak against fire, although this is mitigated by the user's ability to minimize oxygen levels in the surrounding area, preventing combustion. On the other hand, it seems to take some concentration or is only possible while solid to manipulate the oxygen, as Usopp and Nami could breathe again when Brownbeard struck Caesar with a metal pipe, and there seems to be a range of which Caesar can control oxygen, leaving him more vulnerable to longer-ranged attacks. Also, many of Caesar's techniques require external ignition and tools to work."
     },
     {
         name: "Snow-Snow Fruit",
@@ -87,7 +97,8 @@ const logia = [
         element : "Element: Snow",
         user: "User: Monet(Deceased)",
         manga:"Manga Debut: Chapter 681",
-        anime:"Anime Debut: Episode 607"
+        anime:"Anime Debut: Episode 607",
+        info:"This fruit's major strength is that it allows the user to turn themselves into snow.<br><br>Usage:<br> Monet had an extreme level of resistance, if not outright immunity, towards cold, due to her Devil Fruit's element, much like Aokiji's Hie Hie no Mi powers. While the two Devil Fruits have similar abilities, the Hie Hie no Mi is superior to the Yuki Yuki no Mi. Two major differences in the fruit's abilities are that Monet's intangibility as snow was not always a solid form since she was able to choose to compress the snow, and that she couldn't directly freeze her target solid.<br><br>As a Logia, Monet could turn herself into snow to avoid attacks by letting them pass through her, or by floating around attacks. She could also manipulate the density of the snow to form solid snow barriers. These barriers are extremely hard, making it difficult to destroy them, but she could easily pass through her snow barriers. She also had the ability to weaken someone and make them lose consciousness by hugging them, using her cold body to sap their own body heat. By transforming into snow she could secretly hide in snowstorms, as seen when she followed Trafalgar Law through the Ice Lands without being noticed. She could also release a massive snowstorm to take advantage of the cold to weaken her opponents in a similar way. She also used her powers to change the battlefield into a snowfield so she could dive into the snow from her snowstorm to hide, move, trap and attack her enemies quicker.<br><br>Weakness:<br> She also has a weakness to heat, as shown when Nami used her Clima Tact's Heat Egg to damage her wing. Furthermore, she could also lose control of her body's transformations if she became mentally unstable, as shown when Zoro cut her in half non-lethally and the resulting fear and anxiety after she thought she was going to die."
     },
     {
         name: "Forest-Forest Fruit",
@@ -95,7 +106,8 @@ const logia = [
         element : "Element: Forest/Nature",
         user: "User: Aramaki(Ryokugyu)",
         manga:"Manga Debut: Chapter 1053",
-        anime:"Anime Debut: Episode 1080"
+        anime:"Anime Debut: Episode 1080",
+        info:"A holder of this Logia power can create, control, and transform into plants: namely those that make up forests.<br><br>Usage:<br> The user's body can partially or fully take on the characteristics of trees (from wood to foliage) as well as flowers, vines, grass, moss, etc., making them akin to a living forest (and making this the only known Logia whose element comes as a form of organic matter). The plants spawned by this ability can be grown rapidly and made to move around freely, seemingly being not limited by the rigidity and stiffness that some plants, like trees, normally possess. The user can generate large quantities of plants to unleash overwhelming, large-scale attacks, like underground root tentacles that can ensnare multiple targets or even enormous creatures, like a dragon, at once. Additionally, those plants can rapidly absorb any liquid they touch, which includes dehydrating living creatures after impaling them, leaving them as shriveled husks.<br><br> Another benefit bestowed by this Logia is that the user can undergo photosynthesis with their plantlike body allowing the ability user to sustain themself indefinitely so long as they are exposed to light and water, without conventionally eating. The user also appears to have direct influence on a land's fertility, leaving behind a trail of various plant life wherever they walk. Ryokugyu can also perform highly unorthodox feats with the plants he generates, such as growing a giant flower on his back and using it to fly by spinning it rapidly like a propeller.<br><br> Unlike most other Logia Devil Fruits, this fruit turns the user into a solid element instead of a fluid, making it similar to the Hie Hie no Mi. This means that the user is unable to let attacks pass through their body as they can simply regenerate from wounds like any Logia.<br><br>Weakness:<br>The user displays all the general weaknesses common to Devil Fruits."
     },
     {
         name: "Soot-Soot Fruit",
@@ -103,23 +115,26 @@ const logia = [
         element : "Element: Soot",
         user: "User: Karasu",
         manga:"Manga Debut: Chapter 593",
-        anime:"Anime Debut: Episode 510"
+        anime:"Anime Debut: Episode 510",
+        info:"This fruit's ability is to create, control, and become the natural element of soot: fine black particles of carbon residue created by the incomplete combustion of organic matter (wood, coal, etc.).<br><br>Usage:<br> When transformed into this powdery substance, the user becomes intangible like most Logia users and invulnerable to physical means of attack, like gunfire, and at the same time is able to float in midair thanks to the soot's lightness. By condensing the soot making up their body (or that they additionally create) into a semi-solid state, the user may mold it into any shape they wish, on top of scattering their body into separate pieces while retaining conscious control over each individual one.<br><br> Karasu's go-to method of using his powers is to divide up his body into a murder of crows made of compressed soot. In this divided state he can fly at high speed, relay information or generally communicate by speaking and listening through individual crows, on top of carrying objects or even allies with him through the air (a single crow being able to carry an average-sized human on its back). It is shown that, in this way, the crows can operate a significant distance away from Karasu's main body and be summoned from soot that allies carry with them. <br><br>Weakness:<br>No weaknesses of this ability are known apart from the standard ones for Devil Fruits in general and Logia types in particular"
     },
     {
-        name: "Jelly-Jelly Fruit",
+        name: "Liquid-Liquid Fruit",
         jname: "Toro-Toro no mi",
-        element : "Element: Jelly (Unknown liquid)",
+        element : "Element: Unknown liquid",
         user: "User: Honey Queen",
         manga:"Manga Debut: Non-canon",
-        anime:"Anime Debut: Clockwork Island Adventure"
+        anime:"Anime Debut: Clockwork Island Adventure",
+        info:"The Toro Toro no Mi allows its user to transform into an unidentified lilac-colored liquid.<br><br>Usage:<br> It enables its user to flow through small spaces and attack with liquid blasts. The user is also immune to physical attacks, which simply pass through their liquid body.<br><br>Honey Queen uses her ability to attack very quickly and for surprise attacks, as seen when she kidnapped Sanji. She launched a large wave of her liquid against the Straw Hat Pirates, with enough force to cause Sanji to fall off the air balloon. She also transforms into the liquid for quick movements and evasive maneuvers, and to move through pipes for faster transportation.<br><br>Weakness:<br>However, the user has no effective physical strength when in liquid form, and cannot transform back into their normal form if they are in a space that their normal body cannot fit in. Because of these flaws, Nami easily captured and sealed Honey Queen in a jar while she was in her liquid form, and preventing her from escaping. Also, even though most Devil Fruit powers transform the user's clothes along with their body, Honey Queen always leaves her clothes behind while transforming into liquid, requiring Boo Jack to bring her clothes back to her. She also is weak to cold, as she ended up frozen when she turned into liquid form ."
     },
     {
         name: "Paper-Paper Fruit",
         jname: "Pasa-Pasa no mi",
         element : "Element: Paper",
-        user: "User: Simon",
+        user: "User: Simon(Deceased)",
         manga:"Manga Debut: Non-canon",
-        anime:"Anime Debut: Big Secret Treasure of the Seven Phantom Islands"
+        anime:"Anime Debut: Big Secret Treasure of the Seven Phantom Islands",
+        info:"The major strength of the ability is that it allows the user to transform into sheets of paper.<br><br>Usage:<br> This enables the user to strike or evade attacks like other Logia-class Devil Fruits. The thin sheets of paper can be used to inflict cutting damage on enemies and launched as projectiles. Transforming into paper also enables the user to fly freely. In addition, by using strange symbols written on the pages of an ancient book, the user is able to produce various elemental and physiological effects.<br><br>Simon used his ability to fly by transforming into paper, which allowed him to travel between islands without a ship. In combat, he launched sheets of paper as projectiles and used the strange symbols on the pages to inflict various effects on his opponents. He also used his ability to heal his injuries and avoid attacks.<br><br>Weakness:<br> Although paper would normally be weak against fire, the user can counter this weakness by using a symbol with the power to suppress fire. This was demonstrated when Simon was able to counter the flames of Usopp's Kaen Boshi. However, if the pages are splashed with paint, the symbols lose their power and fire becomes a substantial risk. Aside from this, it is also subject to the the standard Devil Fruit weaknesses."
     },
     {
         name: "Candy-Candy Fruit",
@@ -127,7 +142,8 @@ const logia = [
         element : "Element: Liquid syrup",
         user: "User: Gasparde",
         manga:"Manga Debut: Non-canon",
-        anime:"Anime Debut: Dead End Adventure"
+        anime:"Anime Debut: Dead End Adventure",
+        info:"This Devil Fruit allows the user to transform into a kind of green-colored candy syrup.<br><br>Usage:<br> The user cannot be hit nor sliced because his body will just absorb the impact or take the blade which also immobilizes the attacker which then allows the user to pummel his enemy. The user can use it to either make himself syrup-like (with sticky properties to trap the opponent) or intensely solid. Despite being syrup, it seems to be inedible, as seen when Luffy tried to contain Gasparde in his mouth, only to be forced to spit him back out.<br><br>Gasparde has mostly been seen using this fruit for combat purposes. The stickiness of the syrup allows him to trap his opponents in his body when they attack him, which then gives him the free opportunity to pummel them with his great strength. Gasparde can turn into liquid syrup to let attacks bypass him, evading harm. However, he has not fully mastered his ability, thus a surprise attack can cause him pain.<br><br> Gasparde's primary method of attack is akin to how the Toge Toge no Mi is used: transforming parts of his body into spikes of hardened syrup to impale his opponents, or covering his entire body full of spikes and launching himself forward to heavily skewer them, which also was meant to serve as a deterrent from counterattacks. Gasparde also used the syrupy properties to mimic Luffy's rubber elasticity powers, stretching his arms forward to extend his syrup spear, and to create a slingshot effect for his own body.<br><br>Weakness:<br> Like a few other Logia Devil Fruits, this one has a weakness that can nullify its intangibility: flour. When flour comes in contact with the user, he loses his stickiness and he is vulnerable to physical attacks."
     },  
 ];
 const parBody = [
