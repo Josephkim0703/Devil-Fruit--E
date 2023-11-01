@@ -1378,7 +1378,8 @@ const zoanAnicent = [
         user: "User: X. Drake",
         manga:"Manga Debut: Chapter 498",
         anime:"Anime Debut: Episode 392",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"The major strength of this fruit is that it allows the user to transform into an allosaurus. <br><br>Usage:<br> A large and powerful theropod dinosaur from the prehistoric era, as a carnivorous Ancient Zoan, the fruit grants them features much better suited for close combat than basic Zoans, such as sharp teeth and claws. As is the case with every other Zoan ability, the user can also become a human-animal hybrid at will.<br><br>While in full allosaurus form, Drake's own size increases, making him bigger than a Pacifista. He is also granted powerful sharp teeth and jaws that are strong enough to bite through a Pacifista's heavy armor, which is said to be stronger than steel. His tail is also a powerful weapon, capable of slamming people with great force. As with all Ancient Zoans, Drake's fruit grants him much greater durability than regular Zoan users. In Human-Beast allosaurus form, Drake becomes smaller than his Full Beast form, but still relatively large, and is capable of wielding his signature weapons for melee combat. In Beast form, Drake's fighting style mainly revolves around biting. Should he capture his target in-between his maws, he will crunch and then spit them down.<br><br>Weakness:<br>This fruit has no known weaknesses, aside from the standard Devil Fruit weaknesses."
     },
     {
         name: "Dragon-Dragon Fruit: Spinosaurus",
@@ -1387,7 +1388,8 @@ const zoanAnicent = [
         user: "User: Page One",
         manga:"Manga Debut: Chapter 929",
         anime:"Anime Debut: Episode 923",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info: "This fruit bestows the power to turn into a Spinosaurus.<br><br>Usage:<br> A large and powerful, semiaquatic, carnivorous theropod from the prehistoric era (considered to be the largest predatory dinosaur ever), as well as a hybrid between a Spinosaurus and human (or other) at will. As with other dinosaur-based Zoan types, transforming into a Spinosaurus grants the user tremendous strength, particularly in their jaws, tail, arms and claws (the latter in Human-Beast Form). In his Beast Form, Page One is able to smash and tear apart buildings and stone with ease using his maw and tail. In his Human-Beast hybrid form, he is strong enough to send a Raid Suit-donning Sanji flying and crashing through several buildings with a single swipe of his arm.<br><br>Page One uses this fruit to great effect during combat and when going on the offensive. He is a straightforward fighter who fights with bites, claw and tail swipes while in Beast Form. In his Human-Beast Form, which also provides him with sharp claws on his hands, he favors slashing attacks instead and is able to cling to things bigger than him. In the anime, he is shown to be able to jump to high heights in his full Beast Form.<br><br>Weakness:<br>Page One's increase in size for his full Beast Form may be a problem if he ends up fighting indoors, particularly structures that are not built to accommodate his ability."  
     },
     {
         name: "Dragon-Dragon Fruit: Pteranodon",
@@ -1396,7 +1398,8 @@ const zoanAnicent = [
         user: "User: King",
         manga:"Manga Debut: Chapter 925",
         anime:"Anime Debut: Episode 918",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"A user of this fruit's power can turn into a pteranodon.<br><br>Usage:<br> A large, flight-capable, predatory reptile from prehistoric times. Once transformed, they become able to fly at tremendous speed, covering large distances rapidly, and enjoy a significant boost to their overall physical abilities, as typical for a carnivorous Ancient Zoan user. Additionally, the full Beast Form as displayed by King is notably large, several times bigger than an average-sized human (though it is worth noting that King is already much larger than normal people in his normal form).<br>Like other Ryu Ryu no Mi models, the pteranodon Zoan grants the user a tough, dragon-esque hide that significantly increases their durability to a level above regular Zoans. As for offense, the great (flying) speed, strength, and size conferred by the transformation allows the user to violently push back and cause notable damage to whatever they fly into headfirst, be it a person or massive structure (large ship). The user's pteranodon beak is long, sturdy, and an effective pointed weapon, allowing King to affix himself to smaller targets and then divebomb into structures in order to tear them apart.<br><br>Moreover, the user is given the supposedly natural ability of using their pteranodon head like a slingshot of sorts: pulling their beak back into their face by pulling on their head crest, then releasing their grip to shoot out their head like a bullet, piercing whatever they aim at with incredible force. According to King, this conforms with how pteranodons used to hunt their prey in ancient times. Aside from their head and beak, the user's wings can make potent weapons as well given their sturdiness, able to generate cutting winds or clash against swords as if they were blades themselves. King uses his ability primarily for physical—especially aerial—combat, with his ability to fly being highly advantageous for travel purposes, especially over the sea. King has proven able to soar at tremendous speeds.<br><br>Weakness:<br>No weaknesses are known of this ability beside those that are standard for Devil Fruits." 
     },
     {
         name: "Dragon-Dragon Fruit: Brachiosaurus",
@@ -1405,7 +1408,8 @@ const zoanAnicent = [
         user: "User: Queen",
         manga:"Manga Debut: Chapter 925",
         anime:"Anime Debut: Episode 918",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"The major strength of this fruit is that it allows the user to turn into a brachiosaurus.<br><br>Usage:<br> A very large and heavy-bodied sauropod dinosaur from the prehistoric era, granting them an immense boost to their size and bulk. Their size is comparable to that of a giant, as a fully transformed Queen is shown to tower over Big Mom, who herself is extremely tall at over 8 meters. Due to the signature long neck of the brachiosaurus, the user is able to reach targets that may be further away than they normally can by chomping down on them. The user's immense weight can be used as a weapon too, as very little will be able to withstand the crushing pressure of their massive, transformed body.<br><br>In addition, the brachiosaurus apparently has the natural yet unusual ability to separate the head, elongated neck, and tail from the rest of the body and have them act independently. The neck and tail form a snake-like component and can coil around opponents and crush them with immense pressure. Like other Ancient Zoans, this fruit also grant enhanced strength and durability, to a much greater degree due to a brachiosaur's immense size.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses."  
     },
     {
         name: "Dragon-Dragon Fruit: Pachycephalosaurus",
@@ -1414,7 +1418,8 @@ const zoanAnicent = [
         user: "User: Ulti",
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"This fruit's power is to turn into a full and hybrid version of a pachycephalosaurus.<br><br>Usage:<br> A bipedal, herbivorous dinosaur distinguished by its super-thick, durable skull roof. The Human-Beast Form already grants a significant increase in body size, with Ulti going from an ordinary height to over three times as tall, and her full Beast Form is even bigger, at least as large as her brother's full spinosaurus form. Much like other fruits of the Ryu Ryu no Mi series, this one grants its user a tremendous increase in physical strength. In spite of having proportionally smaller arms, Ulti is able to hold targets down in her full pachycephalosaurus form.  Beside strength, the user, in their less heavy hybrid form, becomes much faster, especially due to their strengthened dinosaur legs. Ulti is able to dart through the air at extreme speed by jumping, while proportionally increasing the impact force of her attacks in the process, and can casually dodge extremely fast-moving attacks, disappearing from sight.<br><br>With the transformation, the user's skull grows thicker and harder, which suits Ulti particularly given her fighting style that revolves around headbutts. While transformed, her large skull dome (more so her forehead in hybrid form) allows Ulti to potentially crush opponents' skulls completely with headbutts, like she already can in human form.<br><br>Weakness:<br>No weaknesses of the fruit's power are of note, beside the standard Devil Fruit weaknesses." 
     },
     {
         name: "Dragon-Dragon Fruit: Triceratops",
@@ -1423,7 +1428,8 @@ const zoanAnicent = [
         user: "User: Sasaki",
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"A user of this Zoan can become a triceratops—a large, heavy-bodied, herbivorous dinosaur from prehistory—and assume a hybrid form.<br><br>Usage:<br> In Sasaki's case, the full Beast Form is big enough to outsize a 13m-tall robot, and his hybrid form also stands taller than that very same robot. Similar to other dinosaur Zoans, a user of this fruit is granted an enormous boost in physical strength. They can charge into and bash enemies with incredible force, their three sharp-pointed horns (especially their nasal one) serving as a dangerous pointed weapon to pierce opponents with.[1][3] Given a triceratops' hardy skin, the user also enjoys a dramatic increase in durability, which especially applies to their frontal side that benefits from their thick skull, bony frill, and horns. This durability is such that the user may be unscathed by and able to outright ignore heavy, explosive artillery fire.<br><br>In his hybrid form, Sasaki becomes bipedal and thus capable of wielding his weapon for swordsmanship. Sasaki's most peculiar ability in this form, however, is that he is capable of sustained flight, which he achieves by somehow rotating the frills around his neck at high enough speeds that it simulates a helicopter's rotary wings, propelling his own large and heavy body through the air. This grants Sasaki increased mobility and speed that he can take advantage of, either by overwhelming his opponents with fast, aerial strikes from his sword or dodging incoming enemy attacks.<br><br>Weakness:<br>While the user's frontal defense is quite formidable, the entirety of their body is not so invulnerable, with their belly area being a particular weak spot."
     },
     {
         name: "Spider-Spider Fruit: Rosamygale Grauvogeli",
@@ -1432,7 +1438,8 @@ const zoanAnicent = [
         user: "User: Black Maria",
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"A user of this Zoan can become a Rosamygale grauvogeli—a heavy-bodied, stout-legged mygalomorph spider from prehistoric times—as well as a human-spider hybrid.<br><br>Usage:<br> Though an actual Rosamygale was quite small in size, the user's transformation will be proportionate to their natural body, which in Black Maria's case exaggerates her spider form's size to dwarf normal humans.<br><br>As the most notable of their spider abilities, the user can create sticky spider silk from their body; while real spiders extrude silk from their abdomens, the user of this fruit can produce it from even their fingertips. The silk can be used to build webs and other structures meant for capturing and/or immobilizing targets, including sticky nets that can also be used as a shield. The webs are strong enough to easily keep physically powerful fighters tied up and, by Black Maria's own reckoning, anyone trapped in them will never be able to get loose. By making the webs into intricate arrays of traps, the user can make it so that no matter where an enemy steps, they will get captured.<br><br> With the webs being highly flammable, they can be used to instantly set the user's surroundings aflame by lighting them up, which Black Maria does by using the human face on her spider body, which curiously enough is capable of spitting fire from its mouth, though this may be due to additional abilities granted by Black Maria's tampering of her fruit's hybrid form via mutative drugs.  The ends of the user's spider legs are furthermore able to secrete poison, making them an effective weapon at close range.<br><br>Weakness:<br>The user's webs will become brittle and easily shattered if they are frozen."
     },
     {
         name: "Cat-Cat Fruit: Saber Tiger",
@@ -1441,7 +1448,8 @@ const zoanAnicent = [
         user: "User: Who's-Who",
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
-        Type:"(Ancient Zoan)"  
+        Type:"(Ancient Zoan)",
+        info:"A user of this fruit's power can turn into a saber-toothed tiger or Smilodon.<br><br>Usage:<br> A powerful, predatory big cat from prehistory that is characterized by its elongated, curved fangs on its upper jaw. The ability's current user Who's-Who, who is an already large man, grows to a very notable size in his full Beast Form, dwarfing his human-sized subordinates and a 3m-tall fish-man. The Human-Beast Form, likewise, is considerably large in terms of height and muscle bulk. As with other Ancient Zoans, this fruit's transformation bestows greater strength and durability than regular Zoans'. The user gains a pair of long, sharp canine fangs usable for biting attacks, as well as retractable claws on their hands and feet, much like other feline Zoan powers. Those natural weapons are quite strong and can even overpower reinforced defenses. Amongst the Ancient Zoans, it possesses quite high agility despite the user's enlarged size.<br><br>Weakness:<br>Because Who's-Who gains a tail in this form, opponents may exploit this by stepping on it, preventing Who's Who from escaping their reach and forcing him into a precarious position for subsequent moves. Aside from that, no weaknesses of the fruit's power are known besides the standard Devil Fruit weaknesses."  
     },
     {
         name: "Elephant-Elephant Fruit: Mammoth",
@@ -1449,7 +1457,8 @@ const zoanAnicent = [
         element : "Model: Mammoth",
         user: "User: Jack",
         manga:"Manga Debut: Chapter 801",
-        anime:"Anime Debut: Episode 746"
+        anime:"Anime Debut: Episode 746",
+        info:"This fruit allows the user to transform in full or hybrid mammoth at will.<br><br>Usage:<br> The full mammoth form granted by this fruit gives the user a massive frame, significantly increasing Jack's already abnormal size. As an Ancient Zoan, this fruit grants the user greater strength than a normal Zoan, Jack can level buildings with a single swing of his trunk and leave imprints of his feet on the ground just by stepping on it. The hybrid form grants the user a centaur-like body with four mammoth legs, a peculiar case for Zoan users, with the upper body of a man with the head, trunk, and tusks of a mammoth. In this form, the user is smaller but still large in size, as well as being faster and capable of wielding weapons for combat.<br><br>Jack has used this fruit to improve his combat capabilities; he can cause massive destruction with a single attack and bulldoze nearly anything that gets in his way by charging forward. So far, his only displayed attack has been swinging his trunk to damage his opponents and surroundings. In his hybrid form, however, Jack can wield both his shotel blades and use his Devil Fruit powers to augment the power of his swordsmanship in battle.<br><br>Weakness:<br>However, the user is extremely heavy and slow in their full beast form, leaving them unable to dodge high-speed attacks." 
     },
 ];
 const zoanMythical = [
