@@ -513,7 +513,7 @@ main{
 }
 
 #allInfo{
-    position: relative; top: 20vh; left: 47vw;
+    position: relative; top: 17vh; left: 47vw;
     display: grid;
     grid-template-areas: 
         'topLeft topRight'

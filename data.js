@@ -1470,7 +1470,8 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 1",
         anime:"Anime Debut: Episode 1",
         Status: "(Awakened)",
-        Type:"(Mythical Zoan)"  
+        Type:"(Mythical Zoan)",
+        info:"The fruit's major strength, is that the user's body permanently adopts the properties of rubber. <br><br>Usage:<br> Their body can stretch, bend, bounce, inflate, and twist much like said substance, even when their power is nullified by way of submergence in water or Seastone exposure. Unlike most other Devil Fruits, the effects of the Gomu Gomu no Mi are always active, making the user's body permanently rubbery. The user becomes almost completely immune to blunt damage, including bodily attacks, blunt weapons, bullets, and even cannonballs, all of which will simply bounce off from their skin. The fruit enables all parts of the consumer's body to behave like rubber, including their organs. This means that certain actions that otherwise would be impossible to do with a normal human body, such as pumping one's own blood or bones with air, can be achieved through this ability for extra speed or power. Furthermore, thanks to rubber's natural insulating properties, the user is also immune to electrical attacks.<br><br>Awakened:<br>Once the fruit is awakened, the user undergoes a drastic transformation where their hair and clothing turns white, their hair resembles flames, their eyebrows resemble spirals, and gains ringed pupils, in addition to steam wrapped around him. The user can alter their physique without the need of inflating their bones or muscles. Zoan's transformation abilities and the Paramecia's environmental alteration, even elements like natural lightning. However, unique to this fruit is that it can extend to living beings, as Luffy could influence flesh as if it was rubber too. This fruit give the user (toon force) like abilities from running on air to affecting others around him.<br><br>Weakness:<br>Despite all the great advantages the user gets by using the fruit, there are a number of weaknesses. One major risk of the user's powers is that their stretched limbs take a moment to retract back into place, leaving them vulnerable to attacks in the moments when their limbs are stretched. One of the biggest weaknesses that Gomu Gomu no Mi users possess is their susceptibility to cutting attacks and bladed weapons." 
     },
     {
         name: "Human-Human no mi: Buddha",
@@ -1479,7 +1480,8 @@ const zoanMythical = [
         user: "User: Sengoku",
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
-        Type:"(Mythical Zoan)"  
+        Type:"(Mythical Zoan)",
+        info:""   
     },
     {
         name: "Human-Human no mi: Onyudo",
@@ -1488,7 +1490,8 @@ const zoanMythical = [
         user: "User: Onimaru(Animal: komagitsune)",
         manga:"Manga Debut: Chapter 936",
         anime:"Anime Debut: Episode 932",
-        Type:"(Mythical Zoan)"  
+        Type:"(Mythical Zoan)",
+        info:""   
     },
     {
         name: "Dog-Dog Fruit: Nine Tailed Fox",
@@ -1497,7 +1500,8 @@ const zoanMythical = [
         user: "User: Catarina Devon",
         manga:"Manga Debut: Chapter 575",
         anime:"Anime Debut: Episode 484",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)",
+        info:"" 
     },
     {
         name: "Dog-Dog Fruit: Okuchi no Makami",
@@ -1506,7 +1510,8 @@ const zoanMythical = [
         user: "User: Yamato",
         manga:"Manga Debut: Chapter 971",
         anime:"Anime Debut: Episode 972",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)",
+        info:""  
     },
     {
         name: "Dog-Dog Fruit: Bake-Danuki",
@@ -1515,7 +1520,8 @@ const zoanMythical = [
         user: "User: Pato",
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)" ,
+        info:"" 
     },
     {
         name: "Bird-Bird Fruit: Phoenix",
@@ -1524,7 +1530,8 @@ const zoanMythical = [
         user: "User: Marco",
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)",
+        info:""  
     },
     {
         name: "Bird-Bird Fruit: Nue",
@@ -1533,7 +1540,8 @@ const zoanMythical = [
         user: "User: Toratsugu",
         manga:"Manga Debut: One piece Art Nue",
         anime:"Anime Debut: N/A",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)" ,
+        info:"" 
     },
     {
         name: "Fish-Fish Fruit: Azure Dragon",
@@ -1542,7 +1550,8 @@ const zoanMythical = [
         user: "User: Kaido(Deceased?)",
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 736",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)" ,
+        info:"" 
     },
     {
         name: "Horse-Horse Fruit: Pegasus",
@@ -1551,7 +1560,8 @@ const zoanMythical = [
         user: "User: Stronger",
         manga:"Manga Debut: Chapter 223",
         anime:"Anime Debut: Episode 146",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)" ,
+        info:"" 
     },
     {
         name: "Snake-Snake Fruit: Eight Headed Serpent",
@@ -1560,7 +1570,8 @@ const zoanMythical = [
         user: "User: Kurozumi Orochi(Deceased)",
         manga:"Manga Debut: Chapter 927",
         anime:"Anime Debut: Episode 921",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)",
+        info:""  
     },
     {
         name: "Bat-Bat Fruit: Vampire",
@@ -1569,7 +1580,8 @@ const zoanMythical = [
         user: "User: Patrick Redfield",
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
-        Type:"(Mythical Zoan)" 
+        Type:"(Mythical Zoan)", 
+        info:"" 
     },
 
 ];
