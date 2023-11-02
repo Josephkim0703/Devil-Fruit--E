@@ -1481,7 +1481,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
         Type:"(Mythical Zoan)",
-        info:""   
+        info:"The main strength of this fruit is that it allows the user to transform into a giant, living, golden Buddha.<br><br>Usage:<br> Gaining an extreme boost in strength to match the increased size. In this form, Sengoku's limbs grow out of proportion, giving him abnormally large arms and relatively tiny legs. His entire body takes on a solid gold hue (gray color in Gigant Battle); in addition to a full and hybrid transformation that are available to all Zoan Devil Fruit users, he can use palm thrusts to launch powerful shock waves.<br><br>can launch golden shockwaves by striking his hand forward in a motion similar to a palm thrust. That can cause heavy and widespread damage to a group of enemies, and was strong enough to injure even the Blackbeard Pirates. In the anime, these shock waves are shown to be powerful enough to clash against the tremor shockwaves created by Marshall D. Teach.<br><br>Weakness:<br>This fruit has no apparent weaknesses, aside from the standard Devil Fruit weaknesses."   
     },
     {
         name: "Human-Human no mi: Onyudo",
@@ -1491,7 +1491,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 936",
         anime:"Anime Debut: Episode 932",
         Type:"(Mythical Zoan)",
-        info:""   
+        info:"This fruit's ability is to transform into an onyudo: a mythical, human-like yokai that takes the form of a giant monk;<br><br>Usage:<br> Onimaru, in particular, stands at over four meters tall. This fruit being of the Hito Hito no Mi series, its transformation grants a nonhuman user human intelligence and the ability to speak the human language. Transform from his komagitsune(fox) self into a large, naginata-wielding onyudo known as Gyukimaru. In his Gyukimaru form, he possesses a human intellect that comes with the ability to speak and a presumably extended lifespan, given the fox's age of 69 years. Befitting his size, Gyukimaru has enormous strength in his onyudo form, as he could match up to Roronoa Zoro's physical power for some time. He also has great speed, able to match Zoro's agility in their first match, deftly wielding his naginata against Zoro's two swords.<br><br> Onimaru has yet to display any mythical abilities outside of his transformation.<br><br>Weakness:<br>So far, no weakness of this Devil Fruit power is known beside the standard Devil Fruit weaknesses."   
     },
     {
         name: "Dog-Dog Fruit: Nine Tailed Fox",
@@ -1501,7 +1501,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 575",
         anime:"Anime Debut: Episode 484",
         Type:"(Mythical Zoan)",
-        info:"" 
+        info:"The main strength of this fruit is that it transforms the user into a mythological kitsune, complete with nine large fox tails.<br><br>Usage:<br> As such, they gain all the abilities of one, including the ability to disguise themselves as anyone they like, allowing them to impersonate them. The clothing of the target individual can also be imitated during the transformation. <br><br>Devon was seen using this ability to briefly impersonate the deceased Absalom and trick his comrade Gecko Moria.<br><br>Weakness:<br>The fruit has no known weaknesses aside from the standard Devil Fruit weaknesses." 
     },
     {
         name: "Dog-Dog Fruit: Okuchi no Makami",
@@ -1511,7 +1511,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 971",
         anime:"Anime Debut: Episode 972",
         Type:"(Mythical Zoan)",
-        info:""  
+        info:"This Devil Fruit grants the power to transform into a hybrid and full version of the Okuchi no Makami—a legendary wolf.<br><br>Usage:<br> According to Kaidou, is a Guardian Deity of Wano Country. While transformed, the user's hair becomes longer and more untamed, they gain a ribbon-like trail of cold air around their shoulders, and grow a large tail.<br><br>Usage:<br>  The transformation greatly bolsters the user's physical abilities and, as a carnivorous Zoan, presumably bestows heightened predatory instincts, on top of equipping the user with canine fangs and claws well-suited for combat. More specifically, the wolf deity form seems to come with a dramatic increase in physical strength, in Yamato's case enough to let him clash near-evenly with his father Kaidou, who was an Emperor of the Sea, while the latter has assumed his extremely powerful human-dragon form. Moreover, as with other fruits of the Mythical Zoan variety, this one blesses the user with at least one special ability: in particular, the user is able to generate ice, which they can expel as blasts from their mouth or otherwise make appear from their body, and can even use such ability without transforming.<br><br>Yamato makes use of his ice-generating ability for offense, by breathing out the substance to freeze targets solid or enveloping his club in it for strengthened melee attacks. For defense, Yamato may clad his body in a layer of ice to absorb damage like armor or erect protective walls of ice.<br><br>Weakness:<br>No weaknesses are currently known of this ability beside the standard ones for a Devil Fruit user."  
     },
     {
         name: "Dog-Dog Fruit: Bake-Danuki",
@@ -1521,7 +1521,7 @@ const zoanMythical = [
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
         Type:"(Mythical Zoan)" ,
-        info:"" 
+        info:"The most basic strength of the fruit is that it gives its user the strengths and powers of a monster raccoon dog.<br><br>Usage:<br> In the case of Pato, the fruit's most major strength is that it has given life to an otherwise inanimate object. An object that has been given life by this fruit will also have sapient intelligence and the ability to speak, likely due to being a monster raccoon dog rather than a regular one. Being a Mythical Zoan-type Devil Fruit, it give the user the specific traits of the mythical raccoon dog in which it can transform ordinary leaves into anything else, from objects to other people and entire environments. In Pato's case, he must write a name on the leaf with his pen-tail for it to transform. The individuals the user creates have the same exact abilities as the originals and are utterly loyal to the user. They can even create copies of themselves.<br><br>Pato also seems to be able to summon various attacks of others using the leaves, such as Enel's lightning or Kuzan's ice attack, as seen in the fight against Red and Pato. The leaves seem to be able to summon many forces, objects and people, and can be capable of creating an area that is pitch black.<br><br>Weakness:<br>The people that the user creates aren't as powerful as the originals and will turn back into leaves once defeated. In addition, sometimes the clones will end up betraying their creator for various reasons." 
     },
     {
         name: "Bird-Bird Fruit: Phoenix",
@@ -1531,7 +1531,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
         Type:"(Mythical Zoan)",
-        info:""  
+        info:"This Devil Fruit grants the power to transform into a large phoenix shrouded in blue flames, as well as a human-phoenix hybrid at will.<br><br>Usage:<br>As with all Zoans, the user's transformation significantly boosts to their overall physical abilities, bestowing strength. As a bird Zoan, the user is also given the ability to fly at high speed. The phoenix form comes with a set of sharp talons on the feet that can deliver slashing damage via kicks. Most significantly, the user can produce their Blue Flames of Resurrection. These light-blue flames enshroud the user upon transforming, though transforming is not necessary for the flames to be conjured. Generally, while the flames do not burn, spread, or exude heat like normal flames do, their special nature makes them more potent than normal fire.<br><br>Instead of burning, the phoenix flames have immense healing properties. When cloaked in them, the user can rapidly regenerate from all injuries inflicted onto them, lethal included, much like how a phoenix is said to rise from its own ashes. Thus, the user boasts enormous resilience, able to undergo extreme punishment without feeling pain or being slowed down. In Marco's case, severe injuries like his body being perforated all over (gunfire), having his head and midsection run through with blades, having parts of his head and neck blown off, or even having one of his wings cut off, have all elicited little reaction from him, the wounds simply disappearing in the flames almost as quickly as they were made. In the user's full phoenix form, attacks may simply pass through them as if their body is one intangible flame, akin to a Logia's body, the defining difference being that the user just regenerates, retaining a solid body under the fire. On top of self-healing, the phoenix flames may be applied to other living targets to mend them, but in that capacity to heal others, the flames have a smaller effect.<br><br>Weakness:<br> The user suffers from the standard weaknesses of any Devil Fruit user, like Seastone fully sealing their powers upon contact."  
     },
     {
         name: "Bird-Bird Fruit: Nue",
@@ -1541,7 +1541,7 @@ const zoanMythical = [
         manga:"Manga Debut: One piece Art Nue",
         anime:"Anime Debut: N/A",
         Type:"(Mythical Zoan)" ,
-        info:"" 
+        info:" Devil Fruit that allows its user to transform into a nue hybrid and a full nue at will.<br><br>Usage:<br>The biggest known strength of the fruit is giving the user the ability to fly. As a nue, the user seems to be capable of fighting and causing destruction, as shown when Toratsugu attacked Lark and Kikuhime's wedding ceremony. The nue form is large enough to carry people on its back. <br><br>Weakness:<br>No weaknesses are known aside from the standard Devil Fruit weaknesses." 
     },
     {
         name: "Fish-Fish Fruit: Azure Dragon",
@@ -1551,7 +1551,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 736",
         Type:"(Mythical Zoan)" ,
-        info:"" 
+        info:"This fruit enables the user to turn into a giant, blue-scaled dragon: Eastern dragon called Azure Dragon.<br><br> Additionally, Human-Beast Form, becoming a smaller half-dragon humanoid. Apart from scales, acquired dragon features include horns, sharp fangs, and limbs with clawed hands and feet. In his full Beast Form, Kaidou grows to rival a small town in size, making this the largest yet-seen Zoan transformation.<br><br>Usage:<br> As with all Zoans, the user's transformation significantly boosts their physical abilities. The full dragon form's strength befits its size, as the user can severely damage structures like houses merely by brushing by them. Apart from raw strength, the user's size as a dragon belies their mobility, as they can move about at great speeds while keeping pace with significantly fast, human-sized foes. The scales covering the user's dragon body are noted to be extremely durable. Blows of incredible power, including ones strengthened by regular Busoshoku Haki, have proven utterly ineffective at hurting Kaidou.<br><br>The fruit bestows multiple supernatural abilities the most prominent of these is the power to conjure Flame Clouds, with which the user can travel through the air by using them as footholds, effectively enabling flight; Kaidou's dragon arms tend to be continuously encircled by fiery rings, which may be said clouds helping him fly more effectively through the air. Also, the Flame Clouds can be used to lift other objects, including entire islands. The most commonly seen element used is fire, such as a concentrated scorching blast of fire that the user breathes out. Aside from flames, the user can launch lightning bolts while roaring and cutting blades of wind while blowing, on top of stirring up strong, fast-rotating tornados.<br><br>Weakness:<br> Due to the massive amount of space the user takes up after entering their full Beast Form, their ability to move about in enclosed spaces is greatly hindered.  Usage of advanced, emitted Busoshoku Haki, in particular, can let opposing parties hurt the user's dragon form." 
     },
     {
         name: "Horse-Horse Fruit: Pegasus",
@@ -1561,7 +1561,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 223",
         anime:"Anime Debut: Episode 146",
         Type:"(Mythical Zoan)" ,
-        info:"" 
+        info:"This fruit allows the eater to transform into a Pegasus or Pegasus hybrid at will.<br><br>It is unknown whether this is his hybrid form or his full Pegasus form.<br><br>Usage:<br> This grants them the power of flight.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses." 
     },
     {
         name: "Snake-Snake Fruit: Eight Headed Serpent",
@@ -1571,7 +1571,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 927",
         anime:"Anime Debut: Episode 921",
         Type:"(Mythical Zoan)",
-        info:""  
+        info:"Devil Fruit that allows the user to transform into a hybrid and full version of the Yamata no Orochi, an eight-headed snake or dragon.<br><br>This fruit grants the user eight separate heads, each one with an extremely long neck. Each one capable of speech on their own. It appears that the user has some degree of control over the number of heads that can sprout at once, with eight being the maximum limit. Additionally, Orochi's main head is a darker shade of green than the others.<br><br>Usage:<br>He was also strong enough to easily lift up a person with just one of his mouths. With their multiple heads with long necks, the user has the ability to attack in multiple directions at once and reach targets that are further away than he could normally reach. Furthermore, the user is able to attack and trap their targets with their considerably strong jaws. The user also has an incredible amount of durability in their transformed state.<br><br>The fruit's multiple heads also allow the user to survive decapitation, even in Human Form, resulting in the user being required to be beheaded eight times in order to die.<br><br>Weakness:<br>Although the user is capable of surviving decapitation number of times equivalent to the number of heads they have, they cannot regenerate any of the heads they have already lost, thus reducing their lifeline each time they suffer a death. Attacks that can decapitate multiple heads at once, in particular, further reduces this survival ability's efficiency."  
     },
     {
         name: "Bat-Bat Fruit: Vampire",
@@ -1581,7 +1581,7 @@ const zoanMythical = [
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
         Type:"(Mythical Zoan)", 
-        info:"" 
+        info:"The main strength of the fruit's power is that it allows the user to transform into a full vampire or assume a vampiric hybrid form.<br><br>Usage:<br>This gives the user the abilities of flight, to create a shroud to cloak themselves, and an apparent form of teleportation by appearing and disappearing in blood-red bursts of energy. The greatest strength of this fruit is the ability to suck someone else's life-force either by biting the victim's neck or digging their nails into the victim's skin. By sucking the victim's life-force, the user can age them to regain their own youth, with Red implying the fruit grants immortality and eternal youth as long as there is life-force for the user to drain. The user can also return the life-force to to their victims if they choose to do so, and there were no ill effects to the victims after their life-force was returned.<br><br>Weakness:<br>It is unknown if the fruit gives the user the usual weaknesses of a vampire such as sunlight, garlic or crosses, but the user does require taking another person's life-force to use the fruit's power to its full potential. Otherwise, it has standard Devil Fruit weaknesses. "
     },
 
 ];
@@ -1593,8 +1593,10 @@ const zoanArtificial = [
         user: "User: Kozuki Momonosuke",
         manga:"Manga Debut: Chapter 684",
         anime:"Anime Debut: Episode 609",
-        Type:"(Artificial/Mythical Zoan)"  
+        Type:"(Artificial/Mythical Zoan)",
+        info:""
     },
+    /*
     {
         name: "Smile Fruit: (Unknown)",
         jname: "Smile no mi",
@@ -1602,6 +1604,7 @@ const zoanArtificial = [
         user: "User: Ginrummy(Deceased?)",
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 739",
+        info:""
     },
     {
         name: "Smile Fruit: Sheep",
@@ -1610,6 +1613,7 @@ const zoanArtificial = [
         user: "User: Sheepshead(Deceased?)",
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 739",
+        info:""
     },
     {
         name: "Smile Fruit: Bat",
@@ -1618,6 +1622,7 @@ const zoanArtificial = [
         user: "User: Bat-Man",
         manga:"Manga Debut: Chapter 914",
         anime:"Anime Debut: Episode 900",
+        info:""
     },
     {
         name: "Smile Fruit: Gazelle",
@@ -1626,6 +1631,7 @@ const zoanArtificial = [
         user: "User: Gazelle-Man",
         manga:"Manga Debut: Chapter 914",
         anime:"Anime Debut: Episode 900",
+        info:""
     },
     {
         name: "Smile Fruit: Mouse",
@@ -1634,6 +1640,7 @@ const zoanArtificial = [
         user: "User: Mouse-Man",
         manga:"Manga Debut: Chapter 915",
         anime:"Anime Debut: Episode 901",
+        info:""
     },
     {
         name: "Smile Fruit: Lion",
@@ -1642,6 +1649,7 @@ const zoanArtificial = [
         user: "User: Holdem",
         manga:"Manga Debut: Chapter 915",
         anime:"Anime Debut: Episode 901",
+        info:""
     },
     {
         name: "Smile Fruit: Horse",
@@ -1650,6 +1658,7 @@ const zoanArtificial = [
         user: "User: Speed",
         manga:"Manga Debut: Chapter 917",
         anime:"Anime Debut: Episode 904",
+        info:""
     },
     {
         name: "Smile Fruit: Horse",
@@ -1658,6 +1667,7 @@ const zoanArtificial = [
         user: "User: Fuga",
         manga:"Manga Debut: Chapter 991",
         anime:"Anime Debut: Episode 1055",
+        info:""
     },
     {
         name: "Smile Fruit: Snake",
@@ -1666,6 +1676,7 @@ const zoanArtificial = [
         user: "User: Sarahebi",
         manga:"Manga Debut: Chapter 919",
         anime:"Anime Debut: Episode 909",
+        info:""
     },
     {
         name: "Smile Fruit: Snake",
@@ -1674,6 +1685,7 @@ const zoanArtificial = [
         user: "User: Snake-Man",
         manga:"Manga Debut: Chapter 916",
         anime:"Anime Debut: Episode 904",
+        info:""
     },
     {
         name: "Smile Fruit: White Snake",
@@ -1682,6 +1694,7 @@ const zoanArtificial = [
         user: "User: Tenjo-Sagari",
         manga:"Manga Debut: Chapter 980",
         anime:"Anime Debut: Episode 986",
+        info:""
     },
     {
         name: "Smile Fruit: Rattle Snake",
@@ -1690,6 +1703,7 @@ const zoanArtificial = [
         user: "User: Poker",
         manga:"Manga Debut: Chapter 997",
         anime:"Anime Debut: Episode 982",
+        info:""
     },
     {
         name: "Smile Fruit: Hognose Snake",
@@ -1698,6 +1712,7 @@ const zoanArtificial = [
         user: "User: Nure-Onna",
         manga:"Manga Debut: Chapter 998",
         anime:"Anime Debut: Episode 1013",
+        info:""
     },
     {
         name: "Smile Fruit: Rabbit",
@@ -1706,6 +1721,7 @@ const zoanArtificial = [
         user: "User: Rabbit-Man",
         manga:"Manga Debut: Chapter 916",
         anime:"Anime Debut: Episode 904",
+        info:""
     },
     {
         name: "Smile Fruit: Armadillo",
@@ -1714,6 +1730,7 @@ const zoanArtificial = [
         user: "User: Madillo-Man",
         manga:"Manga Debut: Chapter 939",
         anime:"Anime Debut: Episode 935",
+        info:""
     },
     {
         name: "Smile Fruit: Hippopotamus",
@@ -1722,6 +1739,7 @@ const zoanArtificial = [
         user: "User: Dobon",
         manga:"Manga Debut: Chapter 926",
         anime:"Anime Debut: Episode 919",
+        info:""
     },
     {
         name: "Smile Fruit: Ostrich",
@@ -1730,6 +1748,7 @@ const zoanArtificial = [
         user: "User: Dachoman",
         manga:"Manga Debut: Chapter 940",
         anime:"Anime Debut: Episode 937",
+        info:""
     },
     {
         name: "Smile Fruit: Alpaca",
@@ -1738,6 +1757,7 @@ const zoanArtificial = [
         user: "User: Alpaca-man",
         manga:"Manga Debut: Chapter 934",
         anime:"Anime Debut: Episode 929",
+        info:""
     },
     {
         name: "Smile Fruit: Scorpion",
@@ -1746,6 +1766,7 @@ const zoanArtificial = [
         user: "User: Daifugo",
         manga:"Manga Debut: Chapter 934",
         anime:"Anime Debut: Episode 928",
+        info:""
     },
     {
         name: "Smile Fruit: Elephant",
@@ -1754,6 +1775,7 @@ const zoanArtificial = [
         user: "User: Babanuki",
         manga:"Manga Debut: Chapter 934",
         anime:"Anime Debut: Episode 930",
+        info:""
     },
     {
         name: "Smile Fruit: Monkey",
@@ -1762,6 +1784,7 @@ const zoanArtificial = [
         user: "User: Solitaire",
         manga:"Manga Debut: Chapter 935",
         anime:"Anime Debut: Episode 930",
+        info:""
     },
     {
         name: "Smile Fruit: Flying Squirrel",
@@ -1770,6 +1793,7 @@ const zoanArtificial = [
         user: "User: Bao Huang",
         manga:"Manga Debut: Chapter 979",
         anime:"Anime Debut: Episode 985",
+        info:""
     },
     {
         name: "Smile Fruit: Gorilla",
@@ -1778,6 +1802,7 @@ const zoanArtificial = [
         user: "User: Briscola",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 982",
+        info:""
     },
     {
         name: "Smile Fruit: Gorilla",
@@ -1786,6 +1811,7 @@ const zoanArtificial = [
         user: "User: Mizerka",
         manga:"Manga Debut: Chapter 978",
         anime:"Anime Debut: Episode 982",
+        info:""
     },
     {
         name: "Smile Fruit: Chicken",
@@ -1794,6 +1820,7 @@ const zoanArtificial = [
         user: "User: Fourtricks",
         manga:"Manga Debut: Chapter 994",
         anime:"Anime Debut: Episode 982",
+        info:""
     },
     {
         name: "Smile Fruit: Giraffe",
@@ -1802,6 +1829,7 @@ const zoanArtificial = [
         user: "User: Hamlet",
         manga:"Manga Debut: Chapter 994",
         anime:"Anime Debut: Episode 982",
+        info:""
     },
     {
         name: "Smile Fruit: Caiman",
@@ -1810,6 +1838,7 @@ const zoanArtificial = [
         user: "User: Caiman-Lady",
         manga:"Manga Debut: Chapter 1004",
         anime:"Anime Debut: Episode 1020",
+        info:""
     },
     {
         name: "Smile Fruit: Pug",
@@ -1818,6 +1847,7 @@ const zoanArtificial = [
         user: "User: Wanyudo",
         manga:"Manga Debut: Chapter 1005",
         anime:"Anime Debut: Episode 1021",
+        info:""
     },
     {
         name: "Smile Fruit: Bird",
@@ -1826,6 +1856,7 @@ const zoanArtificial = [
         user: "User: Bird-man",
         manga:"Manga Debut: Chapter 975",
         anime:"Anime Debut: Episode 978",
+        info:""
     },
     {
         name: "Smile Fruit: Butterfly",
@@ -1834,6 +1865,7 @@ const zoanArtificial = [
         user: "User: Butterfly-lady",
         manga:"Manga Debut: Chapter 975",
         anime:"Anime Debut: Episode 978",
+        info:""
     },
     {
         name: "Smile Fruit: Stag Beetle",
@@ -1842,6 +1874,7 @@ const zoanArtificial = [
         user: "User: Stag Beetle-man",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Mantis",
@@ -1850,6 +1883,7 @@ const zoanArtificial = [
         user: "User: Mantis-lady",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Tortoise",
@@ -1858,6 +1892,7 @@ const zoanArtificial = [
         user: "User: Tortoise-man",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Hedgehog",
@@ -1866,6 +1901,7 @@ const zoanArtificial = [
         user: "User: Hedgehog-man",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Rhino",
@@ -1874,6 +1910,7 @@ const zoanArtificial = [
         user: "User: Rhino-man",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Rhino Beetle",
@@ -1882,6 +1919,7 @@ const zoanArtificial = [
         user: "User: Rhino Beetle-man",
         manga:"Manga Debut: Chapter 993",
         anime:"Anime Debut: Episode 1009",
+        info:""
     },
     {
         name: "Smile Fruit: Bear",
@@ -1890,7 +1928,9 @@ const zoanArtificial = [
         user: "User: Bear-man",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 934",
+        info:""
     },
+    */
 ];
 
 devilFruits.push(logia, parBody, parSub, parEnv, parPow, zoanNormal, zoanAnicent, zoanMythical, zoanArtificial);

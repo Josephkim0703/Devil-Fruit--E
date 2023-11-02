@@ -143,31 +143,20 @@ document.getElementById('mythical').onclick = function (){
 //print artificial zoan
 document.getElementById('artificial').onclick = function (){
     document.querySelector('#zbutton').style.display = "none";
-        document.querySelector('#back').style.display = "block";
-        let data = '';
+        document.getElementById('Dname').innerHTML = zoanArtificial[0].name + " (" + zoanArtificial[0].jname + ")";
+            document.getElementById('Duser').innerHTML = zoanArtificial[0].user;
+                document.getElementById('ability').innerHTML = zoanArtificial[0].element;
+                    document.getElementById('Dinfo').innerHTML = "Information not complete";
+                        document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
+                    document.getElementById('infoPage').style.display = "block";
+                document.querySelector('#optionBox').style.display = "none"; 
+            document.getElementById('wrapper').style.display = "none";
+  /*      let data = '';
             for(let i = 0; i < zoanArtificial.length; i++){
                 data += '<button id="zoanArtificial' + i + '">'+ zoanArtificial[i].name + '<br>' + zoanArtificial[i].user + '</button>';
             }
         document.querySelector('#oz1').style.display = "flex";
-    document.getElementById('oz1').innerHTML = data;
-
-    for(let i = 0; i < zoanArtificial.length; i++){
-        let option = document.getElementById('zoanArtificial'+ i); 
-            
-             option.onclick = function(){
-                 console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanArtificial[i].name + " (" + zoanArtificial[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanArtificial[i].user;
-                            document.getElementById('ability').innerHTML = zoanArtificial[i].element;
-                                document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                    document.getElementById('extra').innerHTML =zoanArtificial[i].manga + "<br>" + zoanArtificial[i].anime;
-//                                        document.getElementById('fruits').src = ;
-//                                   document.getElementById('user').src =;
-                             document.getElementById('infoPage').style.display = "block";
-                         document.querySelector('#optionBox').style.display = "none"; 
-                     document.getElementById('wrapper').style.display = "none";
-            }    
-        }
+    document.getElementById('oz1').innerHTML = data;*/
     }   
 }
 
@@ -305,8 +294,7 @@ document.getElementById('x').onclick = function (){
     document.querySelector('#optionBox').style.display = "none"; 
         document.querySelector('#oz1').style.display = "none";
             document.querySelector('#op1').style.display = "none";
-                document.querySelector('#back').style.display = "none";
-           
+                document.querySelector('#back').style.display = "none";       
 };
 
 document.getElementById('back').onclick = function (){
@@ -323,16 +311,7 @@ document.getElementById('r').onclick = function(){
             document.getElementById('infoPage').style.display = "none";
 };
 
-document.getElementById('oz1').onclick = function(){
-    document.getElementById('infoPage').style.display = "block";
-        document.querySelector('#optionBox').style.display = "none"; 
-            document.getElementById('wrapper').style.display = "none";
-};
-document.getElementById('op1').onclick = function(){
-    document.getElementById('infoPage').style.display = "block";
-        document.querySelector('#optionBox').style.display = "none"; 
-            document.getElementById('wrapper').style.display = "none";
-};
+
 
 
  
