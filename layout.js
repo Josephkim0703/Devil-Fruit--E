@@ -143,6 +143,7 @@ document.getElementById('mythical').onclick = function (){
 //print artificial zoan
 document.getElementById('artificial').onclick = function (){
     document.querySelector('#zbutton').style.display = "none";
+        document.getElementById('smile').style.display = "block";
         document.getElementById('Dname').innerHTML = zoanArtificial[0].name + " (" + zoanArtificial[0].jname + ")";
             document.getElementById('Duser').innerHTML = zoanArtificial[0].user;
                 document.getElementById('ability').innerHTML = zoanArtificial[0].element;
@@ -151,6 +152,11 @@ document.getElementById('artificial').onclick = function (){
                     document.getElementById('infoPage').style.display = "block";
                 document.querySelector('#optionBox').style.display = "none"; 
             document.getElementById('wrapper').style.display = "none";
+let smile = '<button id="smileFruit">'+ "smile" +'</button>';
+    document.getElementById('smile').innerHTML = smile;
+        document.getElementById('smile').onclick = function (){
+            document.querySelector('#infoPage').style.display = "none";
+        }
   /*      let data = '';
             for(let i = 0; i < zoanArtificial.length; i++){
                 data += '<button id="zoanArtificial' + i + '">'+ zoanArtificial[i].name + '<br>' + zoanArtificial[i].user + '</button>';
@@ -294,7 +300,8 @@ document.getElementById('x').onclick = function (){
     document.querySelector('#optionBox').style.display = "none"; 
         document.querySelector('#oz1').style.display = "none";
             document.querySelector('#op1').style.display = "none";
-                document.querySelector('#back').style.display = "none";       
+                document.querySelector('#back').style.display = "none";
+                    document.getElementById('smile').style.display = "none";   
 };
 
 document.getElementById('back').onclick = function (){
@@ -303,12 +310,14 @@ document.getElementById('back').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
         document.querySelector('#op1').style.display = "none";
             document.querySelector('#back').style.display = "none";
+                document.getElementById('smile').style.display = "none";
 };
 
 document.getElementById('r').onclick = function(){
     document.getElementById('back').style.display = 'none';
         document.getElementById('wrapper').style.display = "block";
             document.getElementById('infoPage').style.display = "none";
+                document.getElementById('smile').style.display = "none";
 };
 
 

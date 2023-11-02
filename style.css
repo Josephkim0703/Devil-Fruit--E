@@ -345,38 +345,6 @@ transition: 0.5s;
    transition: 0.2s;
 }
 
-#abutton button{
-    text-align:center;
-    border: 2px solid var(--secondary-color);
-    border-radius: 1rem;
-    width: 45rem;
-    height: 45rem;
-    z-index: 1000;
-    margin: 5px 30px 0px 40px;
-    font-size: 3.5rem;
-    font-family: "IM Fell English SC";
-    color: white;
-    text-shadow:rgb(0, 0, 0) 5px 0px 10px; ;
-    transition: 0.5s;
-}
-
-#abutton button:hover{
-    transition: 0.5s;
-    filter: brightness(0.6);
-}
-
-#momo{
-   background-image: url(./assets/Momonosuke.jpg);
-   background-size: cover;
-   background-position-y: -200px;
-}
-
-#smile{
-    background-image: url(./assets/monkey.jpg);
-    background-size: cover;
-    background-position-y: -200px;
- }
-
 #zbutton button{
     text-align:center;
     border: 2px solid var(--secondary-color);
