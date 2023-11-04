@@ -1429,7 +1429,7 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
         Type:"(Ancient Zoan)",
-        info:"A user of this Zoan can become a triceratops—a large, heavy-bodied, herbivorous dinosaur from prehistory—and assume a hybrid form.<br><br>Usage:<br> In Sasaki's case, the full Beast Form is big enough to outsize a 13m-tall robot, and his hybrid form also stands taller than that very same robot. Similar to other dinosaur Zoans, a user of this fruit is granted an enormous boost in physical strength. They can charge into and bash enemies with incredible force, their three sharp-pointed horns (especially their nasal one) serving as a dangerous pointed weapon to pierce opponents with.[1][3] Given a triceratops' hardy skin, the user also enjoys a dramatic increase in durability, which especially applies to their frontal side that benefits from their thick skull, bony frill, and horns. This durability is such that the user may be unscathed by and able to outright ignore heavy, explosive artillery fire.<br><br>In his hybrid form, Sasaki becomes bipedal and thus capable of wielding his weapon for swordsmanship. Sasaki's most peculiar ability in this form, however, is that he is capable of sustained flight, which he achieves by somehow rotating the frills around his neck at high enough speeds that it simulates a helicopter's rotary wings, propelling his own large and heavy body through the air. This grants Sasaki increased mobility and speed that he can take advantage of, either by overwhelming his opponents with fast, aerial strikes from his sword or dodging incoming enemy attacks.<br><br>Weakness:<br>While the user's frontal defense is quite formidable, the entirety of their body is not so invulnerable, with their belly area being a particular weak spot."
+        info:"A user of this Zoan can become a triceratops—a large, heavy-bodied, herbivorous dinosaur from prehistory—and assume a hybrid form.<br><br>Usage:<br> In Sasaki's case, the full Beast Form is big enough to outsize a 13m-tall robot, and his hybrid form also stands taller than that very same robot. Similar to other dinosaur Zoans, a user of this fruit is granted an enormous boost in physical strength. They can charge into and bash enemies with incredible force, their three sharp-pointed horns (especially their nasal one) serving as a dangerous pointed weapon to pierce opponents with. Given a triceratops' hardy skin, the user also enjoys a dramatic increase in durability, which especially applies to their frontal side that benefits from their thick skull, bony frill, and horns. This durability is such that the user may be unscathed by and able to outright ignore heavy, explosive artillery fire.<br><br>In his hybrid form, Sasaki becomes bipedal and thus capable of wielding his weapon for swordsmanship. Sasaki's most peculiar ability in this form, however, is that he is capable of sustained flight, which he achieves by somehow rotating the frills around his neck at high enough speeds that it simulates a helicopter's rotary wings, propelling his own large and heavy body through the air. This grants Sasaki increased mobility and speed that he can take advantage of, either by overwhelming his opponents with fast, aerial strikes from his sword or dodging incoming enemy attacks.<br><br>Weakness:<br>While the user's frontal defense is quite formidable, the entirety of their body is not so invulnerable, with their belly area being a particular weak spot."
     },
     {
         name: "Spider-Spider Fruit: Rosamygale Grauvogeli",
@@ -1545,7 +1545,7 @@ const zoanMythical = [
     },
     {
         name: "Fish-Fish Fruit: Azure Dragon",
-        jname: "Inu-Inu no Mi",
+        jname: "Uo Uo no Mi",
         element : "Model: Azure Dragon",
         user: "User: Kaido(Deceased?)",
         manga:"Manga Debut: Chapter 795",
@@ -1594,9 +1594,18 @@ const zoanArtificial = [
         manga:"Manga Debut: Chapter 684",
         anime:"Anime Debut: Episode 609",
         Type:"(Artificial/Mythical Zoan)",
-        info:""
+        info:" Vegapunk's man-made copy of the Uo Uo no Mi, Model: Seiryu.<br><br> created from Kaidou's Lineage Factor which was altered by the original Mythical Zoan-type Devil Fruit, but was deemed a failure by Vegapunk solely due the incorrect coloration of Momonosuke's Dragon form. It transformed Momonosuke into a serpentine dragon which allows him to seemingly fly by producing Flame Clouds that he was able to grab onto and climb up that way.<br><br>Usage:<br>It is deamed to have the same capability as the original Mythical Zoan-type Devil Fruit. During the battle against Ryokugyu, Momonosuke managed to perform Kaidou's Bolo Breath, and succeeded in damaging the Admiral's wooden form. You can read more of the original fruit here: "
     },
-    /*
+    {
+        name: "Smile Fruit",
+        jname: "N/A",
+        element : "Model: Artificial",
+        user: "N/A",
+        manga:"Manga Debut: Chapter 689",
+        anime:"Anime Debut: Episode 615",
+        Type:"(Artificial)",
+        info:"SMILEs are artificial Zoan Devil Fruits created with SAD. They were formerly manufactured by Donquixote Doflamingo and Caesar Clown and were monopolized and consumed by the members of the Beasts Pirates, which created the classifications of the Gifters, Pleasures, and Waiters within the crew.<br><br>Production:<br>The key ingredient required to concoct the artificial fruits is SAD, which is a chemical substance created by mixing the extracted Lineage Factors of numerous animals together. Only Caesar Clown possesses knowledge of how to create SAD, and as such, the production of these fake Devil Fruits requires Caesar's cooperation.<br><br>Attribute:<br>A SMILE fruit is intended to grant the consumer the power of animal transformation, much like a Zoan-type Devil Fruit, by a process which involves transmission of the Lineage Factor of a real animal. Like normal Devil Fruits, SMILEs render those who consume them unable to swim. SMILEs do appear to grant enhanced physical abilities, much like real Zoan fruits. These fruits give the user the respective animals abilities such as super sonic hearing(bat smile) sticky spit(Alpaca smile) flight(bird smile),ETC.<br>Even with the increased strength and animal abilities bestowed by the SMILEs, many, if not all of these artificial Devil Fruits appear to be greatly inferior in strength compared to actual Zoan fruits.<br><br>Side Affect:<br>SMILEs, being artificial, do have side effects. Due to the faulty chemicals used to make them, only one out of every ten SMILE fruits will successfully grant Zoan-like abilities at the cost of being able to swim. The other 90% of people who consume one will not receive a power while suffering the usual consequences. On top of losing the ability to swim, they permanently become unable to express negative emotions, being forced to smile and laugh all of the time regardless of how they actually feel, even while getting hurt in battle or if someone they care about dies."
+    },
     {
         name: "Smile Fruit: (Unknown)",
         jname: "Smile no mi",
@@ -1930,7 +1939,6 @@ const zoanArtificial = [
         anime:"Anime Debut: Episode 934",
         info:""
     },
-    */
 ];
 
 devilFruits.push(logia, parBody, parSub, parEnv, parPow, zoanNormal, zoanAnicent, zoanMythical, zoanArtificial);

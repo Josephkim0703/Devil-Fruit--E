@@ -127,6 +127,7 @@ flex-direction: row;
 justify-content: center;
 transition: 0.5s;
 margin-top: 130px;
+padding-bottom: 200px;
 
 }
 
@@ -520,7 +521,8 @@ main{
         'left right'
         'main main'
         'main main'
-        'footer footer';
+        'footer footer'
+        'bottom bottom';
     color: var(--secondary-color);
     transition: 0.5s;
     font-family: "IM Fell English SC";
@@ -562,8 +564,65 @@ main{
     margin-top: 0px;
 }
 
+#kaido{
+    position: absolute; top: 71.5%; left: 78%;
+    padding: 0px;
+    border: none;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-family: "IM Fell English SC";
+    color: blue;
+    width: fit-content;
+}
 
-@media only screen and (max-height: 1000px){
+#kaido:hover{
+    color: rgb(32, 203, 255);
+}
+
+#smile{
+  padding: 0px;
+  border: none;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-family: "IM Fell English SC";
+  color: blue;
+  width: fit-content;
+  grid-area: bottom;
+  margin-top: -15px;
+}
+
+#smile:hover{
+    color: rgb(32, 203, 255);
+  
+}
+
+#gifters{
+    border: none;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    font-size: 2rem;
+    font-family: "IM Fell English SC";
+    color: blue;
+    margin-left: 11rem;
+    grid-area: topLeft;
+    width: fit-content;
+
+}
+
+#gifters:hover{
+    color: rgb(32, 203, 255);
+  
+}
+
+
+
+
+@media only screen and (max-height: 1000px){  
 }
 @media only screen and (max-width: 1750px){
 
@@ -688,6 +747,7 @@ main{
         margin-top: 0px;
         align-items: center;
         padding-top: 40px;
+        padding-bottom: 0px;
         transition: 0.5s;
         flex-direction: column;
             }
@@ -736,12 +796,12 @@ main{
 
 }
 @media only screen and (max-width: 750px){
-
+  
 
     .df{
         margin: 15px;
         width: 30rem;
-        height: 25rem;   
+        height: 25rem;
         }
         
         .layer{
