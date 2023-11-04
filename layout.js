@@ -20,6 +20,8 @@ document.getElementById('ld').onclick = function (){
                                 document.querySelector('#gifters').style.display = 'none';
                                     document.querySelector('#kaido').style.display = 'none';
                                         document.querySelector('#smile').style.display = 'none';
+                                            document.getElementById('fruits').style.display = 'block';
+                                                document.getElementById('Ufruit').style.display = "none"
     //loop that prints all the names and japanes names of the devil fruits and appends them as button into a ul
         let data = '';
             for(let i = 0; i < logia.length; i++){
@@ -39,7 +41,14 @@ document.getElementById('ld').onclick = function (){
                                     document.getElementById('Dinfo').innerHTML = logia[i].info;
                                         document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
                                             document.getElementById('fruits').src = logia[i].fruit;
- //                                   document.getElementById('user').src =;
+                                                document.getElementById('user').src = logia[i].aCharacter;
+
+                                                logia[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                                    document.getElementById('Ufruit').src = logia[i].ufruit;
+
+                                                logia[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = logia[i].fruitBox;
+                                          
                                 document.getElementById('infoPage').style.display = "block";
                             document.querySelector('#optionBox').style.display = "none"; 
                         document.getElementById('wrapper').style.display = "none";
@@ -60,6 +69,7 @@ document.getElementById('zd').onclick = function (){
                                     document.querySelector('#gifters').style.display = 'none';
                                         document.querySelector('#kaido').style.display = 'none';
                                             document.querySelector('#smile').style.display = 'none';
+                                                document.getElementById('Ufruit').style.display = "none"
 //print normal zoan        
 document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
@@ -110,8 +120,12 @@ document.getElementById('ancient').onclick = function (){
                             document.getElementById('ability').innerHTML = zoanAnicent[i].element;
                                 document.getElementById('Dinfo').innerHTML = zoanAnicent[i].info;
                                     document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
-//                                        document.getElementById('fruits').src = ;
-//                                   document.getElementById('user').src =;
+                                        document.getElementById('fruits').src = zoanAnicent[i].fruit;
+//                                  document.getElementById('user').src = logia[i].aCharacter;
+
+                                        zoanAnicent[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = zoanAnicent[i].fruitBox;
+
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
@@ -140,8 +154,15 @@ document.getElementById('mythical').onclick = function (){
                             document.getElementById('ability').innerHTML = zoanMythical[i].element;
                                 document.getElementById('Dinfo').innerHTML = zoanMythical[i].info;
                                     document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
-//                                        document.getElementById('fruits').src = ;
-//                                   document.getElementById('user').src =;
+                                        document.getElementById('fruits').src = zoanMythical[i].fruit;
+//                                    document.getElementById('user').src = logia[i].aCharacter;
+
+                                    zoanMythical[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                        document.getElementById('Ufruit').src = zoanMythical[i].ufruit;
+
+                                    zoanMythical[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = zoanMythical[i].fruitBox;
+
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
@@ -158,10 +179,14 @@ document.getElementById('artificial').onclick = function (){
                     document.getElementById('ability').innerHTML = zoanArtificial[0].element;
                         document.getElementById('Dinfo').innerHTML = zoanArtificial[0].info; 
                             document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
+                                document.getElementById('Ufruit').src = zoanArtificial[0].ufruit; 
+                                document.getElementById('Ufruit').style.display = 'block'; 
+                            document.getElementById('fruitBox').style.display = 'none';  
                         document.getElementById('infoPage').style.display = "block";
                     document.querySelector('#kaido').style.display = 'block';
                 document.querySelector('#optionBox').style.display = "none"; 
             document.getElementById('wrapper').style.display = "none";
+        document.getElementById('fruits').style.display = 'none';
                 
 
 //seperate button that sends you to a page about smile fruits
@@ -173,7 +198,11 @@ document.getElementById('artificial').onclick = function (){
                             document.getElementById('extra').innerHTML =zoanArtificial[1].manga + "<br>" + zoanArtificial[1].anime;
                                 document.getElementById('smile').style.display = "none";
                                     document.querySelector('#gifters').style.display = 'block';
-                                        document.querySelector('#kaido').style.display = 'none';                         
+                                        document.querySelector('#kaido').style.display = 'none';
+                                            document.getElementById('Ufruit').style.display = 'none';
+                                                document.getElementById('fruits').style.display = 'block';
+                                                    document.getElementById('fruits').src = zoanArtificial[1].fruit; 
+                                         
         }
 
         document.getElementById('kaido').onclick = function (){
@@ -182,8 +211,10 @@ document.getElementById('artificial').onclick = function (){
                     document.getElementById('ability').innerHTML = zoanMythical[8].element;
                         document.getElementById('Dinfo').innerHTML = zoanMythical[8].info;
                             document.getElementById('extra').innerHTML =zoanMythical[8].manga + "<br>" + zoanMythical[8].anime;
-//                                        document.getElementById('fruits').src = ;
-//                                   document.getElementById('user').src =;
+                                document.getElementById('fruits').src = zoanMythical[8].fruit;
+
+                                document.getElementById('fruits').style.display = 'block';  
+                            document.getElementById('Ufruit').style.display = 'none';  
                         document.querySelector('#kaido').style.display = 'none'; 
                     document.getElementById('infoPage').style.display = "block";
                 document.querySelector('#optionBox').style.display = "none"; 
@@ -220,6 +251,7 @@ document.getElementById('pd').onclick = function (){
                                     document.querySelector('#gifters').style.display = 'none';
                                         document.querySelector('#kaido').style.display = 'none';
                                             document.querySelector('#smile').style.display = 'none';
+                                                document.getElementById('Ufruit').style.display = "none"
 document.getElementById('body').onclick = function (){
 //prints para body
 document.querySelector('#back').style.display = "block";

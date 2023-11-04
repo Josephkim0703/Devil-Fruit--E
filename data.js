@@ -9,6 +9,9 @@ const logia = [
         manga:"Manga Debut:  Chapter 100",
         anime:"Anime Debut: Episode 48",
         fruit:"./image/plume.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"The user of this fruit is able to generate, manipulate, and become smoke. <br><br>Usage:<br> Like with most other Logia fruits, when Smoker is hit, he can simply use the fruit's power to become smoke, thus absorbing the attack and remaining unharmed. Like some of the other Logia type Devil Fruits, it allows its user to fly, by turning his body or the lower part of it into smoke, greatly enhancing his movement and speed. <br><br> The main offensive capabilities of the fruit stem from its user's ability to change the density of the smoke produced at will. This allows Smoker to surround his targets with his intangible smoke and then solidify it to grasp them. This power has granted Smoker his epithet The White Hunter. The smoke can also be used as a blunt weapon, hitting enemies with great strength.Another common tactic of Smoker’s is to transform his limbs into smoke, but not his hands, enabling him to strike opponents with his Seastone-tipped jitte from a much greater range, or to launch himself jitte-first at his opponents like a rocket by transforming his lower body into smoke. <br><br>Weakness:<br> It would seem that when confronted by fire, they will cancel out one another due to being the same temperature; other than that, no specific natural weakness has yet to be seen"
     },
     {
@@ -19,6 +22,9 @@ const logia = [
         manga:"Manga Debut: Chapter 127",
         anime:"Anime Debut: Episode 77",
         fruit:"./image/sand.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"This fruit's power allows its user to transform their bodies into sand, as well as create and control sand in large quantities. <br><br>Usage:<br> This fruit can also give the ability to fly by morphing their lower body into jets of flowing sand, offering them a massive advantage in defense and mobility amid combat or pursuit.<br> Creating sand also grants the user various offensive capabilities; the user can create blades of sand in multiple shapes and sizes, large sandstorms that can travel great distances, and even vortexes that trap their opponents and pull them underground.<br><br> Besides basic elemental control, the fruit exhibits a unique ancillary ability: namely liquid absorption, allowing the user to dehydrate anything they touch and even extend said effect to their immediate surroundings, drying up vast areas of land like a drought. This ability is usually life-threatening to any living organism, causing plants, animals or people to suffer from dehydration. Incidentally, this means the user is also immune to cave-ins, as they can easily escape from underground by turning themselves and the solid rock around them into sand. Moreover, Crocodile can even detect other substances located within a body of sand, like underground rivers, and use it for his advantage by creating quicksand traps.<br><br>Weakness:<br> The Suna Suna no Mi is one of few Logia-type fruits that can naturally counteract their own weakness. The main weakness of this Logia power is exposure to liquids: specifically, the user's sand turns solid when in contact with liquids, such as water or blood."   
     },
     {
@@ -28,6 +34,10 @@ const logia = [
         user: "User: Sabo(Current), Portgas D.Ace(Deceased)",
         manga:"Manga Debut: Chapter 158",
         anime:"Anime Debut: Episode 94",
+        fruit:"./image/flame.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"The fruit's powers allows the user is able to create, control, and become fire.<br><br>Usage:<br>  With this in mind, the user can create devastating fire-based attacks and gain a high resistance towards most heat-based attacks. The flames can also be used to increase the force of physical attacks. By turning into fire, the user is capable of letting enemy attacks harmlessly pass through their fiery body or move around quickly in a stream of flames. Igniting oneself similarly has the added effect of burning an opponent if they had tried to physically harm the user.<br><br>When this power clashes against certain other Logia on equal grounds, this seems to come to a stalemate: neither smoke nor ice was able to overcome nor succumb to the flames, instead cancelling each other out when the two elements collided.<br><br>Weakness:<br> The Mera Mera no Mi is inferior to the Magu Magu no Mi in terms of elemental hierarchy. Magma is considerably hotter than fire, allowing it to overwhelm the Mera Mera no Mi's powers. The magma can neutralize even the intangibility and heat-immunity of the Mera Mera no Mi, thus leading the user to be burned and completely vulnerable. If the magma strikes through the body of the user, it cannot be phased through like most other attacks, and the damage inflicted will remain, as with any normal person's body."
     },
     {
@@ -37,6 +47,10 @@ const logia = [
         user: "User: Enel",
         manga:"Manga Debut: Chapter 241",
         anime:"Anime Debut: Episode 155",
+        fruit:"./image/rumble.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"A holder of this Logia power can create, control, and transform into electricity, effectively becoming lightning incarnate.<br><br>Usage:<br> They can discharge varying amounts of electricity from their body to manipulate as they please, including regulate the voltage: 200 million volts being the maximum output (roughly in the range of natural lightning). Given the sheer destructive power that is inherent to lightning, this ability seems remarkably strong even by Logia standards and grants overwhelming attack power, as well as high speed and versatility;<br><br> Nico Robin has mentioned that, among the many existing Devil Fruits, the Goro Goro no Mi's power is one of the few considered invincible.<br><br> By transforming fully, the user can move at the speed of lightning, allowing them to zip into and out of sight, cross large distances nigh-instantaneously, dodge most attacks, and overtake any fleeing target. Merging their lightning self with conductive materials (gold) to stealthily travel through them becomes also possible for the user, as does traversing thunderclouds in the sky. On top of that, the Goro Goro no Mi user, being wholly immune to electricity, can freely spawn it inside their body without repercussion; they can even restart their own heart with electricity in case they suffer cardiac arrest. <br><br>Weakness:<br> While extremely powerful, the Goro Goro no Mi's ability has a unique weakness in the form of rubber, an effective insulator. Thus, whoever ate the Gomu Gomu no Mi becomes the natural enemy of, and counter to, whoever wields this Logia power"
     },
     {
@@ -46,6 +60,10 @@ const logia = [
         user: "User: Marshall D.Teach",
         manga:"Manga Debut: Chapter 440",
         anime:"Anime Debut: Episode 325",
+        fruit:"./image/dark.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"This fruit allows the user to control darkness and its unique property of gravity(black hole).<br><br>Usage:<br> The darkness is visually demonstrated by a black smoke-like substance spreading out from the user's body. The darkness is a void that devours and crushes everything. Due to this, the user can absorb physical matter and attacks of any type by sucking it into the darkness. The user can also use this ability to irresistibly pull the opponent to them, regardless of their current state.<br> Similar to a black hole, the user can absorb things inside a vortex. It seems that it does not completely compress and annihilate that which is sucked in as an actual black hole would do, but rather creates some form of space where things are stored. Blackbeard was able to suck an entire town into himself, and when he eventually regurgitated, everything that was expelled was reduced to scraps but not completely destroyed. Living beings who are absorbed seem to be able to survive being absorbed and expelled, but become heavily wounded and left in shock by the experience.<br><br> In addition to the previous abilities, this fruit somehow has one unique and frightening ability that separates it from all other Devil Fruits: the ability to absorb and completely nullify the powers of other Devil Fruit users by simply touching them. All types, be it Paramecia, Zoan, or Logia, are affected by this, though Logias are the most affected as they can no longer become intangible by transforming into their respective element.<br><br>Weakness:<br>The major strength of this particular fruit, the darkness that the user turns into which swallows up everything, is also its major weakness. Since the darkness also absorbs attacks, the user of the fruit is still vulnerable in battle, which does not pass through the darkness they turn into. If they fail to absorb an attack in time, the user can be hurt like any other normal human being or even more, as stated by Teach. Unlike other Logia fruits, the Yami Yami no Mi does not seem to give Blackbeard access to an elemental state where he can disperse, reform, or regenerate his body."
     },
     {
@@ -55,6 +73,9 @@ const logia = [
         user: "User: Kuzan(Aokiji)",
         manga:"Manga Debut: Chapter 303",
         anime:"Anime Debut: Episode 225",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        aCharacter:"",
         info:"As a Logia, this fruit allows its user to transform into the element of ice, as well as create and control it on a potentially massive scale, especially to freeze their surroundings.<br><br>Usage:<br> Particularly potent even by Logia standards, with this power it was strong enough to permanently warp the very climate of one half of an island into a frozen, uninhabitable wasteland. The Hie Hie no Mi's power is considered a superior counterpart to the Yuki Yuki no Mi's, ice being a superior freezing agent to snow.<br> While other Logia fruits give their users the ability to dissipate out of harm's way by turning into their respective elements, it is interesting to note that this fruit is one of the few Logia fruits that can be hit with a physical attack. This is mainly because ice is a solid-state element, and thus, the user cannot simply dissolve out of harm's way as most Logia-users can with their fluid bodies, and it is slower in terms of reforming the body when damaged. However, most attacks are still ineffective against this fruit because its user can simply shatter and reform the ice composing them on impact. It is also apparent that the user can control the ice in his body to mold it and change its shape, as seen when Kuzan formed a hole in his chest before Whitebeard stabbed through Kuzan with his bisento.<br><br> The user can instantly freeze anything that comes in contact with them, whether the user grabs onto the foe or the foe makes contact with the user's body. If the frozen area is not treated properly and immediately, then the resultant frostbitten areas will suffer permanent tissue damage. It has not been shown, both Blackbeard and Garp have asked Kuzan to unfreeze their subordinates after he attacked them, implying that the user can manually undo the effects of the Devil Fruit.<br><br>Weakness:<br>Other than that, the user is also vulnerable to the standard Devil Fruit weaknesses. However, with the power over ice, this grants the user one of the few known powers capable of counteracting the standard Devil Fruit weakness."
     },
     {
@@ -64,6 +85,10 @@ const logia = [
         user: "User: Borsalino(Kizaru)",
         manga:"Manga Debut: Chapter 506",
         anime:"Anime Debut: Episode 401",
+        fruit:"./image/glint.png",
+        ufruit:"",
+        fruitBox:"",
+        aCharacter:"",
         info:"This fruit allows the user to control, create, and transform into the element of light.<br><br>Usage:<br> As such, the user is able to utilize light-based attacks, including shooting laser beams from their hands, fingers, or feet (which are capable of causing massive explosions), summoning light flashes to blind opponents, and undergoing partial transformations into light itself that enable physical attacks that connect at light-speed, which can cause devastating damage and sent enemies flying extremely far, destroying anything said enemy passes through due to the speed of the attack itself. The user, like any Logia, is able to transform into light to let incoming attacks pass right through them. The user is also able to travel at the speed of light, form hard light constructs, create or split into shining particles for locomotion, regeneration or even multiplication, and reflect themself between surfaces to any desired location.<br><br>Notably, the user's body becomes so lightweight that they become capable of standing over something as small and fast-moving as a cannonball in mid-launch, or float in mid-air for a few instants. That said, they can still accelerate into extreme speeds to transfer massive weight and momentum into physical moves, right before they make contact with the intended target. In addition, any application of light, whether in technology or weapon, is useless against the user's body, as they can simply bypass anything that is comprised of a laser or light system.<br><br>Weakness:<br>Since this fruit is light-based, some of the user's attacks, like lasers, can only travel in straight lines. It is subject to the standard Devil Fruit weaknesses."
     },
     {
@@ -73,6 +98,9 @@ const logia = [
         user: "User: Sakazuki(Akainu)",
         manga:"Manga Debut: Chapter 554",
         anime:"Anime Debut: Episode 463",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        aCharacter:"",
         info:"Magu Magu no Mi possesses incredible power, particularly in terms of offense. The main strength of this Devil Fruit is that it allows the user to become, control and produce magma (molten rock) to attack their opponents with.<br><br>Usage:<br> The intense heat can vaporize an iceberg instantly and boil seawater that the magma happens to land in. Additionally, the heat from the magma melts away almost any flesh or metal it comes in contact with and is capable of burning away entire parts of a human body, leaving the victim in a scarred or disfigured shape. With this power It was strong enough to permanently change the weather of one half of an island into a blazing inferno.<br><br>Because of the fruit's natural element, if one were to attempt to strike the user with their own body, they would end up seriously injured or burned. Weapons, such as swords, were also shown to melt after coming into contact with Akainu. The Magu Magu no Mi has one of the highest offensive power among the Devil Fruits. Along with the incredible corrosion and temperatures, the magma-based attacks also carry highly explosive properties; one attack is enough to cause an explosion capable of inflicting tremendous damage throughout the entire battlefield. Just by forming an attack, the heat coming off his body has been shown to melt enemy weapons around him. Sakazuki has been shown to repeatedly pierce through the bodies of his adversaries with ease using his power. When it comes to transport, Sakazuki can move at extremely high speeds by launching himself like an actual volcano blast towards his target, and can even melt solid earth and rock to make tunnels to move through the underground.<br><br>Weakness:<br> Aside from the standard Devil Fruit weaknesses, the powers do not seem to be weak against anything specific. In fact, the only things that the Magu Magu no Mi could not burn were the flames produced by Marco's Mythical Zoan fruit"
     },
     {
@@ -82,6 +110,9 @@ const logia = [
         user: "User: Caribou",
         manga:"Manga Debut: Chapter 603",
         anime:"Anime Debut: Episode 521",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        character:"",
         info:"Numa Numa no Mi, Caribou can create bottomless swamps which are impossible to escape from.<br><br>Usage:<br> If someone is caught by the swamp created by Caribou, they will sink more if they struggle. The swamp also serves as a storage space, allowing Caribou to store an infinite amount of whatever he has captured inside his body. The storage space can also be used to help carry a large surplus of food which remains edible over long periods of time, with Caribou noting that he has a month's worth of rations stored within himself. He is able to keep several weapons within himself and bring them out when he needs them. While he can keep creatures alive when they are in his swamp, he can also use the swamp to drown his opponents if he wishes to.<br><br>Like most of the other Logia users, Caribou cannot be hit or sliced as his element is intangible, and any attacks will be absorbed into his body harmlessly.<br><br>Weakness:<br>The major weakness of this fruit is that the user cannot transform back to their normal form if they are confined in a space that their normal body cannot fit in. Due to this weakness, Franky was able to capture and seal Caribou in a barrel easily. Also this fruit has yet to demonstrate offensive capabilities other than 'drowning' opponents into the swamp. Also, since his mud is just basically earth that is mixed with water, this leaves him vulnerable to individuals who can manipulate water, such as Jinbe."
     },
     {
@@ -91,6 +122,9 @@ const logia = [
         user: "User: Caesar Clown",
         manga:"Manga Debut: Chapter 658",
         anime:"Anime Debut: Episode 582",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        character:"",
         info:"This Devil Fruit's main strength is the ability to change into a gas-like form.<br><br>Usage:<br> This allows the user to float, fly and go inside places that normal beings cannot, as Caesar Clown was seen hiding inside some flasks when he was informed that the Marines were nearby. However, he can also become dense enough to hold objects, like his cocktail glass. The gas that Caesar produces is very poisonous. The gas appears to be explosive when set alight, which allows Caesar to create controlled explosions without harming himself. Additionally, the user has the power to manipulate other preexisting gases in any given location, and can suffocate their opponents by removing the oxygen in the area. This gives the user two options to instantly defeat their opponent, allowing Caesar to knock out Luffy after realizing that Luffy was immune to poison (however the area effect is finite, so if someone escapes the oxygen-free zone they will be able to breathe again). They can even merge with such gases to enhance his own power, depending on the gas being absorbed, all the while being immune to the toxic effects himself.<br><br>Weakness:<br>The gas form appears to be weak against fire, although this is mitigated by the user's ability to minimize oxygen levels in the surrounding area, preventing combustion. On the other hand, it seems to take some concentration or is only possible while solid to manipulate the oxygen, as Usopp and Nami could breathe again when Brownbeard struck Caesar with a metal pipe, and there seems to be a range of which Caesar can control oxygen, leaving him more vulnerable to longer-ranged attacks. Also, many of Caesar's techniques require external ignition and tools to work."
     },
     {
@@ -100,6 +134,9 @@ const logia = [
         user: "User: Monet(Deceased)",
         manga:"Manga Debut: Chapter 681",
         anime:"Anime Debut: Episode 607",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        character:"",
         info:"This fruit's major strength is that it allows the user to turn themselves into snow.<br><br>Usage:<br> Monet had an extreme level of resistance, if not outright immunity, towards cold, due to her Devil Fruit's element, much like Aokiji's Hie Hie no Mi powers. While the two Devil Fruits have similar abilities, the Hie Hie no Mi is superior to the Yuki Yuki no Mi. Two major differences in the fruit's abilities are that Monet's intangibility as snow was not always a solid form since she was able to choose to compress the snow, and that she couldn't directly freeze her target solid.<br><br>As a Logia, Monet could turn herself into snow to avoid attacks by letting them pass through her, or by floating around attacks. She could also manipulate the density of the snow to form solid snow barriers. These barriers are extremely hard, making it difficult to destroy them, but she could easily pass through her snow barriers. She also had the ability to weaken someone and make them lose consciousness by hugging them, using her cold body to sap their own body heat. By transforming into snow she could secretly hide in snowstorms, as seen when she followed Trafalgar Law through the Ice Lands without being noticed. She could also release a massive snowstorm to take advantage of the cold to weaken her opponents in a similar way. She also used her powers to change the battlefield into a snowfield so she could dive into the snow from her snowstorm to hide, move, trap and attack her enemies quicker.<br><br>Weakness:<br> She also has a weakness to heat, as shown when Nami used her Clima Tact's Heat Egg to damage her wing. Furthermore, she could also lose control of her body's transformations if she became mentally unstable, as shown when Zoro cut her in half non-lethally and the resulting fear and anxiety after she thought she was going to die."
     },
     {
@@ -109,6 +146,9 @@ const logia = [
         user: "User: Aramaki(Ryokugyu)",
         manga:"Manga Debut: Chapter 1053",
         anime:"Anime Debut: Episode 1080",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        aCharacter:"",
         info:"A holder of this Logia power can create, control, and transform into plants: namely those that make up forests.<br><br>Usage:<br> The user's body can partially or fully take on the characteristics of trees (from wood to foliage) as well as flowers, vines, grass, moss, etc., making them akin to a living forest (and making this the only known Logia whose element comes as a form of organic matter). The plants spawned by this ability can be grown rapidly and made to move around freely, seemingly being not limited by the rigidity and stiffness that some plants, like trees, normally possess. The user can generate large quantities of plants to unleash overwhelming, large-scale attacks, like underground root tentacles that can ensnare multiple targets or even enormous creatures, like a dragon, at once. Additionally, those plants can rapidly absorb any liquid they touch, which includes dehydrating living creatures after impaling them, leaving them as shriveled husks.<br><br> Another benefit bestowed by this Logia is that the user can undergo photosynthesis with their plantlike body allowing the ability user to sustain themself indefinitely so long as they are exposed to light and water, without conventionally eating. The user also appears to have direct influence on a land's fertility, leaving behind a trail of various plant life wherever they walk. Ryokugyu can also perform highly unorthodox feats with the plants he generates, such as growing a giant flower on his back and using it to fly by spinning it rapidly like a propeller.<br><br> Unlike most other Logia Devil Fruits, this fruit turns the user into a solid element instead of a fluid, making it similar to the Hie Hie no Mi. This means that the user is unable to let attacks pass through their body as they can simply regenerate from wounds like any Logia.<br><br>Weakness:<br>The user displays all the general weaknesses common to Devil Fruits."
     },
     {
@@ -118,6 +158,9 @@ const logia = [
         user: "User: Karasu",
         manga:"Manga Debut: Chapter 593",
         anime:"Anime Debut: Episode 510",
+        fruitBox:"./image/unknown.png",
+        aCharacter:"./Character/karasu.png",
+        ufruit:"",
         info:"This fruit's ability is to create, control, and become the natural element of soot: fine black particles of carbon residue created by the incomplete combustion of organic matter (wood, coal, etc.).<br><br>Usage:<br> When transformed into this powdery substance, the user becomes intangible like most Logia users and invulnerable to physical means of attack, like gunfire, and at the same time is able to float in midair thanks to the soot's lightness. By condensing the soot making up their body (or that they additionally create) into a semi-solid state, the user may mold it into any shape they wish, on top of scattering their body into separate pieces while retaining conscious control over each individual one.<br><br> Karasu's go-to method of using his powers is to divide up his body into a murder of crows made of compressed soot. In this divided state he can fly at high speed, relay information or generally communicate by speaking and listening through individual crows, on top of carrying objects or even allies with him through the air (a single crow being able to carry an average-sized human on its back). It is shown that, in this way, the crows can operate a significant distance away from Karasu's main body and be summoned from soot that allies carry with them. <br><br>Weakness:<br>No weaknesses of this ability are known apart from the standard ones for Devil Fruits in general and Logia types in particular"
     },
     {
@@ -127,6 +170,9 @@ const logia = [
         user: "User: Honey Queen",
         manga:"Manga Debut: Non-canon",
         anime:"Anime Debut: Clockwork Island Adventure",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        character:"",
         info:"The Toro Toro no Mi allows its user to transform into an unidentified lilac-colored liquid.<br><br>Usage:<br> It enables its user to flow through small spaces and attack with liquid blasts. The user is also immune to physical attacks, which simply pass through their liquid body.<br><br>Honey Queen uses her ability to attack very quickly and for surprise attacks, as seen when she kidnapped Sanji. She launched a large wave of her liquid against the Straw Hat Pirates, with enough force to cause Sanji to fall off the air balloon. She also transforms into the liquid for quick movements and evasive maneuvers, and to move through pipes for faster transportation.<br><br>Weakness:<br>However, the user has no effective physical strength when in liquid form, and cannot transform back into their normal form if they are in a space that their normal body cannot fit in. Because of these flaws, Nami easily captured and sealed Honey Queen in a jar while she was in her liquid form, and preventing her from escaping. Also, even though most Devil Fruit powers transform the user's clothes along with their body, Honey Queen always leaves her clothes behind while transforming into liquid, requiring Boo Jack to bring her clothes back to her. She also is weak to cold, as she ended up frozen when she turned into liquid form ."
     },
     {
@@ -136,6 +182,9 @@ const logia = [
         user: "User: Simon(Deceased)",
         manga:"Manga Debut: Non-canon",
         anime:"Anime Debut: Big Secret Treasure of the Seven Phantom Islands",
+        ufruit:"./image/pasa.jpg",
+        fruitBox:"",
+        character:"",
         info:"The major strength of the ability is that it allows the user to transform into sheets of paper.<br><br>Usage:<br> This enables the user to strike or evade attacks like other Logia-class Devil Fruits. The thin sheets of paper can be used to inflict cutting damage on enemies and launched as projectiles. Transforming into paper also enables the user to fly freely. In addition, by using strange symbols written on the pages of an ancient book, the user is able to produce various elemental and physiological effects.<br><br>Simon used his ability to fly by transforming into paper, which allowed him to travel between islands without a ship. In combat, he launched sheets of paper as projectiles and used the strange symbols on the pages to inflict various effects on his opponents. He also used his ability to heal his injuries and avoid attacks.<br><br>Weakness:<br> Although paper would normally be weak against fire, the user can counter this weakness by using a symbol with the power to suppress fire. This was demonstrated when Simon was able to counter the flames of Usopp's Kaen Boshi. However, if the pages are splashed with paint, the symbols lose their power and fire becomes a substantial risk. Aside from this, it is also subject to the the standard Devil Fruit weaknesses."
     },
     {
@@ -145,6 +194,9 @@ const logia = [
         user: "User: Gasparde",
         manga:"Manga Debut: Non-canon",
         anime:"Anime Debut: Dead End Adventure",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
+        character:"",
         info:"This Devil Fruit allows the user to transform into a kind of green-colored candy syrup.<br><br>Usage:<br> The user cannot be hit nor sliced because his body will just absorb the impact or take the blade which also immobilizes the attacker which then allows the user to pummel his enemy. The user can use it to either make himself syrup-like (with sticky properties to trap the opponent) or intensely solid. Despite being syrup, it seems to be inedible, as seen when Luffy tried to contain Gasparde in his mouth, only to be forced to spit him back out.<br><br>Gasparde has mostly been seen using this fruit for combat purposes. The stickiness of the syrup allows him to trap his opponents in his body when they attack him, which then gives him the free opportunity to pummel them with his great strength. Gasparde can turn into liquid syrup to let attacks bypass him, evading harm. However, he has not fully mastered his ability, thus a surprise attack can cause him pain.<br><br> Gasparde's primary method of attack is akin to how the Toge Toge no Mi is used: transforming parts of his body into spikes of hardened syrup to impale his opponents, or covering his entire body full of spikes and launching himself forward to heavily skewer them, which also was meant to serve as a deterrent from counterattacks. Gasparde also used the syrupy properties to mimic Luffy's rubber elasticity powers, stretching his arms forward to extend his syrup spear, and to create a slingshot effect for his own body.<br><br>Weakness:<br> Like a few other Logia Devil Fruits, this one has a weakness that can nullify its intangibility: flour. When flour comes in contact with the user, he loses his stickiness and he is vulnerable to physical attacks."
     },  
 ];
@@ -1381,6 +1433,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 498",
         anime:"Anime Debut: Episode 392",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"The major strength of this fruit is that it allows the user to transform into an allosaurus. <br><br>Usage:<br> A large and powerful theropod dinosaur from the prehistoric era, as a carnivorous Ancient Zoan, the fruit grants them features much better suited for close combat than basic Zoans, such as sharp teeth and claws. As is the case with every other Zoan ability, the user can also become a human-animal hybrid at will.<br><br>While in full allosaurus form, Drake's own size increases, making him bigger than a Pacifista. He is also granted powerful sharp teeth and jaws that are strong enough to bite through a Pacifista's heavy armor, which is said to be stronger than steel. His tail is also a powerful weapon, capable of slamming people with great force. As with all Ancient Zoans, Drake's fruit grants him much greater durability than regular Zoan users. In Human-Beast allosaurus form, Drake becomes smaller than his Full Beast form, but still relatively large, and is capable of wielding his signature weapons for melee combat. In Beast form, Drake's fighting style mainly revolves around biting. Should he capture his target in-between his maws, he will crunch and then spit them down.<br><br>Weakness:<br>This fruit has no known weaknesses, aside from the standard Devil Fruit weaknesses."
     },
     {
@@ -1391,6 +1445,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 929",
         anime:"Anime Debut: Episode 923",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info: "This fruit bestows the power to turn into a Spinosaurus.<br><br>Usage:<br> A large and powerful, semiaquatic, carnivorous theropod from the prehistoric era (considered to be the largest predatory dinosaur ever), as well as a hybrid between a Spinosaurus and human (or other) at will. As with other dinosaur-based Zoan types, transforming into a Spinosaurus grants the user tremendous strength, particularly in their jaws, tail, arms and claws (the latter in Human-Beast Form). In his Beast Form, Page One is able to smash and tear apart buildings and stone with ease using his maw and tail. In his Human-Beast hybrid form, he is strong enough to send a Raid Suit-donning Sanji flying and crashing through several buildings with a single swipe of his arm.<br><br>Page One uses this fruit to great effect during combat and when going on the offensive. He is a straightforward fighter who fights with bites, claw and tail swipes while in Beast Form. In his Human-Beast Form, which also provides him with sharp claws on his hands, he favors slashing attacks instead and is able to cling to things bigger than him. In the anime, he is shown to be able to jump to high heights in his full Beast Form.<br><br>Weakness:<br>Page One's increase in size for his full Beast Form may be a problem if he ends up fighting indoors, particularly structures that are not built to accommodate his ability."  
     },
     {
@@ -1401,6 +1457,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 925",
         anime:"Anime Debut: Episode 918",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"A user of this fruit's power can turn into a pteranodon.<br><br>Usage:<br> A large, flight-capable, predatory reptile from prehistoric times. Once transformed, they become able to fly at tremendous speed, covering large distances rapidly, and enjoy a significant boost to their overall physical abilities, as typical for a carnivorous Ancient Zoan user. Additionally, the full Beast Form as displayed by King is notably large, several times bigger than an average-sized human (though it is worth noting that King is already much larger than normal people in his normal form).<br>Like other Ryu Ryu no Mi models, the pteranodon Zoan grants the user a tough, dragon-esque hide that significantly increases their durability to a level above regular Zoans. As for offense, the great (flying) speed, strength, and size conferred by the transformation allows the user to violently push back and cause notable damage to whatever they fly into headfirst, be it a person or massive structure (large ship). The user's pteranodon beak is long, sturdy, and an effective pointed weapon, allowing King to affix himself to smaller targets and then divebomb into structures in order to tear them apart.<br><br>Moreover, the user is given the supposedly natural ability of using their pteranodon head like a slingshot of sorts: pulling their beak back into their face by pulling on their head crest, then releasing their grip to shoot out their head like a bullet, piercing whatever they aim at with incredible force. According to King, this conforms with how pteranodons used to hunt their prey in ancient times. Aside from their head and beak, the user's wings can make potent weapons as well given their sturdiness, able to generate cutting winds or clash against swords as if they were blades themselves. King uses his ability primarily for physical—especially aerial—combat, with his ability to fly being highly advantageous for travel purposes, especially over the sea. King has proven able to soar at tremendous speeds.<br><br>Weakness:<br>No weaknesses are known of this ability beside those that are standard for Devil Fruits." 
     },
     {
@@ -1411,6 +1469,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 925",
         anime:"Anime Debut: Episode 918",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"The major strength of this fruit is that it allows the user to turn into a brachiosaurus.<br><br>Usage:<br> A very large and heavy-bodied sauropod dinosaur from the prehistoric era, granting them an immense boost to their size and bulk. Their size is comparable to that of a giant, as a fully transformed Queen is shown to tower over Big Mom, who herself is extremely tall at over 8 meters. Due to the signature long neck of the brachiosaurus, the user is able to reach targets that may be further away than they normally can by chomping down on them. The user's immense weight can be used as a weapon too, as very little will be able to withstand the crushing pressure of their massive, transformed body.<br><br>In addition, the brachiosaurus apparently has the natural yet unusual ability to separate the head, elongated neck, and tail from the rest of the body and have them act independently. The neck and tail form a snake-like component and can coil around opponents and crush them with immense pressure. Like other Ancient Zoans, this fruit also grant enhanced strength and durability, to a much greater degree due to a brachiosaur's immense size.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses."  
     },
     {
@@ -1421,6 +1481,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"This fruit's power is to turn into a full and hybrid version of a pachycephalosaurus.<br><br>Usage:<br> A bipedal, herbivorous dinosaur distinguished by its super-thick, durable skull roof. The Human-Beast Form already grants a significant increase in body size, with Ulti going from an ordinary height to over three times as tall, and her full Beast Form is even bigger, at least as large as her brother's full spinosaurus form. Much like other fruits of the Ryu Ryu no Mi series, this one grants its user a tremendous increase in physical strength. In spite of having proportionally smaller arms, Ulti is able to hold targets down in her full pachycephalosaurus form.  Beside strength, the user, in their less heavy hybrid form, becomes much faster, especially due to their strengthened dinosaur legs. Ulti is able to dart through the air at extreme speed by jumping, while proportionally increasing the impact force of her attacks in the process, and can casually dodge extremely fast-moving attacks, disappearing from sight.<br><br>With the transformation, the user's skull grows thicker and harder, which suits Ulti particularly given her fighting style that revolves around headbutts. While transformed, her large skull dome (more so her forehead in hybrid form) allows Ulti to potentially crush opponents' skulls completely with headbutts, like she already can in human form.<br><br>Weakness:<br>No weaknesses of the fruit's power are of note, beside the standard Devil Fruit weaknesses." 
     },
     {
@@ -1431,6 +1493,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"A user of this Zoan can become a triceratops—a large, heavy-bodied, herbivorous dinosaur from prehistory—and assume a hybrid form.<br><br>Usage:<br> In Sasaki's case, the full Beast Form is big enough to outsize a 13m-tall robot, and his hybrid form also stands taller than that very same robot. Similar to other dinosaur Zoans, a user of this fruit is granted an enormous boost in physical strength. They can charge into and bash enemies with incredible force, their three sharp-pointed horns (especially their nasal one) serving as a dangerous pointed weapon to pierce opponents with. Given a triceratops' hardy skin, the user also enjoys a dramatic increase in durability, which especially applies to their frontal side that benefits from their thick skull, bony frill, and horns. This durability is such that the user may be unscathed by and able to outright ignore heavy, explosive artillery fire.<br><br>In his hybrid form, Sasaki becomes bipedal and thus capable of wielding his weapon for swordsmanship. Sasaki's most peculiar ability in this form, however, is that he is capable of sustained flight, which he achieves by somehow rotating the frills around his neck at high enough speeds that it simulates a helicopter's rotary wings, propelling his own large and heavy body through the air. This grants Sasaki increased mobility and speed that he can take advantage of, either by overwhelming his opponents with fast, aerial strikes from his sword or dodging incoming enemy attacks.<br><br>Weakness:<br>While the user's frontal defense is quite formidable, the entirety of their body is not so invulnerable, with their belly area being a particular weak spot."
     },
     {
@@ -1441,6 +1505,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"A user of this Zoan can become a Rosamygale grauvogeli—a heavy-bodied, stout-legged mygalomorph spider from prehistoric times—as well as a human-spider hybrid.<br><br>Usage:<br> Though an actual Rosamygale was quite small in size, the user's transformation will be proportionate to their natural body, which in Black Maria's case exaggerates her spider form's size to dwarf normal humans.<br><br>As the most notable of their spider abilities, the user can create sticky spider silk from their body; while real spiders extrude silk from their abdomens, the user of this fruit can produce it from even their fingertips. The silk can be used to build webs and other structures meant for capturing and/or immobilizing targets, including sticky nets that can also be used as a shield. The webs are strong enough to easily keep physically powerful fighters tied up and, by Black Maria's own reckoning, anyone trapped in them will never be able to get loose. By making the webs into intricate arrays of traps, the user can make it so that no matter where an enemy steps, they will get captured.<br><br> With the webs being highly flammable, they can be used to instantly set the user's surroundings aflame by lighting them up, which Black Maria does by using the human face on her spider body, which curiously enough is capable of spitting fire from its mouth, though this may be due to additional abilities granted by Black Maria's tampering of her fruit's hybrid form via mutative drugs.  The ends of the user's spider legs are furthermore able to secrete poison, making them an effective weapon at close range.<br><br>Weakness:<br>The user's webs will become brittle and easily shattered if they are frozen."
     },
     {
@@ -1451,6 +1517,8 @@ const zoanAnicent = [
         manga:"Manga Debut: Chapter 977",
         anime:"Anime Debut: Episode 982",
         Type:"(Ancient Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"A user of this fruit's power can turn into a saber-toothed tiger or Smilodon.<br><br>Usage:<br> A powerful, predatory big cat from prehistory that is characterized by its elongated, curved fangs on its upper jaw. The ability's current user Who's-Who, who is an already large man, grows to a very notable size in his full Beast Form, dwarfing his human-sized subordinates and a 3m-tall fish-man. The Human-Beast Form, likewise, is considerably large in terms of height and muscle bulk. As with other Ancient Zoans, this fruit's transformation bestows greater strength and durability than regular Zoans'. The user gains a pair of long, sharp canine fangs usable for biting attacks, as well as retractable claws on their hands and feet, much like other feline Zoan powers. Those natural weapons are quite strong and can even overpower reinforced defenses. Amongst the Ancient Zoans, it possesses quite high agility despite the user's enlarged size.<br><br>Weakness:<br>Because Who's-Who gains a tail in this form, opponents may exploit this by stepping on it, preventing Who's Who from escaping their reach and forcing him into a precarious position for subsequent moves. Aside from that, no weaknesses of the fruit's power are known besides the standard Devil Fruit weaknesses."  
     },
     {
@@ -1460,6 +1528,8 @@ const zoanAnicent = [
         user: "User: Jack",
         manga:"Manga Debut: Chapter 801",
         anime:"Anime Debut: Episode 746",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
         info:"This fruit allows the user to transform in full or hybrid mammoth at will.<br><br>Usage:<br> The full mammoth form granted by this fruit gives the user a massive frame, significantly increasing Jack's already abnormal size. As an Ancient Zoan, this fruit grants the user greater strength than a normal Zoan, Jack can level buildings with a single swing of his trunk and leave imprints of his feet on the ground just by stepping on it. The hybrid form grants the user a centaur-like body with four mammoth legs, a peculiar case for Zoan users, with the upper body of a man with the head, trunk, and tusks of a mammoth. In this form, the user is smaller but still large in size, as well as being faster and capable of wielding weapons for combat.<br><br>Jack has used this fruit to improve his combat capabilities; he can cause massive destruction with a single attack and bulldoze nearly anything that gets in his way by charging forward. So far, his only displayed attack has been swinging his trunk to damage his opponents and surroundings. In his hybrid form, however, Jack can wield both his shotel blades and use his Devil Fruit powers to augment the power of his swordsmanship in battle.<br><br>Weakness:<br>However, the user is extremely heavy and slow in their full beast form, leaving them unable to dodge high-speed attacks." 
     },
 ];
@@ -1473,6 +1543,9 @@ const zoanMythical = [
         anime:"Anime Debut: Episode 1",
         Status: "(Awakened)",
         Type:"(Mythical Zoan)",
+        fruit:"./image/gomu.png",
+        fruitBox:"",
+        ufruit:"",
         info:"The fruit's major strength, is that the user's body permanently adopts the properties of rubber. <br><br>Usage:<br> Their body can stretch, bend, bounce, inflate, and twist much like said substance, even when their power is nullified by way of submergence in water or Seastone exposure. Unlike most other Devil Fruits, the effects of the Gomu Gomu no Mi are always active, making the user's body permanently rubbery. The user becomes almost completely immune to blunt damage, including bodily attacks, blunt weapons, bullets, and even cannonballs, all of which will simply bounce off from their skin. The fruit enables all parts of the consumer's body to behave like rubber, including their organs. This means that certain actions that otherwise would be impossible to do with a normal human body, such as pumping one's own blood or bones with air, can be achieved through this ability for extra speed or power. Furthermore, thanks to rubber's natural insulating properties, the user is also immune to electrical attacks.<br><br>Awakened:<br>Once the fruit is awakened, the user undergoes a drastic transformation where their hair and clothing turns white, their hair resembles flames, their eyebrows resemble spirals, and gains ringed pupils, in addition to steam wrapped around him. The user can alter their physique without the need of inflating their bones or muscles. Zoan's transformation abilities and the Paramecia's environmental alteration, even elements like natural lightning. However, unique to this fruit is that it can extend to living beings, as Luffy could influence flesh as if it was rubber too. This fruit give the user (toon force) like abilities from running on air to affecting others around him.<br><br>Weakness:<br>Despite all the great advantages the user gets by using the fruit, there are a number of weaknesses. One major risk of the user's powers is that their stretched limbs take a moment to retract back into place, leaving them vulnerable to attacks in the moments when their limbs are stretched. One of the biggest weaknesses that Gomu Gomu no Mi users possess is their susceptibility to cutting attacks and bladed weapons." 
     },
     {
@@ -1483,6 +1556,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
         Type:"(Mythical Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"The main strength of this fruit is that it allows the user to transform into a giant, living, golden Buddha.<br><br>Usage:<br> Gaining an extreme boost in strength to match the increased size. In this form, Sengoku's limbs grow out of proportion, giving him abnormally large arms and relatively tiny legs. His entire body takes on a solid gold hue (gray color in Gigant Battle); in addition to a full and hybrid transformation that are available to all Zoan Devil Fruit users, he can use palm thrusts to launch powerful shock waves.<br><br>can launch golden shockwaves by striking his hand forward in a motion similar to a palm thrust. That can cause heavy and widespread damage to a group of enemies, and was strong enough to injure even the Blackbeard Pirates. In the anime, these shock waves are shown to be powerful enough to clash against the tremor shockwaves created by Marshall D. Teach.<br><br>Weakness:<br>This fruit has no apparent weaknesses, aside from the standard Devil Fruit weaknesses."   
     },
     {
@@ -1493,6 +1569,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 936",
         anime:"Anime Debut: Episode 932",
         Type:"(Mythical Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"This fruit's ability is to transform into an onyudo: a mythical, human-like yokai that takes the form of a giant monk;<br><br>Usage:<br> Onimaru, in particular, stands at over four meters tall. This fruit being of the Hito Hito no Mi series, its transformation grants a nonhuman user human intelligence and the ability to speak the human language. Transform from his komagitsune(fox) self into a large, naginata-wielding onyudo known as Gyukimaru. In his Gyukimaru form, he possesses a human intellect that comes with the ability to speak and a presumably extended lifespan, given the fox's age of 69 years. Befitting his size, Gyukimaru has enormous strength in his onyudo form, as he could match up to Roronoa Zoro's physical power for some time. He also has great speed, able to match Zoro's agility in their first match, deftly wielding his naginata against Zoro's two swords.<br><br> Onimaru has yet to display any mythical abilities outside of his transformation.<br><br>Weakness:<br>So far, no weakness of this Devil Fruit power is known beside the standard Devil Fruit weaknesses."   
     },
     {
@@ -1503,6 +1582,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 575",
         anime:"Anime Debut: Episode 484",
         Type:"(Mythical Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"The main strength of this fruit is that it transforms the user into a mythological kitsune, complete with nine large fox tails.<br><br>Usage:<br> As such, they gain all the abilities of one, including the ability to disguise themselves as anyone they like, allowing them to impersonate them. The clothing of the target individual can also be imitated during the transformation. <br><br>Devon was seen using this ability to briefly impersonate the deceased Absalom and trick his comrade Gecko Moria.<br><br>Weakness:<br>The fruit has no known weaknesses aside from the standard Devil Fruit weaknesses." 
     },
     {
@@ -1513,6 +1595,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 971",
         anime:"Anime Debut: Episode 972",
         Type:"(Mythical Zoan)",
+        fruit:"./image/okuchi.png",
+        fruitBox:"",
+        ufruit:"",
         info:"This Devil Fruit grants the power to transform into a hybrid and full version of the Okuchi no Makami—a legendary wolf.<br><br>Usage:<br> According to Kaidou, is a Guardian Deity of Wano Country. While transformed, the user's hair becomes longer and more untamed, they gain a ribbon-like trail of cold air around their shoulders, and grow a large tail.<br><br>Usage:<br>  The transformation greatly bolsters the user's physical abilities and, as a carnivorous Zoan, presumably bestows heightened predatory instincts, on top of equipping the user with canine fangs and claws well-suited for combat. More specifically, the wolf deity form seems to come with a dramatic increase in physical strength, in Yamato's case enough to let him clash near-evenly with his father Kaidou, who was an Emperor of the Sea, while the latter has assumed his extremely powerful human-dragon form. Moreover, as with other fruits of the Mythical Zoan variety, this one blesses the user with at least one special ability: in particular, the user is able to generate ice, which they can expel as blasts from their mouth or otherwise make appear from their body, and can even use such ability without transforming.<br><br>Yamato makes use of his ice-generating ability for offense, by breathing out the substance to freeze targets solid or enveloping his club in it for strengthened melee attacks. For defense, Yamato may clad his body in a layer of ice to absorb damage like armor or erect protective walls of ice.<br><br>Weakness:<br>No weaknesses are currently known of this ability beside the standard ones for a Devil Fruit user."  
     },
     {
@@ -1523,6 +1608,9 @@ const zoanMythical = [
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
         Type:"(Mythical Zoan)" ,
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"The most basic strength of the fruit is that it gives its user the strengths and powers of a monster raccoon dog.<br><br>Usage:<br> In the case of Pato, the fruit's most major strength is that it has given life to an otherwise inanimate object. An object that has been given life by this fruit will also have sapient intelligence and the ability to speak, likely due to being a monster raccoon dog rather than a regular one. Being a Mythical Zoan-type Devil Fruit, it give the user the specific traits of the mythical raccoon dog in which it can transform ordinary leaves into anything else, from objects to other people and entire environments. In Pato's case, he must write a name on the leaf with his pen-tail for it to transform. The individuals the user creates have the same exact abilities as the originals and are utterly loyal to the user. They can even create copies of themselves.<br><br>Pato also seems to be able to summon various attacks of others using the leaves, such as Enel's lightning or Kuzan's ice attack, as seen in the fight against Red and Pato. The leaves seem to be able to summon many forces, objects and people, and can be capable of creating an area that is pitch black.<br><br>Weakness:<br>The people that the user creates aren't as powerful as the originals and will turn back into leaves once defeated. In addition, sometimes the clones will end up betraying their creator for various reasons." 
     },
     {
@@ -1533,6 +1621,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 234",
         anime:"Anime Debut: Episode 151",
         Type:"(Mythical Zoan)",
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"This Devil Fruit grants the power to transform into a large phoenix shrouded in blue flames, as well as a human-phoenix hybrid at will.<br><br>Usage:<br>As with all Zoans, the user's transformation significantly boosts to their overall physical abilities, bestowing strength. As a bird Zoan, the user is also given the ability to fly at high speed. The phoenix form comes with a set of sharp talons on the feet that can deliver slashing damage via kicks. Most significantly, the user can produce their Blue Flames of Resurrection. These light-blue flames enshroud the user upon transforming, though transforming is not necessary for the flames to be conjured. Generally, while the flames do not burn, spread, or exude heat like normal flames do, their special nature makes them more potent than normal fire.<br><br>Instead of burning, the phoenix flames have immense healing properties. When cloaked in them, the user can rapidly regenerate from all injuries inflicted onto them, lethal included, much like how a phoenix is said to rise from its own ashes. Thus, the user boasts enormous resilience, able to undergo extreme punishment without feeling pain or being slowed down. In Marco's case, severe injuries like his body being perforated all over (gunfire), having his head and midsection run through with blades, having parts of his head and neck blown off, or even having one of his wings cut off, have all elicited little reaction from him, the wounds simply disappearing in the flames almost as quickly as they were made. In the user's full phoenix form, attacks may simply pass through them as if their body is one intangible flame, akin to a Logia's body, the defining difference being that the user just regenerates, retaining a solid body under the fire. On top of self-healing, the phoenix flames may be applied to other living targets to mend them, but in that capacity to heal others, the flames have a smaller effect.<br><br>Weakness:<br> The user suffers from the standard weaknesses of any Devil Fruit user, like Seastone fully sealing their powers upon contact."  
     },
     {
@@ -1543,6 +1634,9 @@ const zoanMythical = [
         manga:"Manga Debut: One piece Art Nue",
         anime:"Anime Debut: N/A",
         Type:"(Mythical Zoan)" ,
+        fruit:"",
+        fruitBox:"",
+        ufruit:"./image/nue.jpg",
         info:" Devil Fruit that allows its user to transform into a nue hybrid and a full nue at will.<br><br>Usage:<br>The biggest known strength of the fruit is giving the user the ability to fly. As a nue, the user seems to be capable of fighting and causing destruction, as shown when Toratsugu attacked Lark and Kikuhime's wedding ceremony. The nue form is large enough to carry people on its back. <br><br>Weakness:<br>No weaknesses are known aside from the standard Devil Fruit weaknesses." 
     },
     {
@@ -1553,6 +1647,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 736",
         Type:"(Mythical Zoan)" ,
+        fruit:"./image/Uo.png",
+        fruitBox:"",
+        ufruit:"",
         info:"This fruit enables the user to turn into a giant, blue-scaled dragon: Eastern dragon called Azure Dragon.<br><br> Additionally, Human-Beast Form, becoming a smaller half-dragon humanoid. Apart from scales, acquired dragon features include horns, sharp fangs, and limbs with clawed hands and feet. In his full Beast Form, Kaidou grows to rival a small town in size, making this the largest yet-seen Zoan transformation.<br><br>Usage:<br> As with all Zoans, the user's transformation significantly boosts their physical abilities. The full dragon form's strength befits its size, as the user can severely damage structures like houses merely by brushing by them. Apart from raw strength, the user's size as a dragon belies their mobility, as they can move about at great speeds while keeping pace with significantly fast, human-sized foes. The scales covering the user's dragon body are noted to be extremely durable. Blows of incredible power, including ones strengthened by regular Busoshoku Haki, have proven utterly ineffective at hurting Kaidou.<br><br>The fruit bestows multiple supernatural abilities the most prominent of these is the power to conjure Flame Clouds, with which the user can travel through the air by using them as footholds, effectively enabling flight; Kaidou's dragon arms tend to be continuously encircled by fiery rings, which may be said clouds helping him fly more effectively through the air. Also, the Flame Clouds can be used to lift other objects, including entire islands. The most commonly seen element used is fire, such as a concentrated scorching blast of fire that the user breathes out. Aside from flames, the user can launch lightning bolts while roaring and cutting blades of wind while blowing, on top of stirring up strong, fast-rotating tornados.<br><br>Weakness:<br> Due to the massive amount of space the user takes up after entering their full Beast Form, their ability to move about in enclosed spaces is greatly hindered.  Usage of advanced, emitted Busoshoku Haki, in particular, can let opposing parties hurt the user's dragon form." 
     },
     {
@@ -1563,6 +1660,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 223",
         anime:"Anime Debut: Episode 146",
         Type:"(Mythical Zoan)" ,
+        fruit:"",
+        fruitBox:"./image/unknown.png",
+        ufruit:"",
         info:"This fruit allows the eater to transform into a Pegasus or Pegasus hybrid at will.<br><br>It is unknown whether this is his hybrid form or his full Pegasus form.<br><br>Usage:<br> This grants them the power of flight.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses." 
     },
     {
@@ -1573,6 +1673,9 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 927",
         anime:"Anime Debut: Episode 921",
         Type:"(Mythical Zoan)",
+        fruit:"./image/hebi.png",
+        fruitBox:"",
+        ufruit:"",
         info:"Devil Fruit that allows the user to transform into a hybrid and full version of the Yamata no Orochi, an eight-headed snake or dragon.<br><br>This fruit grants the user eight separate heads, each one with an extremely long neck. Each one capable of speech on their own. It appears that the user has some degree of control over the number of heads that can sprout at once, with eight being the maximum limit. Additionally, Orochi's main head is a darker shade of green than the others.<br><br>Usage:<br>He was also strong enough to easily lift up a person with just one of his mouths. With their multiple heads with long necks, the user has the ability to attack in multiple directions at once and reach targets that are further away than he could normally reach. Furthermore, the user is able to attack and trap their targets with their considerably strong jaws. The user also has an incredible amount of durability in their transformed state.<br><br>The fruit's multiple heads also allow the user to survive decapitation, even in Human Form, resulting in the user being required to be beheaded eight times in order to die.<br><br>Weakness:<br>Although the user is capable of surviving decapitation number of times equivalent to the number of heads they have, they cannot regenerate any of the heads they have already lost, thus reducing their lifeline each time they suffer a death. Attacks that can decapitate multiple heads at once, in particular, further reduces this survival ability's efficiency."  
     },
     {
@@ -1582,7 +1685,10 @@ const zoanMythical = [
         user: "User: Patrick Redfield",
         manga:"Manga Debut: N/A",
         anime:"Game Debut: One Piece: Unlimited World Red",
-        Type:"(Mythical Zoan)", 
+        Type:"(Mythical Zoan)",
+        fruit:"",
+        fruitBox:"",
+        ufruit:"./image/Vampire.jpg",
         info:"The main strength of the fruit's power is that it allows the user to transform into a full vampire or assume a vampiric hybrid form.<br><br>Usage:<br>This gives the user the abilities of flight, to create a shroud to cloak themselves, and an apparent form of teleportation by appearing and disappearing in blood-red bursts of energy. The greatest strength of this fruit is the ability to suck someone else's life-force either by biting the victim's neck or digging their nails into the victim's skin. By sucking the victim's life-force, the user can age them to regain their own youth, with Red implying the fruit grants immortality and eternal youth as long as there is life-force for the user to drain. The user can also return the life-force to to their victims if they choose to do so, and there were no ill effects to the victims after their life-force was returned.<br><br>Weakness:<br>It is unknown if the fruit gives the user the usual weaknesses of a vampire such as sunlight, garlic or crosses, but the user does require taking another person's life-force to use the fruit's power to its full potential. Otherwise, it has standard Devil Fruit weaknesses. "
     },
 
@@ -1596,6 +1702,8 @@ const zoanArtificial = [
         manga:"Manga Debut: Chapter 684",
         anime:"Anime Debut: Episode 609",
         Type:"(Artificial/Mythical Zoan)",
+        fruit:"",
+        ufruit:"./image/momo.jpg",
         info:" Vegapunk's man-made copy of the Uo Uo no Mi, Model: Seiryu.<br><br> created from Kaidou's Lineage Factor which was altered by the original Mythical Zoan-type Devil Fruit, but was deemed a failure by Vegapunk solely due the incorrect coloration of Momonosuke's Dragon form. It transformed Momonosuke into a serpentine dragon which allows him to seemingly fly by producing Flame Clouds that he was able to grab onto and climb up that way.<br><br>Usage:<br>It is deamed to have the same capability as the original Mythical Zoan-type Devil Fruit. During the battle against Ryokugyu, Momonosuke managed to perform Kaidou's Bolo Breath, and succeeded in damaging the Admiral's wooden form.<br><br>User:<br>When Momonosuke was aged into an adult, his dragon transformation was shown to be almost identical to Kaidou's in appearance, save for his size, horns, and skin color. He likewise gained a massive increase in his strength and durability, as he could easily smash through walls by simply crashing into them and is able to hurt Kaidou, in his dragon form, with a bite. He gained better control over his ability to produce Flame Clouds, being able to use them to fly at high speed. <br><br>You can read more of the original fruit here: "
     },
     {
@@ -1606,6 +1714,8 @@ const zoanArtificial = [
         manga:"Manga Debut: Chapter 689",
         anime:"Anime Debut: Episode 615",
         Type:"(Artificial)",
+        fruit:"./image/smile.png",
+        fruitBox:"",
         info:"SMILEs are artificial Zoan Devil Fruits created with SAD. They were formerly manufactured by Donquixote Doflamingo and Caesar Clown and were monopolized and consumed by the members of the Beasts Pirates, which created the classifications of the Gifters, Pleasures, and Waiters within the crew.<br><br>Production:<br>The key ingredient required to concoct the artificial fruits is SAD, which is a chemical substance created by mixing the extracted Lineage Factors of numerous animals together. Only Caesar Clown possesses knowledge of how to create SAD, and as such, the production of these fake Devil Fruits requires Caesar's cooperation.<br><br>Attribute:<br>A SMILE fruit is intended to grant the consumer the power of animal transformation, much like a Zoan-type Devil Fruit, by a process which involves transmission of the Lineage Factor of a real animal. Like normal Devil Fruits, SMILEs render those who consume them unable to swim. SMILEs do appear to grant enhanced physical abilities, much like real Zoan fruits. These fruits give the user the respective animals abilities such as super sonic hearing(bat smile) sticky spit(Alpaca smile) flight(bird smile),ETC.<br>Even with the increased strength and animal abilities bestowed by the SMILEs, many, if not all of these artificial Devil Fruits appear to be greatly inferior in strength compared to actual Zoan fruits.<br><br>Side Affect:<br>SMILEs, being artificial, do have side effects. Due to the faulty chemicals used to make them, only one out of every ten SMILE fruits will successfully grant Zoan-like abilities at the cost of being able to swim. The other 90% of people who consume one will not receive a power while suffering the usual consequences. On top of losing the ability to swim, they permanently become unable to express negative emotions, being forced to smile and laugh all of the time regardless of how they actually feel, even while getting hurt in battle or if someone they care about dies."
     },
     {
