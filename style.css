@@ -523,6 +523,14 @@ main{
     transition: 0.5s;
 }
 
+#char {
+    height: 7rem;
+    position: absolute; top: 85vh; left: 47vw;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 1rem;
+}
+
 #allInfo{
     position: relative; top: 17vh; left: 47vw;
     display: grid;

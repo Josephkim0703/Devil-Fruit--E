@@ -22,6 +22,7 @@ document.getElementById('ld').onclick = function (){
                                         document.querySelector('#smile').style.display = 'none';
                                             document.getElementById('fruits').style.display = 'block';
                                                 document.getElementById('Ufruit').style.display = "none"
+                                                    document.getElementById('char').style.display = "none"
     //loop that prints all the names and japanes names of the devil fruits and appends them as button into a ul
         let data = '';
             for(let i = 0; i < logia.length; i++){
@@ -70,6 +71,7 @@ document.getElementById('zd').onclick = function (){
                                         document.querySelector('#kaido').style.display = 'none';
                                             document.querySelector('#smile').style.display = 'none';
                                                 document.getElementById('Ufruit').style.display = "none"
+                                                    document.getElementById('char').style.display = "none";
 //print normal zoan        
 document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
@@ -89,10 +91,19 @@ document.getElementById('normal').onclick = function (){
                      document.getElementById('Dname').innerHTML = zoanNormal[i].name + " (" + zoanNormal[i].jname + ")";
                         document.getElementById('Duser').innerHTML = zoanNormal[i].user;
                             document.getElementById('ability').innerHTML = zoanNormal[i].element;
-                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                document.getElementById('Dinfo').innerHTML = zoanNormal[i].info;
                                     document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
-//                                        document.getElementById('fruits').src = ;
-//                                   document.getElementById('user').src =;
+                                        document.getElementById('fruits').src = zoanNormal[i].fruit;
+
+                                        zoanNormal[i].fruitBox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = zoanNormal[i].fruitBox;
+
+                                        zoanNormal[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+                                            document.getElementById('char').src = zoanNormal[i].character;
+
+                                        zoanNormal[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                            document.getElementById('Ufruit').src = zoanNormal[i].ufruit;
+
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
@@ -251,7 +262,8 @@ document.getElementById('pd').onclick = function (){
                                     document.querySelector('#gifters').style.display = 'none';
                                         document.querySelector('#kaido').style.display = 'none';
                                             document.querySelector('#smile').style.display = 'none';
-                                                document.getElementById('Ufruit').style.display = "none"
+                                                document.getElementById('Ufruit').style.display = "none";
+                                                    document.getElementById('char').style.display = "none";
 document.getElementById('body').onclick = function (){
 //prints para body
 document.querySelector('#back').style.display = "block";
