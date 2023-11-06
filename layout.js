@@ -142,6 +142,9 @@ document.getElementById('ancient').onclick = function (){
                                         zoanAnicent[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                             document.getElementById('fruitBox').src = zoanAnicent[i].fruitBox;
 
+                                        zoanAnicent[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = zoanAnicent[i].imgInfo;
+
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
@@ -161,7 +164,7 @@ document.getElementById('mythical').onclick = function (){
 
     
     for(let i = 0; i < zoanMythical.length; i++){
-        let option = document.getElementById('zoanMythical'+ i); 
+        let option = document.getElementById('zoanMythical'+ i);
             
              option.onclick = function(){
                  console.log(option);
@@ -178,6 +181,10 @@ document.getElementById('mythical').onclick = function (){
 
                                     zoanMythical[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                         document.getElementById('fruitBox').src = zoanMythical[i].fruitBox;
+
+                                        
+                                    zoanMythical[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = zoanMythical[i].imgInfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
@@ -196,8 +203,14 @@ document.getElementById('artificial').onclick = function (){
                         document.getElementById('Dinfo').innerHTML = zoanArtificial[0].info; 
                             document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
                                 document.getElementById('Ufruit').src = zoanArtificial[0].ufruit; 
-                                document.getElementById('Ufruit').style.display = 'block'; 
-                            document.getElementById('fruitBox').style.display = 'none';  
+
+                                            zoanArtificial[0].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                document.getElementById('imgInfo').src = zoanArtificial[0].imgInfo;
+                                                 
+                                            zoanArtificial[0].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                document.getElementById('fruitBox').src = zoanArtificial[0].fruitBox;
+
+                                document.getElementById('Ufruit').style.display = 'block';  
                         document.getElementById('infoPage').style.display = "block";
                     document.querySelector('#kaido').style.display = 'block';
                 document.querySelector('#optionBox').style.display = "none"; 
@@ -217,7 +230,13 @@ document.getElementById('artificial').onclick = function (){
                                         document.querySelector('#kaido').style.display = 'none';
                                             document.getElementById('Ufruit').style.display = 'none';
                                                 document.getElementById('fruits').style.display = 'block';
-                                                    document.getElementById('fruits').src = zoanArtificial[1].fruit; 
+                                                    document.getElementById('fruits').src = zoanArtificial[1].fruit;
+
+                                                zoanArtificial[1].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                    document.getElementById('imgInfo').src = zoanArtificial[1].imgInfo;
+                                                     
+                                                zoanArtificial[1].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitBox;
                                          
         }
 
@@ -228,6 +247,13 @@ document.getElementById('artificial').onclick = function (){
                         document.getElementById('Dinfo').innerHTML = zoanMythical[8].info;
                             document.getElementById('extra').innerHTML =zoanMythical[8].manga + "<br>" + zoanMythical[8].anime;
                                 document.getElementById('fruits').src = zoanMythical[8].fruit;
+
+                                zoanMythical[8].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = zoanMythical[8].fruitBox;
+
+                                
+                                zoanMythical[8].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = zoanMythical[8].imgInfo;
 
                                 document.getElementById('fruits').style.display = 'block';  
                             document.getElementById('Ufruit').style.display = 'none';  
