@@ -21,8 +21,9 @@ document.getElementById('ld').onclick = function (){
                                     document.querySelector('#kaido').style.display = 'none';
                                         document.querySelector('#smile').style.display = 'none';
                                             document.getElementById('fruits').style.display = 'block';
-                                                document.getElementById('Ufruit').style.display = "none"
-                                                    document.getElementById('char').style.display = "none"
+                                                document.getElementById('Ufruit').style.display = "none";
+                                                    document.getElementById('char').style.display = "none";
+                                                        document.getElementById('imgInfo').style.display = "none";
     //loop that prints all the names and japanes names of the devil fruits and appends them as button into a ul
         let data = '';
             for(let i = 0; i < logia.length; i++){
@@ -72,6 +73,7 @@ document.getElementById('zd').onclick = function (){
                                             document.querySelector('#smile').style.display = 'none';
                                                 document.getElementById('Ufruit').style.display = "none"
                                                     document.getElementById('char').style.display = "none";
+                                                        document.getElementById('imgInfo').style.display = "none";
 //print normal zoan        
 document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
@@ -264,6 +266,7 @@ document.getElementById('pd').onclick = function (){
                                             document.querySelector('#smile').style.display = 'none';
                                                 document.getElementById('Ufruit').style.display = "none";
                                                     document.getElementById('char').style.display = "none";
+                                                        document.getElementById('imgInfo').style.display = "none";
 document.getElementById('body').onclick = function (){
 //prints para body
 document.querySelector('#back').style.display = "block";
@@ -341,11 +344,23 @@ document.getElementById('substance').onclick = function (){
                              document.getElementById('Dname').innerHTML = parSub[i].name + " (" + parSub[i].jname + ")";
                                 document.getElementById('Duser').innerHTML = parSub[i].user;
                                     document.getElementById('ability').innerHTML = parSub[i].element;
-                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                        document.getElementById('Dinfo').innerHTML = parSub[i].info;
                                             document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
-        //                                        document.getElementById('fruits').src = ;
-        //                                   document.getElementById('user').src =;
-                                     document.getElementById('infoPage').style.display = "block";
+                                                 document.getElementById('fruits').src = parSub[i].fruit;
+
+                                    parSub[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                        document.getElementById('Ufruit').src = parSub[i].ufruit;
+
+                                    parSub[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = parSub[i].imgInfo;
+                                                 
+                                    parSub[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = parSub[i].fruitBox;
+
+                                    parSub[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+                                        document.getElementById('char').src = parSub[i].character;
+                          
+                                        document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
                      }    

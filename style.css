@@ -502,7 +502,7 @@ main{
 
 #Ufruit{
     height: 26rem;
-    position: absolute; top: 30vh; left: 13vw;
+    position: absolute; top: 30vh; left: 10vw;
     border: 3px solid black;
     background-color: white;
     border-radius: 2rem;
@@ -529,6 +529,13 @@ main{
     border: 2px solid black;
     background-color: white;
     border-radius: 1rem;
+}
+#imgInfo{
+    height: 12rem;
+    position: absolute; top: 77vh; left: 14vw;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 2rem;
 }
 
 #allInfo{
