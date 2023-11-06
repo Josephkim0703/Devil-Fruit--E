@@ -50,6 +50,9 @@ document.getElementById('ld').onclick = function (){
 
                                                 logia[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                                     document.getElementById('fruitBox').src = logia[i].fruitBox;
+
+                                                logia[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                    document.getElementById('imgInfo').src = logia[i].imgInfo;
                                           
                                 document.getElementById('infoPage').style.display = "block";
                             document.querySelector('#optionBox').style.display = "none"; 
