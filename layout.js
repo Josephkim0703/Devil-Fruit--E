@@ -109,6 +109,9 @@ document.getElementById('normal').onclick = function (){
                                         zoanNormal[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                             document.getElementById('Ufruit').src = zoanNormal[i].ufruit;
 
+                                        zoanNormal[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = zoanNormal[i].imgInfo;
+
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
@@ -181,8 +184,7 @@ document.getElementById('mythical').onclick = function (){
 
                                     zoanMythical[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                         document.getElementById('fruitBox').src = zoanMythical[i].fruitBox;
-
-                                        
+                   
                                     zoanMythical[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                         document.getElementById('imgInfo').src = zoanMythical[i].imgInfo;
 
@@ -202,7 +204,7 @@ document.getElementById('artificial').onclick = function (){
                     document.getElementById('ability').innerHTML = zoanArtificial[0].element;
                         document.getElementById('Dinfo').innerHTML = zoanArtificial[0].info; 
                             document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
-                                document.getElementById('Ufruit').src = zoanArtificial[0].ufruit; 
+                                document.getElementById('Ufruit').src = zoanArtificial[0].ufruit;
 
                                             zoanArtificial[0].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                                 document.getElementById('imgInfo').src = zoanArtificial[0].imgInfo;
@@ -231,6 +233,9 @@ document.getElementById('artificial').onclick = function (){
                                             document.getElementById('Ufruit').style.display = 'none';
                                                 document.getElementById('fruits').style.display = 'block';
                                                     document.getElementById('fruits').src = zoanArtificial[1].fruit;
+
+                                                zoanArtificial[1].fruitBox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitBox;
 
                                                 zoanArtificial[1].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                                     document.getElementById('imgInfo').src = zoanArtificial[1].imgInfo;
