@@ -728,7 +728,10 @@ const parEnv = [
         element : "Power: Slows targets",
         user: "User: Foxy",
         manga:"Manga Debut: Chapter 308",
-        anime:"Anime Debut: Episode 210",   
+        anime:"Anime Debut: Episode 210",
+        imgInfo:"./Character/slow.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to emit beams which temporarily slow down their target.<br><br>Usage:<br>Generating and emitting Noroma Photons, those particles slow down anything they hit for thirty seconds, be it people, objects or even the space itself.<br><br>In that amount of time, the user can do anything to the slowed down object. Even something as volatile as a cannonball, which is normally fast and explodes upon collision, can easily serve as a floating platform for anyone to stand on when slowed.<br><br>  When a person is hit by these beams and receives any number of strikes while slowed, the kinetic force of said strikes is released all at once when they return to their normal speed, making the attacks more damaging. Noroma photons, being beams of light, can be reflected by mirrors. This allows the user to create interesting attacks that can catch their opponent off guard.<br><br>Weakness:<br>The user is not immune to the effects of their own photons and will be slowed down if exposed to them. It is also implied that disabling the user's arms is enough to prevent them from shooting further beams." 
     },
     {
         name: "Door-Door Fruit",
@@ -736,7 +739,10 @@ const parEnv = [
         element : "Power: Creates Doors",
         user: "User: Blueno",
         manga:"Manga Debut: Chapter 326",
-        anime:"Anime Debut: Episode 231",   
+        anime:"Anime Debut: Episode 231",  
+        imgInfo:"./Character/bluno.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Gives its user the ability to create a door on almost any solid surface so that they can enter through.<br><br>Usage:<br>This allows them and anyone else passage through the object no matter how thick or strong it is. Though this ability is normally used to gain free passage, the user can also exploit this in other ways, such as trapping an opponent's feet in small doors created underneath them. This power can also be used on living persons as well and can thus be used to deter opponents by creating doors on their body in order to immobilize them.<br><br>One of the greatest strengths of this fruit's powers, however, is that the user can also create doors through the very atmosphere itself. These Air Doors lead into a pocket dimension of sorts that is apparently within the air itself. This is ideal for escape or stealth purposes, since this dimension not only allows the user and anyone else accompanying them to travel across vast distances, but also provides a safe haven for them should they need to hide from an enemy or survive through large scale attacks. Its only downside is that while inside this pocketed dimension, the user has no means to interact with the real world other than to exit first to return themselves back there<br><br>Weakness:<br>Perhaps the Fruit's most prominent weakness is that once doors have been manifested, rather than remaining that way indefinitely, they will automatically re-seal themselves once again after a set amount of time, regardless be it by Blueno's volition or simply by their own.  One, is that using techniques like Air Door, which takes the user, and others', into an alternate plane, consumes a lot of stamina, and thus can't be used for extended periods of times. The other weakness is that the doors the user makes is proportionate to the user's size. ", 
     },
     {
         name: "Op-Op Fruit",
@@ -745,7 +751,11 @@ const parEnv = [
         user: "User: Trafalgar D.Waterlaw",
         manga:"Manga Debut: Chapter 504",
         anime:"Anime Debut: Episode 398",
-        status:"(Awakened)" 
+        status:"(Awakened)",
+        fruit:"./image/op.png",
+        imgInfo:"./Character/op1.jpg",
+        fruitBox:"./Character/op2.jpg",
+        info:"The Ope Ope no Mi allows its user to remodel the world around them as if by operating on it.<br><br>Usage:<br> By conjuring a blue-transparent, spherical forcefield of sorts that is centered around the user ROOM, they gain control over everything inside that territory, from living beings, including themselves, to nonliving objects, their circle the operating room, and those caught inside are the patients on the operating table. There is also a rumor that the fruit can give a 'miracle operation' that can give another person enternal life for the users.<br><br>Examples of the ways wherein the user can surgically manipulate things in their ROOM are: swapping the locations of two targets to teleport them, levitating and moving objects of any size around akin to telekinesis, scanning targets, slicing people/objects apart without actual injury and then reattaching the separate parts to other surfaces, permanently taking out people's organs without harm, transplanting personalities, creating electric shocks or energy constructs to destroy people's bodies from the inside, etc. More specifically, inside ROOM and with the use of a blade, the user can perform long-ranged spatial slicing to cleanly sever flesh and bone without actually hurting the victim. Another major ability granted by this fruit is the manipulation of spatial positions, which is done akin to a form of mutual teleportation. This technique is especially useful in rain or snowstorms.<br><br>Awakened:<br>Once this fruit is awakened, the user gains the ability to create special ROOMs that adhere directly to foreign objects or living beings instead of surrounding a specific space around the user, not requiring their presence within the operating field for techniques to be performed.<br><br>Weakness:<br>The fruit's most obvious drawback is that the user of the Ope Ope no Mi can only use its powers within a specific spherical area that they have to summon themselves, so if the target moves outside the area, they are unaffected by its powers. It also uses drains alot of stamina from the user",
     },
     {
         name: "Press-Press Fruit",
@@ -753,7 +763,10 @@ const parEnv = [
         element : "Power: Gravitational force",
         user: "User: Issho(Fujitora)",
         manga:"Manga Debut: Chapter 701",
-        anime:"Anime Debut: Episode 631", 
+        anime:"Anime Debut: Episode 631",
+        imgInfo:"./Character/press.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit which allows the user to create and manipulate gravitational forces.<br><br>Usage:<br>Whoever eats from this fruit is granted the power to create gravitational forces of extreme potency. The ability user is able to move about living things and objects with little effort, ranging from debris to send flying against an enemy in smaller or massive numbers, to a massive battleship. The range of the generable gravity field appears incredibly big, as it can pull down meteors from the highest of skies.<br><br>Able to have their gravity go in any direction, even horizontal, as demonstrated by Fujitora, the user can move about matter with precision, effectively granting a form of telekinesis. By negating natural gravity and forcing things upward to navigate in midair, flight can be simulated, as shown by Fujitora making either himself fly on a small rock platform or levitate himself alongside his men on a ship. He is also able to manipulate multiple different gravity fields simultaneously.<br><br>Fujitora can reverse the flow of gravity to create an attack-repelling field around him, akin to a circular barrier. He can also, by negating the normal downforce of gravity, levitate free-lying objects around him and control them, even incredibly huge amounts, such as when he had rubble float up high across the entire island of Dressrosa.<br><br>Weakness:<br>However, it seems that his gravity powers can be disrupted by attacking Fujitora himself, shown when Roronoa Zoro used a projectile slash to interrupt the admiral from keeping him held in a gravitational pin, enabling Zoro to escape from it.",
     },
     {
         name: "Art-Art Fruit",
@@ -762,6 +775,9 @@ const parEnv = [
         user: "User: Grolla",
         manga:"Manga Debut: Chapter 714",
         anime:"Anime Debut: Episode 635", 
+        imgInfo:"./Character/art.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to turn people or objects into abstract art.<br><br>Usage:<br>The main strength of this fruit's power is that it allows the user to transform any target into an abstract art, distorting it in both appearance and usage. This is accomplished by the user creating a thought cloud, and then tossing it at the target, causing it to distort. Any weapons or vehicles warped by this power loses its functionality; even natural weapons such as hooves and antlers are turned useless. She is also able to revert the object back to its normal state through the same method.<br><br>Giolla's main use of her power is distorting and transforming her enemies' bodies and equipment into abstract works of art, making them useless and preventing them from being used against her. By applying it to a ship, she effectively disables it as an escape option.<br><br>Weakness:<br>If the user is rendered unconscious, such as through injury, all the abstractions created by the fruit's power are neutralized, and return to normal.",
     },
     {
         name: "Swim-Swim Fruit",
@@ -769,7 +785,10 @@ const parEnv = [
         element : "Power: Swim anywhere",
         user: "User: Senor Pink(Current), S-Shark(Artificial)",
         manga:"Manga Debut: Chapter 732",
-        anime:"Anime Debut: Episode 664", 
+        anime:"Anime Debut: Episode 664",
+        imgInfo:"./Character/swim.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"This fruit's main strength is that it allows the user to swim in solid matter such as ground and walls as if they were water.<br><br>Usage:<br>The latter even allowing the user to swim upwards, seemingly defying gravity. It also allows the user to dive into the ground to avoid being injured by the fall. The fruit can also allow the user to move discreetly, as they will be mostly covered by the ground, allowing them to infiltrate places more easily. This allows the user to sneak up behind their opponent while in combat, allowing them to attack the opponent from behind.<br><br>It is noteworthy that like most Devil Fruits that can distort solid matter such as the Hira Hira no Mi or the Choki Choki no Mi, the distorted objects retain their physical properties such as weight and solidity in regard to other people than the user. Furthermore, after being swum through, the distorted matter flows back into place like a liquid would, leaving no trace of the distortion.<br><br>Weakness:<br>However, this fruit has limited capabilities. The user will need to physically swim to move, as opposed to instantaneously moving across surfaces like the Ishi Ishi no Mi. As such, the fruit's ability is limited by the user's swimming speed and form. Furthermore, Senor Pink has not been shown to be able to breathe while submerged, so he very likely needs to resurface often to breathe.", 
     },
     {
         name: "Stone-Stone Fruit",
@@ -778,6 +797,9 @@ const parEnv = [
         user: "User: Pica",
         manga:"Manga Debut: Chapter 736",
         anime:"Anime Debut: Episode 669", 
+        imgInfo:"./Character/stone.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"The Devil Fruit's primary ability is the power to merge and assimilate with any form of stone.<br><br>Usage:<br>This allows the user to take control of anything made of stone that they come in contact with. While under the user's control, the stone gains a surprising level of flexibility and dexterity that it otherwise would not have, as seen by Pica's ability to stretch and reshape it in a surprising number of ways. In Pica's case, he can control the Dressrosa castle as if it were an extension of his own body, as it is entirely stone-made. It also appears that the strength of this particular fruit is directly proportional to the amount of stone in the user's environment, and any damage done to the stone the user controls is not inflicted upon the user themselves, so long as their true body is not harmed. Because of this, at sufficient amounts, the user can withstand having pieces of their body destroyed to no end.<br><br>Weakness:<br> The user needs to be merged with the stone in order to control it. In fact, the user's body does not actually transform into stone, but instead resides within it, and that portion is as vulnerable as any normal person. Also, if the user assimilates with stone and then loses contact with the ground (such as being sent into midair), the main body is unable to assimilate any stone from nearby environment. In that case, if the airborne stone containing the body is reduced into smaller pieces, the user has no choice but to emerge with his own body."
     },
     {
         name: "Mirror-Mirror Fruit",
@@ -785,7 +807,10 @@ const parEnv = [
         element : "Power: Control Mirrors, pocket dimension",
         user: "User: Charlotte Brulee",
         manga:"Manga Debut: Chapter 831",
-        anime:"Anime Debut: Episode 790", 
+        anime:"Anime Debut: Episode 790",
+        imgInfo:"./Character/mirror.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"The foremost strength of the fruit is that it allows the user to create multiple mirrors in their own vicinity with their own hands.<br><br>Usage:<br>These mirrors can be used as a shield against enemy attacks, absorbing them and reflecting them back at the attacker, turning their own power against them. These mirrors can also be used as portals into what appears to be a pocket dimension within the mirrors known as Mirro-World. with no apparent way back through, leaving their opponents trapped. The user can even break the mirrors the individuals are trapped in, completely preventing anyone from entering or exiting that mirror ever again. The user is capable of entering and exiting the Mirro-World at will, gaining access to a house in the realm containing portals to all the mirrors in Totto Land as well as ships in the archipelago.<br><br>The user can also transform themselves into mirror images of certain individuals, but also imitate their actions completely. The user is also able to manipulate the target by initiating actions themselves, forcing the person they are reflecting to do the action as well. The reflection can be reverted back partially too. This effect can be applied on other beings in order to provide distractions and generate confusion. The mirrors appear to have some form of sentience, as they can be asked questions, such as their locations or whether they have seen certain people. The mirrors can even ask questions back to specify the results. However, the mirrors answer everyone, not just the user of the Devil Fruit, allowing them to take advantage of the user's power.<br><br>Weakness:<br>The user will look like the mirror image of the target, so their physical traits may not correctly match up in the case of asymetrical features. Even if the user shatters a mirror, it does not actually shatter the individuals trapped within it, leaving them unharmed, and they can still contact people on the other side through the shards. Like many other Devil Fruits, at least some of the user's powers will deactivate upon the user being knocked unconscious. However, the Mirro-World is always present, and if one keeps contact with the unconscious body of the user, they can travel in and out of the mirrors at will.",
     },
     {
         name: "Book-Book Fruit",
@@ -794,6 +819,9 @@ const parEnv = [
         user: "User: Charlotte Mont-d'or",
         manga:"Manga Debut: Chapter 846",
         anime:"Anime Debut: Episode 810", 
+        imgInfo:"./Character/book.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"This fruit grants the user the ability to control nearby books, regardless of their size, allowing them to telekinetically move them around and even use them as footholds.<br><br>Usage:<br>The biggest strength of this fruit is the ability to trap living things inside a book's setting. This can be done in two ways. First, by hovering an open book above the target, they will be placed under the visual illusion that they are within the book's world, which will cease once the book is shut. Secondly, the user can physically trap targets inside a book, turning them into an illustration within that book, where they will not age; Mont-d'Or is usually seen pinning down his captives with oversized nails, which are seemingly unbreakable. A person can travel in and out of a book at will by inserting a special bookmark into the page.<br><br>The user can also use books as a means of distant and broad communication. Mont-d'Or was shown calling multiple Den Den Mushi at once by connecting them all to a book, while he and his own Den Den Mushi were on top of another book. The specific mechanics of this ability are unknown. Placing a target under the illusion of a book's setting only impairs their sight, allowing them to still move around and use other senses, as shown when Luffy was able to hear Nami and move around while under the illusion. Similarly, targets trapped inside a book can still communicate with the real world so long as the page they are on is kept open."
     },
     {
         name: "Cook-Cook Fruit",
@@ -923,7 +951,11 @@ const parPow = [
         element : "Power: Conjure ghosts",
         user: "User: Perona",
         manga:"Manga Debut: Chapter 442",
-        anime:"Anime Debut: Episode 337",   
+        anime:"Anime Debut: Episode 337",
+        fruit:"./image/hallow.png",
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./Character/perona1.jpg",
+        info:"The fruit bestows the ability to conjure forth ghosts referred to as Hollows that are fully under the user's control.<br><br>These Hollows can come in different sizes depending on what the user desires, but they all appear as white, transparent, sheet-like beings with round black eyes and huge lips, as well as a tongue usually sticking out. <br><br>Usage:<br>The Hollows are able to fly and, being intangible, are immune to physical attacks. The most basic of these forms are the Negative Hollows; should a person have a Negative Hollow pass through them or vice versa, they will immediately fall on their knees and become very negative about themselves, sometimes to the point of wanting to commit suicide.<br><br>The user can also produce small round ghosts called Mini Hollows[5] or large round ghosts called Toku Hollows which are tangible, allowing them to latch onto their opponents. The user then can make these Hollows explode on command, causing shockwave explosions that damage the target. The strength of the explosions is directly proportional to the size of the ghost; the larger the ghost, the more powerful the explosion.<br><br>Perona also uses the Negative Hollows to gather information from different areas. Should Perona wish to, she can link her consciousness to many Negative Hollows in order to create her Ghost Network, which she uses to gather information.  She can also use this ability as a form of astral projection; Perona projects her own hollow or spirit which looks exactly like her, is impervious to physical attack, can summon ghosts, change size, fly, and is intangible.<br><br>Weakness:<br>it cannot affect anyone who is originally pessimistic about themselves"   
     },
     {
         name: "Time-Time Fruit",

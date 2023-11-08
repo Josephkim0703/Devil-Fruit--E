@@ -349,9 +349,22 @@ document.getElementById('environment').onclick = function (){
                              document.getElementById('Dname').innerHTML = parEnv[i].name + " (" + parEnv[i].jname + ")";
                                 document.getElementById('Duser').innerHTML = parEnv[i].user;
                                     document.getElementById('ability').innerHTML = parEnv[i].element;
-                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                        document.getElementById('Dinfo').innerHTML = parEnv[i].info;
                                             document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
-        //                                        document.getElementById('fruits').src = ;
+                                                document.getElementById('fruits').src = parEnv[i].fruit;
+
+                                parEnv[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                    document.getElementById('Ufruit').src = parEnv[i].ufruit;
+
+                                parEnv[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = parEnv[i].imgInfo;
+                                             
+                                parEnv[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = parEnv[i].fruitBox;
+
+                                parEnv[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+                                    document.getElementById('char').src = parEnv[i].character;
+
         //                                   document.getElementById('user').src =;
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
@@ -419,10 +432,19 @@ document.getElementById('power').onclick = function (){
                              document.getElementById('Dname').innerHTML = parPow[i].name + " (" + parPow[i].jname + ")" ;
                                 document.getElementById('Duser').innerHTML = parPow[i].user;
                                     document.getElementById('ability').innerHTML = parPow[i].element;
-                                        document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                        document.getElementById('Dinfo').innerHTML = parPow[i].info;
                                             document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
-        //                                        document.getElementById('fruits').src = ;
-        //                                   document.getElementById('user').src =;
+                                                document.getElementById('fruits').src = parPow[i].fruit ;
+
+                                            parPow[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                                document.getElementById('Ufruit').src = parPow[i].ufruit;
+        
+                                            parPow[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                document.getElementById('imgInfo').src = parPow[i].imgInfo;
+                                                         
+                                            parPow[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                document.getElementById('fruitBox').src = parPow[i].fruitBox;
+
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
