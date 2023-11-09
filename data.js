@@ -821,7 +821,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 810", 
         imgInfo:"./Character/book.jpg",
         fruitBox:"./image/unknown.png",
-        info:"This fruit grants the user the ability to control nearby books, regardless of their size, allowing them to telekinetically move them around and even use them as footholds.<br><br>Usage:<br>The biggest strength of this fruit is the ability to trap living things inside a book's setting. This can be done in two ways. First, by hovering an open book above the target, they will be placed under the visual illusion that they are within the book's world, which will cease once the book is shut. Secondly, the user can physically trap targets inside a book, turning them into an illustration within that book, where they will not age; Mont-d'Or is usually seen pinning down his captives with oversized nails, which are seemingly unbreakable. A person can travel in and out of a book at will by inserting a special bookmark into the page.<br><br>The user can also use books as a means of distant and broad communication. Mont-d'Or was shown calling multiple Den Den Mushi at once by connecting them all to a book, while he and his own Den Den Mushi were on top of another book. The specific mechanics of this ability are unknown. Placing a target under the illusion of a book's setting only impairs their sight, allowing them to still move around and use other senses, as shown when Luffy was able to hear Nami and move around while under the illusion. Similarly, targets trapped inside a book can still communicate with the real world so long as the page they are on is kept open."
+        info:"This fruit grants the user the ability to control nearby books, regardless of their size, allowing them to telekinetically move them around and even use them as footholds.<br><br>Usage:<br>The biggest strength of this fruit is the ability to trap living things inside a book's setting. This can be done in two ways. First, by hovering an open book above the target, they will be placed under the visual illusion that they are within the book's world, which will cease once the book is shut. Secondly, the user can physically trap targets inside a book, turning them into an illustration within that book, where they will not age; Mont-d'Or is usually seen pinning down his captives with oversized nails, which are seemingly unbreakable. A person can travel in and out of a book at will by inserting a special bookmark into the page.<br><br>The user can also use books as a means of distant and broad communication. Mont-d'Or was shown calling multiple Den Den Mushi at once by connecting them all to a book, while he and his own Den Den Mushi were on top of another book. The specific mechanics of this ability are unknown. Placing a target under the illusion of a book's setting only impairs their sight, allowing them to still move around and use other senses, as shown when Luffy was able to hear Nami and move around while under the illusion. Similarly, targets trapped inside a book can still communicate with the real world so long as the page they are on is kept open.<br><br>Weakness:<br>Moreover, prisoners can be released by burning the books they are kept in, although this can be hazardous to them as well."
     },
     {
         name: "Cook-Cook Fruit",
@@ -830,6 +830,9 @@ const parEnv = [
         user: "User: Streusen",
         manga:"Manga Debut: Chapter 868",
         anime:"Anime Debut: Episode 832", 
+        imgInfo:"./Character/cook.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to turn objects into food.<br><br>Usage:<br>With this fruit, the user has easy access to food to feed themselves and others just by transforming any object into food. The user does not even need to cook the food. The user can also turn an object into food in order to make it less dangerous or otherwise more useful.<br><br>Weakness:<br>However, while the food created by the user can provide nourishment, it apparently does not taste good, as Big Mom remarked, though that could just stem from Big Mom's very demanding palate. Other than that, the user is still affected by the standard Devil Fruit weakness."
     },
     {
         name: "Push-Push Fruit",
@@ -838,6 +841,9 @@ const parEnv = [
         user: "User: Morley",
         manga:"Manga Debut: Chapter 904",
         anime:"Anime Debut: Episode 880", 
+        imgInfo:"./Character/push.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to freely move and shape the ground as though it was malleable like clay.<br><br>Usage:<br>By simply pushing the ground, the user is able to shape it according to their whims. They can manipulate many types of ground, from soft earth to hard rock to even modified stones such as bricks and streets. Thus, this fruit has a good degree of offensive power since it directly affects the enemy's footing, such as flipping an entire chunk of the street onto an enemy. The user is also capable of channeling this ability through objects they hold, and so can grab ahold of the ground by jabbing into it with a weapon.<br><br>The fruit also gives the user the ability to tunnel through the ground by pushing it to clear a way for them. Unlike conventional digging, the moved earth appears to stay in place, protecting the user from cave-ins. This tunneling ability works well for infiltration.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses.",
     },
     {
         name: "Ripe-Ripe Fruit",
@@ -845,7 +851,10 @@ const parEnv = [
         element : "Power: Mature/Decay",
         user: "User: Shinobu",
         manga:"Manga Debut: Chapter 924",
-        anime:"Anime Debut: Episode 916", 
+        anime:"Anime Debut: Episode 916",
+        imgInfo:"./Character/ripe.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit which allows the user to mature and decay anything they touch.<br><br>Usage:<br>By simply touching an object, the user will cause it to rapidly age and decay. Using it on the ground will cause it to become a sinkhole, allowing the user to potentially avoid attacks by sinking into the ground. The fruit can also help the user get past physical obstacles by weakening them through aging, causing them to collapse or be easily broken through. This power can also be applied on living beings, causing them to grow older in an instant.<br><br>The rate of decay will continue to progress once triggered, thus leading to potential problems after the initial purpose, such as a sinkhole becoming deeper until it reaches to the ocean. Also, if the user ages a living being, this will only apply physically, as the subject will retain their original mental maturity. Any effect of maturing cannot be reversed, meaning that anything, inanimate or alive, will not be able to return to their previous state.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses.", 
     },
     {
         name: "Sick-Sick Fruit",
@@ -853,7 +862,10 @@ const parEnv = [
         element : "Power: Afflict others with dieases",
         user: "User: Doc Q",
         manga:"Manga Debut: Chapter 1063",
-        anime:"Anime Debut: N/A", 
+        anime:"Anime Debut: N/A",
+        imgInfo:"./Character/sick.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to afflict others with diseases.<br><br>Usage:<br>The Shiku Shiku no Mi allows the user to create diseases that can hinder an opponent. The diseases can take many forms, such as one that turns males into females. They can also be contagious, allowing them to spread among a group of enemies.<br><br>The effective range of this power seems quite large as Law and his crew remained affected even after descending far beneath the ocean in their submarine. The user of the ability can also detect when his power is countered.<br><br>Weakness:<br>Intense Haki use can allow an opponent to resist and break through the Devil Fruit-afflicted illnesses, which will also result in antibodies that will spread just as quickly as the disease itself and cure others affected by the illness. Apart from this, the user is also susceptible to the standard Devil Fruit weaknesses."
     },
     {
         name: "Tremor-Tremor Fruit",
@@ -861,7 +873,11 @@ const parEnv = [
         element : "Power: EarthQuakes",
         user: "User: Marshall D.Teach(Current), Edward Newgate(Deceased)",
         manga:"Manga Debut: Chapter 552",
-        anime:"Anime Debut: Episode 461", 
+        anime:"Anime Debut: Episode 461",
+        fruit:"./image/gura.png",
+        imgInfo:"./Character/quack.jpg",
+        fruitBox:"./Character/quack1.jpg",
+        info:"The major strength granted by this fruit to the user is its ability to generate massive vibrations, or shockwaves, which can travel through virtually any medium, including the ground, the seafloor, and even the air.<br><br>Usage:<br>This fruit is fearsomely reputed to be able to destroy the world, and is considered to be the strongest Devil Fruit within the Paramecia class,. This Devil Fruit also allows its user to forcibly take hold of any medium, allowing them to crack or pull on normally intangible objects such as the air itself. Whitebeard directly cracks the air in front of an enemy, causing severe damage as the shockwaves directly pass through their bodies. Instead of delivering a punch, Whitebeard grabs his opponent's head and concentrates his vibrations around it, resulting in crushing damage.<br><br>Whitebeard cracks the air with a punch and sends devastating shock waves through the air in the direction it is facing. These shock waves can pass through and damage almost any substance, tearing it apart. If the shockwaves are directed into the ground, the result is a devastating earthquake capable of generating huge tsunamis. Because of its enormous offensive power and great speed, this attack makes for a solid defense, destroying or disrupting any attack before it hits<br><br>Weakness:<br>However, this Devil Fruit's powers are noted to be a hazard to both friend and foe alike, as observed by both the Whitebeard and Blackbeard Pirates. This primarily stems from how, even though the user seems to be able to control both the magnitude of the shock wave and its point of impact, the quakes produced by these shock waves are indiscriminate in their effects. Because of this, allies of the user must be prepared for the impacts unless they want to become unintended victims of them."
     },
     {
         name: "Calm-Calm Fruit",
@@ -869,7 +885,10 @@ const parEnv = [
         element : "Power: Sound Proof fields",
         user: "User: Donquixote Rosinante",
         manga:"Manga Debut: Chapter 764",
-        anime:"Anime Debut: Episode 703", 
+        anime:"Anime Debut: Episode 703",
+        imgInfo:"./Character/calm.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to create a soundproof field and to cancel all noises.<br><br>Usage:<br>The user of this Devil Fruit has the ability to create a soundproof field. The field makes it so that the sounds inside the field cannot be heard from the outside, and vice versa. The user can also use this fruit's ability to cancel all noises coming from the user or somebody else's actions, making it ideal for situations requiring stealth since the lack of noise helps the user prevent drawing attention from enemies while realizing tasks that, otherwise, would be hard to conceal. This is very useful for surprise attacks against opponents, as they are unaware that their attacker is already ready to strike.<br><br>Weakness:<br>If the user dies or is incapacitated, the soundproof fields placed in effect will be dispelled. Also, while it prevents sound from being heard, it does not protect the user from attacks. Like all other Devil Fruits, it has standard Devil Fruit weaknesses."
     },
     {
         name: "Grow-Grow Fruit",
@@ -877,7 +896,10 @@ const parEnv = [
         element : "Power: Ability to accelerate plant growth",
         user: "User: Binz",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Z",   
+        anime:"Anime Debut: One Piece Film: Z",  
+        imgInfo:"./Character/grow.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that grants the user the ability to accelerate the growth rate of plants and control them to their desire.<br><br>Usage:<br>This fruit's main strength is that it allows the user to accelerate plant growth and then control such plants. The user can use this fruit in many ways from trapping enemies with vines or use them for transportation. The fruit can be used for long and short range attacks.<br><br>Weakness:<br>One weakness is in order to use this power, the user must be in an environment where plant life exists. Other than that, the user is affected by the standard Devil Fruit weaknesses.<br><br>Not much information about this fruit has been revealed" 
     },
     {
         name: "More-More Fruit",
@@ -885,7 +907,10 @@ const parEnv = [
         element : "Power: Amplify Size and Speed of object",
         user: "User: Byrnndi World",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film:: 3D2Y",   
+        anime:"Anime Debut: One Piece Film:3D2Y", 
+        imgInfo:"./Character/more.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to amplify the size and speed of any object they touch.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to increase the speed and size of the things the user touches, up to 100 times the original. This can be used on bullets and cannonballs, as well as the user's own speed. The increased speed can bring forth powerful momentum to increase the power of the user's physical attacks, while the sudden increase in size can increase physical strength and destructive range of the weapon. World launches a projectile and enlarges an object to 100 times its original size while it's flying towards his opponent.<br><br> World grabs his opponent and increases his speed 50 times his original speed and uses it to increase the power when swinging them around and throwing them into the ground. World grabs his opponent and increases his speed 50 times his original speed and uses it to increase the power when swinging them around and throwing them into the ground.<br><br>Weakness:<br>It has no known weaknesses aside from the standard Devil Fruit weaknesses."  
     },
     {
         name: "Cube-Cube Fruit",
@@ -893,7 +918,7 @@ const parEnv = [
         element : "Power: Turn things into Cubes",
         user: "User: Gairam",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film:: 3D2Y",   
+        anime:"Anime Debut: One Piece Film: 3D2Y",   
     },
     {
         name: "Through-Through Fruit",
@@ -1349,7 +1374,7 @@ const zoanNormal = [
         anime:"Anime Debut: Episode 91",
         imgInfo:"./Character/pell.jpg",
         fruit:"",
-        fruitBox:"",
+        fruitBox:"./image/unknown.png",
         aCharacter:"",
         info:"This fruit enables a person to become a large falcon and a falcon-human hybrid at will.<br><br>Usage:<br>  Granting him the enhanced senses of a falcon, along with the advantage of having one of the only few Devil Fruits that allow flight. In his full falcon form, he can carry other people on his back while flying. Also in this form, weight does not seem to be much of an issue, as he carried a massive bomb high into the air without showing any strain.<br><br>this Devil Fruit grants him increased speed and strength, as well as the ability to use his talons to slash through his opponents. Being a predatory bird, Pell is better suited for physical combat than standard Zoan users. It also allows him to fly. This is useful in both traveling and attacking.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses."
     },
@@ -1414,7 +1439,7 @@ const zoanNormal = [
         anime:"Anime Debut: Episode 91",
         fruit:"",
         fruitBox:"./image/unknown.png",
-        imgInfo:"./Character/Jackal.jpg",
+        imgInfo:"./Character/jack.jpg",
         aCharacter:"",
         info:" Devil Fruit that allows its user to transform into a jackal hybrid and a full jackal at will.<br><br>Usage:<br>This fruit enables the eater to become a large, black jackal at will, granting an increase in physical strength, speed, and senses. Being a predatory canine, Chaka is better suited for physical combat than normal Zoans. This Devil Fruit increases both speed and power, allowing Chaka to jump onto the roof of Arabasta's castle.<br><br>Weakness:<br>Aside from the standard Devil Fruit weakness, this fruit does not seem to have any specific weaknesses.<br><br> Not much information was revealed for this fruit!"
     },
@@ -1667,9 +1692,8 @@ const zoanNormal = [
         anime:"Anime Debut: Episode 570",
         fruit:"",
         fruitBox:"./image/unknown.png",
-        imgInfo:"./Character/Koala.jpg",
+        imgInfo:"./Character/egg1.jpg",
         aCharacter:"",
-        character:"./Character/egg1.jpg",
         info:" Devil Fruit that turns the user's body composition into that of an egg.<br><br>Usage:<br>As a Zoan, the fruit is quite unique compared to others of its class. Rather than allowing its user to willingly transform into a full animal and a hybrid of themselves and the animal, it gives the user the form and properties of a chicken egg.<br><br>If the user is hit with a heavy blow that would otherwise injure or even kill a regular person in their base form, such as a slash from a sword, the user's body will crack open just like a real egg and unleash a yolk from it. The destroyed body will then be reduced to an empty shell while the yolk evolves into a stronger form for the user with the added features of a chick. And should that form be fatally struck as well, the process will repeat again and the user will evolve into a fully-grown chicken, which is the strongest form the user can evolve into. Should their strongest form be destroyed, the user will revert back to their weakest base form. This endless cycle can effectively prevent the user from dying in battle.<br><br>Weakness:<br>As stated above, the user cannot freely transform into their different forms like other Zoan-type users, and must be hit with a powerful blow in order to transform. Also, the user is completely defenseless while in yolk form, and they can be attacked and killed in the midst of the evolution process. The regeneration process does not apply to certain areas."
     },
 
@@ -1811,7 +1835,7 @@ const zoanMythical = [
     {
         name: "Human-Human no mi: Nika",
         jname: "Hito-Hito no mi",
-        element : "Model: Nika",
+        element : "Model: Sun-God Nika",
         user: "User: Monkey D.Luffy",
         manga:"Manga Debut: Chapter 1",
         anime:"Anime Debut: Episode 1",
@@ -2002,8 +2026,7 @@ const zoanArtificial = [
         anime:"Anime Debut: Episode 615",
         Type:"(Artificial)",
         fruit:"./image/smile.png",
-        fruitBox:"./Character/smile.jpg",
-        info:"SMILEs are artificial Zoan Devil Fruits created with SAD. They were formerly manufactured by Donquixote Doflamingo and Caesar Clown and were monopolized and consumed by the members of the Beasts Pirates, which created the classifications of the Gifters, Pleasures, and Waiters within the crew.<br><br>Production:<br>The key ingredient required to concoct the artificial fruits is SAD, which is a chemical substance created by mixing the extracted Lineage Factors of numerous animals together. Only Caesar Clown possesses knowledge of how to create SAD, and as such, the production of these fake Devil Fruits requires Caesar's cooperation.<br><br>Attribute:<br>A SMILE fruit is intended to grant the consumer the power of animal transformation, much like a Zoan-type Devil Fruit, by a process which involves transmission of the Lineage Factor of a real animal. Like normal Devil Fruits, SMILEs render those who consume them unable to swim. SMILEs do appear to grant enhanced physical abilities, much like real Zoan fruits. These fruits give the user the respective animals abilities such as super sonic hearing(bat smile) sticky spit(Alpaca smile) flight(bird smile),ETC.<br>Even with the increased strength and animal abilities bestowed by the SMILEs, many, if not all of these artificial Devil Fruits appear to be greatly inferior in strength compared to actual Zoan fruits.<br><br>Side Affect:<br>SMILEs, being artificial, do have side effects. Due to the faulty chemicals used to make them, only one out of every ten SMILE fruits will successfully grant Zoan-like abilities at the cost of being able to swim. The other 90% of people who consume one will not receive a power while suffering the usual consequences. On top of losing the ability to swim, they permanently become unable to express negative emotions, being forced to smile and laugh all of the time regardless of how they actually feel, even while getting hurt in battle or if someone they care about dies."
+        info:"<br>SMILEs are artificial Zoan Devil Fruits created with SAD. They were formerly manufactured by Donquixote Doflamingo and Caesar Clown and were monopolized and consumed by the members of the Beasts Pirates, which created the classifications of the Gifters, Pleasures, and Waiters within the crew.<br><br>Production:<br>The key ingredient required to concoct the artificial fruits is SAD, which is a chemical substance created by mixing the extracted Lineage Factors of numerous animals together. Only Caesar Clown possesses knowledge of how to create SAD, and as such, the production of these fake Devil Fruits requires Caesar's cooperation.<br><br>Attribute:<br>A SMILE fruit is intended to grant the consumer the power of animal transformation, much like a Zoan-type Devil Fruit, by a process which involves transmission of the Lineage Factor of a real animal. Like normal Devil Fruits, SMILEs render those who consume them unable to swim. SMILEs do appear to grant enhanced physical abilities, much like real Zoan fruits. These fruits give the user the respective animals abilities such as super sonic hearing(bat smile) sticky spit(Alpaca smile) flight(bird smile),ETC.<br>Even with the increased strength and animal abilities bestowed by the SMILEs, many, if not all of these artificial Devil Fruits appear to be greatly inferior in strength compared to actual Zoan fruits.<br><br>Side Affect:<br>SMILEs, being artificial, do have side effects. Due to the faulty chemicals used to make them, only one out of every ten SMILE fruits will successfully grant Zoan-like abilities at the cost of being able to swim. The other 90% of people who consume one will not receive a power while suffering the usual consequences. On top of losing the ability to swim, they permanently become unable to express negative emotions, being forced to smile and laugh all of the time regardless of how they actually feel, even while getting hurt in battle or if someone they care about dies."
     },
     {
         name: "Smile Fruit: (Unknown)",

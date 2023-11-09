@@ -38,12 +38,11 @@ document.getElementById('ld').onclick = function (){
                 option.onclick = function(){
                     console.log(option);
                         document.getElementById('Dname').innerHTML = logia[i].name + " (" + logia[i].jname + ")";
-                            document.getElementById('Duser').innerHTML = logia[i].user;
-                                document.getElementById('ability').innerHTML = logia[i].element;
-                                    document.getElementById('Dinfo').innerHTML = logia[i].info;
-                                        document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
-                                            document.getElementById('fruits').src = logia[i].fruit;
-                                                document.getElementById('user').src = logia[i].aCharacter;
+                            document.getElementById('Duser').innerHTML = logia[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ logia[i].element;
+                                document.getElementById('Dinfo').innerHTML = logia[i].info;
+                                    document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
+                                        document.getElementById('fruits').src = logia[i].fruit;
+                                            document.getElementById('user').src = logia[i].aCharacter;
 
                                                 logia[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                     document.getElementById('Ufruit').src = logia[i].ufruit;
@@ -94,11 +93,10 @@ document.getElementById('normal').onclick = function (){
              option.onclick = function(){
                  console.log(option);
                      document.getElementById('Dname').innerHTML = zoanNormal[i].name + " (" + zoanNormal[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanNormal[i].user;
-                            document.getElementById('ability').innerHTML = zoanNormal[i].element;
-                                document.getElementById('Dinfo').innerHTML = zoanNormal[i].info;
-                                    document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
-                                        document.getElementById('fruits').src = zoanNormal[i].fruit;
+                        document.getElementById('Duser').innerHTML = zoanNormal[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanNormal[i].element;
+                            document.getElementById('Dinfo').innerHTML = zoanNormal[i].info;
+                                document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
+                                    document.getElementById('fruits').src = zoanNormal[i].fruit;
 
                                         zoanNormal[i].fruitBox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                             document.getElementById('fruitBox').src = zoanNormal[i].fruitBox;
@@ -135,11 +133,10 @@ document.getElementById('ancient').onclick = function (){
              option.onclick = function(){
                  console.log(option);
                      document.getElementById('Dname').innerHTML = zoanAnicent[i].name + " (" + zoanAnicent[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanAnicent[i].user;
-                            document.getElementById('ability').innerHTML = zoanAnicent[i].element;
-                                document.getElementById('Dinfo').innerHTML = zoanAnicent[i].info;
-                                    document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
-                                        document.getElementById('fruits').src = zoanAnicent[i].fruit;
+                        document.getElementById('Duser').innerHTML = zoanAnicent[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanAnicent[i].element;
+                            document.getElementById('Dinfo').innerHTML = zoanAnicent[i].info;
+                                document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
+                                    document.getElementById('fruits').src = zoanAnicent[i].fruit;
 //                                  document.getElementById('user').src = logia[i].aCharacter;
 
                                         zoanAnicent[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
@@ -172,11 +169,10 @@ document.getElementById('mythical').onclick = function (){
              option.onclick = function(){
                  console.log(option);
                      document.getElementById('Dname').innerHTML = zoanMythical[i].name + " (" + zoanMythical[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanMythical[i].user;
-                            document.getElementById('ability').innerHTML = zoanMythical[i].element;
-                                document.getElementById('Dinfo').innerHTML = zoanMythical[i].info;
-                                    document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
-                                        document.getElementById('fruits').src = zoanMythical[i].fruit;
+                        document.getElementById('Duser').innerHTML = zoanMythical[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanMythical[i].element;
+                            document.getElementById('Dinfo').innerHTML = zoanMythical[i].info;
+                                document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
+                                    document.getElementById('fruits').src = zoanMythical[i].fruit;
 //                                    document.getElementById('user').src = logia[i].aCharacter;
 
                                     zoanMythical[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
@@ -200,11 +196,10 @@ document.getElementById('artificial').onclick = function (){
     document.querySelector('#zbutton').style.display = "none";
         document.getElementById('smile').style.display = "block";
             document.getElementById('Dname').innerHTML = zoanArtificial[0].name + " (" + zoanArtificial[0].jname + ")";
-                document.getElementById('Duser').innerHTML = zoanArtificial[0].user;
-                    document.getElementById('ability').innerHTML = zoanArtificial[0].element;
-                        document.getElementById('Dinfo').innerHTML = zoanArtificial[0].info; 
-                            document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
-                                document.getElementById('Ufruit').src = zoanArtificial[0].ufruit;
+                document.getElementById('Duser').innerHTML = zoanArtificial[0].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanArtificial[0].element;
+                    document.getElementById('Dinfo').innerHTML = zoanArtificial[0].info; 
+                        document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
+                            document.getElementById('Ufruit').src = zoanArtificial[0].ufruit;
 
                                             zoanArtificial[0].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                                 document.getElementById('imgInfo').src = zoanArtificial[0].imgInfo;
@@ -223,8 +218,7 @@ document.getElementById('artificial').onclick = function (){
 //seperate button that sends you to a page about smile fruits
         document.getElementById('smile').onclick = function (){
             document.getElementById('Dname').innerHTML = zoanArtificial[1].name + ": " ;
-                document.getElementById('ability').innerHTML = '';
-                    document.getElementById('Duser').innerHTML = zoanArtificial[1].element;
+                    document.getElementById('Duser').innerHTML = " ";
                         document.getElementById('Dinfo').innerHTML = zoanArtificial[1].info;
                             document.getElementById('extra').innerHTML =zoanArtificial[1].manga + "<br>" + zoanArtificial[1].anime;
                                 document.getElementById('smile').style.display = "none";
@@ -247,11 +241,10 @@ document.getElementById('artificial').onclick = function (){
 
         document.getElementById('kaido').onclick = function (){
             document.getElementById('Dname').innerHTML = zoanMythical[8].name + " (" + zoanMythical[8].jname + ")";
-                document.getElementById('Duser').innerHTML = zoanMythical[8].user;
-                    document.getElementById('ability').innerHTML = zoanMythical[8].element;
-                        document.getElementById('Dinfo').innerHTML = zoanMythical[8].info;
-                            document.getElementById('extra').innerHTML =zoanMythical[8].manga + "<br>" + zoanMythical[8].anime;
-                                document.getElementById('fruits').src = zoanMythical[8].fruit;
+                document.getElementById('Duser').innerHTML = zoanMythical[8].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanMythical[8].element;
+                    document.getElementById('Dinfo').innerHTML = zoanMythical[8].info;
+                        document.getElementById('extra').innerHTML =zoanMythical[8].manga + "<br>" + zoanMythical[8].anime;
+                            document.getElementById('fruits').src = zoanMythical[8].fruit;
 
                                 zoanMythical[8].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                     document.getElementById('fruitBox').src = zoanMythical[8].fruitBox;
@@ -318,10 +311,9 @@ document.querySelector('#back').style.display = "block";
                  option.onclick = function(){
                      console.log(option);
                          document.getElementById('Dname').innerHTML = parBody[i].name + " (" + parBody[i].jname + ")";
-                            document.getElementById('Duser').innerHTML = parBody[i].user;
-                                document.getElementById('ability').innerHTML = parBody[i].element;
-                                    document.getElementById('Dinfo').innerHTML = "Information not complete";
-                                        document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
+                            document.getElementById('Duser').innerHTML = parBody[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parBody[i].element;
+                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                    document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
     //                                        document.getElementById('fruits').src = ;
     //                                   document.getElementById('user').src =;
                                  document.getElementById('infoPage').style.display = "block";
@@ -347,11 +339,10 @@ document.getElementById('environment').onclick = function (){
                      option.onclick = function(){
                          console.log(option);
                              document.getElementById('Dname').innerHTML = parEnv[i].name + " (" + parEnv[i].jname + ")";
-                                document.getElementById('Duser').innerHTML = parEnv[i].user;
-                                    document.getElementById('ability').innerHTML = parEnv[i].element;
-                                        document.getElementById('Dinfo').innerHTML = parEnv[i].info;
-                                            document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
-                                                document.getElementById('fruits').src = parEnv[i].fruit;
+                                document.getElementById('Duser').innerHTML = parEnv[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parEnv[i].element;
+                                    document.getElementById('Dinfo').innerHTML = parEnv[i].info;
+                                        document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
+                                            document.getElementById('fruits').src = parEnv[i].fruit;
 
                                 parEnv[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                     document.getElementById('Ufruit').src = parEnv[i].ufruit;
@@ -389,11 +380,10 @@ document.getElementById('substance').onclick = function (){
                      option.onclick = function(){
                          console.log(option);
                              document.getElementById('Dname').innerHTML = parSub[i].name + " (" + parSub[i].jname + ")";
-                                document.getElementById('Duser').innerHTML = parSub[i].user;
-                                    document.getElementById('ability').innerHTML = parSub[i].element;
-                                        document.getElementById('Dinfo').innerHTML = parSub[i].info;
-                                            document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
-                                                 document.getElementById('fruits').src = parSub[i].fruit;
+                                document.getElementById('Duser').innerHTML = parSub[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parSub[i].element;
+                                    document.getElementById('Dinfo').innerHTML = parSub[i].info;
+                                        document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
+                                            document.getElementById('fruits').src = parSub[i].fruit;
 
                                     parSub[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                         document.getElementById('Ufruit').src = parSub[i].ufruit;
@@ -430,11 +420,10 @@ document.getElementById('power').onclick = function (){
                      option.onclick = function(){
                          console.log(option);
                              document.getElementById('Dname').innerHTML = parPow[i].name + " (" + parPow[i].jname + ")" ;
-                                document.getElementById('Duser').innerHTML = parPow[i].user;
-                                    document.getElementById('ability').innerHTML = parPow[i].element;
-                                        document.getElementById('Dinfo').innerHTML = parPow[i].info;
-                                            document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
-                                                document.getElementById('fruits').src = parPow[i].fruit ;
+                                document.getElementById('Duser').innerHTML = parPow[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parPow[i].element;
+                                    document.getElementById('Dinfo').innerHTML = parPow[i].info;
+                                        document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
+                                            document.getElementById('fruits').src = parPow[i].fruit ;
 
                                             parPow[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                 document.getElementById('Ufruit').src = parPow[i].ufruit;

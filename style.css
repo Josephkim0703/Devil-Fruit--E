@@ -543,7 +543,7 @@ main{
     display: grid;
     grid-template-areas: 
         'topLeft topRight'
-        'left right'
+        'left left'
         'main main'
         'main main'
         'footer footer'
@@ -561,12 +561,6 @@ main{
 #Jname{
     grid-area: topRight;
     margin: 0px 0px 0px -180px;
-}
-
-#ability{
-    grid-area: right;
-    font-size: 1.5rem;
-    margin-right: 0px;
 }
 
 #Duser{
