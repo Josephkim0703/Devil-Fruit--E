@@ -918,7 +918,11 @@ const parEnv = [
         element : "Power: Turn things into Cubes",
         user: "User: Gairam",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: 3D2Y",   
+        anime:"Anime Debut: One Piece Film: 3D2Y",
+        imgInfo:"./Character/cube.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"It allows the user to cut anything they touch into cubes and control these structures.<br><br>Usage:<br>The main strength of this fruit allows the user to make anything into a cube and stack them. The user is also able to levitate the cubes and form structures from them such as towers and mazes or use one as a floating platform. The user can also compress the air around them or even living creatures—such as humans—around them into cubes.<br><br>Weakness:<br>The victims of the fruit's powers are still able to move around on their own and can break free if they exert enough willpower. Other than that the user still has the standard Devil Fruit weaknesses.<br><br>Not much information about this fruit has been revealed"    
+        
     },
     {
         name: "Through-Through Fruit",
@@ -926,7 +930,10 @@ const parEnv = [
         element : "Power: Phase through objects",
         user: "User: Tanaka",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Z",   
+        anime:"Anime Debut: One Piece Film: Z",
+        imgInfo:"./Character/through.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to phase through solid objects.<br><br>Usage:<br>The main strength of this fruit's power is to allow the user to phase through solid objects, allowing for an easier and more unconventional way to get around, as well as avoiding attacks from non-organic weapons and projectiles. The user can also share their intangibility with whatever they touch, allowing people or objects to phase through solid matter along with him, or making the ground intangible to make people fall through the floor.<br><br>Weakness:<br>A weakness of this fruit is that the user cannot phase through living tissue, as seen when Tanaka could not escape from Nico Robin's grasp or avoid Sanji's kicks. Other than that, the user is also affected by the standard Devil Fruit weaknesses. Due to this, the user apparently cannot phase through seawater."  
     },
     {
         name: "Clank-Clank Fruit",
@@ -934,7 +941,11 @@ const parEnv = [
         element : "Power: Reassemble and dismantle objects",
         user: "User: Douglas Bullet",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Stampede",   
+        anime:"Anime Debut: One Piece Film: Stampede",  
+        imgInfo:"./Character/bullet.jpg",
+        fruitBox:"./Character/bullet1.jpg",
+        fruit:"./image/clank.png",
+        info:"Devil Fruit that allows the user to telekinetically disassemble objects and reassemble them into whatever they please.<br><br>Usage:<br>With the fruit's power, the user is capable of creating large mechanical structures and vessels, including submarines and robot suits that increase their fighting prowess and transportation capabilities. As with all Devil Fruits, this one has the potential to be awakened, which allows the user to disassemble and reformat objects from a much greater range, even the environment itself.<br><br>Bullet can also alter himself to enter a powered state combining his powers and Busoshoku Haki, similar to Luffy's Gear 4. In this state, Bullet's body turns shining blue with red eyes and his arms are expanded and compressed as if they were formed by tires. In this form, his strength and speed are further enhanced by his Haki as well as his offensive power.<br><br>Awakened:<br>As an awakened Devil Fruit user, Bullet can disassemble objects from a greater range and also essentially restructure the landscape of entire islands by disassembling and reassembling their features as he sees fit.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, this fruit is entirely dependent on the resources the user has at their disposal and their own efficiency. The user must also know what they are making, meaning one needs a large amount mechanical knowledge." 
     },
     {
         name: "Sing-Sing Fruit",
@@ -942,7 +953,11 @@ const parEnv = [
         element : "Power: Consciousnesses into a virtual space by singing",
         user: "User: Uta",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Red",   
+        anime:"Anime Debut: One Piece Film: Red",  
+        imgInfo:"./Character/uta1.jpg",
+        fruitBox:"./Character/uta.jpg",
+        fruit:"./image/sing.png",
+        info:"Devil Fruit that allows the user to teleport people's consciousnesses into a virtual space by singing.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to transport the consciousnesses (essentially their spirits) of people who hear them singing, including their own, into a virtual space known as the Uta World. The physical bodies of those trapped in Uta World remain unconscious. Within this world, the user is virtually omnipotent, possessing complete control and can manipulate reality as they choose. It is impossible for others to leave Uta World on their own. In addition, the user is able to control the unconscious real-world bodies of those trapped in Uta World.<br><br>Curiously, while physically no one is able to enter or leave without the ability user, images can be livestreamed from Uta World to the real world via Den Den Mushi. Should the user die, the spirits of those trapped in Uta World will remain stuck there. As noted, it is not even necessary for the user to physically be present in order to send others into Uta World, as seen where the livestream recording of Uta concert was able to take the souls of Uta’s fans from across the world via Den Den Mushi video and audio.<br><br>Weakness:<br>The weakness of the ability is that Uta World can only be maintained as long as the user remains awake. It also consumes a lot of stamina to maintain the ability for long periods of time. Potential targets can also protect themselves from the user's power by blocking their hearing from the user's music. This even applies in the Uta World, where a target can either hide in soundproof areas or contain the user in a soundproof containment-like field. Also, while the user is nigh-omnipotent in Uta World, they are not omniscient, as such people can escape her as long as they evade the user and whatever they may create. They also can't manipulate the will of others, though they can alter their spirit bodies. This applies to objects as well, as the spirit body of the Thousand Sunny, Sunny-kun fought against Uta and not with her. Other than that, the user is affected by the standard Devil Fruit weaknesses." 
     },
     {
         name: "Grab-Grab Fruit",
@@ -950,7 +965,10 @@ const parEnv = [
         element : "Power: large gauntlets that manipulate things",
         user: "User: Adio Suerte",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece game: Odyssey",   
+        anime:"Anime Debut: One Piece game: Odyssey",
+        imgInfo:"./Character/grab.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to summon large gauntlets with which they can grab and manipulate any non-living thing.<br><br>Usage:<br>The main power of this fruit is to summon large gauntlets that are projected from the user's hands. These gauntlets can be used to grab any non-living thing and manipulate it as the user wishes, the only exception being the user themself.<br><br> Adio creates two gauntlets and encases a living being within them, taking control of their body and absorbing information they know or learn. This ability works well on small animals. Adio creates two giant lightning-powered gauntlets above him, casting a protective shield of lightning around him and his allies.<br><br>If the user has multiple arms they can cast more gauntlets<br><br>Weakness:<br>No known weakness other then the basic devil fruit weakness." 
     },
     {
         name: "(Unknown) Fruit",
@@ -958,7 +976,10 @@ const parEnv = [
         element : "Power: Consciousness to non-living souls",
         user: "User: Lip Shark",
         manga:"Manga Debut: Fischer's x One Piece: Chapter 9",
-        anime:"Anime Debut: Non-Canon",   
+        anime:"Anime Debut: Non-Canon", 
+        fruitBox:"./Character/kyara.jpg",
+        ufruit:"./image/kyara.jpg",
+        info:"Devil Fruit that provides consciousness to non-living souls, as well as allowing the soul to merge with others.<br><br>Usage:<br>The main strength of this Devil Fruit is the ability to merge with other people, providing massive increases in strength and speed. After the Timeskip, Lip Shark could merge with the bow of the Maying Gorry.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, there are no known weaknesses; Lip Shark states that he draws power from Fischer's millions of fans, allowing for the amount of power increase, but it's unclear if this a weakness of himself or the Devil Fruit. "  
     },
     {
         name: "Game-Game Fruit",
@@ -966,7 +987,10 @@ const parEnv = [
         element : "Power: Game-World",
         user: "User: Dama's Tablet",
         manga:"Manga Debut: Fischer's x One Piece: Chapter 4",
-        anime:"Anime Debut: Non-Canon",   
+        anime:"Anime Debut: Non-Canon", 
+        imgInfo:"./Character/game1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to transport other people into a game-like world, being able to decide on the genre of game.<br><br>Usage:<br>The main strength of this Devil Fruit is the ability to significantly decrease your opponents strength, as well as abstracting fights to a position where the user cannot be harmed. Due to the nature of video games, it will also empower weaker characters, allowing for temporary powerups.<br><br>Weakness:<br>While the exact amount is unknown, there is a limit to how many enemy characters can be loaded at once; when this limit is reached, the game begins to lag. If any of the game's elements haven't been transported inside the game, the lag applies in the real world.  When recreating a fighting game, the user must select a boss character, select the genre and stage, then select a player character." 
     },
 ];
 const parPow = [
