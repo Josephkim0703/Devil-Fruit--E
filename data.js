@@ -223,7 +223,11 @@ const parBody = [
         user: "User: Eustass kid",
         manga:"Manga Debut: Chapter 504",
         anime:"Anime Debut: Episode 398", 
-        status:"(Awakened)" 
+        status:"(Awakened)",
+        fruit:"./image/magnet.png",
+        imgInfo:"./Character/kid.jpg",
+        fruitBox:"./Character/kid1.jpg",
+        info:"Enables user to generate magnetic fields that can attract or repel metallic objects from their body.<br><br>Usage:<br>This makes them particularly effective against the majority of weapons in the world: namely swords, guns, and cannons. By using repulsion, the user can deflect metal projectiles back to where they came from, turning them against the aggressor. Using attraction, the user can strip opponents of their weapons and bring them to their own body, rendering said opponents helpless. The user can also use attraction to pull themselves to large metal objects like ships, allowing them to travel through the air in a manner resembling flight. In general, the creatable magnetic forces are extremely strong and very difficult, if not impossible, to resist; by wrapping a metallic arm around Big Mom and repelling it, Kid was instantly able to send her flying up in the air.<br><br>The fruit gives the user a sufficient degree of control over their magnetism to accumulate a large amount of metallic objects around their body and form them into specific shapes; the user can then move these masses around very fluidly. This has been seen repeatedly with Kid, who has accumulated metal objects on his body to form normally functioning apparatuses like mechanical arms, Gatling guns, railguns, and even exoskeletal fighting machines. Capable of inflicting tremendous damage with simple crushing attacks.<br><br>Awakened:<br> Once achieved, the user is capable of turning other objects, including living organisms, into magnets by assigning them with a specific polarity. This awakening has possible applications that do not rely on the user requiring metal from his surroundings, diminishing that specific weakness to an extent.<br><br>Weakness:<br>This fruit's combat applications are very dependent on a sufficient amount of metal being present in the user's surroundings, especially in order to create bigger, more complex contraptions. As such, the user may be required to first amass metal in large quantities in preparation for facing a tough enemy." 
     },
     {
         name: "Chop-Chop Fruit",
@@ -231,7 +235,11 @@ const parBody = [
         element : "Power: Dismemberment",
         user: "User: Buggy",
         manga:"Manga Debut: Chapter 9",
-        anime:"Anime Debut: Episode 4",   
+        anime:"Anime Debut: Episode 4", 
+        ufruit:"./image/chop.jpg",
+        imgInfo:"./Character/buggy.jpg",
+        fruitBox:"./Character/buggy1.jpg",
+        info:"Devil Fruit that allows the user to split their own body into pieces and control said pieces.<br><br>Usage:<br>The fruit's major strength, as demonstrated by Buggy, is that the user becomes permanently immune to damage from being cut or pierced, regardless of what form, including Haki-infused slashes. Instead of the body parts being permanently dismembered from such attacks, the dismembered parts of the user's body fully remain in the direct control of the user. They can then be freely manipulated to either execute unique attacks or reattach them back to the body's remaining portion. In the anime, Buggy has even demonstrated being able to re-constitute himself.<br><br>Aside from this passive immunity, the user can also manually split their body apart by themselves without the need of being chopped up by others in the first place. This is a convenient ability during battles since it allows the user to attack through enemy blocking attempts or avoid any incoming moves as long as they see it coming. The user is also able to live without being connected to vital limbs and organs of his body for long periods of time. Additionally, the levitation effect given by the freeform control of the parts seems to extend to things in contact with the user, allowing them to bypass gravity by lifting objects regardless of how heavy they actually are. With this aspect of the Fruit's power, Buggy has shown to be able to easily lift individuals much larger (and probably heavier) than himself.<br><br>Weakness:<br>Though the user is immune to slashing and piercing attacks, they are still susceptible to other forms of engagement, such as blunt attacks like punches and kicks. This can be mitigated by having the attacked body part fly off to deflect the force of the attack. This can be a major weakness even when the user is split up, as an enemy can do all sorts of things to the other body parts. The user can only control his separated pieces up to a certain distance. If a part goes any further than a certain distance, the user loses all control of that part. This includes levitation and the user consciously using that body part altogether, though vital functions from that body part continue.",
     },
     {
         name: "Smooth-Smooth Fruit",
@@ -239,7 +247,11 @@ const parBody = [
         element : "Power: Smooth Body",
         user: "User: Alvida",
         manga:"Manga Debut: Chapter 2",
-        anime:"Anime Debut: Episode 1",   
+        anime:"Anime Debut: Episode 1", 
+        fruit:"./image/smooth.png",
+        imgInfo:"./Character/alvida1.jpg",
+        fruitBox:"./Character/alvida.jpg",
+        info:"Devil Fruit that makes the user's body smooth and slippery, which in turn makes most attacks and objects slide off their body.<br><br>Usage:<br>This fruit makes the user immune to damage caused by weapons, projectiles, hand-to-hand combat and other hazards derived from solid objects, as those will just slip off their smoothery body once contact is made, with the user suffering no apparent harm at all no matter how big or heavy the incoming threat is. The fruit's powers also extend to whatever items or clothing are on the user's person; this was very apparent when a chunk of rubble simply bounced off Alvida's body despite the fact that it hit her while she was still wearing her coat.<br><br>As a side effect of the fruit's power, all of the eater's excess fat slips off, granting them a much skinnier physique. Despite this, the user seems to retain their full strength, as Alvida can still wield her iron mace with ease. This loss of fat appears to be permanent.<br><br>Weakness:<br>While the fruit's powers render the user literally untouchable, they can still be affected by certain things. For example, Smoker was able to restrain Alvida."
     },
     {
         name: "Bomb-Bomb Fruit",
@@ -247,7 +259,11 @@ const parBody = [
         element : "Power: Explosive Body parts",
         user: "User: Gem(Mr.5)",
         manga:"Manga Debut: Chapter 110",
-        anime:"Anime Debut: Episode 65",   
+        anime:"Anime Debut: Episode 65",
+        fruit:"./image/bomb.png",
+        imgInfo:"./Character/gem1.jpg",
+        fruitBox:"./Character/gem.jpg",
+        info:"The fruit's main strength is that the user can detonate their entire body or limbs in a manner akin to a living human bomb.<br><br>Usage:<br>This fruit generating powerful explosive forces that harm anything but the user itself. The explosive quality extends to bodily emissions such as mucus and breath, giving the user the capacity to utilize ranged attacks should they find ways to weaponize those substances.<br><br>The fruit also grants immunity against all other explosions, including even cannonballs, as well as the ability to evaluate their quality. For example, Gem commented that Usopp's Gunpowder Star tasted bad because he was using low quality gunpowder.  He may even ingest them too, in order to keep the explosion contained into himself and protect his allies. For close range, he can detonate his arms, legs or all of his body to inflict damage. Strangely, despite the fact that the explosions do not harm Gem nor his clothes.<br><br>Weakness:<br>However, it seems that the ability only activates when the user initiates contact with something, or at will, as both Zoro and Luffy have been seen hitting Gem without him exploding. Also, despite the user's explosion immunity, they are not particularly resistant to fire."   
     },
     {
         name: "Kilo-Kilo Fruit",
@@ -255,7 +271,11 @@ const parBody = [
         element : "Power: Change Body Weight(Kg)",
         user: "User: Mikita(Miss Valentine)",
         manga:"Manga Debut: Chapter 110",
-        anime:"Anime Debut: Episode 65",   
+        anime:"Anime Debut: Episode 65",
+        fruit:"./image/kilo.png",
+        imgInfo:"./Character/valentine1.jpg",
+        fruitBox:"./Character/valentine.jpg",
+        info:" Devil Fruit that allows the user to change their weight from 1 to 10,000 kilograms without, in any way, affecting the overall size of their body.<br><br>Usage:<br>This fruit's primary ability is to manipulate the user's weight at will, as measured in kilograms. The minimum weight achievable is one kilogram, light enough to float with the wind using an umbrella. The user's maximum weight is ten thousand kilograms, dropping with intense force to crush their opponents below or shatter the ground where they land. At full weight, the user can severely injure even animals as large as dinosaurs.<br><br>Even with one's weight increased, it seems as though the user of the fruit can move normally, their movement being unaffected by their weight. They also do not seem to be particularly affected by the collisions they make with the ground, sustaining minimal damage from their descent. Meanwhile, with their weight decreased, the user can dodge enemy attacks from the ground with rather ease, simply needing to float away from the attack's range.<br><br>Weakness:<br>Though the fruit grants the ability to change one's own weight, it does not seem to change the user's density or physical resistance against outside forces, since Mikita was knocked away by Nami and Vivi while weighing 10,000 kilograms before she could crash down on Usopp. In cases where the user attempts to drop down with extreme weight from a considerable altitude, a fast enough opponent can simply dodge the attack while the user crashes into the ground. The Kiro Kiro no Mi is considered inferior to the Ton Ton no Mi, as the latter can make themselves much heavier than this fruit's maximum weight."   
     },
     {
         name: "Flower-Flower Fruit",
@@ -263,7 +283,11 @@ const parBody = [
         element : "Power: Create Body parts",
         user: "User: Nico Robin",
         manga:"Manga Debut: Chapter 114",
-        anime:"Anime Debut: Episode 67",   
+        anime:"Anime Debut: Episode 67",  
+        fruit:"./image/flower.png",
+        imgInfo:"./Character/robin1.jpg",
+        fruitBox:"./Character/robin.jpg",
+        info:"Devil Fruit that allows the user to replicate and sprout pieces of their body from the surface of any object or living thing.<br><br>Usage:<br>The ability to sprout multiple body parts on almost any surface, including the user's own body, and then manipulate said body parts remotely, as if they were an extension of the user's own original limbs. Since the user is practically the only one who knows where their limbs will sprout out, they almost always have the element of surprise on their side, which, coupled with the fruit's long range and almost instantaneous speed of limb sprouting, turns Robin into a massive threat during combat situations. Enemies may find themselves in an extremely compromising position if they do not possess enough strength or an ability that lets them somehow counter or escape from her myriad of summoned limbs.<br><br>Speed and strength mean nothing to her as she can render almost any foe into submission with ease, even those with superhuman speed. Additionally, the fruit's powers are capable of affecting many opponents simultaneously, displaying great offensive capabilities through grappling or stomping techniques. For defense, Robin can conjure traps, shields or barriers to capture or repel incoming dangers with a multitude of her limbs. By sprouting eyes or ears in strategic places, the fruit's powers can also be used for gathering intelligence. The Hana Hana no Mi overall is incredibly versatile and permits multitasking for adventuring, battles or everyday activities. She has also developed the ability to create a full-body clone of herself.<br><br>Weakness:<br>The Hana Hana no Mi's user has the unique weaknesses of having any damage to their sprouted body parts transferred to their real body. This not only includes injury or strain, but also effects from other Devil Fruits, meaning Robin is particularly vulnerable against other Devil Fruit users whose abilities manifest through simple touch, as no matter how distant she is from them, she can be affected if contact is made with her replicas. Gigantified body parts, despite their strength, also carry the inherent risk of providing an opponent a bigger target to strike against."
     },
     {
         name: "Munch-Munch Fruit",
@@ -271,7 +295,11 @@ const parBody = [
         element : "Power: Creates what he Eats",
         user: "User: Wapol",
         manga:"Manga Debut: Chapter 131",
-        anime:"Anime Debut: Episode 79",   
+        anime:"Anime Debut: Episode 79",
+        fruit:"./image/munch.png",
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./Character/wapol.jpg",
+        info:" Devil Fruit that allows the user to eat otherwise-inedible objects, then later manifesting them from their body.<br><br>Usage:<br>The fruit's major strength, as demonstrated by Wapol, is that the user gains the ability to stretch open their mouths to large sizes and be able to eat things in massive proportions. It also strengthens their teeth and their digestive system, allowing them to consume things that would otherwise be inedible or toxic to regular people, ranging from inanimate objects such as weapons to living creatures such as humans. The user can then transform any part of their bodies into whatever they had eaten, enabling them to produce weapons for offensive capabilities, or they can fuse objects or creatures together to create new things.<br><br>Wapol can also use the fruit's powers for combat purposes by either swallowing his opponent whole or by using the fruit's transformation powers to aid him. He also managed to survive an avalanche and save his two henchmen by swallowing the snow masses and keeping his subordinates safe in his mouth.<br><br>Weakness:<br>While the devoured matter allows the user to give a great variety of applications in battle and out, it gives the user perpetual hunger that cannot be satiated by eating. Chewy foods, such as rubber, are slightly harder for the user to swallow. Also, the user can only manifest objects eaten in the past 24 hours; any objects eaten before that cannot be recovered."   
     },
     {
         name: "Clone-Clone Fruit",
@@ -279,7 +307,10 @@ const parBody = [
         element : "Power: Imitation",
         user: "User: Bentham(Mr.2)(Current), Kurozumi Higurashi(Deceased)",
         manga:"Manga Debut: Chapter 129",
-        anime:"Anime Debut: Episode 78",   
+        anime:"Anime Debut: Episode 78", 
+        imgInfo:"./Character/clone.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to turn themselves into a physical double of anyone they touch.<br><br>Usage:<br>The fruit allows the user to impersonate someone they touch with their right hand, adopting their face, physique, and voice. Bentham has perfect recollection of every person whose form he has ever copied, so he will not forget any person whom he imitates. The user can revert back to their own body by touching their face with their left hand.<br><br>The greatest strength of this fruit lies more in its immense potential for deception and creating confusion. By copying the appearance of an important individual, such as royalty, the user can use their position and authority as if it was their own. The user can likewise ruin a person's reputation by framing them for crimes they didn't commit by appearing as them and confessing it was their doing. In both these case, the user needs to make sure the real person hidden away first so no one realizes the truth. The user can also make someone lower their guard by copying someone important to them, such as a friend or family member. Overall, while the fruit lacks much offense purposes, it can potentially topple countries given time and proper planning, as it two known users have demonstrated.<br><br>Weakness:<br>The user cannot change their appearance into a person whose face they have never touched, making it impossible to change into someone that the user has never met beforehand. Apparently, the user can manifest several features belonging to different people at the same time, making this fruit usable only for purposes such as stealth, infiltration, and subterfuge. As copied abilities must be gained through touch, some stronger opponents are hard to get close to and may keep the user at bay. The user also cannot copy their user's clothes, mannerisms or weapons, so their ability to deceive others depends greatly on their acting abilities. Devil Fruit powers also cannot be copied, unless it is the some form of a Zoan fruit. For instance, Bentham was able to mimic Chopper's Brain Point form, which had been granted to him through the Hito Hito no Mi." 
     },
     {
         name: "Dice-Dice Fruit",
@@ -287,7 +318,10 @@ const parBody = [
         element : "Power: Blades",
         user: "User: Daz Bonez(Mr.1)",
         manga:"Manga Debut: Chapter 160",
-        anime:"Anime Debut: Episode 103",   
+        anime:"Anime Debut: Episode 103",
+        imgInfo:"./Character/dice.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that enables the user's body to gain characteristics of a steel blades.<br><br>Usage:<br>The major strength of the fruit, as demonstrated by Bonez, is that its user can create strong blades from any part of their body. The ability allows the user's body to gain characteristics of steel, more specifically a blade. The user is immune to most slashing attacks and can cut through almost anything, from flesh to stone.<br><br>The user seems to have the ability to cut through objects without the need to physically touch them, much like flying slashes used by various swordsmen. This has been shown through Bonez's Atomic Spurt, Spar Break and Spar Claw, the latter in at least one instance. Also, as demonstrated by moves like Bonez's Spiral Hollow, the user can also make the blades spin like saws or drills.<br><br>Weakness:<br>However, the user's ability to resist slicing attacks is limited as Bonez is unable to easily manipulate the hardness of the steel blades. So, while the user is generally immune to most blade attacks, any sword strike strong enough to cut steel is sufficient to slice the user's flesh."    
     },
     {
         name: "Spike-Spike Fruit",
@@ -295,7 +329,10 @@ const parBody = [
         element : "Power: Spikes",
         user: "User: Zala(Miss Doublefinger)",
         manga:"Manga Debut: Chapter 155",
-        anime:"Anime Debut: Episode 103",   
+        anime:"Anime Debut: Episode 103",  
+        imgInfo:"./Character/spike.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to grow spikes on any part of their body, and turn any body part entirely into a spike.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to sprout long and sharp spikes from their body. This means that the user can transform any of their body parts, be it their arms, feet, facial features or even hair, into a deadly spear and quickly impale anything in their way. The spikes themselves are very strong, hard enough to pierce solid rock with ease. This means that it is nearly impossible for an opponent to protect themselves with a physical barrier such as a wall, as the user's spikes can penetrate through the barrier and pierce them anyway. Moreover, the spikes can pierce at very high speeds, making it difficult to dodge.<br><br>Aside from its extraordinary offensive applications, the fruit's ability also grants great defensive power to the user, especially at close range. If the foe attempts to struggle against the spikes, they will likely get injured by them; Nami ended up with her foot impaled and bleeding heavily when she tried to force Zala back at the end of her fight. For speed and mobility, the user can spawn long spikes on the soles of their feet to make greater and quicker steps or to attach themselves to the surface of a ceiling, allowing them to gain a high foothold for sneak attacks. Moreover, the user can curl themselves into a spiked ball and charge at their target.<br><br>Weakness:<br>Nami demonstrated that it is possible to hinder a Toge Toge no Mi user by getting them tangled into cloth or something similar, as the spikes will be stuck, forcing the user to call them back."  
     },
     {
         name: "Bind-Bind Fruit",
@@ -303,7 +340,10 @@ const parBody = [
         element : "Power: Cages",
         user: "User: Hina",
         manga:"Manga Debut: Chapter 217",
-        anime:"Anime Debut: Episode 130",   
+        anime:"Anime Debut: Episode 130", 
+        imgInfo:"./Character/hina.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to bind their foes in iron shackles created by the user's body.<br><br>Usage:<br>The major strength of the fruit, as demonstrated by Hina, is that it gives the user the ability to bind foes via iron-like constructs manifested from their body. So far, no character has been shown escaping those cuffs, so it is unknown if it is possible to break them away.<br><br>When the user makes contact with something they intend to bind, their body will bend in an unnatural manner and transform into something akin to a giant, restraining metal cuff around the spot contact was made (with the bending body part fully regenerating afterwards). It is also possible for the user to shackle more than one object at once, allowing them to secure a target to the nearby environment. The user also has the ability to generate flexible metal bars that behave much like their body does, bending around and restraining anything in their way. This method grants more range to the user and can encircle their immediate surroundings in order to capture multiple people at once.<br><br>Weakness:<br>The fruit so far does not seem to have any specific weaknesses outside the standard Devil Fruit weaknesses. However, the user can unintentionally bind allies and prevent them from fighting when utilizing more sophisticated, long-ranged techniques."   
     },
     {
         name: "Spring-Spring Fruit",
@@ -311,7 +351,10 @@ const parBody = [
         element : "Power: Springs",
         user: "User: Bellamy",
         manga:"Manga Debut: Chapter 231",
-        anime:"Anime Debut: Episode 150",   
+        anime:"Anime Debut: Episode 150",  
+        imgInfo:"./Character/bellemy.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to turn their limbs into springs.<br><br>Usage:<br>he major strength of this fruit is that it gives its user the ability to transform parts of their body into springs. By turning their legs into springs, the user can launch themself at high speeds, often moving too fast for the opponent to see, similar to Kuro's Cat out of the Bag attack. The user is then able to launch themselves towards the opponent suddenly, allowing for greater momentum.<br><br>Due to the reactive force of bouncing off a solid surface, the user can break apart said surfaces, as the Going Merry was split in half as a result. By applying this ability to other parts of the body, such as the arms, the user can also create strong, longer-ranged punches. Enforcing his punches by turning his own arm into a spring, as well as evading an enemy by changing one leg for a quick evasive maneuver. He is also able to change both of his legs into one single spring to supplement his acrobatic skills, and utilize his spring-arms as extensions, similar to Luffy's rubbery arms.<br><br>Weakness:<br>One weakness of this fruit's power lies within the self-propulsion by turning the legs into springs; the user can only be propelled in a straight direction, making it easy for the opponents to predict the user's trajectory and counterattack, and if they do, the user's current speed can cause said counterattack to become more severe. Also, the user requires both solid surfaces and sufficient space to allow for optimal movement. Therefore, the potential of this fruit is dependent on the nature of the battlefield; spaces with walls and open floors may serve more useful than enclosed spaces or flat grounds. Lastly, the destructive nature of the bouncing may cause unwanted collateral damage depending on the power of the bounce."  
     },
     {
         name: "Berry-Berry Fruit",
@@ -319,7 +362,10 @@ const parBody = [
         element : "Power: Body parts into berry-like balls",
         user: "User: Very Good",
         manga:"Manga Debut: Chapter 426",
-        anime:"Anime Debut: Episode 309",   
+        anime:"Anime Debut: Episode 309", 
+        imgInfo:"./Character/beri.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to transform their body parts into a multitude of berry-like balls.<br><br>Usage:<br>Upon eating the fruit, the eater is able to divide themselves into several spherical, cannonball-like projectiles. This makes the user immune to blunt attacks, similar to how the Bara Bara no Mi makes its user immune to cutting attacks. By turning into berry-shaped balls, an attack like Franky's punch, Strong Right, appears to be nullified.<br><br>In the anime, it is shown that the user's body parts can float in midair like Buggy and swarm around the opponent, allowing each ball to charge at the opponent from different angles. In the manga, the balls were only able to bounce. Unlike the Bara Bara no Mi, the Beri Beri no Mi's power allows the user to levitate all separate parts of his body, including the feet.<br><br>Weakness:<br>Unfortunately for the user, any defensive advantages granted by this ability comes at the expense of strength and speed, as the user's charging attacks can be blocked with both Franky's arms and Zoro's swords. Unlike the Bara Bara no Mi, it also seems that the user's body can only be split once, and the balls cannot be split further into smaller parts. Lastly, the user needs to keep track of all of its parts, as if the opponent grabs one of the balls, there is no easy way to recover it. Franky defeated Very Good by grabbing his head, leaving him defenseless. Other than that, the user is also affected by standard Devil Fruit weaknesses."   
     },
     {
         name: "Wheel-Wheel Fruit",
@@ -328,6 +374,9 @@ const parBody = [
         user: "User: Sharinguru",
         manga:"Manga Debut: Chapter 428",
         anime:"Anime Debut: N/A",   
+        imgInfo:"./Character/wheel.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to transform their arms and feet into wheels.<br><br>Usage:<br>The only strength of the fruit, so far seen, is that when the user turns his arms into wheels and spins them at a high speed, they gain formidable spinning weapons that apparently can be used to attack their opponents.<br><br>Weakness:<br>The fruit so far does not seem to have any specific weaknesses outside the standard Devil Fruit weaknesses. However, it appears that metallic like bodies, like Franky's arms, seem to be somewhat resilient to the user's attacks, meaning that the spinning velocities of these wheels are not extremely powerful.<br><br>Not much information was revealed of this fruit." 
     },
     {
         name: "Castle-Castle Fruit",
@@ -335,7 +384,10 @@ const parBody = [
         element : "Power: Living Fortress",
         user: "User: Capone Bege",
         manga:"Manga Debut: Chapter 508",
-        anime:"Anime Debut: Episode 401",   
+        anime:"Anime Debut: Episode 401", 
+        imgInfo:"./Character/bege.jpg",
+        fruitBox:"./image/unknown.png",
+        info:" Devil Fruit that allows the user to become a living fortress.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to become a living fortress, the inside of their body holding many openings, including cannon ports, portcullis and drawbridges; deeper inside contains various rooms, ranging from stone brick rooms for combat to well-refurnished meeting halls, complete with long-table, chairs and even decorations. The user can hold even living people inside their body, by shrinking their sizes as long as they are within the vicinity of the user. When the objects and people within the user get out they return to their normal size. This can be done by exiting a certain distance away from the body, shown by a pinkish layer of an unknown aura centered on the user's location, or through a unique alternative route like the Mirro-World.<br><br>Once someone enters this aura they automatically get sucked into the castle. When the user grows to unleash the fortress' full size, the shrinking affect is nulled. In addition, the user's castle defenses can be deployed in a circular formation to give them a full 360 degrees of protection and attack coverage, as well as the potential to conduct decisive surprise ambushes. The user can also use their body as a storage facility for recreational purposes, as they are shown to house food and drink for subordinates and any outsiders. The user has complete control over the fortress in their body, and can telekinetically move around and create objects from inside as they see fit. Additionally, the user can also turn their body into an actual fortress, resembling a humanoid golem; while they still retain a humanoid form, they will grow significantly in size as their skin becomes stone and the rooms in the castle become life-sized.<br><br>Weakness:<br> This Devil Fruit's full potential seems to be dependent on the presence of other people within the user's fortress body in order to use weapons and launch ambushes against threats located outside it."   
     },
     {
         name: "Tone-Tone Fruit",
@@ -343,7 +395,10 @@ const parBody = [
         element : "Power: Musical Instruments",
         user: "User: Scratchmen Apoo",
         manga:"Manga Debut: Chapter 509",
-        anime:"Anime Debut: Episode 402",   
+        anime:"Anime Debut: Episode 402",
+        imgInfo:"./Character/apoo.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit which allows the user to transform parts of their body into musical instruments and play music with a variety of destructive effects.<br><br>Usage:<br>By transforming their body parts into instruments, such as turning teeth into piano keys or an arm into a trumpet, and playing specific notes and tunes, the user can release music that causes damaging effects to their opponents, the type of damage being determined by what tune they play. There is a wide range of attacks the user can perform, from physical strikes like punches and slashes (which can dismember victims) to elemental attacks like explosions.<br><br>Since attacks come from sound waves which travel at very quick speeds and covers a very wide range, it can be very difficult to recognize and dodge an incoming attack. Anyone who is within eyeshot and earshot of Apoo will be affected by the music; he can specifically choose which targets to affect by simply looking at them.<br><br>Weakness:<br>However, the fruit's powers only work if the user's targets can actually hear the music; if the enemy covers their ears or otherwise manages to move out of Apoo's sound range, then they will not be affected. Additionally, Apoo will be unable to attack anything he cannot see, so if an opponent is fast enough to elude his eyesight, they will stay out of harm's way. Since Apoo plays specific tunes for each attack, it is likely that the user must be well-versed in music and have the ability to play a large variety of instruments in all major classes, including wind, percussion, and string. "    
     },
     {
         name: "Hor-Hor Fruit",
@@ -352,6 +407,9 @@ const parBody = [
         user: "User: Emporio Ivankov",
         manga:"Manga Debut: Chapter 537",
         anime:"Anime Debut: Episode 439", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Shear-Shear Fruit",
@@ -360,6 +418,9 @@ const parBody = [
         user: "User: Inazuma",
         manga:"Manga Debut: Chapter 540",
         anime:"Anime Debut: Episode 442", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Twinkle-Twinkle Fruit",
@@ -367,7 +428,10 @@ const parBody = [
         element : "Power: Diamond",
         user: "User: Jozu",
         manga:"Manga Debut: Chapter 553",
-        anime:"Anime Debut: Episode 463", 
+        anime:"Anime Debut: Episode 463",
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""  
     },
     {
         name: "Pocket-Pocket Fruit",
@@ -376,6 +440,9 @@ const parBody = [
         user: "User: Blamenco",
         manga:"Manga Debut: Chapter 553",
         anime:"Anime Debut: Episode 461", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Huge-Huge Fruit",
@@ -383,7 +450,10 @@ const parBody = [
         element : "Power: Enlarge",
         user: "User: Sanjuan wolf",
         manga:"Manga Debut: Chapter 575",
-        anime:"Anime Debut: Episode 484", 
+        anime:"Anime Debut: Episode 484",    
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Arms-Arms Fruit",
@@ -392,6 +462,9 @@ const parBody = [
         user: "User: Baby 5",
         manga:"Manga Debut: Chapter 682",
         anime:"Anime Debut: Episode 608", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Spin-Spin Fruit",
@@ -400,6 +473,9 @@ const parBody = [
         user: "User: Buffalo",
         manga:"Manga Debut: Chapter 692",
         anime:"Anime Debut: Episode 618", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Jacket-Jacket Fruit",
@@ -408,6 +484,9 @@ const parBody = [
         user: "User: Kelly Funk",
         manga:"Manga Debut: Chapter 715",
         anime:"Anime Debut: Episode 645", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Pop-Pop Fruit",
@@ -415,7 +494,10 @@ const parBody = [
         element : "Power: Rupture",
         user: "User: Gladius",
         manga:"Manga Debut: Chapter 723",
-        anime:"Anime Debut: Episode 653", 
+        anime:"Anime Debut: Episode 653",
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""  
     },
     {
         name: "Ton-Ton Fruit",
@@ -424,6 +506,9 @@ const parBody = [
         user: "User: Machvise",
         manga:"Manga Debut: Chapter 735",
         anime:"Anime Debut: Episode 667", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Ripple-Ripple Fruit",
@@ -432,6 +517,9 @@ const parBody = [
         user: "User: Diamante",
         manga:"Manga Debut: Chapter 736",
         anime:"Anime Debut: Episode 668", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Heat-Heat Fruit",
@@ -440,6 +528,9 @@ const parBody = [
         user: "User: Charlotte Oven",
         manga:"Manga Debut: Chapter 864",
         anime:"Anime Debut: Episode 827", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Pile-Pile Fruit",
@@ -448,6 +539,9 @@ const parBody = [
         user: "User: Charlotte Newshi",
         manga:"Manga Debut: Chapter 900",
         anime:"Anime Debut: Episode 875", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Brain-Brain Fruit",
@@ -456,6 +550,9 @@ const parBody = [
         user: "User: VegaPunk",
         manga:"Manga Debut: Chapter 1066",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Isle-Isle Fruit",
@@ -464,6 +561,9 @@ const parBody = [
         user: "User: Avalo Pizarro",
         manga:"Manga Debut: Chapter 1080",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "(Unknown) Fruit",
@@ -472,6 +572,9 @@ const parBody = [
         user: "User: Bear King",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film:Clockwork Island Adventure",   
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Mini-Mini Fruit",
@@ -479,7 +582,10 @@ const parBody = [
         element : "Power: Miniature",
         user: "User: Lily Enstomach(Anime), Blyue(Game)",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: Episode 575",   
+        anime:"Anime Debut: Episode 575",
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""    
     },
     {
         name: "Hot-Hot Fruit",
@@ -487,7 +593,10 @@ const parBody = [
         element : "Power: Hot",
         user: "User: Don Accino",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: Episode 326",   
+        anime:"Anime Debut: Episode 326",  
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""  
     },
     {
         name: "Net-Net Fruit",
@@ -496,6 +605,9 @@ const parBody = [
         user: "User: Largo",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 427",   
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Smelt-Smelt Fruit",
@@ -504,6 +616,9 @@ const parBody = [
         user: "User: Bill",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 746",   
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Roll-Roll Fruit",
@@ -512,6 +627,9 @@ const parBody = [
         user: "User: Averyon(Deceased?)",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 747",   
+        imgInfo:"./Character/wapol1.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
 ];
 const parSub = [

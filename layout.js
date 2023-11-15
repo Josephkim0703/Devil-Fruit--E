@@ -312,10 +312,19 @@ document.querySelector('#back').style.display = "block";
                      console.log(option);
                          document.getElementById('Dname').innerHTML = parBody[i].name + " (" + parBody[i].jname + ")";
                             document.getElementById('Duser').innerHTML = parBody[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parBody[i].element;
-                                document.getElementById('Dinfo').innerHTML = "Information not complete";
+                                document.getElementById('Dinfo').innerHTML = parBody[i].info;
                                     document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
-    //                                        document.getElementById('fruits').src = ;
-    //                                   document.getElementById('user').src =;
+                                        document.getElementById("fruits").src = parBody[i].fruit;
+
+                                parBody[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                    document.getElementById('Ufruit').src = parBody[i].ufruit;
+
+                                parBody[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = parBody[i].imgInfo;
+                                             
+                                parBody[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = parBody[i].fruitBox;
+  
                                  document.getElementById('infoPage').style.display = "block";
                              document.querySelector('#optionBox').style.display = "none"; 
                          document.getElementById('wrapper').style.display = "none";
