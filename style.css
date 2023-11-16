@@ -503,7 +503,7 @@ main{
 #Ufruit{
     height: 26rem;
     position: absolute; top: 25vh; left: 10vw;
-    border: 3px solid black;
+    border: 3px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
 }
@@ -511,7 +511,7 @@ main{
 #fruitBox{
     height: 12rem;
     position: absolute; top: 77vh; left: 2vw;
-    border: 2px solid black;
+    border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
 }
@@ -526,14 +526,14 @@ main{
 #char {
     height: 7rem;
     position: absolute; top: 85vh; left: 47vw;
-    border: 2px solid black;
+    border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 1rem;
 }
 #imgInfo{
     height: 12rem;
     position: absolute; top: 77vh; left: 14vw;
-    border: 2px solid black;
+    border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
 }

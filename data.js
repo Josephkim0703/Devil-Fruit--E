@@ -407,9 +407,9 @@ const parBody = [
         user: "User: Emporio Ivankov",
         manga:"Manga Debut: Chapter 537",
         anime:"Anime Debut: Episode 439", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/hormone.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that grants the user the ability to create a variety of special hormones that can alter the recipient's body in any way the user desires.<br><br>Usage:<br>User can create special hormones that can quickly and drastically alter the body of any person they are injected into in any way the user desires, effectively allowing the user to remodel a human from the inside out on a genetic level. The user can also turn their fingers into syringe-like needles, which they use to inject the hormones into a target's body, including their own body if they desire to do so. These hormones can be used to freely alter any of the target's physical aspects, such as gender, body temperature, skin pigmentation, growth, stamina, even their emotional state, and many other things as well. <br><br>By using the hormones on someone, the user can grant them physical characteristics that are advantageous in combat; the user can give someone a burst of adrenaline to increase their stamina, allowing them to continue fighting even if they are exhausted, enlarge certain body parts to make specific attacks strong, as Ivankov does with his head size, making it gigantic to increase the power of his signature Hell Wink technique, and even change a person's gender so that they can take advantage of the beneficial attributes of the opposite sex. By turning a man into a woman, his body becomes lean and agile, as well as soft and flexible, making him/her resistant to blunt force. The user can also create hormones that enhance the recipient's natural immune system, allowing them to boost a person's chances of survival from conditions that would otherwise mean certain death, such as disease and poisoning.<br><br>Weakness:<br>While the user can provide a person with healing hormones, the chance of survival is only slightly increased, as the healing hormone cure is extremely painful, and the process can take many hours, or even days to complete, so only those with strong enough willpower can recover. Also, the process shortens a person's potential lifespan, by years even, if the condition was serious enough." 
     },
     {
         name: "Shear-Shear Fruit",
@@ -418,9 +418,9 @@ const parBody = [
         user: "User: Inazuma",
         manga:"Manga Debut: Chapter 540",
         anime:"Anime Debut: Episode 442", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/shear.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:" Devil Fruit that allows the user to transform parts of their body into scissors and cut solid objects as if they were paper.<br><br>Usage:<br>The major strength of the fruit, as demonstrated by Inazuma, is that it allows the user to turn parts of their body into scissors. This can range from their hands becoming giant scissors, to simply two of their fingers becoming a pair of scissors. With whatever scissors they create from their body, the user is able to cut any solid object without much effort, including stone. With this, Inazuma was seen (in the anime) being able to snag off the chains that held the Warlord Fish-Man Jinbe in place, strongly hinting just how powerful the Fruit's ability is. Once cut, the material is able to be manipulated as though it were paper, but apparently still retains its original density. In addition to simply attacking his opponents with scissor blades, the user can cut through things around them to give themselves an advantage, such as by cutting a staircase down so that enemies cannot follow them.<br><br>This power can be used to manipulate the terrain; by cutting the ground into strips, the user can attack an opponent by hurling the strips at them. The user can also swing them upright, allowing them to create a protective wall. Additionally, the user can use a strip of ground to make a bridge connecting two points.<br><br>Weakness:<br>The fruit so far does not seem to have any specific weaknesses outside the standard Devil Fruit weakness." 
     },
     {
         name: "Twinkle-Twinkle Fruit",
@@ -429,9 +429,9 @@ const parBody = [
         user: "User: Jozu",
         manga:"Manga Debut: Chapter 553",
         anime:"Anime Debut: Episode 463",
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/diamond.jpg",
         fruitBox:"./image/unknown.png",
-        info:""  
+        info:"Devil Fruit which allows the user to transform their body into diamond.<br><br>Usage:<br>The fruit allows the user to turn parts of their body into diamond, granting them exceptional toughness. As diamond is one of the hardest substances in the world, the user's defenses seem to enhance exponentially. Not even Dracule Mihawk, the world's strongest swordsman known for his unparalleled swordsmanship, and his renowned strongest slash in the world, can penetrate Jozu's body.<br><br>Jozu is able to act as an effective barrier to long-ranged attacks, only requiring to step on the way of their trajectory and letting his diamond skin absorb the impact.<br><br>Weakness:<br>One noticeable drawback is the user is unable to move parts of his body that have been transformed into diamond. Therefore, Jozu cannot harden his entire body or he will be rendered completely unable to move. Other than that, the user is affected by the standard Devil Fruit weaknesses."  
     },
     {
         name: "Pocket-Pocket Fruit",
@@ -440,9 +440,9 @@ const parBody = [
         user: "User: Blamenco",
         manga:"Manga Debut: Chapter 553",
         anime:"Anime Debut: Episode 461", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/pocket.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to create pockets on their body.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to store various things inside pockets in their body. The objects stored inside can be much larger than the opening of the pocket, as they change size accordingly. It is stated that the user can have infinite pockets in their person, effectively giving them limitless storage capacity.<br><br>Weakness:<br>No weaknesses are currently known outside the standard Devil Fruit weaknesses.<br><br>Not much information about this fruit was revealed" 
     },
     {
         name: "Huge-Huge Fruit",
@@ -451,9 +451,9 @@ const parBody = [
         user: "User: Sanjuan wolf",
         manga:"Manga Debut: Chapter 575",
         anime:"Anime Debut: Episode 484",    
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/deka.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows its user to drastically enlarge their body.<br><br>Usage:<br>The Deka Deka no Mi's ability is to greatly increase the user's body size. It is unknown how tall the ability could make a human, but when wielded by the giant Sanjuan Wolf, it allows him to increase his height to maximum of roughly ten times an ordinary giant's height, making him the largest individual in the world.<br><br>Weakness:<br>Due to the user's increased size, it can be difficult for them to be rescued or helped should they happen to find themself in a particular dangerous situation. Apart from this, the user suffers from the standard Devil Fruit weaknesses.<br><br>Not much information has been revealed on this fruit" 
     },
     {
         name: "Arms-Arms Fruit",
@@ -462,9 +462,9 @@ const parBody = [
         user: "User: Baby 5",
         manga:"Manga Debut: Chapter 682",
         anime:"Anime Debut: Episode 608", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/arms.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that gives the user the ability to change their body parts into weapons.<br><br>Usage:<br>The Buki Buki no Mi gives the user the ability to change their body into any kind of weapon. The user can either transform small parts of their body, like the fingers, hands or arms; or a larger body-section, such as their entire torso or even their whole body, into a weapon.<br><br>While transformed into a weapon, the user does not take any damage inflicted as a result of the weapon's impact, such as detonating while in the state of an explosive. If the user's body is broken apart as a result of the weapon's intended effects, the pieces can easily reform into the user's full body, undamaged, akin to a Logia. However, this Logia-like regeneration does not apply to the user's human form, even if the user is partially transformed.<br><br>She can transform both small individual parts of her body like transforming her finger into a gun, and she can also turn half of her body into a sword or even transmute her entire body into a rocket or explosive. For the most part, however, she usually transforms her arms, and in lesser occasion legs, into either various types of blades or firearms to complement hand-to-hand combat.<br><br>Weakness:<br>Although transforming into self-detonating weapons, such as missiles and bombs, does not harm the user, the user remains vulnerable to the generated weapons if they are aimed at oneself, voluntarily or otherwise." 
     },
     {
         name: "Spin-Spin Fruit",
@@ -473,9 +473,9 @@ const parBody = [
         user: "User: Buffalo",
         manga:"Manga Debut: Chapter 692",
         anime:"Anime Debut: Episode 618", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/spin.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to create propellers around their body giving them the ability of flight.<br><br>Usage:<br>The Guru Guru no Mi grants its eater the power to transform any part of their body or piece of worn clothing into propellers capable of rotation at high speed. The force of the spinning is strong enough to enable propelled flight by the user over very long distances, to assist in the carrying or thrown launch of objects and other people, and to create powerful windstorms.<br><br>Buffalo mastered the Guru Guru no Mi to the point where he can turn his whole body into a mode of transportation. Even though Buffalo usually assumes a specific pose when he flies, he is still capable of moving his body freely when needed while still remaining midair. While on the ground, he can rapidly rotate his legs in a vertical fashion, allowing him to use them like roller skates.<br><br>Weakness:<br>A person of sufficient strength can grab onto the user's rotational parts and stop the spinning, and can even do damage by twisting the parts themselves. Besides that, the user is also vulnerable to the standard Devil Fruit weaknesses." 
     },
     {
         name: "Jacket-Jacket Fruit",
@@ -484,9 +484,9 @@ const parBody = [
         user: "User: Kelly Funk",
         manga:"Manga Debut: Chapter 715",
         anime:"Anime Debut: Episode 645", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/jacket.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to become a jacket and be worn by others.<br><br>Usage:<br>The Jake Jake no Mi's main strength is to allow the user to become a full-skin jacket that others can wear, humans or animals. The user can then control the wearer's body and gain their abilities, potentially increasing their strength.<br><br>The user still maintains the ability to move and talk while turned into a jacket, but it is unknown if they can force anyone to wear the jacket against their will. Size difference between the user and wearer seems to be of no issue, as the user's size seems to accommodate for a wearer who is larger.<br><br>Weakness:<br>From all uses shown, this ability seems to require another person or creature as the wearer, and it is not known if the fruit can be useful to the fruit-eater alone. Likewise, as the user's displayed powers require another to wear them, it seems that they need a willing host. Other than that, this fruit shares the standard Devil Fruit weaknesses." 
     },
     {
         name: "Pop-Pop Fruit",
@@ -495,9 +495,9 @@ const parBody = [
         user: "User: Gladius",
         manga:"Manga Debut: Chapter 723",
         anime:"Anime Debut: Episode 653",
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/pop.jpg",
         fruitBox:"./image/unknown.png",
-        info:""  
+        info:"Devil Fruit that allows the user to cause their own body or any inorganic object they touch to rupture and explode.<br><br>Usage:<br>The main strength of this power is that it allows the user to cause anything inorganic they touch to swell up, which will then rupture and explode violently. The user can also apply it to themselves. The user remains unharmed from the explosion. The user can rupture themselves but cannot rupture any organic material and living materials, unless they have been converted into toys, which turns their bodies into inorganic material.<br><br>He can cause his own arms to swell up and explode while grabbing onto his opponents, causing explosive damage, or grab onto an object and cause it to work as a grenade by launching shrapnel with the explosion injuring his opponents.<br><br>Weakness:<br>Also, any swellings created by this technique will detonate only as long as the user remains conscious; should the user lose consciousness before the swelling ruptures, it would go back down to normal levels. Finally, the inflating and rupturing can be stopped if the user lets go of the target, allowing the object to deflate itself. Other than that, this fruit possesses the standard Devil Fruit weaknesses."  
     },
     {
         name: "Ton-Ton Fruit",
@@ -506,9 +506,9 @@ const parBody = [
         user: "User: Machvise",
         manga:"Manga Debut: Chapter 735",
         anime:"Anime Debut: Episode 667", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/ton.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit which allows the user to increase their weight.<br><br>Usage:<br>The fruit allows the user to increase their body weight by incredible amounts, measured in metric tonnes (not to be confused with the imperial tons). This allows them to land crushing attacks that can easily crack the ground and even break the bones of giants.<br><br>The fruit is superior to the Kiro Kiro no Mi, since while both fruits revolve around the manipulation of body weight, the user of the Ton Ton no Mi can become much heavier than the Kiro Kiro no Mi's maximum of 10,000 kilograms. The lowest weight shown is ten tonnes (equivalent to ten thousand kilograms) and the highest weight shown is 10,000 tonnes (equivalent to ten million kilograms). The user's weight can also be supplemented by holding other heavy objects, as Machvise sometimes crushes his opponents while holding a large shield.<br><br>Weakness:<br>The fruit's power will prove ineffective should an opponent be capable of withstanding the selected weight, and can even use the force of the weight against the user, as shown when Hajrudin, a giant, defeated Machvise. Also, as the user is unable to manipulate the trajectory of their fall, any opponent sufficiently fast can dodge the attacks with relative ease. Missing the target will also mean landing on hard ground, and unlike the Kiro Kiro no Mi the user of this fruit is not protected by the impact of their own attacks.<br><br>Lastly, since the user is only given crushing-based techniques, this fruit's power is rendered completely ineffective against eaters of the Gomu Gomu no Mi, as the latter's body has rubber-like properties and is therefore unaffected by blunt attacks." 
     },
     {
         name: "Ripple-Ripple Fruit",
@@ -517,9 +517,9 @@ const parBody = [
         user: "User: Diamante",
         manga:"Manga Debut: Chapter 736",
         anime:"Anime Debut: Episode 668", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/flag.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to make their body and any object they touch become flat and flexible, letting solid objects ripple, billow, and flutter like a piece of cloth or a flag.<br><br>Usage:<br>This fruit allows the user to make their body and anything they touch gain the malleable properties of cloth fabric. As such, the affected materials become completely flexible, flat, and foldable; this effect is strong enough to let hardened metal flutter like a flag in the breeze at the user's command.<br><br>At the same time, all other natural characteristics such as toughness, strength, or sharpness are retained by the material, so metal objects can still resist forceful impact from enemies and blades retain an edge. The user can creatively fold and reshape flattened items into different forms and shapes. It is unknown if the power can be used on other living things, besides the user themselves.<br><br>Diamante has been seen using a cape made from a steel block as a shield, allowing it to flutter unsuspectingly until he is attacked. This allows him to break oncoming swords on impact. By applying this ability onto himself, he can flatten his entire body into a flag-like state, allowing him to float safely when falling.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses." 
     },
     {
         name: "Heat-Heat Fruit",
@@ -528,9 +528,9 @@ const parBody = [
         user: "User: Charlotte Oven",
         manga:"Manga Debut: Chapter 864",
         anime:"Anime Debut: Episode 827", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/heat.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:" Devil Fruit that allows the user to emanate heat from their body.<br><br>Usage:<br>The user is capable of heating parts of their body to temperatures greater than most people can withstand, thus increasing their attack power. They can transfer the heat to other objects, such as their own weapons and even the sea itself. Transferring heat into the opponent's objects will make them too hot for them to wield. This transfer of heat can even happen without physical contact, as demonstrated when Oven seemingly projected heat energy to set a gun ablaze.<br><br>Oven heats up his hands and submerges them in the ocean, creating several underwater heat beams that travel like torpedos towards his opponent.  transferring heat to other people's weapons in order to make them too hot to hold or transferring heat to his own clothing and weapons to heat them up and even set them alight. He can also grab onto an opponent and directly burn them. To quickly damage enemies, Oven often attempts to transfer heat to them via eye contact and set them ablaze at will.<br><br>Weakness:<br>However, the power is mostly ineffective against opponents who possess a resistance to heat. Other than that, the user is also affected by the standard Devil Fruit weaknesses." 
     },
     {
         name: "Pile-Pile Fruit",
@@ -539,9 +539,9 @@ const parBody = [
         user: "User: Charlotte Newshi",
         manga:"Manga Debut: Chapter 900",
         anime:"Anime Debut: Episode 875", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/pile.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to merge themselves with other people.<br><br>Usage:<br>By merging themselves with other people, the user can grow tremendously in size and strength. Inorganic objects can also be included in the fusion, as the merged form of the Charlotte Decuplets, who each wield a normal-sized scythe, carried a massive scythe, and wore clothes similar to a mix of the ones worn by them.<br><br>Weakness:<br>The fruit seems to offer no benefit to the user if they do not have other people around to merge with them, and it is unknown if they can forcibly merge with unwilling targets. The combined strength of the fusion will also vastly depend on the strength of each individual person in the mix. Therefore, the user will likely need to be accompanied with multiple allies in order for this fruit to be effective. Other than that, it has shown no particular weaknesses aside from the standard Devil Fruit weaknesses." 
     },
     {
         name: "Brain-Brain Fruit",
@@ -550,9 +550,9 @@ const parBody = [
         user: "User: VegaPunk",
         manga:"Manga Debut: Chapter 1066",
         anime:"Anime Debut: N/A", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/nomi.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user's brain to expand indefinitely with new knowledge.<br><br>Usage:<br>The major strength of this fruit is that it allows the user to store an indefinite amount of information inside their brain, allowing them to remember everything they have ever learned.<br><br>Vegapunk:<br>Eventually, however, his head became so large that he was near the size of giants. Vegapunk chose to resolve this issue by cutting off the majority of his brain, and connecting it to his main body with an antenna capable of transmitting brain waves though it is currently unknown if detaching fragments of brain matter like this is an aspect attributable to the fruit's power or a phenomena made possible via medical technology. The cut-off and still-expanding brain became what it now known as Punk Records. Vegapunk also created six alter egos of himself known as his satellites, which synchronize with Punk Records daily, essentially sharing the same brain.<br><br>Weakness:<br>However, the user's brain and head must expand accordingly to fit all the knowledge, which can cause the user some issues, as having an unnaturally large head can become very inconvenient. Aside from that, the user suffers the standard Devil Fruit weaknesses." 
     },
     {
         name: "Isle-Isle Fruit",
@@ -561,9 +561,9 @@ const parBody = [
         user: "User: Avalo Pizarro",
         manga:"Manga Debut: Chapter 1080",
         anime:"Anime Debut: N/A", 
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/isle.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that grants the ability to merge with an island's environment and manipulate it.<br><br>Usage:<br>A user of the Shima Shima no Mi's power can assimilate themselves with the environment of any island, be it natural or artificial, and then manipulate said environment freely. For example, the user can similarly merge themselves with a mountainside or floors built from wood, as long as they are in contact with them. Depending on the size of the island, the user can become a fearsome opponent thanks to the sheer scale of their ability's range and the fact that the vast majority of the world's landmasses consist of islands. Even cannonfire from a Marine battleship is not sufficient to hurt or even delay the user when they are merged with a large enough island.<br><br>The user can further manipulate the landmarks they are assimilated with to perform actions such as emoting or talking (by creating a fissure on a surface to act as a mouth, for example). Even objects that are located outside the island's borders can still be reached out by the user (by shaping the island's geography into gigantic limbs). The user is also apparently sensitive to the actions of people that act upon the environment they are merged with, which can be applied for surveillance purposes (such as detecting a mass breakout of escaping prisoners through itching, for example).<br><br>Weakness:<br>The fruit's most noteworthy weakness comes from the fact that since the user is effectively fused with the island they are controlling, the island itself acts as a manifestation of their body, which means that any significant damage dealt to the island's environment will be reflected on the user's true body while they are merged together. Enemies with enough physical strength can exploit this by attacking any part of the island that is being manipulated by the user, who is otherwise an enormous target, in order to hurt or distract them." 
     },
     {
         name: "(Unknown) Fruit",
@@ -572,9 +572,9 @@ const parBody = [
         user: "User: Bear King",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film:Clockwork Island Adventure",   
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/kachi.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the body of the user to harden and heat up their body at will.<br><br>Usage:<br>This fruit allows the eater to harden the body at will, increasing their defensive capabilities. Not even the drilling power of the King Cannon could break through it, as it was the floor caving in that defeated him. The user can also increase the temperature of their hardened body parts, which can be used to increase damage done to the opponent and resulted in his chair being set ablaze upon contact.<br><br>Weakness:<br>This fruit does not seem to have any other specific weaknesses, aside from the standard Devil Fruit weaknesses.<br><br>Not much information was revealed of this fruit." 
     },
     {
         name: "Mini-Mini Fruit",
@@ -583,9 +583,9 @@ const parBody = [
         user: "User: Lily Enstomach(Anime), Blyue(Game)",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 575",
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/mini.jpg",
         fruitBox:"./image/unknown.png",
-        info:""    
+        info:"Devil Fruit that allows the user to become smaller than their actual size.<br><br>Usage:<br>The main strength of this Devil Fruit is that the user can shrink down to 5 mm in height without reducing their strength. The user can also return to their original dimensions or any new size between the two extremes.<br><br>The fruit also seems to affect clothes and personal items such as weapons, which changes size to match the users, as seen when Blyue's battle axe and shield and Lily's fork grow larger when they turn into their normal giant forms. However, this trait does not seem to be unique to the Mini Mini fruit in particular.<br><br>Weakness:<br>However, this fruit permanently changes the default size of its user, which becomes about the height of two human hands. This means that if the fruit's powers are negated, such as when falling in the sea, the user's size will change back to this new form rather than their original. Also, if the user becomes overly excited, then some parts of the body will become disproportionate from the others. This was shown when Lily's head became bigger than her body after remembering that she had to rescue her father from the Marines. Other than this, the fruit also has the standard Devil Fruit weaknesses."    
     },
     {
         name: "Hot-Hot Fruit",
@@ -594,9 +594,9 @@ const parBody = [
         user: "User: Don Accino",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 326",  
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/hot.jpg",
         fruitBox:"./image/unknown.png",
-        info:""  
+        info:"Devil Fruit that gives the user the ability to produce and control vast amounts of heat.<br><br>Usage:<br>The major strength of the fruit, as demonstrated by Don Accino, is that its user gains the ability to produce and control an immense amount of body heat. This also has the added side-effect of causing steam to emanate from their body. The Devil Fruit user can use this heat to melt anything they touch. The user is also able to use it to either protect themselves from physical blows by creating a scorching hot layer of heat around their body or attack opponents with various heat based attacks.<br><br>The user has the ability to regulate their body temperature, they are able to withstand varying temperatures of extreme magnitude, from being surrounded by the freezing cold of a winter island to being completely immersed in molten lava, which not even the Mera Mera no Mi permits.<br><br>Weakness:<br>The heat produced is also affected by the user's temperament. If the user is calm, the heat that is produced is moderately safe. However, if the user is angry in any sort of way, the temperature of the heat that is produced becomes so dangerously high that the user can melt everything around him/her. Their heat can also drastically affect the environment around the user and can wake up sleeping volcanoes in the vicinity. Other than that, the user is also affected by the standard Devil Fruit weaknesses."  
     },
     {
         name: "Net-Net Fruit",
@@ -605,9 +605,9 @@ const parBody = [
         user: "User: Largo",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 427",   
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/net.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to produce nets from their body.<br><br>Usage:<br>The first and foremost strength of the fruit, as demonstrated by Largo, is that the fruit gives its user the ability to produce sticky nets. While the sticky nets are the most basic form of net the user can produce, they can create different types of nets by ingesting certain materials. These nets take on the properties of the materials the user ingested and can give the user a variety of attacks. The materials that the user can make nets from can vary from iron, boiling water to even fire itself. The user has seemingly no limit to how long they can use the materials to make the nets as well as manipulate the nets in any way they want.<br><br>The most powerful strength of the fruit is that the user can become a net himself, similar to a Logia user. When transformed into a net, the force of any physical blow dealt onto the user's body is displaced over the surface of the net. This is similar to how a soccer net is capable of catching a fast-moving soccer ball without being torn into shreds. This grants a defense somewhat similar to that of the Gomu Gomu no Mi as the attacks bounce off. Furthermore, the user can capture an opponent within their own body. While the user can ingest different materials to produce different types of nets, they are however still susceptible to the condition of some materials. In other words, if the user swallows some boiling hot water for instance, they can create a net made of boiling hot water.<br><br>Weakness:<br>While the user is able to capture an opponent within themselves when they turn into a net, the nets strings however can break if the opponent is too big to fit in. The fruit also becomes less effective in dense locations such as a forest as it is very easy for the target to hide behind obstacles, thus it is more ideal for the user to be in wide open spaces like a beach or a meadow. It would also appear he is unable to combine the consumed material, as he only selects one of the materials at a time to create a net." 
     },
     {
         name: "Smelt-Smelt Fruit",
@@ -616,9 +616,9 @@ const parBody = [
         user: "User: Bill",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 746",   
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/gutsu.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to turn their body into a blast furnace and melt metals inside it.<br><br>Usage:<br>The main strength of this fruit is the ability to become a human-blast furnace, able to consume ore, melting said ore down in their bodies, and then solidify the molten ore in the user's body and shape it into anything the user desires, including metal weapons, which he can pull out from his abdomen. The user can even launch the ore in its molten state to attack others. They can encase people in solid silver by pouring the molten ore on them; the user will also become encased in silver if covered in ore, but they will still have freedom of movement.<br><br>They are also granted immunity from being burned by the molten ore, initially hot metal it is formed into, and most forms of heat including fires. The more ore the user consumes, the larger and more powerful they become, as Bartolomeo pointed out that the resultant effect appears similar to Logia.<br><br>Weakness:<br>It seems that the user requires a supply of ore inside them in order to be able to form weapons, forcing them to constantly consume ore in order to produce weapons. The weapons created from the fruit will also quickly become molten again when it is destroyed. Also, overeating ore would cause the user to exude a tremendous amount of heat, capable of melting everything around inadvertently, which, if left unchecked, can potentially sink an entire island. Other than that, the user is also affected by the standard Devil Fruit weaknesses." 
     },
     {
         name: "Roll-Roll Fruit",
@@ -627,9 +627,9 @@ const parBody = [
         user: "User: Averyon(Deceased?)",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 747",   
-        imgInfo:"./Character/wapol1.jpg",
+        imgInfo:"./Character/roll.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to turn their hands and feet into train wheels.<br><br>Usage:<br>The fruit allows the user to spin their wheels at will, allowing them to roll at high speeds and attack people by running into them. The wheels also attach to train tracks, allowing the user to roll on tracks in any location, and they can even keep rolling with only two wheels on the track, allowing them to use their hands to attack. They can also use their wheels to spin other objects such as drills.<br><br>Weakness:<br>Due to the high speeds the user can roll at, it is very difficult for them to stop, so they are punished if they miss a high-speed attack. The inability to easily brake also prevents them from stopping at cutoff tracks, causing them to fly into the air. Other than that, the user is affected by the standard Devil Fruit weaknesses." 
     },
 ];
 const parSub = [
@@ -641,7 +641,8 @@ const parSub = [
         manga:"Manga Debut: Chapter 117",
         anime:"Anime Debut: Episode 70", 
         fruit:"./image/wax.png",
-        fruitBox:"./Character/wax.jpg",
+        fruitBox:"./Character/wax1.jpg",
+        imgInfo:"./Character/wax.jpg",
         info:"The major strength of the fruit, is that the user is able to produce candle wax from their body and mold it into any shape they wish.<br><br>Usage:<br>The wax is also resilient to certain acidity, such as the stomach acid of Bananawani and Magellan's Hydra. The user's hair becomes ignited when the fruit's power is activated, making the user resemble a candle. The fire does not harm the user though.<br><br> These range from wax statues that completely resemble other people in every little detail, to a gigantic wax cake complete with burning candles and the fruit's powers to encase his enemies with wax in order to turn them into living wax statues.  Another use for his powers is to power his ship, similar to certain Logia-class users does, though his exact method is unknown.<br><br>Weakness:<br>A piece of hardened wax can be broken by being struck with another piece of hardened wax, causing both pieces of wax to crumble. Despite its density, the wax will still melt if exposed to flames or heat, placing the user in an environment with a significant amount of heat can greatly weaken them as a result.", 
     },
     {
@@ -666,6 +667,7 @@ const parSub = [
         anime:"Anime Debut: Episode 293",
         fruit:"",
         ufruit:"./image/bubble.jpg",
+        imgInfo:"./Character/bubble1.jpg",
         fruitBox:"./Character/bubble.jpg",
         info:"The fruit's major strength, is that it gives its user the ability to emit and control soap and bubbles from their body.<br><br>Usage:<br>These bubbles are created from the user's body and can even manifest while the user is wearing gloves. The bubbles are also capable of not only cleaning off dirt but can also clean off someone's power. The user can thus essentially drain their opponent's energy with these bubbles and leave them in a clean and shiny state that is extremely smooth. Spreads bubbles on her victim's body, draining them of their strength and leaving their skin shiny and smooth. This also has the side effect of impairing her target's mobility, as their extremely slippery skin makes it hard for them to move around.<br><br>The user can also shield themselves from attacks by condensing these bubbles together around themselves and encasing themselves into a giant bar of soap.<br><br>Weakness:<br>However, the user's bubbles can be washed away by water. Likewise, their smoothed opponents can be returned to normal by being washed by water. Also, although it will not nullify the bubbles' effects, a strong wind will blow them away before they can drain the target of their energy.", 
     },
@@ -835,6 +837,7 @@ const parSub = [
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Gold", 
         ufruit:"./image/gold.jpg",
+        imgInfo:"./Character/gold1.jpg",
         fruitBox:"./character/gold.jpg",
         info:"The main strength of the fruit is that it allows the user to manipulate any gold that they touch.<br><br>Usage:<br>They can quickly change the gold from solid to liquid and vice-versa, allowing them to shape it in any way they desire. They can even encase living beings in gold, effectively turning them into statues. The user is also able to cover their own body in golden armor for increased power, to the point where they can turn into a massive gold golem. Though gold is normally a relatively soft metal, if the user is actively manipulating it, the gold is hard enough to withstand extremely powerful attacks.<br><br>Trap his enemies, infuse gold dusts and flakes into other people's bodies and even slowly transform their skin into gold. He is also able to create an armor of gold for increased power and defense, to the point where he can turn into a massive gold golem.<br><br>Awakened:<br>If this power is awakened, the range of the user's influence over gold will increase, extending their senses to the gold that are under their powers, potentially creating a complex sensory network. Any disturbances on such gold will be noticed.<br><br>Weakened:<br>The main weakness of this Devil Fruit power is that it cannot create gold and that its power is thus directly proportional to the amount of gold present in its user's surroundings. Furthermore, the user can only manipulate gold that they have previously touched, and contact with sea water will instantly nullify that effect: gold constructs will crack and crumble, and the user will need to touch the gold once more before being able to manipulate it again. ",  
     },
