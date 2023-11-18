@@ -1,10 +1,8 @@
 import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanArtificial, zoanMythical, zoanNormal} from './data.js';
 //Dark mode
-document.getElementById("darkmode").addEventListener ('click', function () {
-    document.body.classList.toggle("dark-theme");
-});
 
 fruits();
+option();
 
 function fruits(){
 //Print logia fruits
@@ -451,6 +449,8 @@ document.getElementById('power').onclick = function (){
 }
 };
 }
+
+function option(){
 //x button to close the option box
 document.getElementById('x').onclick = function (){
     document.querySelector('#zbutton').style.display = "block";
@@ -479,6 +479,10 @@ document.getElementById('r').onclick = function(){
                     document.getElementById('optionBox').style.display = "none";
 };
 
+document.getElementById("darkmode").addEventListener ('click', function () {
+    document.body.classList.toggle("dark-theme");
+});
+}
 
 
 
