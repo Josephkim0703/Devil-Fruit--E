@@ -4,9 +4,9 @@ document.getElementById("darkmode").addEventListener ('click', function () {
     document.body.classList.toggle("dark-theme");
 });
 
+fruits();
 
-console.log(...devilFruits);
-
+function fruits(){
 //Print logia fruits
 document.getElementById('ld').onclick = function (){
     //query selectors turning certain things off and on
@@ -59,7 +59,7 @@ document.getElementById('ld').onclick = function (){
                 }
                
         }      
-}
+};
 //print zoan fruits
 document.getElementById('zd').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
@@ -277,7 +277,7 @@ document.getElementById('artificial').onclick = function (){
             document.getElementById('oz1').innerHTML = data;
         }
     }   
-}
+};
 
 document.getElementById('pd').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
@@ -450,6 +450,7 @@ document.getElementById('power').onclick = function (){
             }
 }
 };
+}
 //x button to close the option box
 document.getElementById('x').onclick = function (){
     document.querySelector('#zbutton').style.display = "block";

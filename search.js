@@ -1,16 +1,28 @@
 import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanArtificial, zoanMythical, zoanNormal} from './data.js';
 
+search();
 
-for(i = 0; i < devilFruits.length; i++){
-   let name = document.getElementById(devilFruits[i].name)
-    name.slice[0]
+function search(){
+
+    let input;
+    let name;
+    for(let i = 0; i < logia.length; i++){
+        name = logia[i].name.toLowerCase();
+        let button = 
+
+        console.log(name)
+
+    }
+
+document.getElementById("searchBar").addEventListener("keyup", function(){
+        input = document.getElementById("searchBar").value;
+        input = input.toLowerCase();
+        console.log(input);
+});
+
+        if(input === name){
+        console.log("it worked");
+        }
+
 }
 
-
-document.getElementById('searchBar').addEventListener("keydown", function(event){
-
-event.key == name?document.getElementById(devilFruits[i].name).style.display = "block" :document.getElementById(devilFruits[i].name).style.display = "none";
- 
-
-
-});

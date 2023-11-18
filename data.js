@@ -1134,6 +1134,9 @@ const parPow = [
         user: "User: Kozuki Toki(Deceased)",
         manga:"Manga Debut: Chapter 920",
         anime:"Anime Debut: Episode 910", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Ride-Ride Fruit",
@@ -1141,7 +1144,10 @@ const parPow = [
         element : "Power: Command anything she rides on",
         user: "User: Kujaku",
         manga:"Manga Debut: Chapter 1094",
-        anime:"Anime Debut: N/A", 
+        anime:"Anime Debut: N/A",
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Warp-Warp Fruit",
@@ -1150,6 +1156,9 @@ const parPow = [
         user: "User: Van Augur",
         manga:"Manga Debut: Chapter 1063",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Whip-Whip Fruit",
@@ -1158,6 +1167,9 @@ const parPow = [
         user: "User: Kujaku",
         manga:"Manga Debut: Chapter 1080",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Wring-Wring Fruit",
@@ -1166,6 +1178,9 @@ const parPow = [
         user: "User: Charlotte Smoothie",
         manga:"Manga Debut: Chapter 846",
         anime:"Anime Debut: Episode 812", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Pump-Pump Fruit",
@@ -1174,6 +1189,9 @@ const parPow = [
         user: "User: Belo Betty",
         manga:"Manga Debut: Chapter 904",
         anime:"Anime Debut: Episode 880", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Memo-Memo Fruit",
@@ -1182,6 +1200,9 @@ const parPow = [
         user: "User: Charlotte Pudding",
         manga:"Manga Debut: Chapter 851",
         anime:"Anime Debut: Episode 818", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Heal-Heal Fruit",
@@ -1189,7 +1210,10 @@ const parPow = [
         element : "Power: Healing",
         user: "User: Mansherry",
         manga:"Manga Debut: Chapter 774",
-        anime:"Anime Debut: Episode 714", 
+        anime:"Anime Debut: Episode 714",
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Stitch-Stitch Fruit",
@@ -1198,6 +1222,9 @@ const parPow = [
         user: "User: Issho(Fujitora)",
         manga:"Manga Debut: Chapter 711",
         anime:"Anime Debut: Episode 641", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Glare-Glare Fruit",
@@ -1206,6 +1233,9 @@ const parPow = [
         user: "User: Viola",
         manga:"Manga Debut: Chapter 712",
         anime:"Anime Debut: Episode 640", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Love-Love Fruit",
@@ -1213,7 +1243,10 @@ const parPow = [
         element : "Power: Fall in love",
         user: "User: Boa Hancock(Current), S-Snake(Artificial)",
         manga:"Manga Debut: Chapter 516",
-        anime:"Anime Debut: Episode 410",   
+        anime:"Anime Debut: Episode 410",
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""   
     },
     {
         name: "Wash-Wash Fruit",
@@ -1222,6 +1255,9 @@ const parPow = [
         user: "User: Tsuru",
         manga:"Manga Debut: Chapter 556",
         anime:"Anime Debut: Episode 465", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Float-Float Fruit",
@@ -1230,6 +1266,9 @@ const parPow = [
         user: "User: Shiki",
         manga:"Manga Debut: Chapter 0",
         anime:"Anime Debut: Episode 426", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Mark-Mark Fruit",
@@ -1238,6 +1277,9 @@ const parPow = [
         user: "User: Vander Decken IX",
         manga:"Manga Debut: Chapter 613",
         anime:"Anime Debut: Episode 532", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Soul-Soul Fruit",
@@ -1246,6 +1288,9 @@ const parPow = [
         user: "User: Big Mom(Deceased?), Carmel(Deceased)",
         manga:"Manga Debut: Chapter 651",
         anime:"Anime Debut: Episode 571", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Hobby-Hobby Fruit",
@@ -1254,6 +1299,9 @@ const parPow = [
         user: "User: Sugar",
         manga:"Manga Debut: Chapter 701",
         anime:"Anime Debut: Episode 630", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Shadow-Shadow Fruit",
@@ -1261,7 +1309,10 @@ const parPow = [
         element : "Power: Manifest & Control shadows",
         user: "User: Gecko Moria",
         manga:"Manga Debut: Chapter 443",
-        anime:"Anime Debut: Episode 338",   
+        anime:"Anime Debut: Episode 338", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""  
     },
     {
         name: "Scroll-Scroll Fruit",
@@ -1270,6 +1321,9 @@ const parPow = [
         user: "User: Raizo",
         manga:"Manga Debut: Chapter 817",
         anime:"Anime Debut: Episode 768", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Rust-Rust Fruit",
@@ -1277,7 +1331,10 @@ const parPow = [
         element : "Power: Rust",
         user: "User: Shu",
         manga:"Manga Debut: Chapter 426",
-        anime:"Anime Debut: Episode 309",   
+        anime:"Anime Debut: Episode 309",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Clear-Clear Fruit",
@@ -1286,6 +1343,9 @@ const parPow = [
         user: "User: Shiryu(Current), Absalom(Deceased)",
         manga:"Manga Debut: Chapter 444",
         anime:"Anime Debut: Episode 339", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Strong-Strong Fruit",
@@ -1294,6 +1354,9 @@ const parPow = [
         user: "User: Jesus Burgess",
         manga:"Manga Debut: Chapter 1063",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Glug-Glug Fruit",
@@ -1302,6 +1365,9 @@ const parPow = [
         user: "User: Vasco Shot",
         manga:"Manga Debut: Chapter 1080",
         anime:"Anime Debut: N/A", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Millet-Millet Fruit",
@@ -1310,6 +1376,9 @@ const parPow = [
         user: "User: Otama",
         manga:"Manga Debut: Chapter 911",
         anime:"Anime Debut: Episode 893", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Revive-Revive Fruit",
@@ -1317,7 +1386,10 @@ const parPow = [
         element : "Power: Resurrection",
         user: "User: Brook",
         manga:"Manga Debut: Chapter 442",
-        anime:"Anime Debut: Episode 337",   
+        anime:"Anime Debut: Episode 337",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Damage-Damage Fruit",
@@ -1326,6 +1398,9 @@ const parPow = [
         user: "User: Urouge",
         manga:"Manga Debut: Chapter 498",
         anime:"Anime Debut: Episode 392",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Puff-Puff Fruit",
@@ -1334,6 +1409,9 @@ const parPow = [
         user: "User: Charlotte Daifuku",
         manga:"Manga Debut: Chapter 846",
         anime:"Anime Debut: Episode 826", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Paw-Paw Fruit",
@@ -1342,6 +1420,9 @@ const parPow = [
         user: "User: Bartholomew Kuma(Deceased?) S-Bear(Artificial)",
         manga:"Manga Debut: Chapter 443",
         anime:"Anime Debut: Episode 338",
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Age-Age Fruit",
@@ -1349,7 +1430,10 @@ const parPow = [
         element : "Power: Ages people she touches",
         user: "User: Jewelry Bonney",
         manga:"Manga Debut: Chapter 498",
-        anime:"Anime Debut: Episode 392",   
+        anime:"Anime Debut: Episode 392",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Pet-Pet Fruit",
@@ -1357,7 +1441,10 @@ const parPow = [
         element : "Power: Control living creature",
         user: "User: Breed",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: Episode 625",   
+        anime:"Anime Debut: Episode 625",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "(Unknown) Fruit",
@@ -1366,6 +1453,9 @@ const parPow = [
         user: "User: Peketan",
         manga:"Manga Debut: Fischer's x One Piece: Chapter 2",
         anime:"Anime Debut: Non-Canon",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Color-Color Fruit",
@@ -1374,6 +1464,9 @@ const parPow = [
         user: "User: Psycho P",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Heart of Gold",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Luck-Luck Fruit",
@@ -1381,7 +1474,10 @@ const parPow = [
         element : "Power: Steals peoples luck",
         user: "User: Baccarat",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Heart of Gold",   
+        anime:"Anime Debut: One Piece Film: Heart of Gold",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Viso-Viso Fruit",
@@ -1389,7 +1485,10 @@ const parPow = [
         element : "Power: Creates Illusion",
         user: "User: Ann",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Film: Stampede",   
+        anime:"Anime Debut: One Piece Film: Stampede",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Return-Return Fruit",
@@ -1398,6 +1497,9 @@ const parPow = [
         user: "User: Ain",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Z",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Copy-Copy Fruit(Unknown)",
@@ -1405,7 +1507,10 @@ const parPow = [
         element : "Power: Copy others abilities",
         user: "User: Chameleone",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Premier Show",   
+        anime:"Anime Debut: One Piece Premier Show",  
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"" 
     },
     {
         name: "Goe-Goe Fruit",
@@ -1414,6 +1519,9 @@ const parPow = [
         user: "User: Eldoraggo",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece: The Movie",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Whisper-Whisper Fruit",
@@ -1422,6 +1530,9 @@ const parPow = [
         user: "User: Apis",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 54",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Sickle-Sickle Fruit",
@@ -1430,6 +1541,9 @@ const parPow = [
         user: "User: Apis",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 56",   
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""
     },
     {
         name: "Sleep-Sleep Fruit",
@@ -1437,7 +1551,10 @@ const parPow = [
         element : "Power: fall asleep",
         user: "User: Noko",
         manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: Episode 220",   
+        anime:"Anime Debut: Episode 220", 
+        imgInfo:"./Character/perona.jpg",
+        fruitBox:"./image/unknown.png",
+        info:""  
     },
 ];
 const zoanNormal = [

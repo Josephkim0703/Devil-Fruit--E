@@ -68,21 +68,21 @@ text-align: center;
 }
 
 .strawhat{
-  fill: #000000;
+   fill: black;
    opacity: 1; 
    transition: 0.5s;
 }
 
 input:checked + label .strawhat{
-    opacity: 0;
-  
+    opacity: 0; 
 }
 
 .nika{
-    transform: translate(1px, -53px);
-    fill: #000000;
+   transform: translate(1px, -52px);
+   fill:black;
    opacity: 0;
    transition: 0.5s;
+   
 }
 
 input:checked + label .nika{
