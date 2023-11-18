@@ -631,6 +631,17 @@ const parBody = [
         fruitBox:"./image/unknown.png",
         info:"Devil Fruit that allows the user to turn their hands and feet into train wheels.<br><br>Usage:<br>The fruit allows the user to spin their wheels at will, allowing them to roll at high speeds and attack people by running into them. The wheels also attach to train tracks, allowing the user to roll on tracks in any location, and they can even keep rolling with only two wheels on the track, allowing them to use their hands to attack. They can also use their wheels to spin other objects such as drills.<br><br>Weakness:<br>Due to the high speeds the user can roll at, it is very difficult for them to stop, so they are punished if they miss a high-speed attack. The inability to easily brake also prevents them from stopping at cutoff tracks, causing them to fly into the air. Other than that, the user is affected by the standard Devil Fruit weaknesses." 
     },
+    {
+        name: "Copy-Copy Fruit(Unknown)",
+        jname: "Kopi-Kopi no mi",
+        element : "Power: Copy others abilities",
+        user: "User: Chameleone",
+        manga:"Manga Debut: Non-Canon",
+        anime:"Anime Debut: One Piece Premier Show",  
+        imgInfo:"./Character/copy.jpg",
+        fruitBox:"./image/unknown.png",
+        info:"Devil Fruit that allows the user to copy other people's abilities through touch.<br><br>Usage:<br>Similar to the clone clone fruit the main power of this fruit is to copy other people's abilities by touching the one he needs to copy.<br><br>Weakness:<br>It seems that the user needs touch the person he needs to copy thus giving it a big weakness. The user also needs a great concentration in using this ability as seen when Chameleone stops using his powers whenever he sneezes." 
+    },
 ];
 const parSub = [
     {
@@ -1347,7 +1358,7 @@ const parPow = [
         anime:"Anime Debut: Episode 339", 
         imgInfo:"./Character/clear.jpg",
         fruitBox:"./image/unknown.png",
-        info:" Devil Fruit that gives its user the ability to turn themselves and whatever they touch (living or nonliving) invisible.<br><br>Usage:<br>The Suke Suke no Mi's primary ability is to make the user invisible, but the user can also selectively turn anything they are in contact with invisible as well. Because of this ability, the user can spy on conversations and people without being detected as well as abduct people with no chance of being tracked. This also allows them to carry hidden weapons to attack with such as hand-strapped bazookas. Even an entire ship (though a small one) has been made invisible in order to make a concealed getaway.<br><br>Weakness:<br>The main flaw of this ability is that the user's presence can be briefly revealed if they are covered by something, such as water, salt, or blood, giving their opponent a chance to notice them. If the user gets too close to an opponent, they might get struck if the opponent gets in a lucky hit. The opponent may resort to other senses (such as hearing or smelling) in order to detect the invisible user. Additionally, invisible objects will instantly become visible once they are no longer in contact with the user. The fruit's ability will also wear off for a few seconds if the user is hit by a powerful blow, presumably due to a loss of focus."
+        info:"Devil Fruit that gives its user the ability to turn themselves and whatever they touch (living or nonliving) invisible.<br><br>Usage:<br>The Suke Suke no Mi's primary ability is to make the user invisible, but the user can also selectively turn anything they are in contact with invisible as well. Because of this ability, the user can spy on conversations and people without being detected as well as abduct people with no chance of being tracked. This also allows them to carry hidden weapons to attack with such as hand-strapped bazookas. Even an entire ship (though a small one) has been made invisible in order to make a concealed getaway.<br><br>Weakness:<br>The main flaw of this ability is that the user's presence can be briefly revealed if they are covered by something, such as water, salt, or blood, giving their opponent a chance to notice them. If the user gets too close to an opponent, they might get struck if the opponent gets in a lucky hit. The opponent may resort to other senses (such as hearing or smelling) in order to detect the invisible user. Additionally, invisible objects will instantly become visible once they are no longer in contact with the user. The fruit's ability will also wear off for a few seconds if the user is hit by a powerful blow, presumably due to a loss of focus."
     },
     {
         name: "Strong-Strong Fruit",
@@ -1356,9 +1367,9 @@ const parPow = [
         user: "User: Jesus Burgess",
         manga:"Manga Debut: Chapter 1063",
         anime:"Anime Debut: N/A", 
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/strong.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that grants its user superhuman strength.<br><br>Usage:<br>he Riki Riki no Mi bestows onto the user abnormal physical strength, such as the ability to lift up and throw gigantic objects. Whether there is an exact limit to the strength increase is currently unknown.<br><br>Weakness:<br>No particular weaknesses are known for this ability apart from the standard Devil Fruit weaknesses.<br><br>Not much information has been revealed of this fruit."
     },
     {
         name: "Glug-Glug Fruit",
@@ -1367,9 +1378,9 @@ const parPow = [
         user: "User: Vasco Shot",
         manga:"Manga Debut: Chapter 1080",
         anime:"Anime Debut: N/A", 
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/vasco.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that makes the user a Liquor Human.<br><br>Usage:<br>Not much information has been revealed of this fruit and its abilities are currently unknown. One abilities that Vasco Shot used After gulping down alcohol, Shot spits it out and ignites it, creating a stream of fire that engulfs the target in flames."
     },
     {
         name: "Millet-Millet Fruit",
@@ -1378,9 +1389,9 @@ const parPow = [
         user: "User: Otama",
         manga:"Manga Debut: Chapter 911",
         anime:"Anime Debut: Episode 893", 
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/kibi.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit which allows the user to create dango from their cheeks that can tame animals and those of part-animal nature.<br><br>Usage:<br>By pinching their cheeks while making a circle using their index finger and thumb, the user can create small, round dango dumplings, that, when fed to any animal, will make them become utterly tame and subservient to the user, obeying all their orders and defending them from harm. This technique will not cause the user's cheek any harm, and since only the user is capable of creating the dangos, they cannot be forcefully taken from their body against their will.<br><br>The dango's effect is similar to brainwashing, and though the consumer seems to retain all their memories and personality, they also gain an undying loyalty to the producer. They place the user's wellbeing and orders above all else, even their own lives. While the dangos usually are not capable of taming humans, those who have eaten functional SMILE fruits are an exception, being susceptible to being tamed due to their part-animal nature. Animals tamed with the dangos are considered servants of the user, and people tamed by the ability expressly refer to the user as Master. The effect of the dango lasts for one month and remains active even if the user loses consciousness.<br><br>Weakness:<br>The dangos, while delicious, are not nourishing, and thus cannot be used to quell hunger. Creating too many dango within a short span of time depletes the user's stamina. The user needs to give direct, verbal commands to those who have eaten their dangos to tame them, otherwise they will continue to act as normal. Also, once a period of one month passes, the effects of the fruit wear off, with the tamed animal then being able to decide whether to remain loyal to Tama or leave her command."
     },
     {
         name: "Revive-Revive Fruit",
@@ -1390,9 +1401,9 @@ const parPow = [
         manga:"Manga Debut: Chapter 442",
         anime:"Anime Debut: Episode 337", 
         fruit:"./image/yomi.png", 
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:"" 
+        imgInfo:"./Character/brook.jpg",
+        fruitBox:"./Character/brook1.jpg",
+        info:"Devil Fruit which enhances the user's soul to the point where they resurrect after their first death, allowing them to live a second time and to use several other soul-based abilities.<br><br>Usage:<br> After death, the user continues to exist in whatever state they were revived as and can even go as far as to grant a form of immortality that lasts until the user suffers a second death. However, since the main attribute of the fruit is resurrection, the Yomi Yomi no Mi's power will remain dormant until the time when the consumer suffers his or her first death. Brook's soul that came back to inhabit his skeleton is still able to leave the body, usually by exiting his mouth, similar to astral projection, and move it everywhere he wants to. It can even pass through walls, similar to Perona's own astral projection power.<br><br> As long as his bones are not hurt, any attacks will not go to his core. When Zeo beheaded Brook, his soul managed to repair it and connect his bones together again. He has also displayed that he can transfer this energy to an object like his cane sword in which he summons the Chill of the Underworld, allowing him to freeze his opponent with ice created from his soul's energy. Lastly, he has stated that he can feel the souls of others and, when mixed with his music, is able to move them.  Brook is capable of using the raw energy and presence of his own powerful soul to overwhelm the homies due to them being created from small pieces of souls that do not belong to them.<br><br>Weakness:<br>This fruit displays many weakness such as until time of death, the only aspects the fruit bestows upon its eater are the typical Devil Fruit weaknesses. While the Fruit allows the user's soul to once again return from the afterlife, it does not automatically return them to the physical body that it once resided in during its mortal life. Thus, it is then up to the disembodied soul to search for the corporeal body in order to once again reunite with it. Though the user gains another life, their body however will continue being a lifeless corpse and will continue rotting away until the user's soul can find its way back to the body. While the fruit can make the user an undead being of sorts, it however grants the user the ability to still feel pain as proof that they have been truly resurrected back to life." 
     },
     {
         name: "Damage-Damage Fruit",
@@ -1401,9 +1412,9 @@ const parPow = [
         user: "User: Urouge",
         manga:"Manga Debut: Chapter 498",
         anime:"Anime Debut: Episode 392",   
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/damage.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that allows him to convert damage inflicted onto him into physical strength.<br><br>Usage:<br>Any damage inflicted onto user turns into physical strength, which results in expanding muscles and enlarged body size. Using this ability, he was able to exceed a Pacifista's body size and actually damage it with his punches.<br><br>Weakness:<br>No information on this fruits weakness has been revealed beside the usual devil fruit weaknesses.<br><br>Not much information has been revealed of this fruit."
     },
     {
         name: "Puff-Puff Fruit",
@@ -1412,9 +1423,9 @@ const parPow = [
         user: "User: Charlotte Daifuku",
         manga:"Manga Debut: Chapter 846",
         anime:"Anime Debut: Episode 826", 
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/puff.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that allows the user to summon a genie from their body.<br><br>Usage:<br>By rubbing their body, the user is able to summon a massive Genie wielding a bisento to fight for them. The genie is quite powerful, able to match and even overpower Sanji, a powerful martial arts master. It is capable of cutting many ships in half with a single strike. The genie can also grow to a gigantic size, rivaling that of the Thousand Sunny. In the anime the genie has been shown to be able to transform into smoke to dodge attacks.<br><br>Weakness:<br>It seems that the user needs to continually rub their body to maintain the genie's presence. Should the user be distracted or knocked out, the genie will instantly disappear. Also, it can only travel a limited distance away from the user. The genie, while possessing sentience and the ability to speak, may not give much consideration to its master's commands beyond direct orders. It also does not seem to grant the user themselves any special abilities, meaning that, without the genie, they are completely normal. Other than that, the user is affected by the standard Devil Fruit weaknesses."
     },
     {
         name: "Paw-Paw Fruit",
@@ -1424,20 +1435,20 @@ const parPow = [
         manga:"Manga Debut: Chapter 443",
         anime:"Anime Debut: Episode 338",
         ufruit:"./image/paw.jpg",
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:""
+        imgInfo:"./Character/kuma1.jpg",
+        fruitBox:"./Character/kuma.jpg",
+        info:"Grants the ability to repel anything via paws permanently manifested on the user's palms.<br><br>Usage:<br>The ability to send all things flying, five-digit paw pads on the user's palms; these are permanently manifested. Anything that touches by said paws can be pushed away at will with variable speed and force while being automatically encased in transparent, paw-shaped energy bubbles. Almost anything can be targeted by this ability and sent flying regardless of makeup, including tangible materials like people and objects, gases like air, completely immaterial targets like ghosts, and abstract targets like pain, fatigue and light illnesses, or memories.  If something innate to a living being is targeted, it will not be blown far away but instead pushed out as a bubble that maintains itself close-by, allowing it to be accessed by someone touching it. It is shown that if untouched, a bubble storing memories will maintain its form indefinitely, even for years on end, and can thus be stored away for later access; a bubble storing pain and suffering will eventually return to its originator unless someone else opts to receive it in their stead.<br><br>In combat, the Nikyu Nikyu no Mi's power affords its user a powerful defense, allowing them to deflect any and all attacks aside or back towards the attacker so long as they move their hands in the way fast enough, thus having their paws function like impenetrable shields. Beside defense, the user is able to harness their ability for offensive maneuvers, such as repelling the very atmosphere around them at lightspeed to create paw-shaped shockwaves that can pierce almost anything, to the point of leaving paw-shaped holes in bedrock. A user may also create massive paw bubbles around the air to compress down and then release as bombs.<br><br>Weakness:<br>Additionally, while the ability user can push out physical pain and suffering as a bubble, that bubble will eventually return to its source body unless it is absorbed into another person. At the same time, it is all but outright stated that, while suffering like pain, fatigue, and light illnesses can be pushed out of someone, the recuperative effect thereof is limited and does not equal healing injuries."
     },
     {
         name: "Age-Age Fruit",
-        jname: "Fuke-Fuke no mi(Unknown)",
+        jname: "Toshi-Toshi no mi",
         element : "Power: Ages people she touches",
         user: "User: Jewelry Bonney",
         manga:"Manga Debut: Chapter 498",
         anime:"Anime Debut: Episode 392",  
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/age.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to manipulate the ages of people or objects.<br><br>Usage:<br>The main strength of the fruit is that it allows the user to freely manipulate the aging process of anything, including themself, other people, and objects. They can use this power to disguise themself, as well as cripple opponents by rapidly aging their intended targets into their senior years or regressing them into small, weak children. A unique effect of this ability is that the years the user steals from people are manifested in the form of sparkling jewelry and shapes.<br><br>Any target whose bodily age has been altered by this power still retains all of their memories and cognitive abilities. Notably, the user also has the choice of employing possible alternate futures while aging herself or others forward in time. Bonney pulls out a pistol and fires a projectile against the enemy. Instead of getting injured, the target rapidly ages until they turn into a skeleton before immediately reverting to their initial state, which may cause psychological trauma to them.<br><br>Weakness:<br>The fruit's main weakness is that its aging effects, when applied to living things, are temporary, meaning victims will eventually revert to their rightful age at some point. Like several other Devil Fruits, the fruit requires the user's hands to activate, although they are also capable of channeling its effects through weapons or any other object at their disposition. Another setback of this fruit is that emotional outbursts by the user might result in unspecified altered ages for anybody in the proximity range of the user, including the user itself." 
     },
     {
         name: "Pet-Pet Fruit",
@@ -1446,9 +1457,9 @@ const parPow = [
         user: "User: Breed",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 625",  
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/pet.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to control any living creature by giving them a green, gel-like collar.<br><br>Usage:<br>The power of the fruit allows Breed to control all living things by giving them collars. This collar first appears from his hand in the form of a green slime-like substance and is then either placed or thrown onto the victim's neck. The user can then control his victims' bodies against their will by issuing demands to them. The user can also bring out the full potential of its victim to use as his strength.<br><br>The user can place a collar over oneself, and give orders to oneself to bring out his/her own full power and when doing so the collar begins to glow a bright red color. These orders can also cause the victims to levitate. Despite the usual Devil Fruit weaknesses, Breed's collars can work underwater without any apparent impairment.<br><br>Weakness:<br>As the collars are projectiles, they can be dodged with ease by a sufficiently fast and alert opponent. Also, even though the user can control their victim's body, they cannot control their consciousness and senses, allowing them to come up with plans to escape the user's control. Another weakness is that the victim must be able to hear and comprehend the command for it to take effect.<br><br> If the victims exert enough willpower, they can resist the commands the user gives, as shown when Breed told his pets to get off of him while they were restraining him, but they refused to obey. If the user of the fruit is knocked unconscious, the collars that were already put on the victims will shatter and disappear. The fruit also lacks any direct offensive or defensive abilities. Aside from this, the user is still affected by the standard Devil Fruit weaknesses, although the power itself does not appear to be affected." 
     },
     {
         name: "(Unknown) Fruit",
@@ -1456,10 +1467,10 @@ const parPow = [
         element : "Power: Transform other people into clones of Peketan",
         user: "User: Peketan",
         manga:"Manga Debut: Fischer's x One Piece: Chapter 2",
+        ufruit:"./image/peke.jpg",
         anime:"Anime Debut: Non-Canon",   
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:""
+        fruitBox:"./Character/peke.jpg",
+        info:"Devil Fruit that allows the user to transform other people into clones of Peketan.<br><br>Usage:<br>The main strength of this Devil Fruit is that it allows the user to quickly transform enemies into allies, allowing him to overwhelm stronger opponents. People transformed into Peketan will work with the main body, working against former allies. People transformed into Peketan keep the clothes and weapons they had on them.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, the only other known weakness is an unknown time limit on the transformation, causing the affected people to transform into themselves. It is unclear how long the time limit is."
     },
     {
         name: "Color-Color Fruit",
@@ -1468,9 +1479,9 @@ const parPow = [
         user: "User: Psycho P",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Heart of Gold",   
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/paint.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that allows the user to create paint to camouflage or disguise people and objects.<br><br>Usage:<br>The main strength of this fruit is the ability to camouflage anything, rendering it nearly invisible to the eye. It can be used to engage sneak attacks and aid the user in battle by rendering their opponent unable to see them. The camouflage paint works on objects as big as large ships. The user is also capable of disguising people as others, although very poorly.<br><br>Weakness:<br>It seems that the user is required to use a tool to utilize the fruit's power, like spray cans. The camouflaging also does not work well against opponents with high senses, such as Kenbunshoku Haki users or people who have trained to counteract invisible opponents. Also, the disguises the user creates are so poor that they only work on people of low intelligence. Otherwise, the user is affected by the standard Devil Fruit weaknesses."
     },
     {
         name: "Luck-Luck Fruit",
@@ -1479,9 +1490,9 @@ const parPow = [
         user: "User: Baccarat",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Heart of Gold",  
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/luck.jpg",
         fruitBox:"./image/unknown.png",
-        info:"" 
+        info:"Devil Fruit that allows the user to steal another person's luck by touching them, making the user extremely lucky and the victim extremely unlucky.<br><br>Usage:<br>By simply touching another person, the user will steal that person's luck to the point where they will become extremely unlucky, as multiple bad occurrences will immediately happen to them. The touch appears completely normal, allowing the user to make their actions inconspicuous. Once the user has absorbed enough luck from other people, they become so lucky that they are almost invincible, as any attempt to hurt them will no doubt end up in failure and they can even use simple objects such as coins that will play out in their favor, like causing accidents that will hurt their foes.<br><br>Baccarat stockpiles luck by touching other people before engaging in battle. Once she has enough luck accumulated, she becomes basically invincible, with most attacks missing her and something as simple as throwing a coin causing a chain reaction of disasters to befall her opponents.<br><br>Weakness:<br>One downside to this power is that its effect seems to be only temporary, as Luffy and Sanji stopped being affected by it after some time. Due to this, the luck that the user has stolen from other people can become depleted, either because enough time has passed for the absorbed luck to return to the user's victims, or because the user got lucky enough for all of their luck to get spent. The user has no control on what the luck is spent on and it can accidentally be spent on something they did not mean to happen. If that happens, the user is unaware of it. Otherwise, the user is affected by the standard Devil Fruit weaknesses." 
     },
     {
         name: "Viso-Viso Fruit",
@@ -1491,9 +1502,9 @@ const parPow = [
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Stampede",
         fruit:"./image/vijo.png",  
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:"" 
+        imgInfo:"./Character/ann.jpg",
+        fruitBox:"./Character/ann1.jpg",
+        info:"Devil Fruit that allows the user to phantomize, or create illusory images, of any picture the user touches.<br><br>Usage:<br>The user can use this fruit to trick their opponents by creating phantoms of objects or other people. The phantoms created by the fruit's abilities can also interact with their environment like the pictures they are imitating, as seen when Ann's phantom of Vinsmoke Reiju removed marionette poison gas from those being controlled by Caesar Clown; the illusions will retain any abilities or oddities that the original possesses whether or not Ann is aware of them or not.<br><br>Weakness:<br>One of the weaknesses of this fruit is that if the user is being manipulated, the phantoms can be created against their will. The user also has to touch a picture for the power to work, and the illusion being generated takes time, though Ann has developed her abilities to the point where the required time is functionally instant. Other than that, the standard Devil Fruit weaknesses still apply." 
     },
     {
         name: "Return-Return Fruit",
@@ -1502,20 +1513,9 @@ const parPow = [
         user: "User: Ain",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Z",   
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:""
-    },
-    {
-        name: "Copy-Copy Fruit(Unknown)",
-        jname: "Kopi-Kopi no mi",
-        element : "Power: Copy others abilities",
-        user: "User: Chameleone",
-        manga:"Manga Debut: Non-Canon",
-        anime:"Anime Debut: One Piece Premier Show",  
-        imgInfo:"./Character/perona.jpg",
-        fruitBox:"./image/unknown.png",
-        info:"" 
+        imgInfo:"./Character/return.jpg",
+        fruitBox:"./Character/unknown.png",
+        info:"Devil Fruit that grants the user the ability to generate pink energy which returns anyone and anything twelve years younger.<br><br>Usage:<br>This fruit's main strength is that it allows the user to turn back the age of anything and anyone they touch, precisely twelve years. This can not only weaken or incapacitate an opponent, but also attack enemies in creative ways: for example, by transforming igneous rock back into its original state, this causes lava to erupt from the ground and injure an opponent, while reverting the ground back into a solid state after the foe is wedged into it to entomb them. By touching a person enough times with this ability, it can effectively kill the target by reverting them to before they were born, erasing them from existence.<br><br>The user does not actually have to touch the target, as one can charge and throw pink energy balls to the target in question.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, it seems to lose its effects when the ability user loses consciousness. Also, since the power is set at twelve years, the user cannot change the numerical value to whatever they please, and would require multiple attacks in order to revert the victim to the age they desire, and nothing in between."
     },
     {
         name: "Goe-Goe Fruit",
@@ -1524,9 +1524,9 @@ const parPow = [
         user: "User: Eldoraggo",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece: The Movie",   
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/goe.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that allows the user to create beams of sound that look like energy beams by shouting.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to create powerful beams of concentrated sound energy that can destroy anything in its path. The strength of these beams can be controlled.<br><br>Weakness:<br>Though the beams are powerful, they are not volatile enough to explode should they strike a malleable surface, as shown by Monkey D. Luffy, who was able to collect the blast with his rubber powers and reflect it back at Eldoraggo. Aside from that, this fruit's only weaknesses are the standard Devil Fruit weakness.<br><br>Not much information has been revealed of this fruit."
     },
     {
         name: "Whisper-Whisper Fruit",
@@ -1535,9 +1535,9 @@ const parPow = [
         user: "User: Apis",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 54",   
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/hiso.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Allows user to speak telepathically to animals.<br><br>Usage:<br>Devil Fruit that allows the user to understand the heart of an animal; in other words, it allows them to speak telepathically to animals<br><br>Weakness:<br>While the fruit's power enables the user to telepathically communicate with animals, it should be noted that its influence does not extend to controlling the will of the animal nor the animal itself. There is also the curse of not being able to swim, like all other Devil Fruits. It is also unknown if the user can use the Devil Fruit's ability to call for help from undersea creatures in any circumstances.<br><br>Not much information has been revealed of this fruit."
     },
     {
         name: "Sickle-Sickle Fruit",
@@ -1546,9 +1546,9 @@ const parPow = [
         user: "User: Apis",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 56",   
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/sickle.jpg",
         fruitBox:"./image/unknown.png",
-        info:""
+        info:"Devil Fruit that gives the user long, sharp nails that they can use to create slicing air blades.<br><br>Usage:<br>The main strength of this fruit is that it lengthens and sharpens the user's nails, which are capable of creating razor-sharp gusts capable of cleaving through even hard materials like rock. According to Eric, his wind blades are as sharp as a Meito. The nails themselves can also be used to slice opponents in close-quarters combat, as seen when Eric cut a retreating Marine.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses aside from the standard Devil Fruit weaknesses, although Eric is seen filing his nails in concept art, hinting that he has to keep them sharp in order to use his powers.<br><br>Not much information has been revealed of this fruit."
     },
     {
         name: "Sleep-Sleep Fruit",
@@ -1557,9 +1557,9 @@ const parPow = [
         user: "User: Noko",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: Episode 220", 
-        imgInfo:"./Character/perona.jpg",
+        imgInfo:"./Character/nemu.jpg",
         fruitBox:"./image/unknown.png",
-        info:""  
+        info:"Devil Fruit that grants the user the ability to make anyone fall asleep.<br><br>Usage:<br>This fruit's main strength is that it allows the user to trap people inside a dream world while they are asleep. Inside the dream world, the user can steal people's memories to power up. The user can also manipulate the dream world using the stolen memories, as well as take control of someone in the dream world.<br><br>Weakness:<br> This fruit's only weaknesses are the standard Devil Fruit weakness from known information.<br><br>Not much information has been revealed of this fruit."  
     },
 ];
 const zoanNormal = [
