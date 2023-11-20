@@ -5,6 +5,7 @@ fruits();
 option();
 
 function fruits(){
+
 //Print logia fruits
 document.getElementById('ld').onclick = function (){
     //query selectors turning certain things off and on
@@ -40,7 +41,13 @@ document.getElementById('ld').onclick = function (){
                                 document.getElementById('Dinfo').innerHTML = logia[i].info;
                                     document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
                                         document.getElementById('fruits').src = logia[i].fruit;
-                                            document.getElementById('user').src = logia[i].aCharacter;
+                                            
+                                            
+                                       //         logia[i].aCharacter == null? document.getElementById('user').style.display = "none" : document.getElementById('user').style.display = "block";
+                                        //            document.getElementById('user').src = logia[i].aCharacter;
+
+                                      //          logia[i].char == null? document.getElementById('user1').style.display = "none" : document.getElementById('user1').style.display = "block";
+                                      //              document.getElementById('user1').src = logia[i].char;
 
                                                 logia[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                     document.getElementById('Ufruit').src = logia[i].ufruit;
@@ -482,6 +489,8 @@ document.getElementById('r').onclick = function(){
 document.getElementById("darkmode").addEventListener ('click', function () {
     document.body.classList.toggle("dark-theme");
 });
+
+
 }
 
 

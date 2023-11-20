@@ -12,7 +12,7 @@ const logia = [
         ufruit:"",
         fruitBox:"./Character/smoke1.jpg",
         imgInfo:"./Character/smoke.jpg",
-        aCharacter:"",
+        aCharacter:"./user/smoker.png",
         info:"The user of this fruit is able to generate, manipulate, and become smoke. <br><br>Usage:<br> Like with most other Logia fruits, when Smoker is hit, he can simply use the fruit's power to become smoke, thus absorbing the attack and remaining unharmed. Like some of the other Logia type Devil Fruits, it allows its user to fly, by turning his body or the lower part of it into smoke, greatly enhancing his movement and speed. <br><br> The main offensive capabilities of the fruit stem from its user's ability to change the density of the smoke produced at will. This allows Smoker to surround his targets with his intangible smoke and then solidify it to grasp them. This power has granted Smoker his epithet The White Hunter. The smoke can also be used as a blunt weapon, hitting enemies with great strength.Another common tactic of Smoker’s is to transform his limbs into smoke, but not his hands, enabling him to strike opponents with his Seastone-tipped jitte from a much greater range, or to launch himself jitte-first at his opponents like a rocket by transforming his lower body into smoke. <br><br>Weakness:<br> It would seem that when confronted by fire, they will cancel out one another due to being the same temperature; other than that, no specific natural weakness has yet to be seen"
     },
     {
@@ -26,7 +26,7 @@ const logia = [
         ufruit:"",
         fruitBox:"./Character/sand.jpg",
         imgInfo:"./Character/sand1.jpg",
-        aCharacter:"",
+        char:"./user/crocodile.jpg",
         info:"This fruit's power allows its user to transform their bodies into sand, as well as create and control sand in large quantities. <br><br>Usage:<br> This fruit can also give the ability to fly by morphing their lower body into jets of flowing sand, offering them a massive advantage in defense and mobility amid combat or pursuit.<br> Creating sand also grants the user various offensive capabilities; the user can create blades of sand in multiple shapes and sizes, large sandstorms that can travel great distances, and even vortexes that trap their opponents and pull them underground.<br><br> Besides basic elemental control, the fruit exhibits a unique ancillary ability: namely liquid absorption, allowing the user to dehydrate anything they touch and even extend said effect to their immediate surroundings, drying up vast areas of land like a drought. This ability is usually life-threatening to any living organism, causing plants, animals or people to suffer from dehydration. Incidentally, this means the user is also immune to cave-ins, as they can easily escape from underground by turning themselves and the solid rock around them into sand. Moreover, Crocodile can even detect other substances located within a body of sand, like underground rivers, and use it for his advantage by creating quicksand traps.<br><br>Weakness:<br> The Suna Suna no Mi is one of few Logia-type fruits that can naturally counteract their own weakness. The main weakness of this Logia power is exposure to liquids: specifically, the user's sand turns solid when in contact with liquids, such as water or blood."   
     },
     {
