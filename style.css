@@ -6,7 +6,6 @@ body{
  transition: 0.5s;
  margin: 0;
  overflow: hidden;  
- max-height: 1540px;
 }
 
 :root{
@@ -240,7 +239,7 @@ color: var(--secondary-color);
     z-index: 1000;
     display: none;
     color: var(--secondary-color);
-    transition: 0.5s;
+    transition: 0s;
     padding: 5px;
 }
 
@@ -293,7 +292,7 @@ transition: 0.5s;
     position: absolute; top: 52%; left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 40px;
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #oL button{
@@ -309,7 +308,7 @@ transition: 0.5s;
     border-radius: 1.5rem;
     cursor: pointer;
     color: var(--secondary-color);
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #op1 button{
@@ -325,7 +324,7 @@ transition: 0.5s;
     border-radius: 1.5rem;
     cursor: pointer;
     color: var(--secondary-color);
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #oz1 button{
@@ -341,7 +340,7 @@ transition: 0.5s;
     border-radius: 1.5rem;
     cursor: pointer;
     color: var(--secondary-color);
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #optionBox button:hover{
@@ -361,7 +360,7 @@ transition: 0.5s;
     font-family: "IM Fell English SC";
     color: white;
     text-shadow:rgb(0, 0, 0) 5px 0px 10px; ;
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #mythical{
@@ -426,7 +425,7 @@ transition: 0.5s;
     font-family: "IM Fell English SC";
     color: white;
     text-shadow:rgb(0, 0, 0) 0px 0px 10px; ;
-    transition: 0.5s;
+    transition: 0s;
 }
 
 #body{
@@ -488,12 +487,21 @@ transition: 0.5s;
 #infoPage{
     display: none;
     margin-top: -150px;
+    transition: 0.5s;
 }
 
 main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  
+}
+
+#imagepic{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    position: absolute;top: 79vh; left: 1.5rem;
 }
 
 #fruits{
@@ -507,28 +515,28 @@ main{
 
 #Ufruit{
     height: 26rem;
-    position: absolute; top: 25vh; left: 10vw;
+    width: 28rem;
+    position: absolute; top: 25vh; left: 11rem;
     border: 3px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
 }
 
 #fruitBox{
-    height: 12rem;
-    width: 11rem;
-    position: absolute; top: 77vh; left: 2vw;
+    height: 11rem;
+    width: 10rem;
     border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
-    transition: 0.5s;
-   
+    transition: 0s;
+    margin-right: 20px;
 }
 
 #user {
     width:23rem;
     position: absolute; top: 5vh; left: 11vw;
     z-index: 0;
-    transition: 0.5s;
+    transition: 0s;
     display: none;
     
 }
@@ -537,7 +545,7 @@ main{
     width:30rem;
     position: absolute; top: 12vh; left: 19vw;
     z-index: 0;
-    transition: 0.5s;
+    transition: 0s;
    
 }
 
@@ -550,17 +558,16 @@ main{
 }
 
 #imgInfo{
-    height: 12rem;
-    position: absolute; top: 77vh; left: 14vw;
+    height: 11rem;
     border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
-    transition: 0.5s;
+    transition: 0s;
   
 }
 
 #allInfo{
-    position: relative; top: 17vh; left: 46vw;
+    position: relative; top: 17vh; left: 52rem;
     display: grid;
     grid-template-areas: 
         'topLeft topRight'
@@ -570,9 +577,8 @@ main{
         'footer footer'
         'bottom bottom';
     color: var(--secondary-color);
-    transition: 0.5s;
+    transition: 0s;
     font-family: "IM Fell English SC";
-    transition: 0.5s;
 }
 
 #Dname{
@@ -606,7 +612,7 @@ main{
 }
 
 #kaido{
-    position: absolute; top: 80.2%; left: 43%;
+    position: absolute; top: 35.1rem; left:24rem;
     padding: 0px;
     border: none;
     background: none;
@@ -660,9 +666,10 @@ main{
   
 }
 
+
 @media only screen and (max-width: 1800px){
     #allInfo{
-        position: relative; top: 17vh; left: 44vw;
+        position: relative; top: 17vh; left: 49rem;
 
     } 
 }
@@ -677,7 +684,7 @@ main{
         margin-bottom: 100px;
     }
     #allInfo{
-        position: relative; top: 17vh; left: 40vw;
+        position: relative; top: 17vh; left: 41rem;
 
     }
     #fruits{
@@ -688,6 +695,15 @@ main{
     
 }
 @media only screen and (max-width:1650px){
+ 
+    #kaido{
+        position: absolute; top: 34.3rem; left:22rem;
+        font-size: 1.1rem;
+    }
+    
+    #smile{
+      font-size: 1.5rem;
+    }
     #optionBox{
         width: 85rem;
     }
@@ -698,6 +714,12 @@ main{
    
     
     #op1 button{
+        padding: 5px 10px 5px 10px;
+        margin: 5px;
+        font-size: 20px;
+
+    }
+    #oz1 button{
         padding: 5px 10px 5px 10px;
         margin: 5px;
         font-size: 20px;
@@ -718,12 +740,34 @@ main{
         font-size: 2.7rem;
        
     }
+
+    #allInfo{
+        position: relative; top: 17vh; left: 41rem;
+
+    }  
+    #Dname{
+        font-size: 1.6rem;
+     }
+     #gifters{
+        font-size: 1.6rem;
+        margin-left: 9rem;
+    }
+     #Duser{
+         font-size: 1.4rem;
+     }
+     
+     #Dinfo{   
+         font-size: 1.1rem;
+         width: 51rem;
+ 
+     }
+     
+     #extra{
+         font-size: 1.2rem; 
+     }
 }
 @media only screen and (max-width: 1610px){
-    #allInfo{
-        position: relative; top: 17vh; left: 41vw;
-
-    }
+    
 
     .df{
         margin: -10px 10px;
@@ -733,57 +777,21 @@ main{
         margin-bottom: 100px;
     }
 
-    
-    #Dname{
-       font-size: 1.6rem;
-    }
-    
-    #Duser{
-        font-size: 1.4rem;
-    }
-    
-    #Dinfo{   
-        font-size: 1.1rem;
-        width: 55rem;
 
-    }
     
-    #extra{
-        font-size: 1.2rem; 
-    }
-    #imgInfo{
-        height: 10rem;
-        position: absolute; top: 80vh; left: 14vw;
-    }
-    #fruitBox{
-        height: 10rem;
-        position: absolute; top: 80vh; left: 2vw;
-        width: 9.5rem;
-
-    }
-    
-}
-@media only screen and (max-width: 1600px){
-    #fruits{
-        height: 30rem;
-
-    }
-    
-    #Ufruit{
-        height: 26rem;
-        position: absolute; top: 25vh; left: 10vw;
-    }
 }
 @media only screen and (max-width: 1510px){
-
-    #allInfo{
-        position: relative; top: 17vh; left: 40vw;
-      
+    #gifters{
+        font-size: 1.6rem;
+        margin-left: 8rem;
     }
-    #fruits{
-        height: 25rem;
-       position: absolute; top: 22vh; left: 2vw;
-        margin-left: 10px;
+    #kaido{
+        position: absolute; top: 34.1rem; left:20rem;
+        font-size: 1rem;
+    }
+    
+    #smile{
+      font-size: 1.4rem;
     }
 
     .df{
@@ -799,21 +807,96 @@ main{
         margin: 240px 0px;
         padding: 15px;
         }
-        
-        #Dinfo{
-            font-size: 1.1rem;
-            width: 50rem;
-            
-        }
-        #extra{
-            font-size: 1.2rem; 
     
+    #allInfo{
+            position: relative; top: 17vh; left: 40rem;
+          
         }
+     #fruits{
+            height: 25rem;
+           position: absolute; top: 22vh; left: 2vw;
+            margin-left: 10px;
+     }   
+    
+    #Dname{
+        font-size: 1.5rem;
+     }
+     
+     #Duser{
+         font-size: 1.3rem;
+     }
+     
+     #Dinfo{   
+         font-size: 1rem;
+         width: 50rem;
+ 
+     }
+     
+     #extra{
+         font-size: 1.2rem; 
+     }
         
 }
+@media only screen and (max-width: 1450px){
+    #allInfo{
+        position: relative; top: 17vh; left: 35rem;
+      
+    }
+ #fruits{
+        height: 25rem;
+       position: absolute; top: 22vh; left: 2vw;
+        margin-left: 10px;
+ } 
+ #imagepic{
+
+    position: absolute;top: 81vh; left: 1.5rem;
+}  
+
+ #fruitBox{
+    height: 9rem;
+    width: 9rem;
+
+}
+
+#imgInfo{
+    height: 9rem;
+}
+
+}
 @media only screen and (max-width: 1400px){
+    #gifters{
+        font-size: 1.4rem;
+        margin-left: 7.5rem;
+    }
+    #kaido{
+        position: absolute; top: 33.6rem; left:19rem;
+        font-size: 1rem;
+    }
+    
+    #smile{
+      font-size: 1.3rem;
+    }
+
+    #Dname{
+        font-size: 1.4rem;
+     }
+     
+     #Duser{
+         font-size: 1.2rem;
+     }
+     
+     #Dinfo{   
+         font-size: 0.95rem;
+         width: 43rem;
+ 
+     }
+     
+     #extra{
+         font-size: 1.1rem; 
+     }
+
   
-    .df{
+        .df{
         width: 25rem;
         margin: -20px 10px;
         }
@@ -856,6 +939,40 @@ main{
 
 }
 @media only screen and (max-width: 1260px){
+    #allInfo{
+        position: relative; top: 17vh; left: 31rem;
+      
+    }
+    #imagepic{
+        position: absolute;top: 84vh; left: 1.5rem;
+    } 
+
+    #fruitBox{
+        height: 8rem;
+        width: 8rem;
+    }
+    
+    #imgInfo{
+        height: 8rem;
+    }
+
+    #Dname{
+        font-size: 1.4rem;
+     }
+     
+     #Duser{
+         font-size: 1.2rem;
+     }
+     
+     #Dinfo{   
+        font-size: 0.95rem;
+        width: 43rem;
+ 
+     }
+     
+     #extra{
+         font-size: 1.1rem; 
+     }
     
     #optionBox{
         width: 65rem;
@@ -866,7 +983,7 @@ main{
     }
     
     #oz1 button{
-        padding: 5px 5px 5px 5px;
+        padding: 5px 0px 5px 0px;
     }
         .contentBox img{
             top: -90%;
@@ -998,6 +1115,57 @@ main{
         } 
 
 }
+@media only screen and (max-width: 1200px){
+    #gifters{
+        font-size: 1.3rem;
+        margin-left: 7rem;
+    }
+    #kaido{
+        position: absolute; top: 33.3rem; left:16rem;
+        font-size: 0.85rem;
+    }
+    
+    #smile{
+      font-size: 1.2rem;
+    }
+
+    #allInfo{
+        position: relative; top: 17vh; left: 42vw;
+      
+    }
+    #imagepic{
+        position: absolute;top: 85vh; left: 1.5rem;
+    } 
+
+    #fruitBox{
+        height: 7rem;
+        width: 7rem;
+        margin-right: 8px;
+    }
+    
+    #imgInfo{
+        height: 7rem;
+    }
+
+    #Dname{
+        font-size: 1.3rem;
+     }
+     
+     #Duser{
+         font-size: 1.1rem;
+     }
+     
+     #Dinfo{   
+        font-size: 0.8rem;
+        width: 36rem;
+ 
+     }
+     
+     #extra{
+         font-size: 1.1rem; 
+     }
+
+}
 @media only screen and (max-width: 1100px) {
     #optionBox{
         width: 60rem;
@@ -1036,7 +1204,66 @@ main{
     }
 }
 @media only screen and (max-width: 1000px){
+    #infoPage{
+        display: none;
+        margin-top: -150px;
+        margin-bottom: 53rem;
+    }
+    
+#fruits{
+    height: auto;
+    position: absolute; top: 15vh; left: 47vw;
+    z-index: 1;
+    border: none;
+    transition: 0.5s;
+    margin-left: 0px;
+ }
+ 
+ #Ufruit{
+     height: 26rem;
+     position: absolute; top: 25vh; left: 10vw;
+     border: 3px solid var(--secondary-color);
+     background-color: white;
+     border-radius: 2rem;
+ }
+ 
+ #fruitBox{
+     height: 10rem;
+     width: 9rem;
+     position: absolute; top:150vh; left: 4vw;
 
+ }
+
+ #imgInfo{
+     height: 10rem;
+     position: absolute; top: 150vh; left: 22vw;
+
+ }
+ 
+ #allInfo{
+     position: relative; top: 70vh; left: 4vw;
+     grid-template-areas: 
+     'topLeft topRight'
+     'left left'
+     'main main'
+     'main main'
+     'footer footer'
+     'bottom bottom';
+ }
+ 
+ #Duser{
+     font-size: 1.4rem;
+  
+ }
+ 
+ #Dinfo{
+     grid-area: main;
+     font-size: 1.2rem;
+     width: 56rem;
+     line-height: 1.5rem;
+     margin-top: 0px;
+ }
+ 
    
     #optionBox{
         width: 55rem;
