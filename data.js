@@ -22,7 +22,7 @@ const logia = [
         user: "User: Crocodile",
         manga:"Manga Debut: Chapter 127",
         anime:"Anime Debut: Episode 77",
-        fruit:"./image/sand.png",
+        fruit:"./image/sand1.png",
         ufruit:"",
         fruitBox:"./Character/sand.jpg",
         imgInfo:"./Character/sand1.jpg",
@@ -36,7 +36,7 @@ const logia = [
         user: "User: Sabo(Current), Portgas D.Ace(Deceased)",
         manga:"Manga Debut: Chapter 158",
         anime:"Anime Debut: Episode 94",
-        fruit:"./image/flame.png",
+        fruit:"./image/flame1.png",
         ufruit:"",
         fruitBox:"./Character/flame1.jpg",
         imgInfo:"./Character/flame.jpg",
@@ -64,7 +64,7 @@ const logia = [
         user: "User: Marshall D.Teach",
         manga:"Manga Debut: Chapter 440",
         anime:"Anime Debut: Episode 325",
-        fruit:"./image/dark.png",
+        fruit:"./image/dark1.png",
         ufruit:"",
         fruitBox:"./Character/dark.jpg",
         imgInfo:"./Character/dark1.jpg",
@@ -1006,9 +1006,8 @@ const parEnv = [
         user: "User: Marshall D.Teach(Current), Edward Newgate(Deceased)",
         manga:"Manga Debut: Chapter 552",
         anime:"Anime Debut: Episode 461",
-        fruit:"./image/gura.png",
         imgInfo:"./Character/quack.jpg",
-        fruitBox:"./Character/quack1.jpg",
+        fruitBox:"./image/unknown.png",
         info:"The major strength granted by this fruit to the user is its ability to generate massive vibrations, or shockwaves, which can travel through virtually any medium, including the ground, the seafloor, and even the air.<br><br>Usage:<br>This fruit is fearsomely reputed to be able to destroy the world, and is considered to be the strongest Devil Fruit within the Paramecia class,. This Devil Fruit also allows its user to forcibly take hold of any medium, allowing them to crack or pull on normally intangible objects such as the air itself. Whitebeard directly cracks the air in front of an enemy, causing severe damage as the shockwaves directly pass through their bodies. Instead of delivering a punch, Whitebeard grabs his opponent's head and concentrates his vibrations around it, resulting in crushing damage.<br><br>Whitebeard cracks the air with a punch and sends devastating shock waves through the air in the direction it is facing. These shock waves can pass through and damage almost any substance, tearing it apart. If the shockwaves are directed into the ground, the result is a devastating earthquake capable of generating huge tsunamis. Because of its enormous offensive power and great speed, this attack makes for a solid defense, destroying or disrupting any attack before it hits<br><br>Weakness:<br>However, this Devil Fruit's powers are noted to be a hazard to both friend and foe alike, as observed by both the Whitebeard and Blackbeard Pirates. This primarily stems from how, even though the user seems to be able to control both the magnitude of the shock wave and its point of impact, the quakes produced by these shock waves are indiscriminate in their effects. Because of this, allies of the user must be prepared for the impacts unless they want to become unintended victims of them."
     },
     {
@@ -1136,7 +1135,7 @@ const parPow = [
         fruit:"./image/hallow.png",
         imgInfo:"./Character/perona.jpg",
         fruitBox:"./Character/perona1.jpg",
-        info:"The fruit bestows the ability to conjure forth ghosts referred to as Hollows that are fully under the user's control.<br><br>These Hollows can come in different sizes depending on what the user desires, but they all appear as white, transparent, sheet-like beings with round black eyes and huge lips, as well as a tongue usually sticking out. <br><br>Usage:<br>The Hollows are able to fly and, being intangible, are immune to physical attacks. The most basic of these forms are the Negative Hollows; should a person have a Negative Hollow pass through them or vice versa, they will immediately fall on their knees and become very negative about themselves, sometimes to the point of wanting to commit suicide.<br><br>The user can also produce small round ghosts called Mini Hollows[5] or large round ghosts called Toku Hollows which are tangible, allowing them to latch onto their opponents. The user then can make these Hollows explode on command, causing shockwave explosions that damage the target. The strength of the explosions is directly proportional to the size of the ghost; the larger the ghost, the more powerful the explosion.<br><br>Perona also uses the Negative Hollows to gather information from different areas. Should Perona wish to, she can link her consciousness to many Negative Hollows in order to create her Ghost Network, which she uses to gather information.  She can also use this ability as a form of astral projection; Perona projects her own hollow or spirit which looks exactly like her, is impervious to physical attack, can summon ghosts, change size, fly, and is intangible.<br><br>Weakness:<br>it cannot affect anyone who is originally pessimistic about themselves"   
+        info:"The fruit bestows the ability to conjure forth ghosts referred to as Hollows that are fully under the user's control.<br><br>These Hollows can come in different sizes depending on what the user desires, but they all appear as white, transparent, sheet-like beings with round black eyes and huge lips, as well as a tongue usually sticking out. <br><br>Usage:<br>The Hollows are able to fly and, being intangible, are immune to physical attacks. The most basic of these forms are the Negative Hollows; should a person have a Negative Hollow pass through them or vice versa, they will immediately fall on their knees and become very negative about themselves, sometimes to the point of wanting to commit suicide.<br><br>The user can also produce small round ghosts called Mini Hollows or large round ghosts called Toku Hollows which are tangible, allowing them to latch onto their opponents. The user then can make these Hollows explode on command, causing shockwave explosions that damage the target. The strength of the explosions is directly proportional to the size of the ghost; the larger the ghost, the more powerful the explosion.<br><br>Perona also uses the Negative Hollows to gather information from different areas. Should Perona wish to, she can link her consciousness to many Negative Hollows in order to create her Ghost Network, which she uses to gather information.  She can also use this ability as a form of astral projection; Perona projects her own hollow or spirit which looks exactly like her, is impervious to physical attack, can summon ghosts, change size, fly, and is intangible.<br><br>Weakness:<br>it cannot affect anyone who is originally pessimistic about themselves"   
     },
     {
         name: "Time-Time Fruit",
@@ -1419,7 +1418,7 @@ const parPow = [
     {
         name: "Puff-Puff Fruit",
         jname: "Hoya-Hoya no mi",
-        element : "Power: Becomes genie lamp, summons genie",
+        element : "Power: Summons genie",
         user: "User: Charlotte Daifuku",
         manga:"Manga Debut: Chapter 846",
         anime:"Anime Debut: Episode 826", 
@@ -1430,7 +1429,7 @@ const parPow = [
     {
         name: "Paw-Paw Fruit",
         jname: "Nikyu-Nikyu no mi",
-        element : "Power: Repel things he touches",
+        element : "Power: Repel",
         user: "User: Bartholomew Kuma(Deceased?) S-Bear(Artificial)",
         manga:"Manga Debut: Chapter 443",
         anime:"Anime Debut: Episode 338",
@@ -1959,7 +1958,7 @@ const zoanNormal = [
         anime:"Anime Debut: Episode 570",
         fruit:"",
         fruitBox:"./image/unknown.png",
-        imgInfo:"./Character/egg1.jpg",
+        imgInfo:"./Character/egg.png",
         aCharacter:"",
         info:" Devil Fruit that turns the user's body composition into that of an egg.<br><br>Usage:<br>As a Zoan, the fruit is quite unique compared to others of its class. Rather than allowing its user to willingly transform into a full animal and a hybrid of themselves and the animal, it gives the user the form and properties of a chicken egg.<br><br>If the user is hit with a heavy blow that would otherwise injure or even kill a regular person in their base form, such as a slash from a sword, the user's body will crack open just like a real egg and unleash a yolk from it. The destroyed body will then be reduced to an empty shell while the yolk evolves into a stronger form for the user with the added features of a chick. And should that form be fatally struck as well, the process will repeat again and the user will evolve into a fully-grown chicken, which is the strongest form the user can evolve into. Should their strongest form be destroyed, the user will revert back to their weakest base form. This endless cycle can effectively prevent the user from dying in battle.<br><br>Weakness:<br>As stated above, the user cannot freely transform into their different forms like other Zoan-type users, and must be hit with a powerful blow in order to transform. Also, the user is completely defenseless while in yolk form, and they can be attacked and killed in the midst of the evolution process. The regeneration process does not apply to certain areas."
     },

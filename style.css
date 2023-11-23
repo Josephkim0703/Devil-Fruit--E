@@ -5,7 +5,7 @@ body{
  background-color: var(--primary-color);
  transition: 0.5s;
  margin: 0;
- overflow: hidden;  
+ overflow: hidden; 
 }
 
 :root{
@@ -488,6 +488,7 @@ transition: 0.5s;
     display: none;
     margin-top: -150px;
     transition: 0.5s;
+ 
 }
 
 main{
@@ -497,19 +498,12 @@ main{
   
 }
 
-#imagepic{
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    position: absolute;top: 79vh; left: 1.5rem;
-}
-
 #fruits{
    height: auto;
-   position: absolute; top: 22vh; left: 10vw;
+   position: absolute; top: 25vh; left: 12.5rem;
    z-index: 1;
    border: none;
-   transition: 0.5s;
+   transition: 0s;
    margin-left: 0px;
 }
 
@@ -520,17 +514,9 @@ main{
     border: 3px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
+    transition: 0s;
 }
 
-#fruitBox{
-    height: 11rem;
-    width: 10rem;
-    border: 2px solid var(--secondary-color);
-    background-color: white;
-    border-radius: 2rem;
-    transition: 0s;
-    margin-right: 20px;
-}
 
 #user {
     width:23rem;
@@ -549,12 +535,33 @@ main{
    
 }
 
+#imagepic{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    position: absolute;top: 79vh; left: 1.5rem;
+
+}
+
+
+#fruitBox{
+    height: 11rem;
+    width: 10rem;
+    border: 2px solid var(--secondary-color);
+    background-color: white;
+    border-radius: 2rem;
+    margin-right: 20px;
+    margin-bottom: 1000px; 
+}
+
+
 #char {
+    margin-top: 65px;
     height: 7rem;
-    position: absolute; top: 85vh; left: 47vw;
     border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 1rem;
+    margin-left: 19rem;
 }
 
 #imgInfo{
@@ -562,8 +569,6 @@ main{
     border: 2px solid var(--secondary-color);
     background-color: white;
     border-radius: 2rem;
-    transition: 0s;
-  
 }
 
 #allInfo{
@@ -579,6 +584,7 @@ main{
     color: var(--secondary-color);
     transition: 0s;
     font-family: "IM Fell English SC";
+   
 }
 
 #Dname{
@@ -670,11 +676,30 @@ main{
 @media only screen and (max-width: 1800px){
     #allInfo{
         position: relative; top: 17vh; left: 49rem;
-
     } 
+   
+#char {
+    margin-top: 65px;
+    height: 7rem;
+    margin-left: 16rem;
+}
+#fruits{
+    height: auto;
+    position: absolute; top: 25vh; left: 10rem;
+ }
 }
 @media only screen and (max-width: 1750px){
+    #char {
+        margin-top: 65px;
+        height: 7rem;
+        margin-left: 8rem;
+    }
+    #Ufruit{
+        height: 26rem;
+        width: 28rem;
+        position: absolute; top: 25vh; left: 5rem;
 
+    }
 
     .df{
         margin: 10px 20px;
@@ -689,9 +714,8 @@ main{
     }
     #fruits{
         height: auto;
-       position: absolute; top: 22vh; left: 4vw;
- 
-    }
+        position: absolute; top: 25vh; left: 7rem;
+     }
     
 }
 @media only screen and (max-width:1650px){
@@ -763,7 +787,7 @@ main{
      }
      
      #extra{
-         font-size: 1.2rem; 
+         font-size: 1.3rem; 
      }
 }
 @media only screen and (max-width: 1610px){
@@ -781,6 +805,11 @@ main{
     
 }
 @media only screen and (max-width: 1510px){
+    #char {
+        margin-top: 65px;
+        height: 7rem;
+        margin-left: 7rem;
+    }
     #gifters{
         font-size: 1.6rem;
         margin-left: 8rem;
@@ -812,11 +841,11 @@ main{
             position: relative; top: 17vh; left: 40rem;
           
         }
-     #fruits{
-            height: 25rem;
-           position: absolute; top: 22vh; left: 2vw;
-            margin-left: 10px;
-     }   
+        #fruits{
+            height: auto;
+            position: absolute; top: 25vh; left: 6.5rem;
+         }
+        
     
     #Dname{
         font-size: 1.5rem;
@@ -838,15 +867,26 @@ main{
         
 }
 @media only screen and (max-width: 1450px){
+    #char {
+        margin-top: 0px;
+        height: 6rem;
+        margin-left: 6.5rem;
+    }
+    #Ufruit{
+        height: 24rem;
+        width: 26rem;
+        position: absolute; top: 25vh; left: 4rem;
+
+    }
+
     #allInfo{
         position: relative; top: 17vh; left: 35rem;
       
     }
- #fruits{
-        height: 25rem;
-       position: absolute; top: 22vh; left: 2vw;
-        margin-left: 10px;
- } 
+    #fruits{
+        height: auto;
+        position: absolute; top: 25vh; left: 4.5rem;
+     } 
  #imagepic{
 
     position: absolute;top: 81vh; left: 1.5rem;
@@ -864,6 +904,11 @@ main{
 
 }
 @media only screen and (max-width: 1400px){
+    #char {
+        margin-top: 0px;
+        height: 6rem;
+        margin-left: 6.5rem;
+    }
     #gifters{
         font-size: 1.4rem;
         margin-left: 7.5rem;
@@ -939,6 +984,22 @@ main{
 
 }
 @media only screen and (max-width: 1260px){
+    #char {
+        margin-top: 0px;
+        height: 6rem;
+        margin-left: 5.5rem;
+    }
+    #Ufruit{
+        height: 20rem;
+        width: 22rem;
+        position: absolute; top: 25vh; left: 4rem;
+
+    }
+    #fruits{
+        height: auto;
+        position: absolute; top: 25vh; left: 3rem;
+     } 
+
     #allInfo{
         position: relative; top: 17vh; left: 31rem;
       
@@ -1116,6 +1177,11 @@ main{
 
 }
 @media only screen and (max-width: 1200px){
+    #char {
+        margin-top: 0px;
+        height: 5rem;
+        margin-left: 9rem;
+    }
     #gifters{
         font-size: 1.3rem;
         margin-left: 7rem;
@@ -1130,7 +1196,7 @@ main{
     }
 
     #allInfo{
-        position: relative; top: 17vh; left: 42vw;
+        position: relative; top: 17vh; left: 31rem;
       
     }
     #imagepic{
@@ -1167,6 +1233,27 @@ main{
 
 }
 @media only screen and (max-width: 1100px) {
+    #fruits{
+        height: auto;
+        width: 20rem;
+        position: absolute; top: 25vh; left: 3rem;
+     }  
+
+    #char {
+        margin-top: 0px;
+        height: 5rem;
+        margin-left: 4rem;
+    }
+    #Ufruit{
+        height: 18rem;
+        width: 20rem;
+        position: absolute; top: 25vh; left: 3rem;
+
+    }
+    #allInfo{
+        position: relative; top: 17vh; left: 41vw;
+      
+    }
     #optionBox{
         width: 60rem;
     }

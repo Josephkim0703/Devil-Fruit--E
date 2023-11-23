@@ -81,6 +81,7 @@ document.getElementById('zd').onclick = function (){
                                                 document.getElementById('Ufruit').style.display = "none"
                                                     document.getElementById('char').style.display = "none";
                                                         document.getElementById('imgInfo').style.display = "none";
+                                                            document.getElementById('fruits').style.display = 'block';
 //print normal zoan        
 document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
