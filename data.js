@@ -26,7 +26,7 @@ const logia = [
         ufruit:"",
         fruitBox:"./Character/sand.jpg",
         imgInfo:"./Character/sand1.jpg",
-        char:"./user/crocodile.jpg",
+        aCharacter:"./user/crocodile.png",
         info:"This fruit's power allows its user to transform their bodies into sand, as well as create and control sand in large quantities. <br><br>Usage:<br> This fruit can also give the ability to fly by morphing their lower body into jets of flowing sand, offering them a massive advantage in defense and mobility amid combat or pursuit.<br> Creating sand also grants the user various offensive capabilities; the user can create blades of sand in multiple shapes and sizes, large sandstorms that can travel great distances, and even vortexes that trap their opponents and pull them underground.<br><br> Besides basic elemental control, the fruit exhibits a unique ancillary ability: namely liquid absorption, allowing the user to dehydrate anything they touch and even extend said effect to their immediate surroundings, drying up vast areas of land like a drought. This ability is usually life-threatening to any living organism, causing plants, animals or people to suffer from dehydration. Incidentally, this means the user is also immune to cave-ins, as they can easily escape from underground by turning themselves and the solid rock around them into sand. Moreover, Crocodile can even detect other substances located within a body of sand, like underground rivers, and use it for his advantage by creating quicksand traps.<br><br>Weakness:<br> The Suna Suna no Mi is one of few Logia-type fruits that can naturally counteract their own weakness. The main weakness of this Logia power is exposure to liquids: specifically, the user's sand turns solid when in contact with liquids, such as water or blood."   
     },
     {
@@ -40,7 +40,7 @@ const logia = [
         ufruit:"",
         fruitBox:"./Character/flame1.jpg",
         imgInfo:"./Character/flame.jpg",
-        aCharacter:"",
+        aCharacter:"./user/ace.png",
         info:"The fruit's powers allows the user is able to create, control, and become fire.<br><br>Usage:<br>  With this in mind, the user can create devastating fire-based attacks and gain a high resistance towards most heat-based attacks. The flames can also be used to increase the force of physical attacks. By turning into fire, the user is capable of letting enemy attacks harmlessly pass through their fiery body or move around quickly in a stream of flames. Igniting oneself similarly has the added effect of burning an opponent if they had tried to physically harm the user.<br><br>When this power clashes against certain other Logia on equal grounds, this seems to come to a stalemate: neither smoke nor ice was able to overcome nor succumb to the flames, instead cancelling each other out when the two elements collided.<br><br>Weakness:<br> The Mera Mera no Mi is inferior to the Magu Magu no Mi in terms of elemental hierarchy. Magma is considerably hotter than fire, allowing it to overwhelm the Mera Mera no Mi's powers. The magma can neutralize even the intangibility and heat-immunity of the Mera Mera no Mi, thus leading the user to be burned and completely vulnerable. If the magma strikes through the body of the user, it cannot be phased through like most other attacks, and the damage inflicted will remain, as with any normal person's body."
     },
     {
