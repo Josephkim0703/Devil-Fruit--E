@@ -528,7 +528,7 @@ main{
 
 
 #user {
-    width: 33rem;
+    width: 34rem;
     position: absolute; top: 10vh; left: 8rem;
     z-index: 0;
     transition: 0s;

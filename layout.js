@@ -511,6 +511,7 @@ document.getElementById('r').onclick = function(){
 
 document.getElementById('userButton').onclick = function(){
     document.getElementById("fruits").style.display = "none";
+    document.getElementById("Ufruit").style.opacity = 0;
         document.getElementById("user").style.display = "block";
             document.getElementById("fruitButton").style.display = "block";
                 document.getElementById('userButton').style.display = "none";
@@ -519,8 +520,10 @@ document.getElementById('userButton').onclick = function(){
 document.getElementById('fruitButton').onclick = function(){
     document.getElementById("fruits").style.display = "block";
         document.getElementById("user").style.display = "none";
+        document.getElementById("Ufruit").style.opacity = 1;
             document.getElementById("fruitButton").style.display = "none";
                 document.getElementById('userButton').style.display = "block";
+              
 };   
 
 document.getElementById("darkmode").addEventListener ('click', function () {
