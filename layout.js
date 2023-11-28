@@ -4,11 +4,14 @@ import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanAr
 fruits();
 option();
 
+let input = false;
+
 function fruits(){
 
 //Print logia fruits
 document.getElementById('ld').onclick = function (){
     //query selectors turning certain things off and on
+document.getElementById('fruits').style.opacity = 1;
     document.querySelector('#oz1').style.display = "none";
         document.querySelector('#op1').style.display = "none";
             document.querySelector('#pbutton').style.display = "none";
@@ -85,6 +88,7 @@ document.getElementById('zd').onclick = function (){
                                                         document.getElementById('imgInfo').style.display = "none";
                                                             document.getElementById('fruits').style.display = 'block';
                                                                 document.getElementById('smileFruit').style.display = 'none';
+                                                                    document.getElementById('fruits').style.opacity = 1;
 //print normal zoan        
 document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
@@ -227,14 +231,14 @@ document.getElementById('artificial').onclick = function (){
                             document.getElementById('Ufruit').src = zoanArtificial[0].ufruit;
                                 document.getElementById('user').src = zoanArtificial[0].aCharacter;
 
-                            zoanArtificial[0].Ufruit == ""? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                    zoanArtificial[0].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = zoanArtificial[0].aCharacter;
 
-                            zoanArtificial[0].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                document.getElementById('user1').src = zoanArtificial[0].aCharacter;
-                            
-                            zoanArtificial[0].fruit == ""? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                    zoanArtificial[0].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                            zoanArtificial[0].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                    zoanArtificial[0].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+                                            zoanArtificial[0].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
                                             zoanArtificial[0].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                                 document.getElementById('imgInfo').src = zoanArtificial[0].imgInfo;
@@ -242,12 +246,12 @@ document.getElementById('artificial').onclick = function (){
                                             zoanArtificial[0].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                                 document.getElementById('fruitBox').src = zoanArtificial[0].fruitBox;
 
-                                document.getElementById('Ufruit').style.display = 'block';  
+                            document.getElementById('Ufruit').style.display = 'block'; 
                         document.getElementById('infoPage').style.display = "block";
                     document.querySelector('#kaido').style.display = 'block';
                 document.querySelector('#optionBox').style.display = "none"; 
             document.getElementById('wrapper').style.display = "none";
-        document.getElementById('fruits').style.display = 'none';
+        document.getElementById('fruits').style.opacity = 0;
                 
 
 //seperate button that sends you to a page about smile fruits
@@ -298,7 +302,7 @@ document.getElementById('artificial').onclick = function (){
                                 zoanMythical[8].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
                                     document.getElementById('imgInfo').src = zoanMythical[8].imgInfo;
 
-                                    
+                                    document.getElementById('fruits').style.opacity = 1;
                                 document.getElementById('fruits').style.display = 'block';  
                             document.getElementById('Ufruit').style.display = 'none';  
                         document.querySelector('#kaido').style.display = 'none'; 
@@ -340,6 +344,7 @@ document.getElementById('pd').onclick = function (){
                                                     document.getElementById('char').style.display = "none";
                                                         document.getElementById('imgInfo').style.display = "none";
                                                             document.getElementById('smileFruit').style.display = 'none';
+                                                                document.getElementById('fruits').style.opacity = 1;
 document.getElementById('body').onclick = function (){
 //prints para body
 document.querySelector('#back').style.display = "block";
@@ -549,6 +554,7 @@ document.getElementById('fruitButton').onclick = function(){
 
 document.getElementById("darkmode").addEventListener ('click', function () {
     document.body.classList.toggle("dark-theme");
+    
 });
 }
 
