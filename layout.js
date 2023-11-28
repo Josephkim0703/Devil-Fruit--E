@@ -155,9 +155,12 @@ document.getElementById('ancient').onclick = function (){
                             document.getElementById('Dinfo').innerHTML = zoanAnicent[i].info;
                                 document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
                                     document.getElementById('fruits').src = zoanAnicent[i].fruit;
-//                                  document.getElementById('user').src = logia[i].aCharacter;
+                                        document.getElementById('user').src = logia[i].aCharacter;
 
-                                        zoanAnicent[i].fruit == ""? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                        zoanAnicent[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = zoanAnicent[i].aCharacter;
+
+                                        zoanAnicent[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
                                         zoanAnicent[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
@@ -285,7 +288,7 @@ document.getElementById('artificial').onclick = function (){
                                                     document.getElementById('fruitBox').src = zoanArtificial[1].fruitBox;
                                          
     }
-//BUG
+//BUG i need to double click user button if momonosuke was shown
     document.getElementById('kaido').onclick = function (){
         document.getElementById('user').style.display= "none";
             document.getElementById('Dname').innerHTML = zoanMythical[8].name + " (" + zoanMythical[8].jname + ")";
