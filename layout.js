@@ -110,9 +110,13 @@ document.getElementById('normal').onclick = function (){
                             document.getElementById('Dinfo').innerHTML = zoanNormal[i].info;
                                 document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
                                     document.getElementById('fruits').src = zoanNormal[i].fruit;
+                                        document.getElementById('user').src = zoanNormal[i].aCharacter;
 
+                                        
+                                        zoanNormal[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = zoanNormal[i].aCharacter;
                                     
-                                        zoanNormal[i].fruit == ""? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                        zoanNormal[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
                                         zoanNormal[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
