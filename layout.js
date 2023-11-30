@@ -373,7 +373,15 @@ document.querySelector('#back').style.display = "block";
                                 document.getElementById('Dinfo').innerHTML = parBody[i].info;
                                     document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
                                         document.getElementById("fruits").src = parBody[i].fruit;
+                                            document.getElementById('user').src = parBody[i].aCharacter;
 
+                                parBody[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                    document.getElementById('user1').src = parBody[i].aCharacter;
+                                            
+                                parBody[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+        
+                                parBody[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+        
                                 parBody[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                     document.getElementById('Ufruit').src = parBody[i].ufruit;
 
