@@ -655,6 +655,7 @@ const parSub = [
         fruit:"./image/wax.png",
         fruitBox:"./Character/wax1.jpg",
         imgInfo:"./Character/wax.jpg",
+        aCharacter:"./user/galdino.png",
         info:"The major strength of the fruit, is that the user is able to produce candle wax from their body and mold it into any shape they wish.<br><br>Usage:<br>The wax is also resilient to certain acidity, such as the stomach acid of Bananawani and Magellan's Hydra. The user's hair becomes ignited when the fruit's power is activated, making the user resemble a candle. The fire does not harm the user though.<br><br> These range from wax statues that completely resemble other people in every little detail, to a gigantic wax cake complete with burning candles and the fruit's powers to encase his enemies with wax in order to turn them into living wax statues.  Another use for his powers is to power his ship, similar to certain Logia-class users does, though his exact method is unknown.<br><br>Weakness:<br>A piece of hardened wax can be broken by being struck with another piece of hardened wax, causing both pieces of wax to crumble. Despite its density, the wax will still melt if exposed to flames or heat, placing the user in an environment with a significant amount of heat can greatly weaken them as a result.", 
     },
     {
@@ -668,6 +669,7 @@ const parSub = [
         fruit:"./image/string.png",
         fruitBox:"./Character/string.jpg",
         imgInfo:"./Character/string1.jpg",
+        aCharacter:"./user/doffy.webp",
         info:"The user is bestowed with the power to generate and control razor-sharp strings. <br><br>Usage:<br> Attachable to seemingly any surface (even clouds) from seemingly any part of the user's own body (even the innards), though mostly seen protruding from the palms and fingertips, for many diverse purposes, such as manipulating people's movements in a way reminiscent of how puppeteers control puppets by connecting the strings to their spines, swiping the strings to slice through things like body parts and weapons, attaching them to clouds for aerial transportation, and creating masses of bundled-up, compressed strings for various constructs such as ropes usable as whips, bullets, clones, a humongous cage-like force field or a massive spider web defense. Generally, it is unknown if there is a limit to the length and quantity of the strings producible.<br><br>Ability to perform an emergency stitching of his internal organs after getting them heavily injured. Apart from that, the strings can be imbued with Busoshoku Haki, increasing their strength and allowing them to bypass Devil Fruit-based defenses. The strings possess such enormous durability and tensile strength that extremely few things and people can cut, tear or otherwise damage them; The user can even create a complete clone of themself made entirely out of compressed strings.<br><br>Awakened:<br>Additionally, like any Paramecia, the Ito Ito no Mi has the potential to be awakened. If awoken, the fruit's power can allow the consumer to transmute the surrounding area, like the ground and buildings, into strings as well.  Ito Ito no Mi's strings is such that Doflamingo can cut through the flesh and bone of a giant <br><br>Weakness:<br>The strings will disappear into thin air if the user loses consciousness.",
     },
     {
@@ -677,10 +679,11 @@ const parSub = [
         user: "User: Kalifa",
         manga:"Manga Debut: Chapter 408",
         anime:"Anime Debut: Episode 293",
-        fruit:"",
+        fruit:".",
         ufruit:"./image/bubble.jpg",
         imgInfo:"./Character/bubble1.jpg",
         fruitBox:"./Character/bubble.jpg",
+        aCharacter:"./user/kalifa.png",
         info:"The fruit's major strength, is that it gives its user the ability to emit and control soap and bubbles from their body.<br><br>Usage:<br>These bubbles are created from the user's body and can even manifest while the user is wearing gloves. The bubbles are also capable of not only cleaning off dirt but can also clean off someone's power. The user can thus essentially drain their opponent's energy with these bubbles and leave them in a clean and shiny state that is extremely smooth. Spreads bubbles on her victim's body, draining them of their strength and leaving their skin shiny and smooth. This also has the side effect of impairing her target's mobility, as their extremely slippery skin makes it hard for them to move around.<br><br>The user can also shield themselves from attacks by condensing these bubbles together around themselves and encasing themselves into a giant bar of soap.<br><br>Weakness:<br>However, the user's bubbles can be washed away by water. Likewise, their smoothed opponents can be returned to normal by being washed by water. Also, although it will not nullify the bubbles' effects, a strong wind will blow them away before they can drain the target of their energy.", 
     },
     {
@@ -692,6 +695,7 @@ const parSub = [
         anime:"Anime Debut: Episode 401",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/straw.jpg",
+        aCharacter:"./user/hawkins.png",
         info:"The fruit's main ability is the capacity to create and manipulate straw.<br><br>Usage:<br>At its most basic, the straw can serve as a holding device as well as act as sharp weapon. By producing a larger amount of straw, the user can cover themselves in it to enhance their fighting capabilities or create a large straw monster with which to attack their foes. When using these techniques, the user is also seemingly able to manifest nails and use them as accompanying weapons.<br><br>As a more advanced technique, the user is also capable of creating small straw dolls and storing them inside their body. Each doll, through unknown means, can be linked to and represents another person akin to a voodoo doll. Consequently, if the user is injured in any way, the damage is instead transferred to a given doll and in turn whichever person it represents. This allows the user to easily survive and recover from multiple life-threatening injuries if they have enough dolls in store, making them difficult to defeat. The user can also cover their body with a large amount of straw, giving him the appearance of a giant scarecrow-like monster with metal nails serving as claws, which he can use to attack his enemies.<br><br> By generating a large amount of straw from his sword, Hawkins creates a large straw monster that resembles his Goma no So technique. Once the entity detaches itself from his sword, Hawkins is able to remotely control it at will, with the Straw Man mimicking his movements.<br><br>Weakness:<br>In regard to the straw doll technique, the user can only carry a maximum of ten dolls in their body, leaving the user vulnerable to taking damage once every doll is lost. Moreover, if the person the doll represents suffers damage through other means, the doll is damaged too, leaving it unusable. Additionally, if damage inflicted on the fruit user cannot be applied to the person the doll is connected to, the damage will not transfer and the user will be wounded.",   
     },
     {
@@ -703,6 +707,7 @@ const parSub = [
         anime:"Anime Debut: Episode 425",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/venom.jpg",
+        aCharacter:"./user/mag.png",
         info:"This Devil Fruit power allows the user to create and control a wide range of poisons that can vary in strength and form.<br><br>Usage:<br>Ranging from a mild irritant to a strong paralyzing agent, to a deadly and highly-corrosive toxin. The user can produce these poisons in both liquid and gaseous states. They also become totally immune to any and all poisons, be it their own or an external toxin.<br><br>The user can create massive amounts of liquid poison that they can shape into gigantic, monstrous entities, such as a hydra or a demon. A large amount of poison can also be used as a means of transportation, allowing the user to travel through it like a pneumatic tube. The user can also cover themself with a thick layer of liquid poison, giving them a virtual suit of armor. Said armor does not offer much fortitude, but it does dissuade opponents from attacking the user directly for fear of being poisoned.<br><br>The most powerful poison the power can produce is called Kinjite, which Magellan himself has stated is powerful enough to destroy Impel Down itself. Not only is this poison more lethal and fast-acting than most, it also spreads out from any surface it touches, literally infecting all objects in its wake, including stone. liquid poison to create a wall to block the exits of a building. Any object used to break Magellan's poison door simply goes into the poison which absorbs and dissolves it.<br><br>Weakness:<br>The user's body is not able to process or digest it. If the user consumes their own poison, the tainted food would affect the user's bowel movements. Fire has some neutralizing effect on the liquid poison the user makes.",  
     },
     {
@@ -714,6 +719,7 @@ const parSub = [
         anime:"Anime Debut: Episode 588",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/garb.jpg",
+        aCharacter:"./user/kinemon.png",
         info:" Devil Fruit which allows the user to create clothing and other apparel out of leaves or stones by visualizing them.<br><br>Usage:<br>The apparel generated can be used as disguises, which can be used to blend in during espionage work. Apart from serving as disguises, the clothes created by the fruit's power can also be used for other conveniences, such as keeping wearers warm while in a cold environment. This fruit has also been seen to create functioning armour and weapons such as swords.<br><br>Weakness:<br>Kin'emon apparently needs to create clothes from leaves, stones, or other small objects, so if there are none in the immediate vicinity then he may not use the ability. The clothes are also not permanent and revert back to its original objects as soon as they are removed. Furthermore, he must first visualize the appearance of the clothes, so quality of the clothing will depend on the imaginative capabilities of the user. This Devil Fruit appears to be a passive ability and has few combat applications. ",  
     },
     {
@@ -725,6 +731,7 @@ const parSub = [
         anime:"Anime Debut: Episode 637",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/barrier.jpg",
+        aCharacter:"./user/bart.png",
         info:"The fruit's bestowed power is to conjure physical barriers out of thin air—either invisible or visibly transparent, resembling tinted panes or domes of glass.<br><br>Usage:<br>this is achieved by the user making a finger-crossing gesture. Such barriers can shield the user against attacks, usually from the front, but also from other (or even all) directions depending on a barrier's given shape and position. The barriers boast immense defensive power, able to block even an officer of the Donquixote Pirates such as Dellinger, who was unable to even scratch the barrier despite having a kick that can move ten tons.<br><br>It also successfully defended against Hakuba's attacks. Even the King Punch of Elizabello II, which could destroy an entire fortress, had no effect. Bartolomeo has a high estimation of his barriers' strength, as he was confident that they were unbreakable and could stop the Doflamingo's Torikago (which can slice buildings and meteorites with great ease).<br><br>The barrier can also be used for offensive purposes by launching it forward to create powerful forces to strike the targets with, or to deflect forces sent by enemies right back at them. Another strength of this fruit is that Bartolomeo can form solid constructs out of his barriers in various shapes, such as stairs which people can stand on, making this fruit useful for getting to hard-to-reach places.<br><br>Weakness:<br>The user can only sustain one barrier at a time. There is a limit to how much barrier surface can be deployed at once. Certain barrier shapes can still be outflanked by going around, above, or below them, especially if the user is ambushed or attacked by an enemy at superhuman speed.",  
     },
     {
@@ -736,6 +743,7 @@ const parSub = [
         anime:"Anime Debut: Episode 629",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/mucus.jpg",
+        aCharacter:"./user/trebol.png",
         info:"The fruit's major strength is the ability to create limitless amounts of mucus.<br><br>Usage:<br>the ability to restrain movements and allow the user to attach themselves to surfaces. The mucus is strong enough to hold a ship.<br><br>The limitless amounts of mucus that the user can generate, similarly to the Doru Doru no Mi and the Doku Doku no Mi, can make the fruit appear to be a Logia. Trebol used this against Monkey D. Luffy, who hit his mucus coat under the impression that it was part of his body, and was shocked when nothing happened. It also seems that the user can give different colors to their mucus, as seen when Trebol made part of his mucus coat look like his body.<br><br>The user can use it to stick to various surfaces, such as roofs or walls. By producing mucus their able to extend their reach and seize their targets from afar, and keep them in place (or make moving more difficult for them). They can also fire off mucus with extreme force and precision, piercing a wall with explosive force while striking a fly in between its eyes, or use it to seize heavy objects and use it as a flail. As the mucus is flammable, they can ignite it with a match upon capturing his opponents and causing incendiary damage.<br><br>Weakness:<br>The mucus is flammable and will cause it to explode violently upon contact with a spark; though potentially a liability, the user can use this to his or her advantage.",  
     },
     {
@@ -747,6 +755,7 @@ const parSub = [
         anime:"Anime Debut: Episode 795",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/lick.jpg",
+        aCharacter:"./user/pero.png",
         info:"This fruit allows the user to create and control seemingly limitless amounts of candy.<br><br>Usage:<br>Being able to make it move as if it were a mechanical construct, like escalators and prostheses. The candy created by the user is edible. When hardened, the candy becomes incredibly strong and resilient, able to hold down the superhuman children of the Vinsmoke Family and even an entire moving castle, as well as block cannon fire. Water also does not seem to affect the candy, as Perospero can comfortably travel across the ocean by riding a mobile mass of it around. Useing the fruit the user can create any weapons and traps made from hardened candy that he then unleashes down on his foes.<br><br> The user coats an opponent with candy, which will then slowly seep into their body. After three minutes, the candy will completely fill their insides and stop their breathing, killing them. The user can also protects themself from harm with candy, presumably by covering themself with it like an armor.<br><br>Weakness:<br>The candy conjured by the fruit's powers will melt after a certain time. Similarly, intense heat being applied with force can cause the candy to shatter or melt away. If the user dies or is severely injured enough, all the candy conjured will vanish.",  
     },
     {
@@ -758,6 +767,7 @@ const parSub = [
         anime:"Anime Debut: Episode 796", 
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/biscuit.jpg",
+        aCharacter:"./user/cracker.png",
         info:" Devil Fruit that allows the user to generate and manipulate biscuits at will.<br><br>Usage:<br>Conjured by the user clapping their hands and can be manipulated in various ways. For instance, the user may bring together biscuits to form large, moving, humanoid figures that seem extremely lifelike, as well as weapons; mostly by crushing their biscuits into fine crumbs and powder to condense and mold into whatever shape they desire.<br><br> As further demonstrated by Cracker, a user can even manipulate such humanoid figures from within and supplement them, such as adding extra limbs. The biscuits are, or can be made, extremely hard akin to hardtack and, especially if enhanced by Busoshoku Haki, can serve as incredibly tough armor/shields.<br><br>Weakness:<br>In spite of how strong the biscuits are, they can be shattered with sufficient force or weakened by water, softening them enough to eat. The ability of manifesting biscuits can also take a toll on the user's stamina if used consecutively and extensively. Further, the user themselves could also be brought to harm by their own biscuit constructs if thrown against them forcefully enough.",  
     },
     {
@@ -769,6 +779,7 @@ const parSub = [
         anime:"Anime Debut: Episode 811", 
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/butter.jpg",
+        aCharacter:"./user/gallete.png",
         info:" Devil Fruit which allows the user to create and control butter.<br><br>Usage:<br>This fruit allows the user to control seemingly limitless amounts of butter. Despite butter usually making objects slippery, the created butter has been shown to be quite sticky and adhesive when in semi-liquid form, capable of immobilizing an opponent by wrapping it around their hands or bodies.<br><br>Weakness:<br>This fruit has shown no particular weaknesses aside from the standard Devil Fruit weaknesses.<br><br>Not much information has been revealed for this fruit",  
     },
     {
@@ -780,6 +791,7 @@ const parSub = [
         anime:"Anime Debut: Episode 810", 
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/cream.jpg",
+        aCharacter:"./user/opera.png",
         info:"Devil Fruit that allows the user to create and manipulate cream at will.<br><br>Usage:<br>This fruit allows the user to create and control seemingly limitless amounts of cream, which they can use to attack and capture their foes. The cream's sugar is capable of inflicting painful second or third degree burns to anyone it comes in contact with, allowing the user to physically harm their opponents while also making them hard to approach in battle due to the risk of coming in contact with the cream.<br><br> By producing a large amount of cream, Opera forms multiple tentacles out of it, giving him the appearance of a Kraken. He then attacks his enemy with the mass of cream, burning them with the cream's sugar.<br><br>Weakness:<br>This fruit has shown no particular weaknesses aside from the standard Devil Fruit weaknesses.",  
     },
     {
@@ -794,6 +806,7 @@ const parSub = [
         fruit:"./image/mochi.png",
         fruitBox:"./character/mochi1.jpg",
         imgInfo:"./Character/mochi.jpg",
+        aCharacter:"./user/katakuri.webp",
         info:"The user is given the ability to create, control, and turn any part of their body into mochi.<br><br>Usage:<br>When coated with Busoshoku Haki, the mochi becomes an effective blunt-force weapon and is capable of trapping people, even extremely strong ones, due to its sticky, stretchy nature. The latter is such that high-caliber gunfire is completely unable to pierce through it. Additionally, due to its high malleability, hardenability, and compatibility with Haki, the mochi can be formed into a wide variety of shapes, such as replicas of body parts (like fists or feet to strike with, which may be formed from the user's body), large tendrils or even spiked clubs, as well as walls and other, even more elaborate structures.<br><br>Unique amongst the Paramecia class, this fruit's ability to transform the user into mochi is analogous to the properties of a Logia fruit. Thus, the user is invincible against attacks that are not imbued with Busoshoku Haki, as any part of their body that is struck by an attack simply morphs into mochi that can reform after. Extending his limbs using mochi for various tasks. He can extend his leg to form an extremely fast, large, tendril-like blunt weapon, imbuing it with Haki.<br><br>Awakened:<br>As with all Devil Fruits, this one has the potential to be awakened, which allows the user to turn inorganic material around them into mochi. Using his awakened powers, Katakuri summons tendrils of mochi from the ground and loops them into the shape of donuts.<br><br>Weakness:<br>However, the mochi loses some of its stickiness if a sufficient amount of liquid is applied to it, allowing a trapped opponent to somewhat try to escape. Also, the mochi is edible, especially if the user is not actively controlling it."
     },
     {
@@ -805,6 +818,7 @@ const parSub = [
         anime:"Anime Debut: N/A", 
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/clay.jpg",
+        aCharacter:"./user/grus.png",
         info:"Devil Fruit that allows the user to create and control clay.<br><br>Usage:<br>A user of this fruit's power can generate clay from their body and mold it into different shapes akin to clay modeling. This includes the creation of human-like, animated figures called golems that can fight on the user's behalf, being invulnerable to damage. It seems that the ability's user can freely alter the hardness of the clay, from creating large massses of soft, mushy clay to making smaller, hardened constructs, like weapons.<br><br>It is unknown to what degree these golems possess sentience/autonomy, though they are capable of fighting on their own and speaking. Being made of clay, they are invulnerable to conventional attacks like gunfire and, upon taking damage, will reform from clay in a Logia-like fashion.<br><br>Weakness:<br>No weaknesses of this ability are known apart from the standard Devil Fruit weaknesses.<br><br>Not much information has been revealed for this fruit.",    
     },
     {
@@ -815,8 +829,10 @@ const parSub = [
         manga:"Manga Debut: Chapter 754",
         anime:"Anime Debut: Episode 691",
         ufruit:"./image/brush.jpg",
+        fruit:".",
         fruitBox:"./Character/brush1.jpg",
         imgInfo:"./Character/brush.jpg",
+        aCharacter:"./user/kanjuro.webp",
         info:" Devil Fruit that allows the user to generate ink from their body and use a painting brush to turn images created with that ink into three-dimensional, lifelike objects.<br><br>Usage:<br>Due to the user being capable of generating ink from their body, they can create drawings at any time they wish without needing an external source of ink. The user can change the color of the ink they generate at will for aesthetic purposes.<br><br>Once the user has drawn an object, they are capable of transforming the drawing into a three-dimensional object which possesses the same properties as the real-life subject it is based on, or a different property if the user so wishes, such as drawings of humans and animals gaining a consciousness, drawings of weapons having the same effect as their real-life counterparts, and drawings of food being edible and sustaining. The user thus becomes capable of creating an unfathomably wide range of objects to support them in just about any situation. The user is also capable of reversing the typical process of the power by transforming their own body into a two-dimensional drawing, which has been shown to aid them in hiding.<br><br>The user is able to fully control the living creatures they draw and can speak through them, allowing them to create fighters to aid them in combat or attack on a different front. It appears that the user shares the senses of the creatures they create, allowing them to know what is happening around a drawing if it is separated from them. Provided the user sufficiently knows the appearance of a person, they can create perfect replicas of people, including themselves, to fool enemies.<br><br>Weakness:<br>The strength and abilities of the users' drawings heavily depend on the artistic skill of the user. Poorly-drawn constructs of living creatures have been shown in a constant state of struggle and exhaustion throughout their existence. Manually controlling a drawing remotely takes a toll on the user's energy. If the user is injured or otherwise weakened, they may struggle to use this power.",
     },
     {
@@ -828,6 +844,8 @@ const parSub = [
         anime:"Anime Debut: Bloom in Winter, Miracle Sakura",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/shroom.jpg",
+        aCharacter:"./user/katakuri.webp",
+        aCharacter:"./user/mush.png",
         info:" Devil Fruit that allows the user to create and control poisonous mushroom spores.<br><br>Usage:<br>The spores are so poisonous that anyone that gets caught in them would require the antidote immediately to cure themselves. While the spores by themselves are a danger, the user however can deploy the spores in any way he want, from small bursts or in a large cloud.<br><br>Shooting out spores at opponents in a way that it looks like energy blasts, and controlling clones created from the spores and morph in some sorts as shown when Musshuru hair turned into an cap, his legs and arms were slim yet making him agile, and demonstrated that he can change his hand into a drill.<br><br>Weakness:<br> The major weakness of the fruit's powers is fire, which will eliminate the spores on contact. Either burning the spores themselves or setting the user himself on fire, can stop the spores before they can affect anyone. This Devil Fruit also requires the user to unleash a large amount of spores every 10 years to balance out its powers, an attribute not seen with other Devil Fruits by far.",   
     },
     {
@@ -839,6 +857,7 @@ const parSub = [
         anime:"Anime Debut: One Piece Film:Heart of Gold", 
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/chain.jpg",
+        aCharacter:"./user/mad.png",
         info:"Devil Fruit that allows the user to grow chains from their body.<br><br>Usage:<br>The chains granted by the fruit can be used as powerful blunt weapons, should the user be able to wield them effectively. The chains can also be used as a sort of armor for self-defense. The user is also capable of tying things up with the chains, and tightening the chains telekinetically (the chains he does this with glow red). The ends of the chains can be made sharp, allowing the user to stab opponents and latch onto faraway surfaces. The user can make the chains various sizes from being the size of a average chains to being large enough to act like a bridge.<br><br>He also uses it to chain people up and capture them, and can crush them with the chains. His chains can also come in alternative forms, such as accessories like necklaces, sashes, and collars, which he use to make people do what he wants by tightening them. The chains can also have different kinds of ends, such as large claw-anchors to latch onto things or weights increase the power of their strikes. Mad Treasure can change the metal or material the chains are made of since he has been shown changing his into gold along with stating they can be changed into diamonds to further boost the chain's offensive and defensive capabilities.<br><br>Weakness:<br>Although the chains are strong, they can be broken with sufficient force. Otherwise, the user is affected by the standard Devil Fruit weaknesses.",   
     },
     {
@@ -851,6 +870,8 @@ const parSub = [
         ufruit:"./image/gold.jpg",
         imgInfo:"./Character/gold1.jpg",
         fruitBox:"./character/gold.jpg",
+        aCharacter:"./user/tesoro.webp",
+        fruit:".",
         info:"The main strength of the fruit is that it allows the user to manipulate any gold that they touch.<br><br>Usage:<br>They can quickly change the gold from solid to liquid and vice-versa, allowing them to shape it in any way they desire. They can even encase living beings in gold, effectively turning them into statues. The user is also able to cover their own body in golden armor for increased power, to the point where they can turn into a massive gold golem. Though gold is normally a relatively soft metal, if the user is actively manipulating it, the gold is hard enough to withstand extremely powerful attacks.<br><br>Trap his enemies, infuse gold dusts and flakes into other people's bodies and even slowly transform their skin into gold. He is also able to create an armor of gold for increased power and defense, to the point where he can turn into a massive gold golem.<br><br>Awakened:<br>If this power is awakened, the range of the user's influence over gold will increase, extending their senses to the gold that are under their powers, potentially creating a complex sensory network. Any disturbances on such gold will be noticed.<br><br>Weakened:<br>The main weakness of this Devil Fruit power is that it cannot create gold and that its power is thus directly proportional to the amount of gold present in its user's surroundings. Furthermore, the user can only manipulate gold that they have previously touched, and contact with sea water will instantly nullify that effect: gold constructs will crack and crumble, and the user will need to touch the gold once more before being able to manipulate it again. ",  
     },
 ];
