@@ -410,6 +410,14 @@ document.getElementById('environment').onclick = function (){
                                     document.getElementById('Dinfo').innerHTML = parEnv[i].info;
                                         document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
                                             document.getElementById('fruits').src = parEnv[i].fruit;
+                                                document.getElementById('user').src = parEnv[i].aCharacter;
+
+                                parEnv[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                    document.getElementById('user1').src = parEnv[i].aCharacter;
+                                    
+                                parEnv[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+                                parEnv[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
                                 parEnv[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                     document.getElementById('Ufruit').src = parEnv[i].ufruit;
@@ -453,12 +461,12 @@ document.getElementById('substance').onclick = function (){
                                             document.getElementById('fruits').src = parSub[i].fruit;
                                                 document.getElementById('user').src = parSub[i].aCharacter;
 
-                                        parSub[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                    parSub[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = parSub[i].aCharacter;
                                     
-                                        parSub[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                    parSub[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                        parSub[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                    parSub[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
                                     parSub[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                         document.getElementById('Ufruit').src = parSub[i].ufruit;

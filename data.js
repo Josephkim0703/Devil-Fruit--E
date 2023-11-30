@@ -885,6 +885,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 210",
         imgInfo:"./Character/slow.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/foxy.png",
         info:" Devil Fruit that allows the user to emit beams which temporarily slow down their target.<br><br>Usage:<br>Generating and emitting Noroma Photons, those particles slow down anything they hit for thirty seconds, be it people, objects or even the space itself.<br><br>In that amount of time, the user can do anything to the slowed down object. Even something as volatile as a cannonball, which is normally fast and explodes upon collision, can easily serve as a floating platform for anyone to stand on when slowed.<br><br>  When a person is hit by these beams and receives any number of strikes while slowed, the kinetic force of said strikes is released all at once when they return to their normal speed, making the attacks more damaging. Noroma photons, being beams of light, can be reflected by mirrors. This allows the user to create interesting attacks that can catch their opponent off guard.<br><br>Weakness:<br>The user is not immune to the effects of their own photons and will be slowed down if exposed to them. It is also implied that disabling the user's arms is enough to prevent them from shooting further beams." 
     },
     {
@@ -896,6 +897,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 231",  
         imgInfo:"./Character/bluno.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/blueno.png",
         info:"Gives its user the ability to create a door on almost any solid surface so that they can enter through.<br><br>Usage:<br>This allows them and anyone else passage through the object no matter how thick or strong it is. Though this ability is normally used to gain free passage, the user can also exploit this in other ways, such as trapping an opponent's feet in small doors created underneath them. This power can also be used on living persons as well and can thus be used to deter opponents by creating doors on their body in order to immobilize them.<br><br>One of the greatest strengths of this fruit's powers, however, is that the user can also create doors through the very atmosphere itself. These Air Doors lead into a pocket dimension of sorts that is apparently within the air itself. This is ideal for escape or stealth purposes, since this dimension not only allows the user and anyone else accompanying them to travel across vast distances, but also provides a safe haven for them should they need to hide from an enemy or survive through large scale attacks. Its only downside is that while inside this pocketed dimension, the user has no means to interact with the real world other than to exit first to return themselves back there<br><br>Weakness:<br>Perhaps the Fruit's most prominent weakness is that once doors have been manifested, rather than remaining that way indefinitely, they will automatically re-seal themselves once again after a set amount of time, regardless be it by Blueno's volition or simply by their own.  One, is that using techniques like Air Door, which takes the user, and others', into an alternate plane, consumes a lot of stamina, and thus can't be used for extended periods of times. The other weakness is that the doors the user makes is proportionate to the user's size. ", 
     },
     {
@@ -909,6 +911,7 @@ const parEnv = [
         fruit:"./image/op.png",
         imgInfo:"./Character/op1.jpg",
         fruitBox:"./Character/op2.jpg",
+        aCharacter:"./user/law.webp",
         info:"The Ope Ope no Mi allows its user to remodel the world around them as if by operating on it.<br><br>Usage:<br> By conjuring a blue-transparent, spherical forcefield of sorts that is centered around the user ROOM, they gain control over everything inside that territory, from living beings, including themselves, to nonliving objects, their circle the operating room, and those caught inside are the patients on the operating table. There is also a rumor that the fruit can give a 'miracle operation' that can give another person enternal life for the users.<br><br>Examples of the ways wherein the user can surgically manipulate things in their ROOM are: swapping the locations of two targets to teleport them, levitating and moving objects of any size around akin to telekinesis, scanning targets, slicing people/objects apart without actual injury and then reattaching the separate parts to other surfaces, permanently taking out people's organs without harm, transplanting personalities, creating electric shocks or energy constructs to destroy people's bodies from the inside, etc. More specifically, inside ROOM and with the use of a blade, the user can perform long-ranged spatial slicing to cleanly sever flesh and bone without actually hurting the victim. Another major ability granted by this fruit is the manipulation of spatial positions, which is done akin to a form of mutual teleportation. This technique is especially useful in rain or snowstorms.<br><br>Awakened:<br>Once this fruit is awakened, the user gains the ability to create special ROOMs that adhere directly to foreign objects or living beings instead of surrounding a specific space around the user, not requiring their presence within the operating field for techniques to be performed.<br><br>Weakness:<br>The fruit's most obvious drawback is that the user of the Ope Ope no Mi can only use its powers within a specific spherical area that they have to summon themselves, so if the target moves outside the area, they are unaffected by its powers. It also uses drains alot of stamina from the user",
     },
     {
@@ -920,17 +923,19 @@ const parEnv = [
         anime:"Anime Debut: Episode 631",
         imgInfo:"./Character/press.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/fuji.webp",
         info:" Devil Fruit which allows the user to create and manipulate gravitational forces.<br><br>Usage:<br>Whoever eats from this fruit is granted the power to create gravitational forces of extreme potency. The ability user is able to move about living things and objects with little effort, ranging from debris to send flying against an enemy in smaller or massive numbers, to a massive battleship. The range of the generable gravity field appears incredibly big, as it can pull down meteors from the highest of skies.<br><br>Able to have their gravity go in any direction, even horizontal, as demonstrated by Fujitora, the user can move about matter with precision, effectively granting a form of telekinesis. By negating natural gravity and forcing things upward to navigate in midair, flight can be simulated, as shown by Fujitora making either himself fly on a small rock platform or levitate himself alongside his men on a ship. He is also able to manipulate multiple different gravity fields simultaneously.<br><br>Fujitora can reverse the flow of gravity to create an attack-repelling field around him, akin to a circular barrier. He can also, by negating the normal downforce of gravity, levitate free-lying objects around him and control them, even incredibly huge amounts, such as when he had rubble float up high across the entire island of Dressrosa.<br><br>Weakness:<br>However, it seems that his gravity powers can be disrupted by attacking Fujitora himself, shown when Roronoa Zoro used a projectile slash to interrupt the admiral from keeping him held in a gravitational pin, enabling Zoro to escape from it.",
     },
     {
         name: "Art-Art Fruit",
         jname: "Ato-Ato no mi",
         element : "Power: Turn things into abstract art",
-        user: "User: Grolla",
+        user: "User: Giolla",
         manga:"Manga Debut: Chapter 714",
         anime:"Anime Debut: Episode 635", 
         imgInfo:"./Character/art.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/giolla.png",
         info:" Devil Fruit that allows the user to turn people or objects into abstract art.<br><br>Usage:<br>The main strength of this fruit's power is that it allows the user to transform any target into an abstract art, distorting it in both appearance and usage. This is accomplished by the user creating a thought cloud, and then tossing it at the target, causing it to distort. Any weapons or vehicles warped by this power loses its functionality; even natural weapons such as hooves and antlers are turned useless. She is also able to revert the object back to its normal state through the same method.<br><br>Giolla's main use of her power is distorting and transforming her enemies' bodies and equipment into abstract works of art, making them useless and preventing them from being used against her. By applying it to a ship, she effectively disables it as an escape option.<br><br>Weakness:<br>If the user is rendered unconscious, such as through injury, all the abstractions created by the fruit's power are neutralized, and return to normal.",
     },
     {
@@ -942,6 +947,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 664",
         imgInfo:"./Character/swim.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/pink.png",
         info:"This fruit's main strength is that it allows the user to swim in solid matter such as ground and walls as if they were water.<br><br>Usage:<br>The latter even allowing the user to swim upwards, seemingly defying gravity. It also allows the user to dive into the ground to avoid being injured by the fall. The fruit can also allow the user to move discreetly, as they will be mostly covered by the ground, allowing them to infiltrate places more easily. This allows the user to sneak up behind their opponent while in combat, allowing them to attack the opponent from behind.<br><br>It is noteworthy that like most Devil Fruits that can distort solid matter such as the Hira Hira no Mi or the Choki Choki no Mi, the distorted objects retain their physical properties such as weight and solidity in regard to other people than the user. Furthermore, after being swum through, the distorted matter flows back into place like a liquid would, leaving no trace of the distortion.<br><br>Weakness:<br>However, this fruit has limited capabilities. The user will need to physically swim to move, as opposed to instantaneously moving across surfaces like the Ishi Ishi no Mi. As such, the fruit's ability is limited by the user's swimming speed and form. Furthermore, Senor Pink has not been shown to be able to breathe while submerged, so he very likely needs to resurface often to breathe.", 
     },
     {
@@ -953,6 +959,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 669", 
         imgInfo:"./Character/stone.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/pica.png",
         info:"The Devil Fruit's primary ability is the power to merge and assimilate with any form of stone.<br><br>Usage:<br>This allows the user to take control of anything made of stone that they come in contact with. While under the user's control, the stone gains a surprising level of flexibility and dexterity that it otherwise would not have, as seen by Pica's ability to stretch and reshape it in a surprising number of ways. In Pica's case, he can control the Dressrosa castle as if it were an extension of his own body, as it is entirely stone-made. It also appears that the strength of this particular fruit is directly proportional to the amount of stone in the user's environment, and any damage done to the stone the user controls is not inflicted upon the user themselves, so long as their true body is not harmed. Because of this, at sufficient amounts, the user can withstand having pieces of their body destroyed to no end.<br><br>Weakness:<br> The user needs to be merged with the stone in order to control it. In fact, the user's body does not actually transform into stone, but instead resides within it, and that portion is as vulnerable as any normal person. Also, if the user assimilates with stone and then loses contact with the ground (such as being sent into midair), the main body is unable to assimilate any stone from nearby environment. In that case, if the airborne stone containing the body is reduced into smaller pieces, the user has no choice but to emerge with his own body."
     },
     {
@@ -964,6 +971,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 790",
         imgInfo:"./Character/mirror.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/brulee.webp",
         info:"The foremost strength of the fruit is that it allows the user to create multiple mirrors in their own vicinity with their own hands.<br><br>Usage:<br>These mirrors can be used as a shield against enemy attacks, absorbing them and reflecting them back at the attacker, turning their own power against them. These mirrors can also be used as portals into what appears to be a pocket dimension within the mirrors known as Mirro-World. with no apparent way back through, leaving their opponents trapped. The user can even break the mirrors the individuals are trapped in, completely preventing anyone from entering or exiting that mirror ever again. The user is capable of entering and exiting the Mirro-World at will, gaining access to a house in the realm containing portals to all the mirrors in Totto Land as well as ships in the archipelago.<br><br>The user can also transform themselves into mirror images of certain individuals, but also imitate their actions completely. The user is also able to manipulate the target by initiating actions themselves, forcing the person they are reflecting to do the action as well. The reflection can be reverted back partially too. This effect can be applied on other beings in order to provide distractions and generate confusion. The mirrors appear to have some form of sentience, as they can be asked questions, such as their locations or whether they have seen certain people. The mirrors can even ask questions back to specify the results. However, the mirrors answer everyone, not just the user of the Devil Fruit, allowing them to take advantage of the user's power.<br><br>Weakness:<br>The user will look like the mirror image of the target, so their physical traits may not correctly match up in the case of asymetrical features. Even if the user shatters a mirror, it does not actually shatter the individuals trapped within it, leaving them unharmed, and they can still contact people on the other side through the shards. Like many other Devil Fruits, at least some of the user's powers will deactivate upon the user being knocked unconscious. However, the Mirro-World is always present, and if one keeps contact with the unconscious body of the user, they can travel in and out of the mirrors at will.",
     },
     {
@@ -975,6 +983,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 810", 
         imgInfo:"./Character/book.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/mont.png",
         info:"This fruit grants the user the ability to control nearby books, regardless of their size, allowing them to telekinetically move them around and even use them as footholds.<br><br>Usage:<br>The biggest strength of this fruit is the ability to trap living things inside a book's setting. This can be done in two ways. First, by hovering an open book above the target, they will be placed under the visual illusion that they are within the book's world, which will cease once the book is shut. Secondly, the user can physically trap targets inside a book, turning them into an illustration within that book, where they will not age; Mont-d'Or is usually seen pinning down his captives with oversized nails, which are seemingly unbreakable. A person can travel in and out of a book at will by inserting a special bookmark into the page.<br><br>The user can also use books as a means of distant and broad communication. Mont-d'Or was shown calling multiple Den Den Mushi at once by connecting them all to a book, while he and his own Den Den Mushi were on top of another book. The specific mechanics of this ability are unknown. Placing a target under the illusion of a book's setting only impairs their sight, allowing them to still move around and use other senses, as shown when Luffy was able to hear Nami and move around while under the illusion. Similarly, targets trapped inside a book can still communicate with the real world so long as the page they are on is kept open.<br><br>Weakness:<br>Moreover, prisoners can be released by burning the books they are kept in, although this can be hazardous to them as well."
     },
     {
@@ -986,6 +995,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 832", 
         imgInfo:"./Character/cook.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/streussen.png",
         info:" Devil Fruit that allows the user to turn objects into food.<br><br>Usage:<br>With this fruit, the user has easy access to food to feed themselves and others just by transforming any object into food. The user does not even need to cook the food. The user can also turn an object into food in order to make it less dangerous or otherwise more useful.<br><br>Weakness:<br>However, while the food created by the user can provide nourishment, it apparently does not taste good, as Big Mom remarked, though that could just stem from Big Mom's very demanding palate. Other than that, the user is still affected by the standard Devil Fruit weakness."
     },
     {
@@ -997,6 +1007,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 880", 
         imgInfo:"./Character/push.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/morley.png",
         info:"Devil Fruit that allows the user to freely move and shape the ground as though it was malleable like clay.<br><br>Usage:<br>By simply pushing the ground, the user is able to shape it according to their whims. They can manipulate many types of ground, from soft earth to hard rock to even modified stones such as bricks and streets. Thus, this fruit has a good degree of offensive power since it directly affects the enemy's footing, such as flipping an entire chunk of the street onto an enemy. The user is also capable of channeling this ability through objects they hold, and so can grab ahold of the ground by jabbing into it with a weapon.<br><br>The fruit also gives the user the ability to tunnel through the ground by pushing it to clear a way for them. Unlike conventional digging, the moved earth appears to stay in place, protecting the user from cave-ins. This tunneling ability works well for infiltration.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses.",
     },
     {
@@ -1008,6 +1019,7 @@ const parEnv = [
         anime:"Anime Debut: Episode 916",
         imgInfo:"./Character/ripe.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/shinobu.png",
         info:"Devil Fruit which allows the user to mature and decay anything they touch.<br><br>Usage:<br>By simply touching an object, the user will cause it to rapidly age and decay. Using it on the ground will cause it to become a sinkhole, allowing the user to potentially avoid attacks by sinking into the ground. The fruit can also help the user get past physical obstacles by weakening them through aging, causing them to collapse or be easily broken through. This power can also be applied on living beings, causing them to grow older in an instant.<br><br>The rate of decay will continue to progress once triggered, thus leading to potential problems after the initial purpose, such as a sinkhole becoming deeper until it reaches to the ocean. Also, if the user ages a living being, this will only apply physically, as the subject will retain their original mental maturity. Any effect of maturing cannot be reversed, meaning that anything, inanimate or alive, will not be able to return to their previous state.<br><br>Weakness:<br>No weaknesses are currently known aside from the standard Devil Fruit weaknesses.", 
     },
     {
@@ -1019,6 +1031,7 @@ const parEnv = [
         anime:"Anime Debut: N/A",
         imgInfo:"./Character/sick.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/doc.png",
         info:"Devil Fruit that allows the user to afflict others with diseases.<br><br>Usage:<br>The Shiku Shiku no Mi allows the user to create diseases that can hinder an opponent. The diseases can take many forms, such as one that turns males into females. They can also be contagious, allowing them to spread among a group of enemies.<br><br>The effective range of this power seems quite large as Law and his crew remained affected even after descending far beneath the ocean in their submarine. The user of the ability can also detect when his power is countered.<br><br>Weakness:<br>Intense Haki use can allow an opponent to resist and break through the Devil Fruit-afflicted illnesses, which will also result in antibodies that will spread just as quickly as the disease itself and cure others affected by the illness. Apart from this, the user is also susceptible to the standard Devil Fruit weaknesses."
     },
     {
@@ -1030,17 +1043,19 @@ const parEnv = [
         anime:"Anime Debut: Episode 461",
         imgInfo:"./Character/quack.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/whitebeard.webp",
         info:"The major strength granted by this fruit to the user is its ability to generate massive vibrations, or shockwaves, which can travel through virtually any medium, including the ground, the seafloor, and even the air.<br><br>Usage:<br>This fruit is fearsomely reputed to be able to destroy the world, and is considered to be the strongest Devil Fruit within the Paramecia class,. This Devil Fruit also allows its user to forcibly take hold of any medium, allowing them to crack or pull on normally intangible objects such as the air itself. Whitebeard directly cracks the air in front of an enemy, causing severe damage as the shockwaves directly pass through their bodies. Instead of delivering a punch, Whitebeard grabs his opponent's head and concentrates his vibrations around it, resulting in crushing damage.<br><br>Whitebeard cracks the air with a punch and sends devastating shock waves through the air in the direction it is facing. These shock waves can pass through and damage almost any substance, tearing it apart. If the shockwaves are directed into the ground, the result is a devastating earthquake capable of generating huge tsunamis. Because of its enormous offensive power and great speed, this attack makes for a solid defense, destroying or disrupting any attack before it hits<br><br>Weakness:<br>However, this Devil Fruit's powers are noted to be a hazard to both friend and foe alike, as observed by both the Whitebeard and Blackbeard Pirates. This primarily stems from how, even though the user seems to be able to control both the magnitude of the shock wave and its point of impact, the quakes produced by these shock waves are indiscriminate in their effects. Because of this, allies of the user must be prepared for the impacts unless they want to become unintended victims of them."
     },
     {
         name: "Calm-Calm Fruit",
         jname: "Nagi-Nagi no mi",
         element : "Power: Sound Proof fields",
-        user: "User: Donquixote Rosinante",
+        user: "User: Donquixote Rosinante(Corazon)",
         manga:"Manga Debut: Chapter 764",
         anime:"Anime Debut: Episode 703",
         imgInfo:"./Character/calm.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/corazon.webp",
         info:"Devil Fruit that allows the user to create a soundproof field and to cancel all noises.<br><br>Usage:<br>The user of this Devil Fruit has the ability to create a soundproof field. The field makes it so that the sounds inside the field cannot be heard from the outside, and vice versa. The user can also use this fruit's ability to cancel all noises coming from the user or somebody else's actions, making it ideal for situations requiring stealth since the lack of noise helps the user prevent drawing attention from enemies while realizing tasks that, otherwise, would be hard to conceal. This is very useful for surprise attacks against opponents, as they are unaware that their attacker is already ready to strike.<br><br>Weakness:<br>If the user dies or is incapacitated, the soundproof fields placed in effect will be dispelled. Also, while it prevents sound from being heard, it does not protect the user from attacks. Like all other Devil Fruits, it has standard Devil Fruit weaknesses."
     },
     {
@@ -1052,6 +1067,7 @@ const parEnv = [
         anime:"Anime Debut: One Piece Film: Z",  
         imgInfo:"./Character/grow.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/binz.png",
         info:"Devil Fruit that grants the user the ability to accelerate the growth rate of plants and control them to their desire.<br><br>Usage:<br>This fruit's main strength is that it allows the user to accelerate plant growth and then control such plants. The user can use this fruit in many ways from trapping enemies with vines or use them for transportation. The fruit can be used for long and short range attacks.<br><br>Weakness:<br>One weakness is in order to use this power, the user must be in an environment where plant life exists. Other than that, the user is affected by the standard Devil Fruit weaknesses.<br><br>Not much information about this fruit has been revealed" 
     },
     {
@@ -1063,6 +1079,7 @@ const parEnv = [
         anime:"Anime Debut: One Piece Film:3D2Y", 
         imgInfo:"./Character/more.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/world.png",
         info:"Devil Fruit that allows the user to amplify the size and speed of any object they touch.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to increase the speed and size of the things the user touches, up to 100 times the original. This can be used on bullets and cannonballs, as well as the user's own speed. The increased speed can bring forth powerful momentum to increase the power of the user's physical attacks, while the sudden increase in size can increase physical strength and destructive range of the weapon. World launches a projectile and enlarges an object to 100 times its original size while it's flying towards his opponent.<br><br> World grabs his opponent and increases his speed 50 times his original speed and uses it to increase the power when swinging them around and throwing them into the ground. World grabs his opponent and increases his speed 50 times his original speed and uses it to increase the power when swinging them around and throwing them into the ground.<br><br>Weakness:<br>It has no known weaknesses aside from the standard Devil Fruit weaknesses."  
     },
     {
@@ -1074,6 +1091,7 @@ const parEnv = [
         anime:"Anime Debut: One Piece Film: 3D2Y",
         imgInfo:"./Character/cube.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/gairam.png",
         info:"It allows the user to cut anything they touch into cubes and control these structures.<br><br>Usage:<br>The main strength of this fruit allows the user to make anything into a cube and stack them. The user is also able to levitate the cubes and form structures from them such as towers and mazes or use one as a floating platform. The user can also compress the air around them or even living creatures—such as humans—around them into cubes.<br><br>Weakness:<br>The victims of the fruit's powers are still able to move around on their own and can break free if they exert enough willpower. Other than that the user still has the standard Devil Fruit weaknesses.<br><br>Not much information about this fruit has been revealed"    
         
     },
@@ -1086,6 +1104,7 @@ const parEnv = [
         anime:"Anime Debut: One Piece Film: Z",
         imgInfo:"./Character/through.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/tanaka.png",
         info:"Devil Fruit that allows the user to phase through solid objects.<br><br>Usage:<br>The main strength of this fruit's power is to allow the user to phase through solid objects, allowing for an easier and more unconventional way to get around, as well as avoiding attacks from non-organic weapons and projectiles. The user can also share their intangibility with whatever they touch, allowing people or objects to phase through solid matter along with him, or making the ground intangible to make people fall through the floor.<br><br>Weakness:<br>A weakness of this fruit is that the user cannot phase through living tissue, as seen when Tanaka could not escape from Nico Robin's grasp or avoid Sanji's kicks. Other than that, the user is also affected by the standard Devil Fruit weaknesses. Due to this, the user apparently cannot phase through seawater."  
     },
     {
@@ -1095,9 +1114,10 @@ const parEnv = [
         user: "User: Douglas Bullet",
         manga:"Manga Debut: Non-Canon",
         anime:"Anime Debut: One Piece Film: Stampede",  
-        imgInfo:"./Character/bullet.jpg",
-        fruitBox:"./Character/bullet1.jpg",
+        imgInfo:"./Character/bullet1.jpg",
+        fruitBox:"./Character/bullet.jpg",
         fruit:"./image/clank.png",
+        aCharacter:"./user/bullet.webp",
         info:"Devil Fruit that allows the user to telekinetically disassemble objects and reassemble them into whatever they please.<br><br>Usage:<br>With the fruit's power, the user is capable of creating large mechanical structures and vessels, including submarines and robot suits that increase their fighting prowess and transportation capabilities. As with all Devil Fruits, this one has the potential to be awakened, which allows the user to disassemble and reformat objects from a much greater range, even the environment itself.<br><br>Bullet can also alter himself to enter a powered state combining his powers and Busoshoku Haki, similar to Luffy's Gear 4. In this state, Bullet's body turns shining blue with red eyes and his arms are expanded and compressed as if they were formed by tires. In this form, his strength and speed are further enhanced by his Haki as well as his offensive power.<br><br>Awakened:<br>As an awakened Devil Fruit user, Bullet can disassemble objects from a greater range and also essentially restructure the landscape of entire islands by disassembling and reassembling their features as he sees fit.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, this fruit is entirely dependent on the resources the user has at their disposal and their own efficiency. The user must also know what they are making, meaning one needs a large amount mechanical knowledge." 
     },
     {
@@ -1110,6 +1130,7 @@ const parEnv = [
         imgInfo:"./Character/uta1.jpg",
         fruitBox:"./Character/uta.jpg",
         fruit:"./image/sing.png",
+        aCharacter:"./user/uta.webp",
         info:"Devil Fruit that allows the user to teleport people's consciousnesses into a virtual space by singing.<br><br>Usage:<br>The main strength of this fruit is that it allows the user to transport the consciousnesses (essentially their spirits) of people who hear them singing, including their own, into a virtual space known as the Uta World. The physical bodies of those trapped in Uta World remain unconscious. Within this world, the user is virtually omnipotent, possessing complete control and can manipulate reality as they choose. It is impossible for others to leave Uta World on their own. In addition, the user is able to control the unconscious real-world bodies of those trapped in Uta World.<br><br>Curiously, while physically no one is able to enter or leave without the ability user, images can be livestreamed from Uta World to the real world via Den Den Mushi. Should the user die, the spirits of those trapped in Uta World will remain stuck there. As noted, it is not even necessary for the user to physically be present in order to send others into Uta World, as seen where the livestream recording of Uta concert was able to take the souls of Uta’s fans from across the world via Den Den Mushi video and audio.<br><br>Weakness:<br>The weakness of the ability is that Uta World can only be maintained as long as the user remains awake. It also consumes a lot of stamina to maintain the ability for long periods of time. Potential targets can also protect themselves from the user's power by blocking their hearing from the user's music. This even applies in the Uta World, where a target can either hide in soundproof areas or contain the user in a soundproof containment-like field. Also, while the user is nigh-omnipotent in Uta World, they are not omniscient, as such people can escape her as long as they evade the user and whatever they may create. They also can't manipulate the will of others, though they can alter their spirit bodies. This applies to objects as well, as the spirit body of the Thousand Sunny, Sunny-kun fought against Uta and not with her. Other than that, the user is affected by the standard Devil Fruit weaknesses." 
     },
     {
@@ -1121,6 +1142,7 @@ const parEnv = [
         anime:"Anime Debut: One Piece game: Odyssey",
         imgInfo:"./Character/grab.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/adio.png",
         info:" Devil Fruit that allows the user to summon large gauntlets with which they can grab and manipulate any non-living thing.<br><br>Usage:<br>The main power of this fruit is to summon large gauntlets that are projected from the user's hands. These gauntlets can be used to grab any non-living thing and manipulate it as the user wishes, the only exception being the user themself.<br><br> Adio creates two gauntlets and encases a living being within them, taking control of their body and absorbing information they know or learn. This ability works well on small animals. Adio creates two giant lightning-powered gauntlets above him, casting a protective shield of lightning around him and his allies.<br><br>If the user has multiple arms they can cast more gauntlets<br><br>Weakness:<br>No known weakness other then the basic devil fruit weakness." 
     },
     {
@@ -1132,6 +1154,8 @@ const parEnv = [
         anime:"Anime Debut: Non-Canon", 
         fruitBox:"./Character/kyara.jpg",
         ufruit:"./image/kyara.jpg",
+        fruit:".",
+        aCharacter:"./user/lip.png",
         info:"Devil Fruit that provides consciousness to non-living souls, as well as allowing the soul to merge with others.<br><br>Usage:<br>The main strength of this Devil Fruit is the ability to merge with other people, providing massive increases in strength and speed. After the Timeskip, Lip Shark could merge with the bow of the Maying Gorry.<br><br>Weakness:<br>Aside from the standard Devil Fruit weaknesses, there are no known weaknesses; Lip Shark states that he draws power from Fischer's millions of fans, allowing for the amount of power increase, but it's unclear if this a weakness of himself or the Devil Fruit. "  
     },
     {
@@ -1143,6 +1167,7 @@ const parEnv = [
         anime:"Anime Debut: Non-Canon", 
         imgInfo:"./Character/game1.jpg",
         fruitBox:"./image/unknown.png",
+        aCharacter:"./user/dama.png",
         info:" Devil Fruit that allows the user to transport other people into a game-like world, being able to decide on the genre of game.<br><br>Usage:<br>The main strength of this Devil Fruit is the ability to significantly decrease your opponents strength, as well as abstracting fights to a position where the user cannot be harmed. Due to the nature of video games, it will also empower weaker characters, allowing for temporary powerups.<br><br>Weakness:<br>While the exact amount is unknown, there is a limit to how many enemy characters can be loaded at once; when this limit is reached, the game begins to lag. If any of the game's elements haven't been transported inside the game, the lag applies in the real world.  When recreating a fighting game, the user must select a boss character, select the genre and stage, then select a player character." 
     },
 ];
