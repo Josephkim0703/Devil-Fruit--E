@@ -515,6 +515,15 @@ document.getElementById('power').onclick = function (){
                                     document.getElementById('Dinfo').innerHTML = parPow[i].info;
                                         document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
                                             document.getElementById('fruits').src = parPow[i].fruit ;
+                                                document.getElementById('user').src = parPow[i].aCharacter;
+
+                                            parPow[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                                document.getElementById('user1').src = parPow[i].aCharacter;
+                                                        
+                                            parPow[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                    
+                                            parPow[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                    
 
                                             parPow[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                 document.getElementById('Ufruit').src = parPow[i].ufruit;
