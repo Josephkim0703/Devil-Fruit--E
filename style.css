@@ -677,14 +677,21 @@ main{
   
 }
 
+#hat{
+width: 11rem;
+position: absolute; top: 43rem; left: 1rem;
+z-index: 1;
+display: none;
+}
+
 #userButton{
     border: none;
     background-color: transparent;
     color: blue;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: "IM Fell English SC";
-    position: absolute; top: 18rem;left: 5rem;
-
+    position: absolute; top: 43.5rem;left: 4.5rem;
+    z-index: 10;
 }
 
  #userButton:hover{
@@ -695,10 +702,11 @@ main{
     border: none;
     background-color: transparent;
     color: blue;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: "IM Fell English SC";
-    position: absolute; top: 18rem;left: 5rem;
+    position: absolute; top: 43.7rem;left: 4.3rem;
     display: none;
+    z-index: 10;
  }
 
  #fruitButton:hover{
@@ -924,6 +932,20 @@ main{
         
 }
 @media only screen and (max-width: 1450px){
+    #hat{
+        width: 10rem;
+        position: absolute; top: 44.5rem; left: 1rem;
+        }
+        
+        #userButton{
+            font-size: 1.8rem;
+            position: absolute; top: 45rem;left: 4.2rem;
+        }
+        
+         #fruitButton{
+            font-size: 1.7rem;
+            position: absolute; top:45.1rem;left: 3.9rem;
+         }
     #user {
         width: 30rem;
         position: absolute; top: 21vh; left: 2rem;
@@ -1060,6 +1082,20 @@ main{
 
 }
 @media only screen and (max-width: 1260px){
+    #hat{
+        width: 10rem;
+        position: absolute; top: 46.3rem; left: 0.5rem;
+        }
+        
+        #userButton{
+            font-size: 1.8rem;
+            position: absolute; top: 46.7rem;left: 3.7rem;
+        }
+        
+         #fruitButton{
+            font-size: 1.7rem;
+            position: absolute; top:46.8rem;left: 3.4rem;
+         }
     #user {
         width: 28rem;
         position: absolute; top: 23vh; left: 1rem;
@@ -1271,6 +1307,20 @@ main{
 
 }
 @media only screen and (max-width: 1200px){
+    #hat{
+        width: 12rem;
+        position: absolute; top: 46rem; left: 3rem;
+        }
+        
+        #userButton{
+            font-size: 2rem;
+            position: absolute; top: 46.7rem;left: 7rem;
+        }
+        
+         #fruitButton{
+            font-size: 2rem;
+            position: absolute; top:46.8rem;left: 6.5rem;
+         }
     #char {
         margin-top: 0px;
         height: 5rem;
@@ -1400,6 +1450,20 @@ main{
     }
 }
 @media only screen and (max-width: 1000px){
+    #hat{
+        width: 11.5rem;
+        position: absolute; top: 33.5rem; left:0.8rem;
+        }
+        
+        #userButton{
+            font-size: 2rem;
+            position: absolute; top:  34rem;left: 4.6rem;
+        }
+        
+         #fruitButton{
+            font-size: 1.9rem;
+            position: absolute; top:34.1rem;left: 4.3rem;
+         }
     #user {
         width: 30rem;
         position: absolute; top: 10vh; left: 15rem;

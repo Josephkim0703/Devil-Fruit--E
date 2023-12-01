@@ -45,6 +45,8 @@ document.getElementById('fruits').style.opacity = 1;
                                     document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
                                         document.getElementById('fruits').src = logia[i].fruit;
                                             document.getElementById('user').src = logia[i].aCharacter;
+
+                                                logia[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
                                             
                                                 logia[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
@@ -111,6 +113,7 @@ document.getElementById('normal').onclick = function (){
                                     document.getElementById('fruits').src = zoanNormal[i].fruit;
                                         document.getElementById('user').src = zoanNormal[i].aCharacter;
 
+                                        zoanNormal[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
                                         
                                         zoanNormal[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = zoanNormal[i].aCharacter;
@@ -160,6 +163,8 @@ document.getElementById('ancient').onclick = function (){
                                     document.getElementById('fruits').src = zoanAnicent[i].fruit;
                                         document.getElementById('user').src = logia[i].aCharacter;
 
+                                        zoanAnicent[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";                                 
+
                                         zoanAnicent[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = zoanAnicent[i].aCharacter;
 
@@ -203,6 +208,8 @@ document.getElementById('mythical').onclick = function (){
                                     document.getElementById('fruits').src = zoanMythical[i].fruit;
                                         document.getElementById('user').src = zoanMythical[i].aCharacter;
 
+                                    zoanMythical[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+
                                     zoanMythical[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = zoanMythical[i].aCharacter;
 
@@ -236,6 +243,8 @@ document.getElementById('artificial').onclick = function (){
                         document.getElementById('extra').innerHTML =zoanArtificial[0].manga + "<br>" + zoanArtificial[0].anime;
                             document.getElementById('Ufruit').src = zoanArtificial[0].ufruit;
                                 document.getElementById('user').src = zoanArtificial[0].aCharacter;
+
+                                zoanArtificial[0].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
                                     zoanArtificial[0].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = zoanArtificial[0].aCharacter;
@@ -277,7 +286,7 @@ document.getElementById('artificial').onclick = function (){
                                                             document.getElementById('fruits').style.display = "none";
                                                                 document.getElementById('user').style.display = "none";
                                                                     document.getElementById('fruitButton').style.display = "none";
-                                                                    
+                                                                        document.getElementById('hat').style.display = "none";
 
                                                 
 
@@ -374,6 +383,8 @@ document.querySelector('#back').style.display = "block";
                                         document.getElementById("fruits").src = parBody[i].fruit;
                                             document.getElementById('user').src = parBody[i].aCharacter;
 
+                                parBody[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+
                                 parBody[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                     document.getElementById('user1').src = parBody[i].aCharacter;
                                             
@@ -418,6 +429,8 @@ document.getElementById('environment').onclick = function (){
                                         document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
                                             document.getElementById('fruits').src = parEnv[i].fruit;
                                                 document.getElementById('user').src = parEnv[i].aCharacter;
+
+                                parEnv[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
                                 parEnv[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                     document.getElementById('user1').src = parEnv[i].aCharacter;
@@ -468,6 +481,8 @@ document.getElementById('substance').onclick = function (){
                                             document.getElementById('fruits').src = parSub[i].fruit;
                                                 document.getElementById('user').src = parSub[i].aCharacter;
 
+                                    parSub[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+
                                     parSub[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                         document.getElementById('user1').src = parSub[i].aCharacter;
                                     
@@ -515,6 +530,8 @@ document.getElementById('power').onclick = function (){
                                         document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
                                             document.getElementById('fruits').src = parPow[i].fruit ;
                                                 document.getElementById('user').src = parPow[i].aCharacter;
+
+                                            parPow[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
                                             parPow[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
                                                 document.getElementById('user1').src = parPow[i].aCharacter;
