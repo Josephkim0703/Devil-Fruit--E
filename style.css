@@ -705,6 +705,7 @@ main{
     color: rgb(32, 203, 255); 
  }
 
+
 @media only screen and (max-width: 1800px){
     #allInfo{
         position: relative; top: 17vh; left: 49rem;
@@ -725,6 +726,22 @@ main{
 }
 }
 @media only screen and (max-width: 1750px){
+    
+#user {
+    width: 36rem;
+    position: absolute; top: 15vh; left: 2rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+}
+
+#user1 {
+    width: 36rem;
+    position: absolute; top: 15vh; left: 2rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+}
     #char {
         margin-top: 65px;
         height: 7rem;
@@ -907,6 +924,21 @@ main{
         
 }
 @media only screen and (max-width: 1450px){
+    #user {
+        width: 30rem;
+        position: absolute; top: 21vh; left: 2rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
+    
+    #user1 {
+        width: 30rem;
+        position: absolute; top: 21vh; left: 2rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
     #char {
         margin-top: 0px;
         height: 6rem;
@@ -1028,6 +1060,21 @@ main{
 
 }
 @media only screen and (max-width: 1260px){
+    #user {
+        width: 28rem;
+        position: absolute; top: 23vh; left: 1rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
+    
+    #user1 {
+        width: 28rem;
+        position: absolute; top: 23vh; left: 1rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
     #char {
         margin-top: 0px;
         height: 6rem;
@@ -1280,6 +1327,21 @@ main{
 
 }
 @media only screen and (max-width: 1100px) {
+    #user {
+        width: 25rem;
+        position: absolute; top: 26vh; left: 0.5rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
+    
+    #user1 {
+        width: 25rem;
+        position: absolute; top: 26vh; left: 0.5rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
     #fruits{
         height: auto;
         width: 22rem;
@@ -1338,6 +1400,22 @@ main{
     }
 }
 @media only screen and (max-width: 1000px){
+    #user {
+        width: 30rem;
+        position: absolute; top: 10vh; left: 15rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
+    
+  
+#user1 {
+    width: 30rem;
+    position: absolute; top: 10vh; left: 15rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+}
     #smileFruit{
         height: 25rem;
         position: absolute; top: 15vh; left: 18.5rem;
@@ -1355,20 +1433,20 @@ main{
 #fruits{
     height: auto;
     width: 24rem;
-    position: absolute; top: 15vh; left: 4rem;
+    position: absolute; top: 15vh; left: 18rem;
     border: none;
  }
  
  #Ufruit{
      height: 19rem;
-     position: absolute; top: 20vh; left: 5.5rem;
+     position: absolute; top: 20vh; left: 20rem;
  }
  #Dname{
 font-size: 1.5rem;
 }
  
  #allInfo{
-     position: relative; top: 85vh; left: 4vw;
+     position: relative; top: 88vh; left: 4vw;
      grid-template-areas: 
      'topLeft topRight'
      'left left'
@@ -1388,12 +1466,12 @@ font-size: 1.5rem;
  #fruitBox{
     height: 9rem;
     width: 8rem;
-    position: absolute; top: -24vh; left: 1rem;
+    position: absolute; top: -22vh; left: 1rem;
 }
 
 #imgInfo{
     height: 9rem;
-    position: absolute; top: -24vh; left: 10rem;
+    position: absolute; top: -22vh; left: 10rem;
 }
  #Duser{
      font-size: 1.4rem;

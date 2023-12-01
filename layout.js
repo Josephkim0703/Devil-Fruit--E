@@ -4,7 +4,6 @@ import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanAr
 fruits();
 option();
 
-let input = false;
 
 function fruits(){
 
@@ -596,6 +595,8 @@ document.getElementById("darkmode").addEventListener ('click', function () {
     document.body.classList.toggle("dark-theme");
     
 });
+
+
 }
 
 
