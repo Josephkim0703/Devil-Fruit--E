@@ -683,7 +683,7 @@ position: absolute; top: 43rem; left: 1rem;
 z-index: 1;
 display: none;
 }
-
+    
 #userButton{
     border: none;
     background-color: transparent;
@@ -1454,6 +1454,7 @@ display: none;
         width: 11.5rem;
         position: absolute; top: 33.5rem; left:0.8rem;
         }
+        
         
         #userButton{
             font-size: 2rem;
