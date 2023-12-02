@@ -525,7 +525,6 @@ main{
     transition: 0s;
 }
 
-
 #user {
     width: 39rem;
     position: absolute; top: 12vh; left: 5rem;
@@ -650,6 +649,7 @@ main{
   width: fit-content;
   grid-area: bottom;
   margin-top: -15px;
+  margin-bottom: 1rem;
 }
 
 #smile:hover{
@@ -1509,12 +1509,9 @@ display: none;
     body{
         background-size:155rem;
        }
-    #allInfo{
-        margin-bottom: 21rem;
-         }
     #hat{
         width: 11.5rem;
-        position: absolute; top: 33.7rem; left:0.8rem;
+        position: absolute; top: 33.9rem; left:0.8rem;
         }
         
         
@@ -1741,6 +1738,35 @@ font-size: 1.5rem;
             background-position-y: -150px;
         } 
 }
+@media only screen and (max-width: 950px){
+    body{
+        background-size:157rem;
+       }
+
+ 
+    #smileFruit{
+        height: 25rem;
+        position: absolute; top: 15vh; left: 17rem;
+    }
+    #char {
+        margin-top: 42rem;
+        margin-bottom: 1rem;
+        height: 7rem;
+        margin-left: 1rem;
+    }
+    
+
+ #Dinfo{
+     grid-area: main;
+     font-size: 1.2rem;
+     width: 52rem;
+     line-height: 1.5rem;
+     margin-top: 0px;
+ }
+ 
+   
+  
+}
 @media only screen and (max-width: 920px){
     #optionBox{
         width: 44.5rem;
@@ -1786,7 +1812,213 @@ font-size: 1.5rem;
         background-position-x: 0px;
     }
 }
+@media only screen and (max-width: 890px){
+
+    #Dname{
+    font-size: 1.5rem;
+    width: 40rem;
+    }
+    
+    #Duser{
+        font-size: 1.3rem;
+    }
+    body{
+        background-size:162rem;
+       }
+
+    #user {
+        width: 30rem;
+        position: absolute; top: 10vh; left: 12rem;
+        z-index: 0;
+        transition: 0s;
+        display: none;
+    }
+    
+  
+#user1 {
+    width: 30rem;
+    position: absolute; top: 10vh; left: 12rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+}
+    #smileFruit{
+        height: 25rem;
+        position: absolute; top: 15vh; left: 15.5rem;
+    }
+
+    #char {
+        margin-top: 45rem;
+        height: 6.5rem;
+        margin-left: 1rem;
+    }
+   
+    
+#fruits{
+    height: auto;
+    width: 24rem;
+    position: absolute; top: 15vh; left: 16.5rem;
+    border: none;
+ }
+ 
+ #Ufruit{
+     height: 19rem;
+     position: absolute; top: 20vh; left: 17rem;
+ }
+
+    
+
+ #kaido{
+    position: absolute; top: 37.1rem; left:24rem;
+    font-size: 1rem;
+}
+ #Dinfo{
+     grid-area: main;
+     font-size: 1.2rem;
+     width: 49rem;
+     line-height: 1.5rem;
+     margin-top: 0px;
+ }
+ #extra{
+    font-size: 1.3rem;
+ }
+ #smile{
+    margin-bottom: 1rem;
+ }
+}
+@media only screen and (max-width: 840px){
+
+    #Dname{
+    font-size: 1.5rem;
+    width: 40rem;
+    }
+    
+    #Duser{
+        font-size: 1.2rem;
+    }
+    body{
+        background-size:170rem;
+       }
+
+    #user {
+        width: 30rem;
+        position: absolute; top: 10vh; left: 9.5rem;
+    }
+    
+  
+#user1 {
+    width: 30rem;
+    position: absolute; top: 10vh; left: 9.5rem;
+ 
+}
+    #smileFruit{
+        height: 25rem;
+        position: absolute; top: 15vh; left: 14rem;
+    }
+
+    #char {
+        margin-top: 46rem;
+        height: 6rem;
+        margin-left: 1rem;
+    }
+   
+    
+#fruits{
+    height: auto;
+    width: 24rem;
+    position: absolute; top: 15vh; left: 12.5rem;
+    border: none;
+ }
+ 
+ #Ufruit{
+     height: 19rem;
+     position: absolute; top: 20vh; left: 14rem;
+ }
+
+    
+
+ #kaido{
+    position: absolute; top: 36.8rem; left:24rem;
+    font-size: 1rem;
+}
+ #Dinfo{
+     grid-area: main;
+     font-size: 1.2rem;
+     width: 43rem;
+     line-height: 1.5rem;
+     margin-top: 0px;
+ }
+ #extra{
+    font-size: 1.3rem;
+ }
+ #smile{
+    margin-bottom: 1rem;
+ }
+}
 @media only screen and (max-width: 750px){
+    #Dname{
+        font-size: 1.5rem;
+        width: 40rem;
+        }
+        
+        #Duser{
+            font-size: 1.1rem;
+        }
+        body{
+            background-size:175rem;
+           }
+    
+        #user {
+            width: 30rem;
+            position: absolute; top: 10vh; left: 6rem;
+        }
+        
+      
+    #user1 {
+        width: 30rem;
+        position: absolute; top: 10vh; left: 6rem;
+     
+    }
+        #smileFruit{
+            height: 25rem;
+            position: absolute; top: 15vh; left: 11rem;
+        }
+    
+        #char {
+            margin-top: 47rem;
+            height: 5rem;
+            margin-left: 1rem;
+        }
+       
+        
+    #fruits{
+        height: auto;
+        width: 24rem;
+        position: absolute; top: 15vh; left: 10rem;
+        border: none;
+     }
+     
+     #Ufruit{
+         height: 19rem;
+         position: absolute; top: 20vh; left: 11.5rem;
+     }
+    
+        
+    
+     #kaido{
+        position: absolute; top: 38.1rem; left:22rem;
+        font-size: 1rem;
+    }
+     #Dinfo{
+         grid-area: main;
+         font-size: 1.1rem;
+         width: 38rem;
+         line-height: 1.5rem;
+         margin-top: 0px;
+     }
+
+
+
     #zbutton button{     
         width: 28rem;
         height: 18.5rem;
@@ -1876,7 +2108,141 @@ font-size: 1.5rem;
             padding: 5px 10px 5px 10px;
         }
 }
+@media only screen and (max-width: 660px){
+    #Dname{
+        font-size: 1.3rem;
+        width: 40rem;
+        }
+        
+        #Duser{
+            font-size: 1.1rem;
+        }
+        body{
+            background-size:178rem;
+           }
+    
+        #user {
+            width: 30rem;
+            position: absolute; top: 10vh; left: 5rem;
+        }
+        
+      
+    #user1 {
+        width: 30rem;
+        position: absolute; top: 10vh; left: 5rem;
+     
+    }
+        #smileFruit{
+            height: 25rem;
+            position: absolute; top: 15vh; left: 9rem;
+        }
+    
+        #char {
+            margin-top: 48rem;
+            height: 4.5rem;
+            margin-left: 1rem;
+        }
+       
+        
+    #fruits{
+        height: auto;
+        width: 24rem;
+        position: absolute; top: 15vh; left: 8.5rem;
+        border: none;
+     }
+     
+     #Ufruit{
+         height: 19rem;
+         position: absolute; top: 20vh; left: 9rem;
+     }
+    
+        
+    
+     #kaido{
+        position: absolute; top: 41.1rem; left:22rem;
+        font-size: 1rem;
+    }
+     #Dinfo{
+         grid-area: main;
+         font-size: 1.1rem;
+         width: 34rem;
+         line-height: 1.5rem;
+         margin-top: 0px;
+     }
+
+}
 @media only screen and (max-width: 600px){
+   
+    #Dname{
+        font-size: 1.1rem;
+        width: 40rem;
+        }
+        
+        #Duser{
+            font-size: 1.1rem;
+        }
+        body{
+            background-size:206rem;
+           }
+    
+        #user {
+            width: 26rem;
+            position: absolute; top: 13vh; left: 5rem;
+        }
+        
+      
+    #user1 {
+        width: 26rem;
+        position: absolute; top: 13vh; left: 5rem;
+     
+    }
+        #smileFruit{
+            height: 25rem;
+            position: absolute; top: 15vh; left: 7rem;
+        }
+    
+        #char {
+            margin-top: 48.5rem;
+            height: 4rem;
+            margin-left: 0rem;
+        }
+       
+        
+    #fruits{
+        height: auto;
+        width: 22rem;
+        position: absolute; top: 15vh; left: 6.5rem;
+        border: none;
+     }
+     
+     #Ufruit{
+         height: 19rem;
+         position: absolute; top: 20vh; left: 7rem;
+     }
+    
+        
+    
+     #kaido{
+        position: absolute; top: 42rem; left:20rem;
+        font-size: 1rem;
+    }
+     #Dinfo{
+         grid-area: main;
+         font-size: 1rem;
+         width: 30rem;
+         line-height: 1.5rem;
+         margin-top: 0px;
+     }
+     #extra{
+        font-size: 1.1rem;
+     }
+     #gifters{
+        font-size: 1.2rem;
+        font-family: "IM Fell English SC";
+        color: blue;
+        margin-left: 6rem;
+     }
+
     #zbutton button{     
         width: 26rem;
         height: 18.5rem;
@@ -1891,14 +2257,152 @@ font-size: 1.5rem;
         font-size: 3rem;
           
     }
-    .title2{
-       display: none;
  
+    .search input{
+
+        width: 200px;
+     }
+     
+
+  .contentBox{
+    margin-top: -40px;
+    margin-bottom: 50px;
+  }
+
+.df{
+    width: 20rem;
     }
-    .title h1{
-        display: block;
-        font-size: 2.5rem;
+    
+    .layer{
+    width: 14rem;
+
     }
+
+    .dark label{
+        margin-right: 5px;
+
+    }
+
+    .info{
+        width: 20.5rem;
+        left: 20rem;
+    }
+
+    
+    .info h1{
+        margin: -150px 0px 0px 20px;
+        font-size: 20px;
+    }
+    
+    .info h2{
+    font-size: 12.5px;
+    margin: 170px 5px 0px 5px;
+    }
+    #optionBox{
+        width:28rem;
+        height: 80.5rem;
+        position: absolute; top:80%; left: 50%;
+
+    }
+   
+    #optionBox ul{
+    width: 28rem;
+    height: 80rem;
+    position: absolute; top: 50.5%; left: 50%;
+    }
+
+        
+}
+@media only screen and (max-width: 550px){
+   
+    #Dname{
+        font-size: 1.1rem;
+        width: 40rem;
+        }
+        
+        #Duser{
+            font-size: 1rem;
+        }
+        body{
+            background-size:206rem;
+           }
+    
+        #user {
+            width: 26rem;
+            position: absolute; top: 13vh; left: 8vw;
+        }
+        
+      
+    #user1{
+        width: 26rem;
+        position: absolute; top: 13vh; left: 8vw;
+     
+    }
+        #smileFruit{
+            height: 25rem;
+            position: absolute; top: 15vh; left: 4.5rem;
+        }
+    
+        #char {
+            margin-top: 51.5rem;
+            height: 4rem;
+            margin-left: -0.5rem;
+        }
+       
+        
+    #fruits{
+        height: auto;
+        width: 22rem;
+        position: absolute; top: 15vh; left: 14vw;
+        border: none;
+     }
+     
+     #Ufruit{
+         height: 19rem;
+         position: absolute; top: 20vh; left: 17vw;
+     }
+    
+        
+    
+     #kaido{
+        position: absolute; top: 43.1rem; left:20rem;
+        font-size: 1rem;
+    }
+     #Dinfo{
+         grid-area: main;
+         font-size: 1rem;
+         width: 28rem;
+         line-height: 1.5rem;
+         margin-top: 0px;
+     }
+     #extra{
+        font-size: 1.1rem;
+     }
+     #gifters{
+        font-size: 1.1rem;
+        margin-left: 6rem;
+     }
+
+    #zbutton button{     
+        width: 26rem;
+        height: 18.5rem;
+        margin: 5px 5px 5px 17px;
+     
+    }
+   
+    #pbutton button{
+        width: 26rem;
+        height: 18.5rem;
+        margin: 5px 5px 5px 17px;
+        font-size: 3rem;
+          
+    }
+ 
+    .search input{
+
+        width: 200px;
+     }
+     
 
   .contentBox{
     margin-top: -40px;
