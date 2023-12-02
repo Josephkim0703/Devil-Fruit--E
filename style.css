@@ -1,643 +1,653 @@
-body{
- background-image: url(./assets/light\ paper.jpg);
- background-repeat: repeat;
- background-size: cover;
- background-color: var(--primary-color);
- transition: 0s;
- margin: 0;
- overflow: hidden; 
+body {
+  background-image: url(./assets/light\ paper.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-color: var(--primary-color);
+  transition: 0s;
+  margin: 0;
+  overflow: hidden;
 }
 
-:root{
---primary-color: white;
---secondary-color: black;
+:root {
+  --primary-color: white;
+  --secondary-color: black;
 }
 
-.dark-theme{
-    --primary-color: black ;
-    --secondary-color: white ;
-    background-image: url(./assets/dark\ paper.jpg);
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: white;
+  background-image: url(./assets/dark\ paper.jpg);
 }
 
-.show{
-    opacity: 1;
-    transform: translateY(-100%);
-    transition: 5s;
+.show {
+  opacity: 1;
+  transform: translateY(-100%);
+  transition: 5s;
 }
 
-header{
-display: flex;
-justify-content: end;
-margin-top: 15px;
+header {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
 }
 
-.search input{
-   font-family: "IM Fell English SC";
-   border: 2px solid black;
-   border-radius: 2rem;
-   font-size: 30px;
-   width: 300px;
-   height: 50px;
-   margin-right: 25px;
-   transition: 0.5s;
+.search input {
+  font-family: "IM Fell English SC";
+  border: 2px solid black;
+  border-radius: 2rem;
+  font-size: 30px;
+  width: 300px;
+  height: 50px;
+  margin-right: 25px;
+  transition: 0.5s;
 }
 
-input:placeholder-shown{
-text-align: center;
+input:placeholder-shown {
+  text-align: center;
 }
 
-.dark label{
-    border: 2px solid var(--secondary-color);
-    border-radius: 5rem;
-    width: 52px;
-    height:52px;
-    margin-top: -17px;
-    margin-right: 25px;
-    background-color: white;
-    display: block;
-    transition: 0.5s;
-    box-shadow: 0 0 15px 5px #ffffff;
-    
+.dark label {
+  border: 2px solid var(--secondary-color);
+  border-radius: 5rem;
+  width: 52px;
+  height: 52px;
+  margin-top: -17px;
+  margin-right: 25px;
+  background-color: white;
+  display: block;
+  transition: 0.5s;
+  box-shadow: 0 0 15px 5px #ffffff;
 }
 
-.dark input{
-    width: 0;
-    height: 0;
-    visibility: hidden;
+.dark input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
 }
 
-.strawhat{
-   fill: black;
-   opacity: 1; 
-   transition: 0.5s;
+.strawhat {
+  fill: black;
+  opacity: 1;
+  transition: 0.5s;
 }
 
-input:checked + label .strawhat{
-    opacity: 0; 
+input:checked + label .strawhat {
+  opacity: 0;
 }
 
-.nika{
-   transform: translate(1px, -52px);
-   fill:black;
-   opacity: 0;
-   transition: 0.5s;
-   
+.nika {
+  transform: translate(1px, -52px);
+  fill: black;
+  opacity: 0;
+  transition: 0.5s;
 }
 
-input:checked + label .nika{
-    opacity: 1;
+input:checked + label .nika {
+  opacity: 1;
 }
 
-.title h1{
-color: var(--secondary-color);
-text-align: center;
-word-spacing: 15px;
-font-size: 5.5rem;
-font-family: "IM Fell English SC";
-padding-top: 20px;
-margin: 0;
-transition: 0.5s;
-display: none;
-
+.title h1 {
+  color: var(--secondary-color);
+  text-align: center;
+  word-spacing: 15px;
+  font-size: 5.5rem;
+  font-family: "IM Fell English SC";
+  padding-top: 20px;
+  margin: 0;
+  transition: 0.5s;
+  display: none;
 }
 
-.title2{
-    color: var(--secondary-color);
-    margin: -80px 20px 0px 20px;
+.title2 {
+  color: var(--secondary-color);
+  margin: -80px 20px 0px 20px;
   text-align: start;
-    font-size: 13px;
-    font-family: "IM Fell English SC";
-    display: block;
-    transition: 0.5s;
- 
+  font-size: 13px;
+  font-family: "IM Fell English SC";
+  display: block;
+  transition: 0.5s;
 }
 
-#return a{
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-family: "IM Fell English SC";
-    cursor: pointer;
+#return a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: "IM Fell English SC";
+  cursor: pointer;
 }
 
-.contentBox{
-padding-top: 70px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-transition: 0.5s;
-margin-top: 130px;
-padding-bottom: 200px;
-
+.contentBox {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: 0.5s;
+  margin-top: 130px;
+  padding-bottom: 200px;
 }
 
-.contentBox img{
-position: relative; top: -95%;
-transition: 0.5s;
+.contentBox img {
+  position: relative;
+  top: -95%;
+  transition: 0.5s;
 }
 
-.contentBox h1{
-color: white;
-text-align: center;
-padding: 0px;
-position: relative; top: 40%;
-font-size: 3rem;
-font-family: "IM Fell English SC";
+.contentBox h1 {
+  color: white;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+  top: 40%;
+  font-size: 3rem;
+  font-family: "IM Fell English SC";
 }
 
-.df{
-border: 2px solid black;
-border-radius: 1rem;
-background-color: white;
-float: left;
-width: 30rem;
-height: 35rem;
-margin: 0px 50px;
-transition: 0.5s;
-overflow: hidden;
+.df {
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: white;
+  float: left;
+  width: 30rem;
+  height: 35rem;
+  margin: 0px 50px;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
-.zd{
-    z-index: 1;
-width: 17rem;
-margin-top: -5px;
-transition: 0.5s;
+.zd {
+  z-index: 1;
+  width: 17rem;
+  margin-top: -5px;
+  transition: 0.5s;
 }
 
-.ld{
-width: 23rem;
-margin-left: 20px;
-margin-top: 75px;
-transition: 0.5s;
+.ld {
+  width: 23rem;
+  margin-left: 20px;
+  margin-top: 75px;
+  transition: 0.5s;
 }
 
-.pd{
-width: 23rem;
-margin-top: 1px;
-transition: 0.5s;
+.pd {
+  width: 23rem;
+  margin-top: 1px;
+  transition: 0.5s;
 }
 
-.layer{
-z-index: 100;
-position: relative; top: 44.1%; left: 50%;
-transform: translate(-50%, -50%);
-padding: 0px 50px;
-border: 0px;
-border-radius: 1rem;
-background-color: rgba(83, 83, 83, 0.6);
-width: 25rem;
-height: 35rem;
-transition: 0.5s;
-opacity: 1;
-
+.layer {
+  z-index: 100;
+  position: relative;
+  top: 44.1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 50px;
+  border: 0px;
+  border-radius: 1rem;
+  background-color: rgba(83, 83, 83, 0.6);
+  width: 25rem;
+  height: 35rem;
+  transition: 0.5s;
+  opacity: 1;
 }
 
-.layer:hover{
-    opacity: 0;
+.layer:hover {
+  opacity: 0;
 }
 
-.df:hover .info{
-    transform: translateY(-102.5%);
-
+.df:hover .info {
+  transform: translateY(-102.5%);
 }
 
-.info{
-    z-index: 1000;
-    background-color: var(--primary-color);
-    border:2px solid var(--secondary-color);
-    border-radius: 1rem;
-    width: 30rem;
-    height: 35rem;
-    position: relative; top: -81%;
-    transition: 1s;
-    margin-left: -10px;
-    
+.info {
+  z-index: 1000;
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 1rem;
+  width: 30rem;
+  height: 35rem;
+  position: relative;
+  top: -81%;
+  transition: 1s;
+  margin-left: -10px;
 }
 
-.info h1{
-    color: var(--secondary-color);
-    text-align: start;
-    margin: -215px 0px 0px 20px;
-    font-size: 24px;
+.info h1 {
+  color: var(--secondary-color);
+  text-align: start;
+  margin: -215px 0px 0px 20px;
+  font-size: 24px;
 }
 
-.info h2{
-    padding: 10px;
-font-size: 18px;
-text-align: start;
-margin: 260px 5px 0px 5px;
-color: var(--secondary-color);
+.info h2 {
+  padding: 10px;
+  font-size: 18px;
+  text-align: start;
+  margin: 260px 5px 0px 5px;
+  color: var(--secondary-color);
 }
 
-#optionBox{
-    border: 2px solid var(--secondary-color);
-    border-radius: 1.5rem;
-    background-color: rgba(63, 63, 63, 0.7);
-    width: 100rem;
-    height: 50rem;
-    position: absolute; top: 50.5%; left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    display: none;
-    color: var(--secondary-color);
-    transition: 0s;
-    padding: 5px;
+#optionBox {
+  border: 2px solid var(--secondary-color);
+  border-radius: 1.5rem;
+  background-color: rgba(63, 63, 63, 0.7);
+  width: 100rem;
+  height: 50rem;
+  position: absolute;
+  top: 50.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  display: none;
+  color: var(--secondary-color);
+  transition: 0s;
+  padding: 5px;
 }
 
-#optionBox header{
-justify-content: start; 
-margin: 10px;
-
+#optionBox header {
+  justify-content: start;
+  margin: 10px;
 }
 
-#x{
-margin-right: 10px;
-border: 1px solid var(--secondary-color);
-border-radius: 10rem;
-font-size: 19px;
-width: 2rem;
-height: 2rem;
-transition: 0.5s;
+#x {
+  margin-right: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10rem;
+  font-size: 19px;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
 }
 
-#back{
-    margin-right: 10px;
-    border: 1px solid var(--secondary-color);
-    border-radius: 10rem;
-    width: 2rem;
-    height: 2rem;
-    transition: 0.5s;
-    display: none;
+#back {
+  margin-right: 10px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10rem;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.5s;
+  display: none;
 }
 
-#back p{
-    margin: 0px 0px 0px -4px;
-    font-size: 25px;
-    color: #000000;
+#back p {
+  margin: 0px 0px 0px -4px;
+  font-size: 25px;
+  color: #000000;
 }
 
-#optionBox img{
-    display: block;
-    width: 100%;
-    
+#optionBox img {
+  display: block;
+  width: 100%;
 }
 
-#optionBox ul{
-    padding: 0px;
-    justify-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100rem;
-    height: 50rem;
-    position: absolute; top: 52%; left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 40px;
-    transition: 0s;
+#optionBox ul {
+  padding: 0px;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100rem;
+  height: 50rem;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  transition: 0s;
 }
 
-#oL button{
-    font-family: "IM Fell English SC";
-    list-style-type: none;
-    text-align: center;
-    padding: 10px 15px 15px 20px;
-    margin: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    border: 2px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    border-radius: 1.5rem;
-    cursor: pointer;
-    color: var(--secondary-color);
-    transition: 0s;
+#oL button {
+  font-family: "IM Fell English SC";
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 15px 15px 20px;
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: 0s;
 }
 
-#op1 button{
-    font-family: "IM Fell English SC";
-    list-style-type: none;
-    text-align: center;
-    padding: 10px 15px 15px 20px;
-    margin: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    border: 2px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    border-radius: 1.5rem;
-    cursor: pointer;
-    color: var(--secondary-color);
-    transition: 0s;
+#op1 button {
+  font-family: "IM Fell English SC";
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 15px 15px 20px;
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: 0s;
 }
 
-#oz1 button{
-    font-family: "IM Fell English SC";
-    list-style-type: none;
-    text-align: center;
-    padding: 10px 15px 15px 20px;
-    margin: 5px;
-    font-size: 20px;
-    text-decoration: none;
-    border: 2px solid var(--secondary-color);
-    background-color: var(--primary-color);
-    border-radius: 1.5rem;
-    cursor: pointer;
-    color: var(--secondary-color);
-    transition: 0s;
+#oz1 button {
+  font-family: "IM Fell English SC";
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 15px 15px 20px;
+  margin: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: 0s;
 }
 
-#optionBox button:hover{
-   background-color: #a7a7a7;
-   transition: 0.2s;
+#optionBox button:hover {
+  background-color: #a7a7a7;
+  transition: 0.2s;
 }
 
-#zbutton button{
-    text-align:center;
-    border: 2px solid var(--secondary-color);
-    border-radius: 1rem;
-    width: 23rem;
-    height: 45rem;
-    z-index: 1000;
-    margin: 5px 14px 0px 14px;
-    font-size: 3.5rem;
-    font-family: "IM Fell English SC";
-    color: white;
-    text-shadow:rgb(0, 0, 0) 5px 0px 10px; ;
-    transition: 0s;
+#zbutton button {
+  text-align: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: 1rem;
+  width: 23rem;
+  height: 45rem;
+  z-index: 1000;
+  margin: 5px 14px 0px 14px;
+  font-size: 3.5rem;
+  font-family: "IM Fell English SC";
+  color: white;
+  text-shadow: rgb(0, 0, 0) 5px 0px 10px;
+  transition: 0s;
 }
 
-#mythical{
-    background-image: url(./assets/luffy1.jpg);
-    background-size:cover;
-    transition: 5s;
+#mythical {
+  background-image: url(./assets/luffy1.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#artificial{
-    background-image: url(./assets/momonosuke.jpg);
-    background-size: cover;
-    transition: 5s;
+#artificial {
+  background-image: url(./assets/momonosuke.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#ancient{
-    background-image: url(./assets/xdrake.png);
-    background-size: cover;
-    transition: 5s;
+#ancient {
+  background-image: url(./assets/xdrake.png);
+  background-size: cover;
+  transition: 5s;
 }
 
-#normal{
-    background-image: url(./assets/chopper.jpg);
-    background-size: cover;
-    transition: 5s;
+#normal {
+  background-image: url(./assets/chopper.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#ancient:hover{
-    background-image: url(./assets/king.jpg);
-    background-size: cover;
-    background-position-x: -40;
-    transition: 5s;
+#ancient:hover {
+  background-image: url(./assets/king.jpg);
+  background-size: cover;
+  background-position-x: -40;
+  transition: 5s;
 }
 
-#artificial:hover{
-    background-image: url(./assets/monkey.jpg);
-    background-size: cover;
-    transition: 5s;
+#artificial:hover {
+  background-image: url(./assets/monkey.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#mythical:hover{
-    background-image: url(./assets/marco.jpg);
-    background-size:cover;
-    transition: 5s;
+#mythical:hover {
+  background-image: url(./assets/marco.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#normal:hover{
-    background-image: url(./assets/pell.jpg);
-    background-size: cover;
-    transition: 5s;
-
+#normal:hover {
+  background-image: url(./assets/pell.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#pbutton button{
-    text-align:center;
-    border: 2px solid var(--secondary-color);
-    border-radius: 1rem;
-    width: 23rem;
-    height: 45rem;
-    z-index: 1000;
-    margin: 5px 14px 0px 14px;
-    font-size: 3rem;
-    font-family: "IM Fell English SC";
-    color: white;
-    text-shadow:rgb(0, 0, 0) 0px 0px 10px; ;
-    transition: 0s;
+#pbutton button {
+  text-align: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: 1rem;
+  width: 23rem;
+  height: 45rem;
+  z-index: 1000;
+  margin: 5px 14px 0px 14px;
+  font-size: 3rem;
+  font-family: "IM Fell English SC";
+  color: white;
+  text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  transition: 0s;
 }
 
-#body{
-    background-image: url(./assets/kid.jpg);
-    background-size:cover;
-    background-position-x: -40px;
-    transition: 5s;
+#body {
+  background-image: url(./assets/kid.jpg);
+  background-size: cover;
+  background-position-x: -40px;
+  transition: 5s;
 }
 
-#environment{
-    background-image: url(./assets/Law.jpg);
-    background-size:cover;
-    background-position-x: -40px;
-    transition: 5s;
+#environment {
+  background-image: url(./assets/Law.jpg);
+  background-size: cover;
+  background-position-x: -40px;
+  transition: 5s;
 }
 
-#power{
-    background-image: url(./assets/Brook.jpg);
-    background-size:cover;
-    background-position-x: -50px;
-    transition: 5s;
+#power {
+  background-image: url(./assets/Brook.jpg);
+  background-size: cover;
+  background-position-x: -50px;
+  transition: 5s;
 }
 
-#substance{
-    background-image: url(./assets/Doflamingo.jpg);
-    background-size:cover;
-    background-position-x: -20px;
-    transition: 5s;
-  
+#substance {
+  background-image: url(./assets/Doflamingo.jpg);
+  background-size: cover;
+  background-position-x: -20px;
+  transition: 5s;
 }
 
-#body:hover{
-    background-image: url(./assets/apoo.jpg);
-    background-size:cover;
-    background-position-x: -40px;
-    transition: 5s;
+#body:hover {
+  background-image: url(./assets/apoo.jpg);
+  background-size: cover;
+  background-position-x: -40px;
+  transition: 5s;
 }
 
-#environment:hover{
-    background-image: url(./assets/Corazon.jpg);
-    background-position-x: -40px;
-    transition: 5s;
+#environment:hover {
+  background-image: url(./assets/Corazon.jpg);
+  background-position-x: -40px;
+  transition: 5s;
 }
 
-#power:hover{
-    background-image: url(./assets/kuma.jpg);
-    background-size:cover;
-    background-position-x: -50px;
-    transition: 5s;
+#power:hover {
+  background-image: url(./assets/kuma.jpg);
+  background-size: cover;
+  background-position-x: -50px;
+  transition: 5s;
 }
 
-#substance:hover{
-    background-image: url(./assets/barto1.jpg);
-    background-size:cover;
-    transition: 5s;
- 
+#substance:hover {
+  background-image: url(./assets/barto1.jpg);
+  background-size: cover;
+  transition: 5s;
 }
 
-#infoPage{
-    display: none;
-    margin-top: -150px;
-    transition: 0.5s;
+#infoPage {
+  display: none;
+  margin-top: -150px;
+  transition: 0.5s;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-#smileFruit{
-    height: auto;
-    position: absolute; top: 25vh; left: 12.5rem;
-    z-index: 1;
-    border: none;
-    transition: 0s;
-    margin-left: 0px;
+#smileFruit {
+  height: auto;
+  position: absolute;
+  top: 25vh;
+  left: 12.5rem;
+  z-index: 1;
+  border: none;
+  transition: 0s;
+  margin-left: 0px;
 }
 
-#fruits{
-   height: auto;
-   position: absolute; top: 25vh; left: 12.5rem;
-   z-index: 1;
-   border: none;
-   transition: 0s;
-   margin-left: 0px;
+#fruits {
+  height: auto;
+  position: absolute;
+  top: 25vh;
+  left: 12.5rem;
+  z-index: 1;
+  border: none;
+  transition: 0s;
+  margin-left: 0px;
 }
 
-#Ufruit{
-    height: 26rem;
-    width: 28rem;
-    position: absolute; top: 25vh; left: 11rem;
-    border: 3px solid var(--secondary-color);
-    background-color: white;
-    border-radius: 2rem;
-    transition: 0s;
+#Ufruit {
+  height: 26rem;
+  width: 28rem;
+  position: absolute;
+  top: 25vh;
+  left: 11rem;
+  border: 3px solid var(--secondary-color);
+  background-color: white;
+  border-radius: 2rem;
+  transition: 0s;
 }
 
 #user {
-    width: 39rem;
-    position: absolute; top: 12vh; left: 5rem;
-    z-index: 0;
-    transition: 0s;
-    display: none;
+  width: 39rem;
+  position: absolute;
+  top: 12vh;
+  left: 5rem;
+  z-index: 0;
+  transition: 0s;
+  display: none;
 }
 
 #user1 {
-    width: 39rem;
-    position: absolute; top: 12vh; left: 5rem;
-    z-index: 0;
-    transition: 0s;
-    display: none;
+  width: 39rem;
+  position: absolute;
+  top: 12vh;
+  left: 5rem;
+  z-index: 0;
+  transition: 0s;
+  display: none;
 }
 
-#imagepic{
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    position: absolute;top: 47.5rem; left: 1.5rem;
-    margin-bottom: 0px;
-
+#imagepic {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  position: absolute;
+  top: 47.5rem;
+  left: 1.5rem;
+  margin-bottom: 0px;
 }
 
-#fruitBox{
-    height: 11rem;
-    width: 10rem;
-    border: 2px solid var(--secondary-color);
-    background-color: white;
-    border-radius: 2rem;
-    margin-right: 20px;
+#fruitBox {
+  height: 11rem;
+  width: 10rem;
+  border: 2px solid var(--secondary-color);
+  background-color: white;
+  border-radius: 2rem;
+  margin-right: 20px;
 }
 
 #char {
-    margin-top: 65px;
-    height: 7rem;
-    border: 2px solid var(--secondary-color);
-    background-color: white;
-    border-radius: 1rem;
-    margin-left: 19rem;
+  margin-top: 65px;
+  height: 7rem;
+  border: 2px solid var(--secondary-color);
+  background-color: white;
+  border-radius: 1rem;
+  margin-left: 19rem;
 }
 
-#imgInfo{
-    height: 11rem;
-    border: 2px solid var(--secondary-color);
-    background-color: white;
-    border-radius: 2rem;
+#imgInfo {
+  height: 11rem;
+  border: 2px solid var(--secondary-color);
+  background-color: white;
+  border-radius: 2rem;
 }
 
-#allInfo{
-    position: relative; top: 17vh; left: 52rem;
-    display: grid;
-    grid-template-areas: 
-        'topLeft topRight'
-        'left left'
-        'main main'
-        'main main'
-        'footer footer'
-        'bottom bottom';
-    color: var(--secondary-color);
-    transition: 0s;
-    font-family: "IM Fell English SC";
+#allInfo {
+  position: relative;
+  top: 17vh;
+  left: 52rem;
+  display: grid;
+  grid-template-areas:
+    "topLeft topRight"
+    "left left"
+    "main main"
+    "main main"
+    "footer footer"
+    "bottom bottom";
+  color: var(--secondary-color);
+  transition: 0s;
+  font-family: "IM Fell English SC";
 }
 
-#Dname{
-    grid-area: topLeft;
-    margin: 0px;
+#Dname {
+  grid-area: topLeft;
+  margin: 0px;
 }
 
-#Jname{
-    grid-area: topRight;
-    margin: 0px 0px 0px -180px;
+#Jname {
+  grid-area: topRight;
+  margin: 0px 0px 0px -180px;
 }
 
-#Duser{
-    grid-area: left; 
-    font-size: 1.5rem;
-    margin-left: 0px ;
+#Duser {
+  grid-area: left;
+  font-size: 1.5rem;
+  margin-left: 0px;
 }
 
-#Dinfo{
-    grid-area: main;
-    font-size: 1.2rem;
-    width: 60rem;
-    line-height: 1.5rem;
-    margin-top: 0px;
+#Dinfo {
+  grid-area: main;
+  font-size: 1.2rem;
+  width: 60rem;
+  line-height: 1.5rem;
+  margin-top: 0px;
 }
 
-#extra{
-    grid-area: footer;
-    font-size: 1.5rem;
-    margin-top: 0px;
+#extra {
+  grid-area: footer;
+  font-size: 1.5rem;
+  margin-top: 0px;
 }
 
-#kaido{
-    position: absolute; top: 35.1rem; left:24rem;
-    padding: 0px;
-    border: none;
-    background: none;
-    border: none;
-    text-decoration: underline;
-    font-size: 1.2rem;
-    font-family: "IM Fell English SC";
-    color: blue;
-    width: fit-content;
+#kaido {
+  position: absolute;
+  top: 35.1rem;
+  left: 24rem;
+  padding: 0px;
+  border: none;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-family: "IM Fell English SC";
+  color: blue;
+  width: fit-content;
 }
 
-#kaido:hover{
-    color: rgb(32, 203, 255);
+#kaido:hover {
+  color: rgb(32, 203, 255);
 }
 
-#smile{
+#smile {
   padding: 0px;
   border: none;
   background: none;
@@ -652,1815 +662,1909 @@ main{
   margin-bottom: 1rem;
 }
 
-#smile:hover{
-    color: rgb(32, 203, 255);
-  
+#smile:hover {
+  color: rgb(32, 203, 255);
 }
 
-#gifters{
-    border: none;
-    background: none;
-    border: none;
-    text-decoration: underline;
-    font-size: 2rem;
-    font-family: "IM Fell English SC";
-    color: blue;
-    margin-left: 11rem;
-    grid-area: topLeft;
-    width: fit-content;
-
+#gifters {
+  border: none;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-family: "IM Fell English SC";
+  color: blue;
+  margin-left: 11rem;
+  grid-area: topLeft;
+  width: fit-content;
 }
 
-#gifters:hover{
-    color: rgb(32, 203, 255);
-  
+#gifters:hover {
+  color: rgb(32, 203, 255);
 }
 
-#hat{
-width: 11rem;
-position: absolute; top: 44rem; left: 1rem;
-z-index: 1;
-display: none;
+#hat {
+  width: 11rem;
+  position: absolute;
+  top: 44rem;
+  left: 1rem;
+  z-index: 1;
+  display: none;
 }
-    
-#userButton{
+
+#userButton {
+  border: none;
+  background-color: transparent;
+  color: blue;
+  font-size: 2rem;
+  font-family: "IM Fell English SC";
+  position: absolute;
+  top: 44.5rem;
+  left: 4.5rem;
+  z-index: 10;
+}
+
+#userButton:hover {
+  color: rgb(32, 203, 255);
+}
+
+#fruitButton {
+  border: none;
+  background-color: transparent;
+  color: blue;
+  font-size: 1.8rem;
+  font-family: "IM Fell English SC";
+  position: absolute;
+  top: 44.7rem;
+  left: 4.3rem;
+  display: none;
+  z-index: 10;
+}
+
+#fruitButton:hover {
+  color: rgb(32, 203, 255);
+}
+
+@media only screen and (max-height: 1080px) {
+  #imagepic {
+    position: absolute;
+    top: 55rem;
+    left: 1.5rem;
+  }
+  #hat {
+    width: 11rem;
+    position: absolute;
+    top: 51.5rem;
+    left: 1rem;
+    z-index: 1;
+    display: none;
+  }
+
+  #userButton {
     border: none;
     background-color: transparent;
     color: blue;
     font-size: 2rem;
     font-family: "IM Fell English SC";
-    position: absolute; top: 44.5rem;left: 4.5rem;
+    position: absolute;
+    top: 52rem;
+    left: 4.5rem;
     z-index: 10;
-}
+  }
 
- #userButton:hover{
-    color: rgb(32, 203, 255); 
- }
-
- #fruitButton{
+  #fruitButton {
     border: none;
     background-color: transparent;
     color: blue;
     font-size: 1.8rem;
     font-family: "IM Fell English SC";
-    position: absolute; top: 44.7rem;left: 4.3rem;
+    position: absolute;
+    top: 52.1rem;
+    left: 4.3rem;
     display: none;
     z-index: 10;
- }
-
- #fruitButton:hover{
-    color: rgb(32, 203, 255); 
- }
-
-@media only screen and (max-height: 1080px){
-    
-#imagepic{
-    position: absolute;top: 55rem; left: 1.5rem;
+  }
 }
-#hat{
-    width: 11rem;
-    position: absolute; top: 51.5rem; left: 1rem;
-    z-index: 1;
-    display: none;
-    }
-        
-    #userButton{
-        border: none;
-        background-color: transparent;
-        color: blue;
-        font-size: 2rem;
-        font-family: "IM Fell English SC";
-        position: absolute; top: 52rem;left: 4.5rem;
-        z-index: 10;
-    }
-    
-     #fruitButton{
-        border: none;
-        background-color: transparent;
-        color: blue;
-        font-size: 1.8rem;
-        font-family: "IM Fell English SC";
-        position: absolute; top: 52.1rem;left: 4.3rem;
-        display: none;
-        z-index: 10;
-     }
-}
-@media only screen and (max-height: 1000px){
-    
-    #imagepic{
-        position: absolute;top: 47.5rem; left: 1.5rem;
-    }
-    
-#hat{
-    position: absolute; top: 44rem; left: 1rem;
-    }
-        
-    #userButton{
-        position: absolute; top: 44.5rem;left: 4.5rem;
-    }
-    
+@media only screen and (max-height: 1000px) {
+  #imagepic {
+    position: absolute;
+    top: 47.5rem;
+    left: 1.5rem;
+  }
 
-    
-     #fruitButton{
-        position: absolute; top: 44.7rem;left: 4.3rem;
-     }
-    
-    }
-@media only screen and (max-width: 1800px){
-    #allInfo{
-        position: relative; top: 17vh; left: 49rem;
-    } 
-   
-#char {
+  #hat {
+    position: absolute;
+    top: 44rem;
+    left: 1rem;
+  }
+
+  #userButton {
+    position: absolute;
+    top: 44.5rem;
+    left: 4.5rem;
+  }
+
+  #fruitButton {
+    position: absolute;
+    top: 44.7rem;
+    left: 4.3rem;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 49rem;
+  }
+
+  #char {
     margin-top: 65px;
     height: 7rem;
     margin-left: 16rem;
-}
-#fruits{
+  }
+  #fruits {
     height: auto;
-    position: absolute; top: 25vh; left: 10rem;
- }
- #smileFruit{
+    position: absolute;
+    top: 25vh;
+    left: 10rem;
+  }
+  #smileFruit {
     height: auto;
-    position: absolute; top: 25vh; left: 10rem;
+    position: absolute;
+    top: 25vh;
+    left: 10rem;
+  }
 }
-}
-@media only screen and (max-width: 1750px){
-    
-#user {
+@media only screen and (max-width: 1750px) {
+  #user {
     width: 36rem;
-    position: absolute; top: 15vh; left: 2rem;
+    position: absolute;
+    top: 15vh;
+    left: 2rem;
     z-index: 0;
     transition: 0s;
     display: none;
-}
+  }
 
-#user1 {
+  #user1 {
     width: 36rem;
-    position: absolute; top: 15vh; left: 2rem;
+    position: absolute;
+    top: 15vh;
+    left: 2rem;
     z-index: 0;
     transition: 0s;
     display: none;
+  }
+  #char {
+    margin-top: 65px;
+    height: 7rem;
+    margin-left: 8rem;
+  }
+  #Ufruit {
+    height: 26rem;
+    width: 28rem;
+    position: absolute;
+    top: 25vh;
+    left: 5rem;
+  }
+
+  .df {
+    margin: 10px 20px;
+  }
+  .contentBox {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 41rem;
+  }
+  #fruits {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 7rem;
+  }
+  #smileFruit {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 7rem;
+  }
 }
-    #char {
-        margin-top: 65px;
-        height: 7rem;
-        margin-left: 8rem;
-    }
-    #Ufruit{
-        height: 26rem;
-        width: 28rem;
-        position: absolute; top: 25vh; left: 5rem;
+@media only screen and (max-width: 1650px) {
+  #kaido {
+    position: absolute;
+    top: 34.3rem;
+    left: 22rem;
+    font-size: 1.1rem;
+  }
 
-    }
-
-    .df{
-        margin: 10px 20px;
-    }
-    .contentBox{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    #allInfo{
-        position: relative; top: 17vh; left: 41rem;
-
-    }
-    #fruits{
-        height: auto;
-        position: absolute; top: 25vh; left: 7rem;
-     }
-     #smileFruit{
-        height: auto;
-        position: absolute; top: 25vh; left: 7rem;
-    }
-    
-}
-@media only screen and (max-width:1650px){
- 
-    #kaido{
-        position: absolute; top: 34.3rem; left:22rem;
-        font-size: 1.1rem;
-    }
-    
-    #smile{
-      font-size: 1.5rem;
-    }
-    #optionBox{
-        width: 85rem;
-    }
-   
-    #optionBox ul{
+  #smile {
+    font-size: 1.5rem;
+  }
+  #optionBox {
     width: 85rem;
-    }
-   
-    
-    #op1 button{
-        padding: 5px 10px 5px 10px;
-        margin: 5px;
-        font-size: 20px;
+  }
 
-    }
-    #oz1 button{
-        padding: 5px 10px 5px 10px;
-        margin: 5px;
-        font-size: 20px;
+  #optionBox ul {
+    width: 85rem;
+  }
 
-    }
-    #zbutton button{     
-        width: 20rem;
-        height: 45rem;
-        margin: 5px 5px 0px 10px;
-        font-size: 3.5rem;
-     
-    }
-   
-    #pbutton button{
-        width: 20rem;
-        height: 45rem;
-        margin: 5px 5px 0px 10px;
-        font-size: 2.7rem;
-       
-    }
+  #op1 button {
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  #oz1 button {
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  #zbutton button {
+    width: 20rem;
+    height: 45rem;
+    margin: 5px 5px 0px 10px;
+    font-size: 3.5rem;
+  }
 
-    #allInfo{
-        position: relative; top: 17vh; left: 41rem;
+  #pbutton button {
+    width: 20rem;
+    height: 45rem;
+    margin: 5px 5px 0px 10px;
+    font-size: 2.7rem;
+  }
 
-    }  
-    #Dname{
-        font-size: 1.6rem;
-     }
-     #gifters{
-        font-size: 1.6rem;
-        margin-left: 9rem;
-    }
-     #Duser{
-         font-size: 1.4rem;
-     }
-     
-     #Dinfo{   
-         font-size: 1.1rem;
-         width: 51rem;
- 
-     }
-     
-     #extra{
-         font-size: 1.3rem; 
-     }
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 41rem;
+  }
+  #Dname {
+    font-size: 1.6rem;
+  }
+  #gifters {
+    font-size: 1.6rem;
+    margin-left: 9rem;
+  }
+  #Duser {
+    font-size: 1.4rem;
+  }
+
+  #Dinfo {
+    font-size: 1.1rem;
+    width: 51rem;
+  }
+
+  #extra {
+    font-size: 1.3rem;
+  }
 }
-@media only screen and (max-width: 1610px){
-    
-
-    .df{
-        margin: -10px 10px;
-    }
-    .contentBox{
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-
-    
+@media only screen and (max-width: 1610px) {
+  .df {
+    margin: -10px 10px;
+  }
+  .contentBox {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
-@media only screen and (max-width: 1510px){
-    body{
-        background-size:100rem;
-       }
- 
-    #char {
-        margin-top: 65px;
-        height: 7rem;
-        margin-left: 7rem;
-    }
-    #gifters{
-        font-size: 1.6rem;
-        margin-left: 8rem;
-    }
-    #kaido{
-        position: absolute; top: 34.1rem; left:20rem;
-        font-size: 1rem;
-    }
-    
-    #smile{
-      font-size: 1.4rem;
-    }
+@media only screen and (max-width: 1510px) {
+  body {
+    background-size: 100rem;
+  }
 
-    .df{
-        width: 25rem;
-        margin: -10px 30px;
-        }
-    .info{
-            width: 25rem;
-        }
+  #char {
+    margin-top: 65px;
+    height: 7rem;
+    margin-left: 7rem;
+  }
+  #gifters {
+    font-size: 1.6rem;
+    margin-left: 8rem;
+  }
+  #kaido {
+    position: absolute;
+    top: 34.1rem;
+    left: 20rem;
+    font-size: 1rem;
+  }
 
-    .info h2{
-        font-size: 17px;
-        margin: 240px 0px;
-        padding: 15px;
-        }
-    
-    #allInfo{
-            position: relative; top: 17vh; left: 40rem;
-          
-        }
-        #fruits{
-            height: auto;
-            position: absolute; top: 25vh; left: 6.5rem;
-         }
-        
-    
-    #Dname{
-        font-size: 1.5rem;
-     }
-     
-     #Duser{
-         font-size: 1.3rem;
-     }
-     
-     #Dinfo{   
-         font-size: 1rem;
-         width: 50rem;
- 
-     }
-     
-     #extra{
-         font-size: 1.2rem; 
-     }
-        
+  #smile {
+    font-size: 1.4rem;
+  }
+
+  .df {
+    width: 25rem;
+    margin: -10px 30px;
+  }
+  .info {
+    width: 25rem;
+  }
+
+  .info h2 {
+    font-size: 17px;
+    margin: 240px 0px;
+    padding: 15px;
+  }
+
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 40rem;
+  }
+  #fruits {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 6.5rem;
+  }
+
+  #Dname {
+    font-size: 1.5rem;
+  }
+
+  #Duser {
+    font-size: 1.3rem;
+  }
+
+  #Dinfo {
+    font-size: 1rem;
+    width: 50rem;
+  }
+
+  #extra {
+    font-size: 1.2rem;
+  }
 }
-@media only screen and (max-width: 1450px){
-    #hat{
-        width: 10rem;
-        position: absolute; top: 45rem; left: 1rem;
-        }
-        
-        #userButton{
-            font-size: 1.8rem;
-            position: absolute; top: 45.5rem;left: 4.2rem;
-        }
-        
-         #fruitButton{
-            font-size: 1.7rem;
-            position: absolute; top:45.5rem;left: 3.9rem;
-         }
-    #user {
-        width: 30rem;
-        position: absolute; top: 21vh; left: 2rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    
-    #user1 {
-        width: 30rem;
-        position: absolute; top: 21vh; left: 2rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    #char {
-        margin-top: 0px;
-        height: 6rem;
-        margin-left: 6.5rem;
-    }
-    #Ufruit{
-        height: 24rem;
-        width: 26rem;
-        position: absolute; top: 25vh; left: 4rem;
+@media only screen and (max-width: 1450px) {
+  #hat {
+    width: 10rem;
+    position: absolute;
+    top: 45rem;
+    left: 1rem;
+  }
 
-    }
+  #userButton {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 45.5rem;
+    left: 4.2rem;
+  }
 
-    #allInfo{
-        position: relative; top: 17vh; left: 35rem;
-      
-    }
-    #fruits{
-        height: auto;
-        position: absolute; top: 25vh; left: 4.5rem;
-     } 
-     #smileFruit{
-        height: auto;
-        position: absolute; top: 25vh; left: 4.5rem;
-    }
- #imagepic{
+  #fruitButton {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 45.5rem;
+    left: 3.9rem;
+  }
+  #user {
+    width: 30rem;
+    position: absolute;
+    top: 21vh;
+    left: 2rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
 
-    position: absolute;top: 81vh; left: 1.5rem;
-}  
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 21vh;
+    left: 2rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+  #char {
+    margin-top: 0px;
+    height: 6rem;
+    margin-left: 6.5rem;
+  }
+  #Ufruit {
+    height: 24rem;
+    width: 26rem;
+    position: absolute;
+    top: 25vh;
+    left: 4rem;
+  }
 
- #fruitBox{
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 35rem;
+  }
+  #fruits {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 4.5rem;
+  }
+  #smileFruit {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 4.5rem;
+  }
+  #imagepic {
+    position: absolute;
+    top: 81vh;
+    left: 1.5rem;
+  }
+
+  #fruitBox {
     height: 9rem;
     width: 9rem;
+  }
 
-}
-
-#imgInfo{
+  #imgInfo {
     height: 9rem;
+  }
 }
+@media only screen and (max-width: 1400px) {
+  #char {
+    margin-top: 0px;
+    height: 6rem;
+    margin-left: 6.5rem;
+  }
+  #gifters {
+    font-size: 1.4rem;
+    margin-left: 7.5rem;
+  }
+  #kaido {
+    position: absolute;
+    top: 33.6rem;
+    left: 19rem;
+    font-size: 1rem;
+  }
 
+  #smile {
+    font-size: 1.3rem;
+  }
+
+  #Dname {
+    font-size: 1.4rem;
+  }
+
+  #Duser {
+    font-size: 1.2rem;
+  }
+
+  #Dinfo {
+    font-size: 0.95rem;
+    width: 43rem;
+  }
+
+  #extra {
+    font-size: 1.1rem;
+  }
+
+  .df {
+    width: 25rem;
+    margin: -20px 10px;
+  }
+
+  #optionBox {
+    width: 75rem;
+  }
+
+  #optionBox ul {
+    width: 75rem;
+  }
+
+  #oz1 button {
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    font-size: 20px;
+  }
+  #zbutton button {
+    width: 18rem;
+    height: 45rem;
+    margin: 5px 4px 0px 5px;
+    font-size: 3.5rem;
+  }
+
+  #pbutton button {
+    width: 18rem;
+    height: 45rem;
+    margin: 5px 4px 0px 5px;
+    font-size: 2.7rem;
+  }
+  #environment {
+    background-position-x: -80px;
+  }
+  #environment:hover {
+    background-position-x: -80px;
+  }
 }
-@media only screen and (max-width: 1400px){
-    #char {
-        margin-top: 0px;
-        height: 6rem;
-        margin-left: 6.5rem;
-    }
-    #gifters{
-        font-size: 1.4rem;
-        margin-left: 7.5rem;
-    }
-    #kaido{
-        position: absolute; top: 33.6rem; left:19rem;
-        font-size: 1rem;
-    }
-    
-    #smile{
-      font-size: 1.3rem;
-    }
+@media only screen and (max-width: 1260px) {
+  #hat {
+    width: 10rem;
+    position: absolute;
+    top: 46.9rem;
+    left: 0.5rem;
+  }
 
-    #Dname{
-        font-size: 1.4rem;
-     }
-     
-     #Duser{
-         font-size: 1.2rem;
-     }
-     
-     #Dinfo{   
-         font-size: 0.95rem;
-         width: 43rem;
- 
-     }
-     
-     #extra{
-         font-size: 1.1rem; 
-     }
+  #userButton {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 47.3rem;
+    left: 3.7rem;
+  }
 
-  
-        .df{
-        width: 25rem;
-        margin: -20px 10px;
-        }
-
-        #optionBox{
-            width: 75rem;
-        }
-       
-        #optionBox ul{
-        width: 75rem;
-        }
-
-        #oz1 button{
-            padding: 5px 10px 5px 10px;
-            margin: 5px;
-            font-size: 20px;
-    
-        }
-        #zbutton button{     
-            width: 18rem;
-            height: 45rem;
-            margin: 5px 4px 0px 5px;
-            font-size: 3.5rem;
-         
-        }
-       
-        #pbutton button{
-            width: 18rem;
-            height: 45rem;
-            margin: 5px 4px 0px 5px;
-            font-size: 2.7rem;
-              
-        }
-        #environment{
-            background-position-x: -80px;
-        }
-        #environment:hover{
-            background-position-x: -80px;
-        }
-
-}
-@media only screen and (max-width: 1260px){
-    #hat{
-        width: 10rem;
-        position: absolute; top: 46.9rem; left: 0.5rem;
-        }
-        
-        #userButton{
-            font-size: 1.8rem;
-            position: absolute; top: 47.3rem;left: 3.7rem;
-        }
-        
-         #fruitButton{
-            font-size: 1.7rem;
-            position: absolute; top:47.4rem;left: 3.4rem;
-         }
-    #user {
-        width: 28rem;
-        position: absolute; top: 23vh; left: 1rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    
-    #user1 {
-        width: 28rem;
-        position: absolute; top: 23vh; left: 1rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    #char {
-        margin-top: 0px;
-        height: 6rem;
-        margin-left: 5.5rem;
-    }
-    #Ufruit{
-        height: 20rem;
-        width: 22rem;
-        position: absolute; top: 25vh; left: 4rem;
-
-    }
-    #fruits{
-        height: auto;
-        position: absolute; top: 25vh; left: 3rem;
-     } 
-     #smileFruit{
-        height: 25rem;
-        position: absolute; top: 25vh; left: 3rem;
-    }
-    #allInfo{
-        position: relative; top: 17vh; left: 31rem;
-      
-    }
-    #imagepic{
-        position: absolute;top: 84vh; left: 1.5rem;
-    } 
-
-    #fruitBox{
-        height: 8rem;
-        width: 8rem;
-    }
-    
-    #imgInfo{
-        height: 8rem;
-    }
-
-    #Dname{
-        font-size: 1.4rem;
-     }
-     
-     #Duser{
-         font-size: 1.2rem;
-     }
-     
-     #Dinfo{   
-        font-size: 0.95rem;
-        width: 43rem;
- 
-     }
-     
-     #extra{
-         font-size: 1.1rem; 
-     }
-    
-    #optionBox{
-        width: 65rem;
-    }
-   
-    #optionBox ul{
-    width: 65rem;
-    }
-    
-    #oz1 button{
-        padding: 5px 0px 5px 0px;
-    }
-        .contentBox img{
-            top: -90%;
-            margin-left: -5px;
-        }
-
-        .df{
-        width: 19rem;
-        height: 35rem;   
-        }
-        
-        .zd{
-            width: 14rem;
-            margin-left: 45px;
-        }
-            
-        .ld{
-            width: 18rem;
-            margin-left: 10px;
-        }
-            
-        .pd{
-            margin-top: 17px;
-            width: 18rem;
-            margin-left: 10px;
-        }
-
-        .layer{
-        width: 13rem;
-        height: 35rem;
-        }
-
-        .contentBox{
-            margin-bottom: 100px;
-        }
-
-        .info{
-            margin-left: -10px;
-            width: 18.9rem;
-            position: relative; top: -67%;
-            
-        }
-        
-        .info h1{
-            font-size: 19px;
-        }
-        
-        .info h2{
-            margin-top: 14.5rem;
-        font-size: 15px;
-        }
-        #zbutton button{     
-            width: 30rem;
-            height: 22rem;
-            margin: 5px 5px 5px 25px;
-            font-size: 3.5rem;
-         
-        }
-       
-        #pbutton button{
-            width: 30rem;
-            height: 22rem;
-            margin: 5px 5px 5px 25px;
-            font-size: 2.7rem;
-              
-        }
-        #body{
-            background-position-x: 0px;
-        }
-        
-        #environment{
-            padding-top: 3.5rem;
-            background-position-x: 0px;
-        }
-        
-        #power{
-            background-position-x: 0px;
-        }
-        
-        #substance{
-            background-position-x: 0px;
-        }
-
-        #body:hover{
-            background-position-x: 0px;
-        }
-        
-        #environment:hover{
-            background-position-x: 0px;
-        }
-        
-        #power:hover{
-            background-position-x: 0px;
-        }
-        
-        #substance:hover{
-            background-position-x: 0px;
-        }
-        #mythical{
-            background-position-y: -50px;
-        }
-        
-        #artificial{
-            background-position-y: -200px;
-        }
-        
-        #ancient{
-            background-position-y: -50px;
-        }
-        
-        #normal{
-            background-position-y: -250px;
-        }
-        
-        #ancient:hover{
-            background-position-y: -50px;
-        }
-        
-        #artificial:hover{
-            background-position-y: -200px;
-        }
-        
-        #mythical:hover{
-            background-position-y: -50px;
-        }
-        
-        #normal:hover{
-            background-position-y: -250px;
-        } 
-
-}
-@media only screen and (max-width: 1200px){
-    #hat{
-        width: 12rem;
-        position: absolute; top: 46.7rem; left: 3rem;
-        }
-        
-        #userButton{
-            font-size: 2rem;
-            position: absolute; top: 47.4rem;left: 7rem;
-        }
-        
-         #fruitButton{
-            font-size: 2rem;
-            position: absolute; top:47.4rem;left: 6.5rem;
-         }
-    #char {
-        margin-top: 0px;
-        height: 5rem;
-        margin-left: 9rem;
-    }
-    #gifters{
-        font-size: 1.3rem;
-        margin-left: 7rem;
-    }
-    #kaido{
-        position: absolute; top: 33.3rem; left:16rem;
-        font-size: 0.85rem;
-    }
-    
-    #smile{
-      font-size: 1.2rem;
-    }
-
-    #allInfo{
-        position: relative; top: 17vh; left: 31rem;
-      
-    }
-    #imagepic{
-        position: absolute;top: 85vh; left: 1.5rem;
-    } 
-
-    #fruitBox{
-        height: 7rem;
-        width: 7rem;
-        margin-right: 8px;
-    }
-    
-    #imgInfo{
-        height: 7rem;
-    }
-
-    #Dname{
-        font-size: 1.3rem;
-     }
-     
-     #Duser{
-         font-size: 1.1rem;
-     }
-     
-     #Dinfo{   
-        font-size: 0.8rem;
-        width: 36rem;
- 
-     }
-     
-     #extra{
-         font-size: 1.1rem; 
-     }
-
-}
-@media only screen and (max-width: 1100px) {
-    #user {
-        width: 25rem;
-        position: absolute; top: 26vh; left: 0.5rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    
-    #user1 {
-        width: 25rem;
-        position: absolute; top: 26vh; left: 0.5rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    #fruits{
-        height: auto;
-        width: 22rem;
-        position: absolute; top: 25vh; left: 3rem;
-     }  
-
-    #char {
-        margin-top: 0px;
-        height: 5rem;
-        margin-left: 4rem;
-    }
-    #Ufruit{
-        height: 18rem;
-        width: 20rem;
-        position: absolute; top: 25vh; left: 3rem;
-
-    }
-    #allInfo{
-        position: relative; top: 17vh; left: 41vw;
-      
-    }
-    #optionBox{
-        width: 60rem;
-    }
-   
-    #optionBox ul{
-    width: 60rem;
-    }
-    #op1 button{
-        padding: 5px 5px 5px 5px;
-        font-size: 20px;
-
-    }
-    #oz1 button{
-        font-size: 15px;
-
-    }
-    #zbutton button{     
-        width: 27rem;
-        height: 22rem;
-        margin: 5px 5px 5px 30px;
-        font-size: 3.5rem;
-     
-    }
-   
-    #pbutton button{
-        width: 27rem;
-        height: 22rem;
-        margin: 5px 5px 5px 30px;
-        font-size: 2.7rem;
-          
-    }
-    #substance{
-        padding-top: 3.5rem;
-        background-position-x: 0px;
-    }
-}
-@media only screen and (max-width: 1000px){
-    body{
-        background-size:155rem;
-       }
-    #hat{
-        width: 11.5rem;
-        position: absolute; top: 33.9rem; left:0.8rem;
-        }
-        
-        
-        #userButton{
-            font-size: 2rem;
-            position: absolute; top:  34.3rem;left: 4.6rem;
-        }
-        
-         #fruitButton{
-            font-size: 1.9rem;
-            position: absolute; top:34.4rem;left: 4.2rem;
-         }
-    #user {
-        width: 30rem;
-        position: absolute; top: 10vh; left: 15rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    
-  
-#user1 {
-    width: 30rem;
-    position: absolute; top: 10vh; left: 15rem;
+  #fruitButton {
+    font-size: 1.7rem;
+    position: absolute;
+    top: 47.4rem;
+    left: 3.4rem;
+  }
+  #user {
+    width: 28rem;
+    position: absolute;
+    top: 23vh;
+    left: 1rem;
     z-index: 0;
     transition: 0s;
     display: none;
+  }
+
+  #user1 {
+    width: 28rem;
+    position: absolute;
+    top: 23vh;
+    left: 1rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+  #char {
+    margin-top: 0px;
+    height: 6rem;
+    margin-left: 5.5rem;
+  }
+  #Ufruit {
+    height: 20rem;
+    width: 22rem;
+    position: absolute;
+    top: 25vh;
+    left: 4rem;
+  }
+  #fruits {
+    height: auto;
+    position: absolute;
+    top: 25vh;
+    left: 3rem;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 25vh;
+    left: 3rem;
+  }
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 31rem;
+  }
+  #imagepic {
+    position: absolute;
+    top: 84vh;
+    left: 1.5rem;
+  }
+
+  #fruitBox {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  #imgInfo {
+    height: 8rem;
+  }
+
+  #Dname {
+    font-size: 1.4rem;
+  }
+
+  #Duser {
+    font-size: 1.2rem;
+  }
+
+  #Dinfo {
+    font-size: 0.95rem;
+    width: 43rem;
+  }
+
+  #extra {
+    font-size: 1.1rem;
+  }
+
+  #optionBox {
+    width: 65rem;
+  }
+
+  #optionBox ul {
+    width: 65rem;
+  }
+
+  #oz1 button {
+    padding: 5px 0px 5px 0px;
+  }
+  .contentBox img {
+    top: -90%;
+    margin-left: -5px;
+  }
+
+  .df {
+    width: 19rem;
+    height: 35rem;
+  }
+
+  .zd {
+    width: 14rem;
+    margin-left: 45px;
+  }
+
+  .ld {
+    width: 18rem;
+    margin-left: 10px;
+  }
+
+  .pd {
+    margin-top: 17px;
+    width: 18rem;
+    margin-left: 10px;
+  }
+
+  .layer {
+    width: 13rem;
+    height: 35rem;
+  }
+
+  .contentBox {
+    margin-bottom: 100px;
+  }
+
+  .info {
+    margin-left: -10px;
+    width: 18.9rem;
+    position: relative;
+    top: -67%;
+  }
+
+  .info h1 {
+    font-size: 19px;
+  }
+
+  .info h2 {
+    margin-top: 14.5rem;
+    font-size: 15px;
+  }
+  #zbutton button {
+    width: 30rem;
+    height: 22rem;
+    margin: 5px 5px 5px 25px;
+    font-size: 3.5rem;
+  }
+
+  #pbutton button {
+    width: 30rem;
+    height: 22rem;
+    margin: 5px 5px 5px 25px;
+    font-size: 2.7rem;
+  }
+  #body {
+    background-position-x: 0px;
+  }
+
+  #environment {
+    padding-top: 3.5rem;
+    background-position-x: 0px;
+  }
+
+  #power {
+    background-position-x: 0px;
+  }
+
+  #substance {
+    background-position-x: 0px;
+  }
+
+  #body:hover {
+    background-position-x: 0px;
+  }
+
+  #environment:hover {
+    background-position-x: 0px;
+  }
+
+  #power:hover {
+    background-position-x: 0px;
+  }
+
+  #substance:hover {
+    background-position-x: 0px;
+  }
+  #mythical {
+    background-position-y: -50px;
+  }
+
+  #artificial {
+    background-position-y: -200px;
+  }
+
+  #ancient {
+    background-position-y: -50px;
+  }
+
+  #normal {
+    background-position-y: -250px;
+  }
+
+  #ancient:hover {
+    background-position-y: -50px;
+  }
+
+  #artificial:hover {
+    background-position-y: -200px;
+  }
+
+  #mythical:hover {
+    background-position-y: -50px;
+  }
+
+  #normal:hover {
+    background-position-y: -250px;
+  }
 }
-    #smileFruit{
-        height: 25rem;
-        position: absolute; top: 15vh; left: 18.5rem;
-    }
-    #char {
-        margin-top: 40rem;
-        height: 7.8rem;
-        margin-left: 1rem;
-    }
-    #infoPage{
-        display: none;
-        margin-top: -150px;
-    }
-    
-#fruits{
+@media only screen and (max-width: 1200px) {
+  #hat {
+    width: 12rem;
+    position: absolute;
+    top: 46.7rem;
+    left: 3rem;
+  }
+
+  #userButton {
+    font-size: 2rem;
+    position: absolute;
+    top: 47.4rem;
+    left: 7rem;
+  }
+
+  #fruitButton {
+    font-size: 2rem;
+    position: absolute;
+    top: 47.4rem;
+    left: 6.5rem;
+  }
+  #char {
+    margin-top: 0px;
+    height: 5rem;
+    margin-left: 9rem;
+  }
+  #gifters {
+    font-size: 1.3rem;
+    margin-left: 7rem;
+  }
+  #kaido {
+    position: absolute;
+    top: 33.3rem;
+    left: 16rem;
+    font-size: 0.85rem;
+  }
+
+  #smile {
+    font-size: 1.2rem;
+  }
+
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 31rem;
+  }
+  #imagepic {
+    position: absolute;
+    top: 85vh;
+    left: 1.5rem;
+  }
+
+  #fruitBox {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 8px;
+  }
+
+  #imgInfo {
+    height: 7rem;
+  }
+
+  #Dname {
+    font-size: 1.3rem;
+  }
+
+  #Duser {
+    font-size: 1.1rem;
+  }
+
+  #Dinfo {
+    font-size: 0.8rem;
+    width: 36rem;
+  }
+
+  #extra {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #user {
+    width: 25rem;
+    position: absolute;
+    top: 26vh;
+    left: 0.5rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+
+  #user1 {
+    width: 25rem;
+    position: absolute;
+    top: 26vh;
+    left: 0.5rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+  #fruits {
+    height: auto;
+    width: 22rem;
+    position: absolute;
+    top: 25vh;
+    left: 3rem;
+  }
+
+  #char {
+    margin-top: 0px;
+    height: 5rem;
+    margin-left: 4rem;
+  }
+  #Ufruit {
+    height: 18rem;
+    width: 20rem;
+    position: absolute;
+    top: 25vh;
+    left: 3rem;
+  }
+  #allInfo {
+    position: relative;
+    top: 17vh;
+    left: 41vw;
+  }
+  #optionBox {
+    width: 60rem;
+  }
+
+  #optionBox ul {
+    width: 60rem;
+  }
+  #op1 button {
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+  }
+  #oz1 button {
+    font-size: 15px;
+  }
+  #zbutton button {
+    width: 27rem;
+    height: 22rem;
+    margin: 5px 5px 5px 30px;
+    font-size: 3.5rem;
+  }
+
+  #pbutton button {
+    width: 27rem;
+    height: 22rem;
+    margin: 5px 5px 5px 30px;
+    font-size: 2.7rem;
+  }
+  #substance {
+    padding-top: 3.5rem;
+    background-position-x: 0px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-size: 155rem;
+  }
+  #hat {
+    width: 11.5rem;
+    position: absolute;
+    top: 33.9rem;
+    left: 0.8rem;
+  }
+
+  #userButton {
+    font-size: 2rem;
+    position: absolute;
+    top: 34.3rem;
+    left: 4.6rem;
+  }
+
+  #fruitButton {
+    font-size: 1.9rem;
+    position: absolute;
+    top: 34.4rem;
+    left: 4.2rem;
+  }
+  #user {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 15rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 15rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 18.5rem;
+  }
+  #char {
+    margin-top: 40rem;
+    height: 7.8rem;
+    margin-left: 1rem;
+  }
+  #infoPage {
+    display: none;
+    margin-top: -150px;
+  }
+
+  #fruits {
     height: auto;
     width: 24rem;
-    position: absolute; top: 15vh; left: 18rem;
+    position: absolute;
+    top: 15vh;
+    left: 18rem;
     border: none;
- }
- 
- #Ufruit{
-     height: 19rem;
-     position: absolute; top: 20vh; left: 20rem;
- }
- #Dname{
-font-size: 1.5rem;
-}
- 
- #allInfo{
-     position: relative; top: 88vh; left: 4vw;
-     grid-template-areas: 
-     'topLeft topRight'
-     'left left'
-     'main main'
-     'main main'
-     'footer footer'
-     'bottom bottom'
-     'extra extra';
- 
-    }
-    #gifters{
-        font-size: 1.5rem;
-        margin-left: 8rem; 
-    }
-    
-    
- #fruitBox{
+  }
+
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 20rem;
+  }
+  #Dname {
+    font-size: 1.5rem;
+  }
+
+  #allInfo {
+    position: relative;
+    top: 88vh;
+    left: 4vw;
+    grid-template-areas:
+      "topLeft topRight"
+      "left left"
+      "main main"
+      "main main"
+      "footer footer"
+      "bottom bottom"
+      "extra extra";
+  }
+  #gifters {
+    font-size: 1.5rem;
+    margin-left: 8rem;
+  }
+
+  #fruitBox {
     height: 9rem;
     width: 8rem;
-    position: absolute; top: -22vh; left: 1rem;
-}
+    position: absolute;
+    top: -22vh;
+    left: 1rem;
+  }
 
-#imgInfo{
+  #imgInfo {
     height: 9rem;
-    position: absolute; top: -22vh; left: 10rem;
-}
- #Duser{
-     font-size: 1.4rem;
-  
- }
- #kaido{
-    position: absolute; top: 34.3rem; left:24rem;
+    position: absolute;
+    top: -22vh;
+    left: 10rem;
+  }
+  #Duser {
+    font-size: 1.4rem;
+  }
+  #kaido {
+    position: absolute;
+    top: 34.3rem;
+    left: 24rem;
     font-size: 1rem;
-}
- #Dinfo{
-     grid-area: main;
-     font-size: 1.2rem;
-     width: 56rem;
-     line-height: 1.5rem;
-     margin-top: 0px;
- }
- 
-#extra{
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.2rem;
+    width: 56rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
+
+  #extra {
     grid-area: footer;
     font-size: 1.5rem;
     margin-top: 0px;
-}
-   
-    #optionBox{
-        width: 55rem;
-        height: 65rem;
-        position: absolute; top: 68%; left: 50%;
+  }
 
-    }
-   
-    #optionBox ul{
+  #optionBox {
+    width: 55rem;
+    height: 65rem;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+  }
+
+  #optionBox ul {
     width: 55rem;
     height: 64rem;
-    position: absolute; top: 50%; left: 50%;
-    }
-    #op1 button{
-        padding: 5px 10px 5px 10px;
-        font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #op1 button {
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+  }
+  #oz1 button {
+    font-size: 20px;
+  }
 
-    }
-    #oz1 button{
-        font-size: 20px;
-    }
+  body {
+    max-height: 1540px;
+    overflow-y: scroll;
+  }
 
-        body{
-        max-height: 1540px;
-        overflow-y: scroll;  
-       }
+  .title h1 {
+    display: none;
+  }
 
-        .title h1{
-        display: none;
-        }
+  .title2 {
+    display: block;
+  }
 
-        .title2{
-        display: block;
-        }
+  .contentBox {
+    margin-top: 0px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    transition: 0.5s;
+    flex-direction: column;
+  }
 
-        .contentBox{
-        margin-top: 0px;
-        align-items: center;
-        padding-top: 40px;
-        padding-bottom: 0px;
-        transition: 0.5s;
-        flex-direction: column;
-            }
+  .df {
+    margin: 15px;
+    width: 45rem;
+    height: 25rem;
+  }
 
-        .df{
-        margin: 15px;
-        width: 45rem;
-        height: 25rem;   
-        }
-        
-        .layer{
-        width: 39rem;
-        height: 25.1rem;
-        transform: translate(-50%, -52%);
-        }
+  .layer {
+    width: 39rem;
+    height: 25.1rem;
+    transform: translate(-50%, -52%);
+  }
 
-        .contentBox img{
-        top: -105%;
-        margin-bottom: -300px;
+  .contentBox img {
+    top: -105%;
+    margin-bottom: -300px;
+  }
 
-        }
+  .df:hover .info {
+    transform: translatex(-100%);
+  }
 
-        .df:hover .info{
-            transform: translatex(-100%);
-        
-        }
+  .info {
+    width: 45rem;
+    height: 25rem;
+    margin-left: -2px;
+    position: relative;
+    top: -125%;
+    left: 102%;
+  }
 
+  .info h1 {
+    margin: -145px 0px 0px 20px;
+    font-size: 25px;
+  }
 
-        .info{
-            width: 45rem;
-            height: 25rem;
-            margin-left: -2px;
-            position: relative; top: -125%; left: 102%;
-            
-        }
-        
-        .info h1{
-            margin: -145px 0px 0px 20px;
-            font-size: 25px;
-        }
-        
-        .info h2{
-        font-size: 17px;
-        margin: 170px 5px 0px 5px;
-        }
+  .info h2 {
+    font-size: 17px;
+    margin: 170px 5px 0px 5px;
+  }
 
-        #zbutton button{     
-            width: 25rem;
-            height: 30rem;
-            margin: 5px 5px 5px 25px;
-            font-size: 3.5rem;
-         
-        }
-       
-        #pbutton button{
-            width: 25rem;
-            height: 30rem;
-            margin: 5px 5px 5px 25px;
-            font-size: 2.7rem;
-              
-        }
-        #substance{
-            padding-top: 3.5rem;
-            background-position-x: 0px;
-        }
-        #artificial{
-            background-position-y: -100px;
-        }
-        
-        #normal{
-            background-position-y: -150px;
-        }
-        
-        #artificial:hover{
-            background-position-y: -100px;
-        }
-        #normal:hover{
-            background-position-y: -150px;
-        } 
+  #zbutton button {
+    width: 25rem;
+    height: 30rem;
+    margin: 5px 5px 5px 25px;
+    font-size: 3.5rem;
+  }
+
+  #pbutton button {
+    width: 25rem;
+    height: 30rem;
+    margin: 5px 5px 5px 25px;
+    font-size: 2.7rem;
+  }
+  #substance {
+    padding-top: 3.5rem;
+    background-position-x: 0px;
+  }
+  #artificial {
+    background-position-y: -100px;
+  }
+
+  #normal {
+    background-position-y: -150px;
+  }
+
+  #artificial:hover {
+    background-position-y: -100px;
+  }
+  #normal:hover {
+    background-position-y: -150px;
+  }
 }
-@media only screen and (max-width: 950px){
-    body{
-        background-size:157rem;
-       }
+@media only screen and (max-width: 950px) {
+  body {
+    background-size: 157rem;
+  }
 
- 
-    #smileFruit{
-        height: 25rem;
-        position: absolute; top: 15vh; left: 17rem;
-    }
-    #char {
-        margin-top: 42rem;
-        margin-bottom: 1rem;
-        height: 7rem;
-        margin-left: 1rem;
-    }
-    
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 17rem;
+  }
+  #char {
+    margin-top: 42rem;
+    margin-bottom: 1rem;
+    height: 7rem;
+    margin-left: 1rem;
+  }
 
- #Dinfo{
-     grid-area: main;
-     font-size: 1.2rem;
-     width: 52rem;
-     line-height: 1.5rem;
-     margin-top: 0px;
- }
- 
-   
-  
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.2rem;
+    width: 52rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
 }
-@media only screen and (max-width: 920px){
-    #optionBox{
-        width: 44.5rem;
-        height: 57rem;
-        position: absolute; top:61%; left: 50%;
+@media only screen and (max-width: 920px) {
+  #optionBox {
+    width: 44.5rem;
+    height: 57rem;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+  }
 
-    }
-   
-    #optionBox ul{
+  #optionBox ul {
     width: 44rem;
     height: 55rem;
-    position: absolute; top: 49%; left: 50%;
-    }
-    #op1 button{
-        padding: 5px 10px 5px 10px;
-        font-size: 15px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+  }
+  #op1 button {
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+  }
+  #oz1 button {
+    font-size: 15px;
+  }
+  #zbutton button {
+    width: 20rem;
+    height: 26rem;
+    margin: 5px 5px 5px 20px;
+    font-size: 3.5rem;
+  }
 
-    }
-    #oz1 button{
-        font-size: 15px;
-    }
-    #zbutton button{     
-        width: 20rem;
-        height: 26rem;
-        margin: 5px 5px 5px 20px;
-        font-size: 3.5rem;
-     
-    }
-   
-    #pbutton button{
-        width: 20rem;
-        height: 26rem;
-        margin: 5px 5px 5px 20px;
-        font-size: 2.7rem;
-          
-    }
-    #body{
-        padding-top: 3.5rem;
-        background-position-x: 0px;
-    }
-    #power{
-        padding-top: 3.5rem;
-        background-position-x: 0px;
-    }
+  #pbutton button {
+    width: 20rem;
+    height: 26rem;
+    margin: 5px 5px 5px 20px;
+    font-size: 2.7rem;
+  }
+  #body {
+    padding-top: 3.5rem;
+    background-position-x: 0px;
+  }
+  #power {
+    padding-top: 3.5rem;
+    background-position-x: 0px;
+  }
 }
-@media only screen and (max-width: 890px){
-
-    #Dname{
+@media only screen and (max-width: 890px) {
+  #Dname {
     font-size: 1.5rem;
     width: 40rem;
-    }
-    
-    #Duser{
-        font-size: 1.3rem;
-    }
-    body{
-        background-size:162rem;
-       }
+  }
 
-    #user {
-        width: 30rem;
-        position: absolute; top: 10vh; left: 12rem;
-        z-index: 0;
-        transition: 0s;
-        display: none;
-    }
-    
-  
-#user1 {
+  #Duser {
+    font-size: 1.3rem;
+  }
+  body {
+    background-size: 162rem;
+  }
+
+  #user {
     width: 30rem;
-    position: absolute; top: 10vh; left: 12rem;
+    position: absolute;
+    top: 10vh;
+    left: 12rem;
     z-index: 0;
     transition: 0s;
     display: none;
-}
-    #smileFruit{
-        height: 25rem;
-        position: absolute; top: 15vh; left: 15.5rem;
-    }
+  }
 
-    #char {
-        margin-top: 45rem;
-        height: 6.5rem;
-        margin-left: 1rem;
-    }
-   
-    
-#fruits{
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 12rem;
+    z-index: 0;
+    transition: 0s;
+    display: none;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 15.5rem;
+  }
+
+  #char {
+    margin-top: 45rem;
+    height: 6.5rem;
+    margin-left: 1rem;
+  }
+
+  #fruits {
     height: auto;
     width: 24rem;
-    position: absolute; top: 15vh; left: 16.5rem;
+    position: absolute;
+    top: 15vh;
+    left: 16.5rem;
     border: none;
- }
- 
- #Ufruit{
-     height: 19rem;
-     position: absolute; top: 20vh; left: 17rem;
- }
+  }
 
-    
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 17rem;
+  }
 
- #kaido{
-    position: absolute; top: 37.1rem; left:24rem;
+  #kaido {
+    position: absolute;
+    top: 37.1rem;
+    left: 24rem;
     font-size: 1rem;
-}
- #Dinfo{
-     grid-area: main;
-     font-size: 1.2rem;
-     width: 49rem;
-     line-height: 1.5rem;
-     margin-top: 0px;
- }
- #extra{
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.2rem;
+    width: 49rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
+  #extra {
     font-size: 1.3rem;
- }
- #smile{
+  }
+  #smile {
     margin-bottom: 1rem;
- }
+  }
 }
-@media only screen and (max-width: 840px){
-
-    #Dname{
+@media only screen and (max-width: 840px) {
+  #Dname {
     font-size: 1.5rem;
     width: 40rem;
-    }
-    
-    #Duser{
-        font-size: 1.2rem;
-    }
-    body{
-        background-size:170rem;
-       }
+  }
 
-    #user {
-        width: 30rem;
-        position: absolute; top: 10vh; left: 9.5rem;
-    }
-    
-  
-#user1 {
+  #Duser {
+    font-size: 1.2rem;
+  }
+  body {
+    background-size: 170rem;
+  }
+
+  #user {
     width: 30rem;
-    position: absolute; top: 10vh; left: 9.5rem;
- 
-}
-    #smileFruit{
-        height: 25rem;
-        position: absolute; top: 15vh; left: 14rem;
-    }
+    position: absolute;
+    top: 10vh;
+    left: 9.5rem;
+  }
 
-    #char {
-        margin-top: 46rem;
-        height: 6rem;
-        margin-left: 1rem;
-    }
-   
-    
-#fruits{
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 9.5rem;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 14rem;
+  }
+
+  #char {
+    margin-top: 46rem;
+    height: 6rem;
+    margin-left: 1rem;
+  }
+
+  #fruits {
     height: auto;
     width: 24rem;
-    position: absolute; top: 15vh; left: 12.5rem;
+    position: absolute;
+    top: 15vh;
+    left: 12.5rem;
     border: none;
- }
- 
- #Ufruit{
-     height: 19rem;
-     position: absolute; top: 20vh; left: 14rem;
- }
+  }
 
-    
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 14rem;
+  }
 
- #kaido{
-    position: absolute; top: 36.8rem; left:24rem;
+  #kaido {
+    position: absolute;
+    top: 36.8rem;
+    left: 24rem;
     font-size: 1rem;
-}
- #Dinfo{
-     grid-area: main;
-     font-size: 1.2rem;
-     width: 43rem;
-     line-height: 1.5rem;
-     margin-top: 0px;
- }
- #extra{
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.2rem;
+    width: 43rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
+  #extra {
     font-size: 1.3rem;
- }
- #smile{
+  }
+  #smile {
     margin-bottom: 1rem;
- }
+  }
 }
-@media only screen and (max-width: 750px){
-    #Dname{
-        font-size: 1.5rem;
-        width: 40rem;
-        }
-        
-        #Duser{
-            font-size: 1.1rem;
-        }
-        body{
-            background-size:175rem;
-           }
-    
-        #user {
-            width: 30rem;
-            position: absolute; top: 10vh; left: 6rem;
-        }
-        
-      
-    #user1 {
-        width: 30rem;
-        position: absolute; top: 10vh; left: 6rem;
-     
-    }
-        #smileFruit{
-            height: 25rem;
-            position: absolute; top: 15vh; left: 11rem;
-        }
-    
-        #char {
-            margin-top: 47rem;
-            height: 5rem;
-            margin-left: 1rem;
-        }
-       
-        
-    #fruits{
-        height: auto;
-        width: 24rem;
-        position: absolute; top: 15vh; left: 10rem;
-        border: none;
-     }
-     
-     #Ufruit{
-         height: 19rem;
-         position: absolute; top: 20vh; left: 11.5rem;
-     }
-    
-        
-    
-     #kaido{
-        position: absolute; top: 38.1rem; left:22rem;
-        font-size: 1rem;
-    }
-     #Dinfo{
-         grid-area: main;
-         font-size: 1.1rem;
-         width: 38rem;
-         line-height: 1.5rem;
-         margin-top: 0px;
-     }
+@media only screen and (max-width: 750px) {
+  #Dname {
+    font-size: 1.5rem;
+    width: 40rem;
+  }
 
+  #Duser {
+    font-size: 1.1rem;
+  }
+  body {
+    background-size: 175rem;
+  }
 
+  #user {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 6rem;
+  }
 
-    #zbutton button{     
-        width: 28rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-     
-    }
-   
-    #pbutton button{
-        width: 28rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-        font-size: 3rem;
-          
-    }
-    #artificial{
-        background-position-y: -200px;
-    }
-    
-    #normal{
-        background-position-y: -250px;
-    }
-    
-    #artificial:hover{
-        background-position-y: -200px;
-    }
-    #normal:hover{
-        background-position-y: -250px;
-    } 
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 6rem;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 11rem;
+  }
 
-    .df{
-        margin: 15px;
-        width: 30rem;
-        height: 25rem;
-        }
-        
-        .layer{
-        width: 24rem;
-        height: 25.1rem;
-        transform: translate(-50%, -52%);
-        }
+  #char {
+    margin-top: 47rem;
+    height: 5rem;
+    margin-left: 1rem;
+  }
 
+  #fruits {
+    height: auto;
+    width: 24rem;
+    position: absolute;
+    top: 15vh;
+    left: 10rem;
+    border: none;
+  }
 
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 11.5rem;
+  }
 
-        .df:hover .info{
-            transform: translatex(-99%);
-        
-        }
-  
-        .info{
-            width: 30.5rem;
-            height: 25rem;
-            position: relative; top: -125%; left: 102%;
-            
-        }
+  #kaido {
+    position: absolute;
+    top: 38.1rem;
+    left: 22rem;
+    font-size: 1rem;
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.1rem;
+    width: 38rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
 
-        
-        .info h1{
-            margin: -145px 0px 0px 20px;
-            font-size: 20px;
-        }
-        
-        .info h2{
-        font-size: 14px;
-        margin: 170px 5px 0px 5px;
-        }
-        #optionBox{
-            width:30rem;
-            height: 80.5rem;
-            position: absolute; top:80%; left: 50%;
-    
-        }
-       
-        #optionBox ul{
-        width: 30rem;
-        height: 80rem;
-        position: absolute; top: 50.5%; left: 50%;
-        }
-        #op1 button{
-            padding: 5px 10px 5px 10px;
-            font-size: 15px;
-    
-        }
-        #oz1 button{
-            font-size: 15px;
-        }
-        #oL button{
-            padding: 5px 10px 5px 10px;
-        }
+  #zbutton button {
+    width: 28rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+  }
+
+  #pbutton button {
+    width: 28rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+    font-size: 3rem;
+  }
+  #artificial {
+    background-position-y: -200px;
+  }
+
+  #normal {
+    background-position-y: -250px;
+  }
+
+  #artificial:hover {
+    background-position-y: -200px;
+  }
+  #normal:hover {
+    background-position-y: -250px;
+  }
+
+  .df {
+    margin: 15px;
+    width: 30rem;
+    height: 25rem;
+  }
+
+  .layer {
+    width: 24rem;
+    height: 25.1rem;
+    transform: translate(-50%, -52%);
+  }
+
+  .df:hover .info {
+    transform: translatex(-99%);
+  }
+
+  .info {
+    width: 30.5rem;
+    height: 25rem;
+    position: relative;
+    top: -125%;
+    left: 102%;
+  }
+
+  .info h1 {
+    margin: -145px 0px 0px 20px;
+    font-size: 20px;
+  }
+
+  .info h2 {
+    font-size: 14px;
+    margin: 170px 5px 0px 5px;
+  }
+  #optionBox {
+    width: 30rem;
+    height: 80.5rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
+
+  #optionBox ul {
+    width: 30rem;
+    height: 80rem;
+    position: absolute;
+    top: 50.5%;
+    left: 50%;
+  }
+  #op1 button {
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+  }
+  #oz1 button {
+    font-size: 15px;
+  }
+  #oL button {
+    padding: 5px 10px 5px 10px;
+  }
 }
-@media only screen and (max-width: 660px){
-    #Dname{
-        font-size: 1.3rem;
-        width: 40rem;
-        }
-        
-        #Duser{
-            font-size: 1.1rem;
-        }
-        body{
-            background-size:178rem;
-           }
-    
-        #user {
-            width: 30rem;
-            position: absolute; top: 10vh; left: 5rem;
-        }
-        
-      
-    #user1 {
-        width: 30rem;
-        position: absolute; top: 10vh; left: 5rem;
-     
-    }
-        #smileFruit{
-            height: 25rem;
-            position: absolute; top: 15vh; left: 9rem;
-        }
-    
-        #char {
-            margin-top: 48rem;
-            height: 4.5rem;
-            margin-left: 1rem;
-        }
-       
-        
-    #fruits{
-        height: auto;
-        width: 24rem;
-        position: absolute; top: 15vh; left: 8.5rem;
-        border: none;
-     }
-     
-     #Ufruit{
-         height: 19rem;
-         position: absolute; top: 20vh; left: 9rem;
-     }
-    
-        
-    
-     #kaido{
-        position: absolute; top: 41.1rem; left:22rem;
-        font-size: 1rem;
-    }
-     #Dinfo{
-         grid-area: main;
-         font-size: 1.1rem;
-         width: 34rem;
-         line-height: 1.5rem;
-         margin-top: 0px;
-     }
+@media only screen and (max-width: 660px) {
+  #Dname {
+    font-size: 1.3rem;
+    width: 40rem;
+  }
 
+  #Duser {
+    font-size: 1.1rem;
+  }
+  body {
+    background-size: 178rem;
+  }
+
+  #user {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 5rem;
+  }
+
+  #user1 {
+    width: 30rem;
+    position: absolute;
+    top: 10vh;
+    left: 5rem;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 9rem;
+  }
+
+  #char {
+    margin-top: 48rem;
+    height: 4.5rem;
+    margin-left: 1rem;
+  }
+
+  #fruits {
+    height: auto;
+    width: 24rem;
+    position: absolute;
+    top: 15vh;
+    left: 8.5rem;
+    border: none;
+  }
+
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 9rem;
+  }
+
+  #kaido {
+    position: absolute;
+    top: 41.1rem;
+    left: 22rem;
+    font-size: 1rem;
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1.1rem;
+    width: 34rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
 }
-@media only screen and (max-width: 600px){
-   
-    #Dname{
-        font-size: 1.1rem;
-        width: 40rem;
-        }
-        
-        #Duser{
-            font-size: 1.1rem;
-        }
-        body{
-            background-size:206rem;
-           }
-    
-        #user {
-            width: 26rem;
-            position: absolute; top: 13vh; left: 5rem;
-        }
-        
-      
-    #user1 {
-        width: 26rem;
-        position: absolute; top: 13vh; left: 5rem;
-     
-    }
-        #smileFruit{
-            height: 25rem;
-            position: absolute; top: 15vh; left: 7rem;
-        }
-    
-        #char {
-            margin-top: 48.5rem;
-            height: 4rem;
-            margin-left: 0rem;
-        }
-       
-        
-    #fruits{
-        height: auto;
-        width: 22rem;
-        position: absolute; top: 15vh; left: 6.5rem;
-        border: none;
-     }
-     
-     #Ufruit{
-         height: 19rem;
-         position: absolute; top: 20vh; left: 7rem;
-     }
-    
-        
-    
-     #kaido{
-        position: absolute; top: 42rem; left:20rem;
-        font-size: 1rem;
-    }
-     #Dinfo{
-         grid-area: main;
-         font-size: 1rem;
-         width: 30rem;
-         line-height: 1.5rem;
-         margin-top: 0px;
-     }
-     #extra{
-        font-size: 1.1rem;
-     }
-     #gifters{
-        font-size: 1.2rem;
-        font-family: "IM Fell English SC";
-        color: blue;
-        margin-left: 6rem;
-     }
+@media only screen and (max-width: 600px) {
+  #Dname {
+    font-size: 1.1rem;
+    width: 40rem;
+  }
 
-    #zbutton button{     
-        width: 26rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-     
-    }
-   
-    #pbutton button{
-        width: 26rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-        font-size: 3rem;
-          
-    }
- 
-    .search input{
+  #Duser {
+    font-size: 1.1rem;
+  }
+  body {
+    background-size: 206rem;
+  }
 
-        width: 200px;
-     }
-     
+  #user {
+    width: 26rem;
+    position: absolute;
+    top: 13vh;
+    left: 5rem;
+  }
 
-  .contentBox{
+  #user1 {
+    width: 26rem;
+    position: absolute;
+    top: 13vh;
+    left: 5rem;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 7rem;
+  }
+
+  #char {
+    margin-top: 48.5rem;
+    height: 4rem;
+    margin-left: 0rem;
+  }
+
+  #fruits {
+    height: auto;
+    width: 22rem;
+    position: absolute;
+    top: 15vh;
+    left: 6.5rem;
+    border: none;
+  }
+
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 7rem;
+  }
+
+  #kaido {
+    position: absolute;
+    top: 42rem;
+    left: 20rem;
+    font-size: 1rem;
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1rem;
+    width: 30rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
+  #extra {
+    font-size: 1.1rem;
+  }
+  #gifters {
+    font-size: 1.2rem;
+    font-family: "IM Fell English SC";
+    color: blue;
+    margin-left: 6rem;
+  }
+
+  #zbutton button {
+    width: 26rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+  }
+
+  #pbutton button {
+    width: 26rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+    font-size: 3rem;
+  }
+
+  .search input {
+    width: 200px;
+  }
+
+  .contentBox {
     margin-top: -40px;
     margin-bottom: 50px;
   }
 
-.df{
+  .df {
     width: 20rem;
-    }
-    
-    .layer{
+  }
+
+  .layer {
     width: 14rem;
+  }
 
-    }
+  .dark label {
+    margin-right: 5px;
+  }
 
-    .dark label{
-        margin-right: 5px;
+  .info {
+    width: 20.5rem;
+    left: 20rem;
+  }
 
-    }
+  .info h1 {
+    margin: -150px 0px 0px 20px;
+    font-size: 20px;
+  }
 
-    .info{
-        width: 20.5rem;
-        left: 20rem;
-    }
-
-    
-    .info h1{
-        margin: -150px 0px 0px 20px;
-        font-size: 20px;
-    }
-    
-    .info h2{
+  .info h2 {
     font-size: 12.5px;
     margin: 170px 5px 0px 5px;
-    }
-    #optionBox{
-        width:28rem;
-        height: 80.5rem;
-        position: absolute; top:80%; left: 50%;
+  }
+  #optionBox {
+    width: 28rem;
+    height: 80.5rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
 
-    }
-   
-    #optionBox ul{
+  #optionBox ul {
     width: 28rem;
     height: 80rem;
-    position: absolute; top: 50.5%; left: 50%;
-    }
-
-        
+    position: absolute;
+    top: 50.5%;
+    left: 50%;
+  }
 }
-@media only screen and (max-width: 550px){
-   
-    #Dname{
-        font-size: 1.1rem;
-        width: 40rem;
-        }
-        
-        #Duser{
-            font-size: 1rem;
-        }
-        body{
-            background-size:206rem;
-           }
-    
-        #user {
-            width: 26rem;
-            position: absolute; top: 13vh; left: 8vw;
-        }
-        
-      
-    #user1{
-        width: 26rem;
-        position: absolute; top: 13vh; left: 8vw;
-     
-    }
-        #smileFruit{
-            height: 25rem;
-            position: absolute; top: 15vh; left: 4.5rem;
-        }
-    
-        #char {
-            margin-top: 51.5rem;
-            height: 4rem;
-            margin-left: -0.5rem;
-        }
-       
-        
-    #fruits{
-        height: auto;
-        width: 22rem;
-        position: absolute; top: 15vh; left: 14vw;
-        border: none;
-     }
-     
-     #Ufruit{
-         height: 19rem;
-         position: absolute; top: 20vh; left: 17vw;
-     }
-    
-        
-    
-     #kaido{
-        position: absolute; top: 43.1rem; left:20rem;
-        font-size: 1rem;
-    }
-     #Dinfo{
-         grid-area: main;
-         font-size: 1rem;
-         width: 28rem;
-         line-height: 1.5rem;
-         margin-top: 0px;
-     }
-     #extra{
-        font-size: 1.1rem;
-     }
-     #gifters{
-        font-size: 1.1rem;
-        margin-left: 6rem;
-     }
+@media only screen and (max-width: 550px) {
+  #Dname {
+    font-size: 1.1rem;
+    width: 40rem;
+  }
 
-    #zbutton button{     
-        width: 26rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-     
-    }
-   
-    #pbutton button{
-        width: 26rem;
-        height: 18.5rem;
-        margin: 5px 5px 5px 17px;
-        font-size: 3rem;
-          
-    }
- 
-    .search input{
+  #Duser {
+    font-size: 1rem;
+  }
+  body {
+    background-size: 206rem;
+  }
 
-        width: 200px;
-     }
-     
+  #user {
+    width: 26rem;
+    position: absolute;
+    top: 13vh;
+    left: 8vw;
+  }
 
-  .contentBox{
+  #user1 {
+    width: 26rem;
+    position: absolute;
+    top: 13vh;
+    left: 8vw;
+  }
+  #smileFruit {
+    height: 25rem;
+    position: absolute;
+    top: 15vh;
+    left: 4.5rem;
+  }
+
+  #char {
+    margin-top: 51.5rem;
+    height: 4rem;
+    margin-left: -0.5rem;
+  }
+
+  #fruits {
+    height: auto;
+    width: 22rem;
+    position: absolute;
+    top: 15vh;
+    left: 14vw;
+    border: none;
+  }
+
+  #Ufruit {
+    height: 19rem;
+    position: absolute;
+    top: 20vh;
+    left: 17vw;
+  }
+
+  #kaido {
+    position: absolute;
+    top: 43.1rem;
+    left: 20rem;
+    font-size: 1rem;
+  }
+  #Dinfo {
+    grid-area: main;
+    font-size: 1rem;
+    width: 28rem;
+    line-height: 1.5rem;
+    margin-top: 0px;
+  }
+  #extra {
+    font-size: 1.1rem;
+  }
+  #gifters {
+    font-size: 1.1rem;
+    margin-left: 6rem;
+  }
+
+  #zbutton button {
+    width: 26rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+  }
+
+  #pbutton button {
+    width: 26rem;
+    height: 18.5rem;
+    margin: 5px 5px 5px 17px;
+    font-size: 3rem;
+  }
+
+  .search input {
+    width: 200px;
+  }
+
+  .contentBox {
     margin-top: -40px;
     margin-bottom: 50px;
   }
 
-.df{
+  .df {
     width: 20rem;
-    }
-    
-    .layer{
+  }
+
+  .layer {
     width: 14rem;
+  }
 
-    }
+  .dark label {
+    margin-right: 5px;
+  }
 
-    .dark label{
-        margin-right: 5px;
+  .info {
+    width: 20.5rem;
+    left: 20rem;
+  }
 
-    }
+  .info h1 {
+    margin: -150px 0px 0px 20px;
+    font-size: 20px;
+  }
 
-    .info{
-        width: 20.5rem;
-        left: 20rem;
-    }
-
-    
-    .info h1{
-        margin: -150px 0px 0px 20px;
-        font-size: 20px;
-    }
-    
-    .info h2{
+  .info h2 {
     font-size: 12.5px;
     margin: 170px 5px 0px 5px;
-    }
-    #optionBox{
-        width:28rem;
-        height: 80.5rem;
-        position: absolute; top:80%; left: 50%;
+  }
+  #optionBox {
+    width: 28rem;
+    height: 80.5rem;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
 
-    }
-   
-    #optionBox ul{
+  #optionBox ul {
     width: 28rem;
     height: 80rem;
-    position: absolute; top: 50.5%; left: 50%;
-    }
-
-        
+    position: absolute;
+    top: 50.5%;
+    left: 50%;
+  }
 }
-@media only screen and (max-width: 420px) and (min-width: 340px){
-    .dark label{
-        width: 52px;
-        height:52px;
-    }
+@media only screen and (max-width: 420px) and (min-width: 340px) {
+  .dark label {
+    width: 52px;
+    height: 52px;
+  }
 
-    .search input{
-        width: 230px;
-        height: 50px;
-     }  
+  .search input {
+    width: 230px;
+    height: 50px;
+  }
 }
