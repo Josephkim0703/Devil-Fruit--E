@@ -6,6 +6,7 @@ body {
   transition: 0s;
   margin: 0;
   overflow: hidden;
+  caret-color: transparent;
 }
 
 :root {
@@ -40,6 +41,44 @@ header {
   height: 50px;
   margin-right: 25px;
   transition: 0.5s;
+  caret-color: black;
+}
+
+#searchBox{
+  border: 2px solid var(--secondary-color);
+  border-radius:0rem;
+  background-color: rgba(63, 63, 63, 0.7);
+  height: 50rem;
+  width: 19rem;
+  position: absolute; top: 5rem;
+  z-index: 10000;
+  display: none;
+  overflow: auto;
+  transition: 0.5s;
+}
+
+#allFruit button {
+  width: 16rem;
+  height: 3rem;
+  font-family: "IM Fell English SC";
+  list-style-type: none;
+  text-align: center;
+  padding: 4px;
+  margin: 1px;
+  margin-left: -25px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  transition: 0s;
+  z-index: 10000;
+}
+
+#allFruit button:hover{
+  background-color: #c5c4c4;
 }
 
 input:placeholder-shown {
@@ -495,7 +534,7 @@ main {
 #smileFruit {
   height: auto;
   position: absolute;
-  top: 25vh;
+  top: 15rem;
   left: 12.5rem;
   z-index: 1;
   border: none;
@@ -506,7 +545,7 @@ main {
 #fruits {
   height: auto;
   position: absolute;
-  top: 25vh;
+  top: 15rem;
   left: 12.5rem;
   z-index: 1;
   border: none;
@@ -518,7 +557,7 @@ main {
   height: 26rem;
   width: 28rem;
   position: absolute;
-  top: 25vh;
+  top: 15rem;
   left: 11rem;
   border: 3px solid var(--secondary-color);
   background-color: white;
@@ -529,7 +568,7 @@ main {
 #user {
   width: 39rem;
   position: absolute;
-  top: 12vh;
+  top: 7rem;
   left: 5rem;
   z-index: 0;
   transition: 0s;
@@ -539,7 +578,7 @@ main {
 #user1 {
   width: 39rem;
   position: absolute;
-  top: 12vh;
+  top: 7rem;
   left: 5rem;
   z-index: 0;
   transition: 0s;
@@ -583,7 +622,7 @@ main {
 
 #allInfo {
   position: relative;
-  top: 17vh;
+  top: 9.9rem;
   left: 52rem;
   display: grid;
   grid-template-areas:
@@ -793,7 +832,7 @@ main {
 @media only screen and (max-width: 1800px) {
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 49rem;
   }
 
@@ -805,13 +844,13 @@ main {
   #fruits {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 10rem;
   }
   #smileFruit {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 10rem;
   }
 }
@@ -819,7 +858,7 @@ main {
   #user {
     width: 36rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 2rem;
     z-index: 0;
     transition: 0s;
@@ -829,7 +868,7 @@ main {
   #user1 {
     width: 36rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 2rem;
     z-index: 0;
     transition: 0s;
@@ -844,7 +883,7 @@ main {
     height: 26rem;
     width: 28rem;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 5rem;
   }
 
@@ -857,19 +896,19 @@ main {
   }
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 41rem;
   }
   #fruits {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 7rem;
   }
   #smileFruit {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 7rem;
   }
 }
@@ -918,7 +957,7 @@ main {
 
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 41rem;
   }
   #Dname {
@@ -991,13 +1030,13 @@ main {
 
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 40rem;
   }
   #fruits {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 6.5rem;
   }
 
@@ -1042,7 +1081,7 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 21vh;
+    top: 11rem;
     left: 2rem;
     z-index: 0;
     transition: 0s;
@@ -1052,7 +1091,7 @@ main {
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 21vh;
+    top: 11rem;
     left: 2rem;
     z-index: 0;
     transition: 0s;
@@ -1067,30 +1106,30 @@ main {
     height: 24rem;
     width: 26rem;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 4rem;
   }
 
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 35rem;
   }
   #fruits {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 4.5rem;
   }
   #smileFruit {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 4.5rem;
   }
   #imagepic {
     position: absolute;
-    top: 81vh;
+    top: 48.3rem;
     left: 1.5rem;
   }
 
@@ -1203,7 +1242,7 @@ main {
   #user {
     width: 28rem;
     position: absolute;
-    top: 23vh;
+    top: 12rem;
     left: 1rem;
     z-index: 0;
     transition: 0s;
@@ -1213,7 +1252,7 @@ main {
   #user1 {
     width: 28rem;
     position: absolute;
-    top: 23vh;
+    top: 12rem;
     left: 1rem;
     z-index: 0;
     transition: 0s;
@@ -1228,29 +1267,29 @@ main {
     height: 20rem;
     width: 22rem;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 4rem;
   }
   #fruits {
     height: auto;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 3rem;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 3rem;
   }
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 31rem;
   }
   #imagepic {
     position: absolute;
-    top: 84vh;
+    top: 50.1rem;
     left: 1.5rem;
   }
 
@@ -1461,12 +1500,12 @@ main {
 
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 31rem;
   }
   #imagepic {
     position: absolute;
-    top: 85vh;
+    top: 50.7rem;
     left: 1.5rem;
   }
 
@@ -1501,7 +1540,7 @@ main {
   #user {
     width: 25rem;
     position: absolute;
-    top: 26vh;
+    top: 13rem;
     left: 0.5rem;
     z-index: 0;
     transition: 0s;
@@ -1511,7 +1550,7 @@ main {
   #user1 {
     width: 25rem;
     position: absolute;
-    top: 26vh;
+    top: 13rem;
     left: 0.5rem;
     z-index: 0;
     transition: 0s;
@@ -1521,7 +1560,7 @@ main {
     height: auto;
     width: 22rem;
     position: absolute;
-    top: 25vh;
+    top: 15rem;
     left: 3rem;
   }
 
@@ -1534,12 +1573,12 @@ main {
     height: 18rem;
     width: 20rem;
     position: absolute;
-    top: 25vh;
+    top: 16rem;
     left: 3rem;
   }
   #allInfo {
     position: relative;
-    top: 17vh;
+    top: 9.9rem;
     left: 41vw;
   }
   #optionBox {
@@ -1601,7 +1640,7 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 15rem;
     z-index: 0;
     transition: 0s;
@@ -1611,7 +1650,7 @@ main {
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 15rem;
     z-index: 0;
     transition: 0s;
@@ -1620,7 +1659,7 @@ main {
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 18.5rem;
   }
   #char {
@@ -1637,7 +1676,7 @@ main {
     height: auto;
     width: 24rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 18rem;
     border: none;
   }
@@ -1645,7 +1684,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 20rem;
   }
   #Dname {
@@ -1654,7 +1693,7 @@ main {
 
   #allInfo {
     position: relative;
-    top: 88vh;
+    top: 51.5rem;
     left: 4vw;
     grid-template-areas:
       "topLeft topRight"
@@ -1674,14 +1713,14 @@ main {
     height: 9rem;
     width: 8rem;
     position: absolute;
-    top: -22vh;
+    top: -13rem;
     left: 1rem;
   }
 
   #imgInfo {
     height: 9rem;
     position: absolute;
-    top: -22vh;
+    top: -13rem;
     left: 10rem;
   }
   #Duser {
@@ -1832,7 +1871,7 @@ main {
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 17rem;
   }
   #char {
@@ -1911,7 +1950,7 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 12rem;
     z-index: 0;
     transition: 0s;
@@ -1921,7 +1960,7 @@ main {
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 12rem;
     z-index: 0;
     transition: 0s;
@@ -1930,7 +1969,7 @@ main {
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 15.5rem;
   }
 
@@ -1944,7 +1983,7 @@ main {
     height: auto;
     width: 24rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 16.5rem;
     border: none;
   }
@@ -1952,7 +1991,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 17rem;
   }
 
@@ -1992,20 +2031,20 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 9.5rem;
   }
 
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 9.5rem;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 14rem;
   }
 
@@ -2019,7 +2058,7 @@ main {
     height: auto;
     width: 24rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 12.5rem;
     border: none;
   }
@@ -2027,7 +2066,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 14rem;
   }
 
@@ -2067,20 +2106,20 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 6rem;
   }
 
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 6rem;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 11rem;
   }
 
@@ -2094,7 +2133,7 @@ main {
     height: auto;
     width: 24rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 10rem;
     border: none;
   }
@@ -2102,7 +2141,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 11.5rem;
   }
 
@@ -2222,20 +2261,20 @@ main {
   #user {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 5rem;
   }
 
   #user1 {
     width: 30rem;
     position: absolute;
-    top: 10vh;
+    top: 6rem;
     left: 5rem;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 9rem;
   }
 
@@ -2249,7 +2288,7 @@ main {
     height: auto;
     width: 24rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 8.5rem;
     border: none;
   }
@@ -2257,7 +2296,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 9rem;
   }
 
@@ -2276,6 +2315,21 @@ main {
   }
 }
 @media only screen and (max-width: 600px) {
+
+  #searchBox{
+    height: 50rem;
+    width: 15rem;
+    margin-left: -15px;
+  }
+  
+  #allFruit button {
+    width: 13.5rem;
+    height: 3rem;
+    padding: 5px 0px 4px 0px;
+    margin: 1px;
+    margin-left: -37px;
+    font-size: 14px;
+  }
   #Dname {
     font-size: 1.1rem;
     width: 40rem;
@@ -2291,20 +2345,20 @@ main {
   #user {
     width: 26rem;
     position: absolute;
-    top: 13vh;
+    top: 8rem;
     left: 5rem;
   }
 
   #user1 {
     width: 26rem;
     position: absolute;
-    top: 13vh;
+    top: 8rem;
     left: 5rem;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 7rem;
   }
 
@@ -2326,7 +2380,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 7rem;
   }
 
@@ -2433,20 +2487,20 @@ main {
   #user {
     width: 26rem;
     position: absolute;
-    top: 13vh;
+    top: 8rem;
     left: 8vw;
   }
 
   #user1 {
     width: 26rem;
     position: absolute;
-    top: 13vh;
+    top: 8rem;
     left: 8vw;
   }
   #smileFruit {
     height: 25rem;
     position: absolute;
-    top: 15vh;
+    top: 12rem;
     left: 4.5rem;
   }
 
@@ -2460,7 +2514,7 @@ main {
     height: auto;
     width: 22rem;
     position: absolute;
-    top: 15vh;
+    top: 8rem;
     left: 14vw;
     border: none;
   }
@@ -2468,7 +2522,7 @@ main {
   #Ufruit {
     height: 19rem;
     position: absolute;
-    top: 20vh;
+    top: 11.5rem;
     left: 17vw;
   }
 

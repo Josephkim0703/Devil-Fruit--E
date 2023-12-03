@@ -6,7 +6,6 @@ option();
 
 
 function fruits(){
-
 //Print logia fruits
 document.getElementById('ld').onclick = function (){
     //query selectors turning certain things off and on
@@ -33,11 +32,13 @@ document.getElementById('fruits').style.opacity = 1;
             }
             document.querySelector('#oL').style.display = "flex";
         document.getElementById('oL').innerHTML = data;
+        console.log("complete");
     //second for loop that activates when you click on a certain index. Grabs the index and paste it as the i value only printing out the values for that object
         for(let i = 0; i < logia.length; i++){
            let option = document.getElementById('logia'+ i); 
-               
+           
                 option.onclick = function(){
+                    console.log("success");
                     console.log(option);
                         document.getElementById('Dname').innerHTML = logia[i].name + " (" + logia[i].jname + ")";
                             document.getElementById('Duser').innerHTML = logia[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ logia[i].element;
@@ -340,7 +341,7 @@ document.getElementById('artificial').onclick = function (){
                 document.querySelector('#oz1').style.display = "flex";
             document.getElementById('oz1').innerHTML = data;
     }
-    }   
+}   
 };
 
 document.getElementById('pd').onclick = function (){
@@ -448,10 +449,6 @@ document.getElementById('environment').onclick = function (){
                                 parEnv[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
                                     document.getElementById('fruitBox').src = parEnv[i].fruitBox;
 
-                                parEnv[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-                                    document.getElementById('char').src = parEnv[i].character;
-
-        //                                   document.getElementById('user').src =;
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
