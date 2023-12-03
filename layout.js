@@ -1,9 +1,4 @@
 import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanArtificial, zoanMythical, zoanNormal} from './data.js';
-//Dark mode
-
-fruits();
-option();
-
 
 function fruits(){
 //Print logia fruits
@@ -32,13 +27,11 @@ document.getElementById('fruits').style.opacity = 1;
             }
             document.querySelector('#oL').style.display = "flex";
         document.getElementById('oL').innerHTML = data;
-        console.log("complete");
     //second for loop that activates when you click on a certain index. Grabs the index and paste it as the i value only printing out the values for that object
         for(let i = 0; i < logia.length; i++){
            let option = document.getElementById('logia'+ i); 
            
                 option.onclick = function(){
-                    console.log("success");
                     console.log(option);
                         document.getElementById('Dname').innerHTML = logia[i].name + " (" + logia[i].jname + ")";
                             document.getElementById('Duser').innerHTML = logia[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ logia[i].element;
@@ -613,7 +606,8 @@ document.getElementById("darkmode").addEventListener ('click', function () {
 
 }
 
-
+fruits();
+option();
 
  
 

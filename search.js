@@ -1,7 +1,6 @@
 import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
 
-search();
-exit();
+
 
 function search(){
 
@@ -12,12 +11,11 @@ document.getElementById("searchBar").addEventListener("keyup", function(){
         input = document.getElementById("searchBar").value;
         document.getElementById("allFruit").style.display = "block";
         input = input.toLowerCase();
+        
         bottons();
         getLogia();
         getZoan();
         getParamecia();
-      //  console.log(input);
- 
 });
 
 }
@@ -411,3 +409,6 @@ function getParamecia(){
              }    
     }
 }
+
+search();
+exit();
