@@ -2238,7 +2238,7 @@ const zoanMythical = [
         Type:"(Mythical Zoan)",
         fruitBox:"./image/unknown.png",
         imgInfo:"./Character/onyudo.jpg",
-        aCharacter:"./user/onyudo.png",
+        aCharacter:"./user/onimaru.png",
         info:"This fruit's ability is to transform into an onyudo: a mythical, human-like yokai that takes the form of a giant monk;<br><br>Usage:<br> Onimaru, in particular, stands at over four meters tall. This fruit being of the Hito Hito no Mi series, its transformation grants a nonhuman user human intelligence and the ability to speak the human language. Transform from his komagitsune(fox) self into a large, naginata-wielding onyudo known as Gyukimaru. In his Gyukimaru form, he possesses a human intellect that comes with the ability to speak and a presumably extended lifespan, given the fox's age of 69 years. Befitting his size, Gyukimaru has enormous strength in his onyudo form, as he could match up to Roronoa Zoro's physical power for some time. He also has great speed, able to match Zoro's agility in their first match, deftly wielding his naginata against Zoro's two swords.<br><br> Onimaru has yet to display any mythical abilities outside of his transformation.<br><br>Weakness:<br>So far, no weakness of this Devil Fruit power is known beside the standard Devil Fruit weaknesses."   
     },
     {
