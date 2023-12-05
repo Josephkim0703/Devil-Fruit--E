@@ -14,6 +14,10 @@ body {
   --secondary-color: black;
 }
 
+.hide{
+  display: none;
+}
+
 .dark-theme {
   --primary-color: black;
   --secondary-color: white;
@@ -53,7 +57,7 @@ header {
   position: absolute; top: 5rem;
   z-index: 10000;
   display: none;
-  overflow: auto;
+  overflow-y: scroll;
   transition: 0.5s;
 }
 
