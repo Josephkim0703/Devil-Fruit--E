@@ -1,4 +1,4 @@
-import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
+import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
 
 
 
@@ -65,9 +65,6 @@ document.getElementById("searchBar").addEventListener("input", e =>{
 if (filteredItems.length >= 0) {
     const type = filteredItems[0].type;
     switch (type) {
-        case 'log':
-            getLogia(filteredItems);
-            break;
         case 'nor':
             getZoanNormal(filteredItems);
             break;
@@ -89,6 +86,9 @@ if (filteredItems.length >= 0) {
         case 'pow':
             getParPow(filteredItems);
             break;
+        case 'log':
+            getLogia(filteredItems);
+            break;
         default:
             break;
     }
@@ -99,16 +99,18 @@ if (filteredItems.length >= 0) {
 function generateButtons(filteredItems) {
     let data = '';
 
-    for (let i = 0; i < filteredItems.length; i++) {
-        const { type, index } = filteredItems[i];
-        const currentItem = getItemByTypeAndIndex(type, index);
+    if (filteredItems.length > 0) {
+        for (let i = 0; i < filteredItems.length; i++) {
+            const { type, index } = filteredItems[i];
+            const currentItem = getItemByTypeAndIndex(type, index);
 
-        data += `<button id="${type}${index}">${currentItem.name}<br>${currentItem.jname}</button>`;
+            data += `<button id="${type}${index}">${currentItem.name}<br>${currentItem.jname}</button>`;
+        }
+    } else {
+        data = '<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo matching items found</p>';
     }
 
     document.getElementById('allFruit').innerHTML = data;
-
-  
 }
 
 function getItemByTypeAndIndex(type, index) {

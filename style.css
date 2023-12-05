@@ -14,10 +14,6 @@ body {
   --secondary-color: black;
 }
 
-.hide{
-  display: none;
-}
-
 .dark-theme {
   --primary-color: black;
   --secondary-color: white;
@@ -52,7 +48,8 @@ header {
   border: 2px solid var(--secondary-color);
   border-radius:0rem;
   background-color: rgba(63, 63, 63, 0.7);
-  height: 50rem;
+  height: auto;
+  max-height: 50rem;
   width: 19rem;
   position: absolute; top: 5rem;
   z-index: 10000;
@@ -83,6 +80,10 @@ header {
 
 #allFruit button:hover{
   background-color: #c5c4c4;
+}
+
+#allFruit p{
+  color: white;
 }
 
 input:placeholder-shown {
