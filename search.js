@@ -9,92 +9,54 @@ document.getElementById("searchBar").addEventListener("input", e =>{
         const value = e.target.value.toLowerCase();
         document.getElementById("allFruit").style.display = "block";
     
-        const filteredItems = [];
+        const allFruits = [
+            { type: 'log', fruit: logia },
+            { type: 'nor', fruit: zoanNormal },
+            { type: 'anc', fruit: zoanAnicent },
+            { type: 'myth', fruit: zoanMythical },
+            { type: 'body', fruit: parBody },
+            { type: 'env', fruit: parEnv },
+            { type: 'sub', fruit: parSub },
+            { type: 'pow', fruit: parPow },
+          ];
+          
+          const filteredItems = [];
+          
+          allFruits.forEach((category) => {
+            category.fruit.forEach((fruit, index) => {
+              if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
+                filteredItems.push({ type: category.type, index });
+              }
+            });
+          });
 
-        logia.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'log', index });
-            }
-        });
 
-        zoanNormal.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'nor', index });
-            }
-        });
-
-        zoanAnicent.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'anc', index });
-            }
-        });
-
-        zoanMythical.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'myth', index });
-            }
-        });
-        
-        parBody.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'body', index });
-            }
-        });
-
-        parEnv.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'env', index });
-            }
-        });
-
-        parSub.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'sub', index });
-            }
-        });
-
-        parPow.forEach((fruit, index) => {
-            if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: 'pow', index });
-            }
-        });
-
+        console.log(filteredItems)
         generateButtons(filteredItems);
 
+    
 
-if (filteredItems.length >= 0) {
-    const type = filteredItems[0].type;
-    switch (type) {
-        case 'nor':
-            getZoanNormal(filteredItems);
-            break;
-        case 'anc':
-            getZoanAncient(filteredItems);
-            break;
-        case 'myth':
-            getZoanMythical(filteredItems);
-            break;
-        case 'body':
-            getParBody(filteredItems);
-            break;
-        case 'env':
-            getParEnv(filteredItems);
-            break;
-        case 'sub':
-            getParSub(filteredItems);
-            break;
-        case 'pow':
-            getParPow(filteredItems);
-            break;
-        case 'log':
-            getLogia(filteredItems);
-            break;
-        default:
-            break;
-    }
-}
+        if (filteredItems.length > 0) {
+            const type = filteredItems[0].type;
+            const selectedFunction = typeFunctionMap[type];
+        
+            if (selectedFunction) {
+                selectedFunction(filteredItems);
+            }
+        }
 });
 }
+
+const typeFunctionMap = {
+    'nor': getZoanNormal,
+    'anc': getZoanAncient,
+    'myth': getZoanMythical,
+    'body': getParBody,
+    'env': getParEnv,
+    'sub': getParSub,
+    'pow': getParPow,
+    'log': getLogia,
+};
 
 function generateButtons(filteredItems) {
     let data = '';
@@ -114,25 +76,36 @@ function generateButtons(filteredItems) {
 }
 
 function getItemByTypeAndIndex(type, index) {
-    switch (type) {
-        case 'log':
-            return logia[index];
-        case 'nor':
-            return zoanNormal[index];
-        case 'anc':
-            return zoanAnicent[index];
-        case 'myth':
-            return zoanMythical[index];
-        case 'body':
-            return parBody[index];
-        case 'env':
-            return parEnv[index];
-        case 'sub':
-            return parSub[index];
-        case 'pow':
-            return parPow[index];
-        default:
-            return null;
+    if (type === 'nor') {
+        return zoanNormal[index];
+    }
+
+    if (type === 'anc') {
+        return zoanAnicent[index];
+    }
+
+    if (type === 'myth') {
+        return zoanMythical[index];
+    }
+
+    if (type === 'body') {
+        return parBody[index];
+    }
+
+    if (type === 'env') {
+        return parEnv[index];
+    }
+
+    if (type === 'sub') {
+        return parSub[index];
+    }
+
+    if (type === 'pow') {
+        return parPow[index];
+    }
+
+    if (type === 'log') {
+        return logia[index];
     }
 }
 
