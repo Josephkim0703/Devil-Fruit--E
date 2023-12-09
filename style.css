@@ -2393,13 +2393,7 @@ main {
   }
   
   #x-error{
-    z-index: 100;
     position: absolute; left: 0.7rem; top: 0.65rem;
-    border: 1px solid black;
-    border-radius: 10rem;
-    font-size: 19px;
-    width: 2rem;
-    height: 2rem;
   }
 
   #searchBox{
