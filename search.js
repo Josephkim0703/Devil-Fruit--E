@@ -1,6 +1,14 @@
 import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
+//BIG BUG the all the code works the only issue is the search bar
+//when you type it filters all the fruits the problem is that since all my fruits are separated into the different arrays 
+//it only lets whatever array is on top to work while the rest dont until they reach the top like a stacks(the buttons that get generated)
+//so if i type hito in the search bar 4 fruits will appear one from the zoanNormal array and 3 from zoanMythical but only zoanNormal button will work since its array is on top
+//while the rest dont. I honestly gave up as theres 3 ways I can go about this problem
 
-
+//1: rewrite my data.js file to be one array of object and put in a (type) to seperate the different fruits but then i would have to also rewrite the layout.js file
+//2: rewrite my search.js file from scratch again
+//3: make it so you have to type the name of the fruit exactly but i would also have to rewrite the search.js file as when the buttons get generated the names are printed as log0 etc not the name
+//so it would be compared to that and not the name so my value would never match
 
 function search(){
 
@@ -47,7 +55,7 @@ document.getElementById("searchBar").addEventListener("input", e =>{
 });
 }
 //an object that corrosponds the name to the function
-const typeFunctionMap = {
+let typeFunctionMap = {
     'nor': getZoanNormal,
     'anc': getZoanAncient,
     'myth': getZoanMythical,
