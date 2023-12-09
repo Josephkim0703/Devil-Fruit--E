@@ -1,7 +1,7 @@
 import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
-//BIG BUG the all the code works the only issue is the search bar
+//BIG BUG all the code works the only issue is the search bar
 //when you type it filters all the fruits the problem is that since all my fruits are separated into the different arrays 
-//it only lets whatever array is on top to work while the rest dont until they reach the top like a stacks(the buttons that get generated)
+//it only lets whatever array is on top to work while the rest dont until they reach the top like a stack(the buttons that get generated)
 //so if i type hito in the search bar 4 fruits will appear one from the zoanNormal array and 3 from zoanMythical but only zoanNormal button will work since its array is on top
 //while the rest dont. I honestly gave up as theres 3 ways I can go about this problem
 
