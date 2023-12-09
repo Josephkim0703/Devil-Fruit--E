@@ -35,10 +35,10 @@ document.getElementById("searchBar").addEventListener("input", e =>{
         generateButtons(filteredItems);
 
     
-
+//makes the buttons responsive
         if (filteredItems.length > 0) {
-            const type = filteredItems[0].type;
-            const selectedFunction = typeFunctionMap[type];
+            let type = filteredItems[0].type;
+            let selectedFunction = typeFunctionMap[type];
         
             if (selectedFunction) {
                 selectedFunction(filteredItems);
@@ -46,7 +46,7 @@ document.getElementById("searchBar").addEventListener("input", e =>{
         }
 });
 }
-
+//an object that corrosponds the name to the function
 const typeFunctionMap = {
     'nor': getZoanNormal,
     'anc': getZoanAncient,
@@ -63,8 +63,8 @@ function generateButtons(filteredItems) {
 
     if (filteredItems.length > 0) {
         for (let i = 0; i < filteredItems.length; i++) {
-            const { type, index } = filteredItems[i];
-            const currentItem = getItemByTypeAndIndex(type, index);
+            let { type, index } = filteredItems[i];
+            let currentItem = getItemByTypeAndIndex(type, index);
 
             data += `<button id="${type}${index}">${currentItem.name}<br>${currentItem.jname}</button>`;
         }

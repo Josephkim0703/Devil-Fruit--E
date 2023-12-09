@@ -2322,7 +2322,7 @@ main {
 @media only screen and (max-width: 600px) {
 
   #searchBox{
-    height: 50rem;
+    height: auto;
     width: 15rem;
     margin-left: -15px;
   }
