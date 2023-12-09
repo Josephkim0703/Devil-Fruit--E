@@ -10,6 +10,17 @@ import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanN
 //3: make it so you have to type the name of the fruit exactly but i would also have to rewrite the search.js file as when the buttons get generated the names are printed as log0 etc not the name
 //so it would be compared to that and not the name so my value would never match
 
+let shown = false;
+
+document.getElementById('searchBar').onclick = function () {
+    if (shown == false) {
+        document.getElementById('error').style.display = "block";  
+        shown = true;   
+    }
+}
+document.getElementById('x-error').onclick = function () {
+    document.getElementById('error').style.display = "none";
+}
 function search(){
 
 document.getElementById("searchBar").addEventListener("input", e =>{
@@ -37,9 +48,7 @@ document.getElementById("searchBar").addEventListener("input", e =>{
               }
             });
           });
-
-
-        console.log(filteredItems)
+      //  console.log(filteredItems)
         generateButtons(filteredItems);
 
     
@@ -122,12 +131,15 @@ function exit(){
         document.getElementById("searchBox").style.display = "none";
         document.getElementById("searchBar").value = "";
         document.getElementById("allFruit").style.display = "none";
+        document.getElementById('error').style.display = "none"; 
+        document.getElementById('error').style.display = "none";
     };
 
     document.getElementById("infoPage").onclick = function() {
         document.getElementById("searchBox").style.display = "none";
         document.getElementById("searchBar").value = "";
         document.getElementById("allFruit").style.display = "none";
+        document.getElementById('error').style.display = "none";
     };
 
     document.getElementById("searchBar").addEventListener("keyup", function(event){
@@ -136,10 +148,12 @@ function exit(){
             document.getElementById("searchBox").style.display = "none";
             document.getElementById("searchBar").value = "";
             document.getElementById("allFruit").style.display = "none";
+            document.getElementById('error').style.display = "none";
         }
     });
 
     document.getElementById("allFruit").onclick = function() {
+        document.getElementById('error').style.display = "none";
         document.getElementById("searchBox").style.display = "none";
         document.getElementById("searchBar").value = "";
         document.getElementById("allFruit").style.display = "none";
@@ -558,6 +572,11 @@ function getParPow(filteredItems){
         };
     }
 }
+
+
+   
+
+
 
 search();
 exit();

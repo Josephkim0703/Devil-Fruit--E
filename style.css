@@ -32,6 +32,53 @@ header {
   margin-top: 15px;
 }
 
+#error{
+  z-index: 100000;
+  text-align: center;
+  padding: 1.5rem;
+  border: 2px solid var(--secondary-color);
+  width: 23rem;
+  height: 8rem;
+  position: absolute;top: 50%;left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 2rem;
+  display: none;
+  box-shadow: 0px 0px 0px 200rem rgba(49, 49, 49, 0.8);
+}
+
+
+#error p{
+  font-family: "IM Fell English SC";
+  font-size: 1.1rem;
+  width: 21rem;
+  position: absolute;top: 0.5rem; left: 4.3rem;
+}
+
+#bug{
+ width: 5rem;
+ position: absolute; top: 0.3rem; left: 19.5rem;
+}
+
+#chop{
+  width: 10rem;
+  position: absolute; top: -2.2rem; left: -5rem;
+}
+
+#x-error{
+  z-index: 100;
+  position: absolute; left: -0.4rem; top: -0rem;
+  border: 1px solid black;
+  border-radius: 10rem;
+  font-size: 19px;
+  width: 2rem;
+  height: 2rem;
+}
+
+#x-error:hover{
+ background-color: rgb(189, 189, 189);
+}
+
 .search input {
   font-family: "IM Fell English SC";
   border: 2px solid black;
@@ -2320,6 +2367,40 @@ main {
   }
 }
 @media only screen and (max-width: 600px) {
+
+  #error{
+    z-index: 100000;
+    border: 2px solid var(--secondary-color);
+    width: 21rem;
+    height: 8rem;
+  }
+  
+  
+  #error p{
+    font-size: 1rem;
+    width: 19rem;
+    position: absolute;top: 0.9rem; left: 4.7rem;
+  }
+  
+  #bug{
+   width: 5rem;
+   position: absolute; top: 0.3rem; left: 18.2rem;
+  }
+  
+  #chop{
+    width: 8.5rem;
+    position: absolute; top: -1rem; left: -3.1rem;
+  }
+  
+  #x-error{
+    z-index: 100;
+    position: absolute; left: 0.7rem; top: 0.65rem;
+    border: 1px solid black;
+    border-radius: 10rem;
+    font-size: 19px;
+    width: 2rem;
+    height: 2rem;
+  }
 
   #searchBox{
     height: auto;
