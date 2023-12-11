@@ -210,11 +210,11 @@ function getLogia(filteredItems) {
             logia[filteredItems[i].index].ufruit == "" ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = logia[filteredItems[i].index].ufruit;
 
-            logia[filteredItems[i].index].fruitBox == "" ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = logia[filteredItems[i].index].fruitBox;
+            logia[filteredItems[i].index].fruitbox == "" ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = logia[filteredItems[i].index].fruitbox;
 
-            logia[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = logia[filteredItems[i].index].imgInfo;
+            logia[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = logia[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -260,11 +260,11 @@ function getZoanNormal(filteredItems){
             zoanNormal[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = zoanNormal[filteredItems[i].index].ufruit;
 
-            zoanNormal[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanNormal[filteredItems[i].index].fruitBox;
+            zoanNormal[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = zoanNormal[filteredItems[i].index].fruitbox;
 
-            zoanNormal[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanNormal[filteredItems[i].index].imgInfo;
+            zoanNormal[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = zoanNormal[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -310,11 +310,11 @@ function getZoanAncient(filteredItems){
             zoanAnicent[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = zoanAnicent[filteredItems[i].index].ufruit;
 
-            zoanAnicent[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanAnicent[filteredItems[i].index].fruitBox;
+            zoanAnicent[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = zoanAnicent[filteredItems[i].index].fruitbox;
 
-            zoanAnicent[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanAnicent[filteredItems[i].index].imgInfo;
+            zoanAnicent[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = zoanAnicent[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -360,11 +360,11 @@ function getZoanMythical(filteredItems){
             zoanMythical[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = zoanMythical[filteredItems[i].index].ufruit;
 
-            zoanMythical[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanMythical[filteredItems[i].index].fruitBox;
+            zoanMythical[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = zoanMythical[filteredItems[i].index].fruitbox;
 
-            zoanMythical[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanMythical[filteredItems[i].index].imgInfo;
+            zoanMythical[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = zoanMythical[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -410,11 +410,11 @@ function getParBody(filteredItems){
             parBody[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = parBody[filteredItems[i].index].ufruit;
 
-            parBody[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parBody[filteredItems[i].index].fruitBox;
+            parBody[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = parBody[filteredItems[i].index].fruitbox;
 
-            parBody[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parBody[filteredItems[i].index].imgInfo;
+            parBody[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = parBody[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -460,11 +460,11 @@ function getParEnv(filteredItems){
             parEnv[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = parEnv[filteredItems[i].index].ufruit;
 
-            parEnv[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parEnv[filteredItems[i].index].fruitBox;
+            parEnv[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = parEnv[filteredItems[i].index].fruitbox;
 
-            parEnv[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parEnv[filteredItems[i].index].imgInfo;
+            parEnv[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = parEnv[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -510,11 +510,11 @@ function getParSub(filteredItems){
             parSub[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = parSub[filteredItems[i].index].ufruit;
 
-            parSub[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parSub[filteredItems[i].index].fruitBox;
+            parSub[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = parSub[filteredItems[i].index].fruitbox;
 
-            parSub[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parSub[filteredItems[i].index].imgInfo;
+            parSub[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = parSub[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";
@@ -560,11 +560,11 @@ function getParPow(filteredItems){
             parPow[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
             document.getElementById('Ufruit').src = parPow[filteredItems[i].index].ufruit;
 
-            parPow[filteredItems[i].index].fruitBox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parPow[filteredItems[i].index].fruitBox;
+            parPow[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = parPow[filteredItems[i].index].fruitbox;
 
-            parPow[filteredItems[i].index].imgInfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parPow[filteredItems[i].index].imgInfo;
+            parPow[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = parPow[filteredItems[i].index].imginfo;
 
             document.getElementById('infoPage').style.display = "block";
             document.querySelector('#optionBox').style.display = "none";

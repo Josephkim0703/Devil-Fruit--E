@@ -52,11 +52,11 @@ document.getElementById('fruits').style.opacity = 1;
                                                 logia[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                     document.getElementById('Ufruit').src = logia[i].ufruit;
 
-                                                logia[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                    document.getElementById('fruitBox').src = logia[i].fruitBox;
+                                                logia[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = logia[i].fruitbox;
 
-                                                logia[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                    document.getElementById('imgInfo').src = logia[i].imgInfo;
+                                                logia[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                    document.getElementById('imgInfo').src = logia[i].imginfo;
                                           
                                 document.getElementById('infoPage').style.display = "block";
                             document.querySelector('#optionBox').style.display = "none"; 
@@ -116,8 +116,8 @@ document.getElementById('normal').onclick = function (){
 
                                         zoanNormal[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                        zoanNormal[i].fruitBox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                            document.getElementById('fruitBox').src = zoanNormal[i].fruitBox;
+                                        zoanNormal[i].fruitbox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = zoanNormal[i].fruitbox;
 
                                         zoanNormal[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
                                             document.getElementById('char').src = zoanNormal[i].character;
@@ -125,8 +125,8 @@ document.getElementById('normal').onclick = function (){
                                         zoanNormal[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                             document.getElementById('Ufruit').src = zoanNormal[i].ufruit;
 
-                                        zoanNormal[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                            document.getElementById('imgInfo').src = zoanNormal[i].imgInfo;
+                                        zoanNormal[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = zoanNormal[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
@@ -166,11 +166,11 @@ document.getElementById('ancient').onclick = function (){
 
                                         zoanAnicent[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                        zoanAnicent[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                            document.getElementById('fruitBox').src = zoanAnicent[i].fruitBox;
+                                        zoanAnicent[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = zoanAnicent[i].fruitbox;
 
-                                        zoanAnicent[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                            document.getElementById('imgInfo').src = zoanAnicent[i].imgInfo;
+                                        zoanAnicent[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = zoanAnicent[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
@@ -214,11 +214,11 @@ document.getElementById('mythical').onclick = function (){
                                     zoanMythical[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                         document.getElementById('Ufruit').src = zoanMythical[i].ufruit;
 
-                                    zoanMythical[i].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                        document.getElementById('fruitBox').src = zoanMythical[i].fruitBox;
+                                    zoanMythical[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = zoanMythical[i].fruitbox;
                    
-                                    zoanMythical[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                        document.getElementById('imgInfo').src = zoanMythical[i].imgInfo;
+                                    zoanMythical[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = zoanMythical[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
@@ -249,11 +249,11 @@ document.getElementById('artificial').onclick = function (){
 
                                             zoanArtificial[0].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                            zoanArtificial[0].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                document.getElementById('imgInfo').src = zoanArtificial[0].imgInfo;
+                                            zoanArtificial[0].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                document.getElementById('imgInfo').src = zoanArtificial[0].imginfo;
                                                  
-                                            zoanArtificial[0].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                document.getElementById('fruitBox').src = zoanArtificial[0].fruitBox;
+                                            zoanArtificial[0].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                document.getElementById('fruitBox').src = zoanArtificial[0].fruitbox;
 
                             document.getElementById('Ufruit').style.display = 'block'; 
                         document.getElementById('infoPage').style.display = "block";
@@ -284,14 +284,14 @@ document.getElementById('artificial').onclick = function (){
 
                                                 
 
-                                                zoanArtificial[1].fruitBox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitBox;
+                                                zoanArtificial[1].fruitbox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitbox;
 
-                                                zoanArtificial[1].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                    document.getElementById('imgInfo').src = zoanArtificial[1].imgInfo;
+                                                zoanArtificial[1].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                    document.getElementById('imgInfo').src = zoanArtificial[1].imginfo;
                                                      
-                                                zoanArtificial[1].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitBox;
+                                                zoanArtificial[1].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = zoanArtificial[1].fruitbox;
                                          
     }
 //BUG i need to double click user button if momonosuke was shown
@@ -304,12 +304,12 @@ document.getElementById('artificial').onclick = function (){
                             document.getElementById('fruits').src = zoanMythical[8].fruit;
                                 document.getElementById('user').src = zoanMythical[8].acharacter;
 
-                                zoanMythical[8].fruitBox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = zoanMythical[8].fruitBox;
+                                zoanMythical[8].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = zoanMythical[8].fruitbox;
 
                                 
-                                zoanMythical[8].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = zoanMythical[8].imgInfo;
+                                zoanMythical[8].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = zoanMythical[8].imginfo;
 
                                     document.getElementById('fruits').style.opacity = 1;
                                 document.getElementById('fruits').style.display = 'block';  
@@ -389,11 +389,11 @@ document.querySelector('#back').style.display = "block";
                                 parBody[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                     document.getElementById('Ufruit').src = parBody[i].ufruit;
 
-                                parBody[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = parBody[i].imgInfo;
+                                parBody[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = parBody[i].imginfo;
                                              
-                                parBody[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = parBody[i].fruitBox;
+                                parBody[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = parBody[i].fruitbox;
   
                                  document.getElementById('infoPage').style.display = "block";
                              document.querySelector('#optionBox').style.display = "none"; 
@@ -436,11 +436,11 @@ document.getElementById('environment').onclick = function (){
                                 parEnv[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                     document.getElementById('Ufruit').src = parEnv[i].ufruit;
 
-                                parEnv[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = parEnv[i].imgInfo;
+                                parEnv[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = parEnv[i].imginfo;
                                              
-                                parEnv[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = parEnv[i].fruitBox;
+                                parEnv[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = parEnv[i].fruitbox;
 
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
@@ -483,11 +483,11 @@ document.getElementById('substance').onclick = function (){
                                     parSub[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                         document.getElementById('Ufruit').src = parSub[i].ufruit;
 
-                                    parSub[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                        document.getElementById('imgInfo').src = parSub[i].imgInfo;
+                                    parSub[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = parSub[i].imginfo;
                                                  
-                                    parSub[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                        document.getElementById('fruitBox').src = parSub[i].fruitBox;
+                                    parSub[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = parSub[i].fruitbox;
 
                                     parSub[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
                                         document.getElementById('char').src = parSub[i].character;
@@ -534,11 +534,11 @@ document.getElementById('power').onclick = function (){
                                             parPow[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
                                                 document.getElementById('Ufruit').src = parPow[i].ufruit;
         
-                                            parPow[i].imgInfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                document.getElementById('imgInfo').src = parPow[i].imgInfo;
+                                            parPow[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                document.getElementById('imgInfo').src = parPow[i].imginfo;
                                                          
-                                            parPow[i].fruitBox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                document.getElementById('fruitBox').src = parPow[i].fruitBox;
+                                            parPow[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                document.getElementById('fruitBox').src = parPow[i].fruitbox;
 
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
