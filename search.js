@@ -223,6 +223,7 @@ function getLogia(filteredItems) {
     }
 }
 
+
 function getZoanNormal(filteredItems){
     document.getElementById('fruits').style.opacity = 1;
     document.querySelector('#pbutton').style.display = "none";
