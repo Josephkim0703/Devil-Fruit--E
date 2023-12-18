@@ -65,6 +65,7 @@ document.getElementById('fruits').style.opacity = 1;
                
         }      
 };
+
 //print zoan fruits
 document.getElementById('zd').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
