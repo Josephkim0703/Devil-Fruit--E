@@ -197,8 +197,8 @@ const logia = [
         manga:"Manga Debut: Non canon",
         anime:"Game Debut: Big Secret Treasure of the Seven Phantom Islands",
         fruit:".",
-        ufruit:"./image/pasa.JPG",
-        fruitbox:"./info/paper.JPG",
+        ufruit:"./image/pasa.jpg",
+        fruitbox:"./info/paper.jpg",
         acharacter:"./users/simon.png",
         info:"The major strength of the ability is that it allows the user to transform into sheets of paper.<br><br>Usage:<br> This enables the user to strike or evade attacks like other Logia class Devil Fruits. The thin sheets of paper can be used to inflict cutting damage on enemies and launched as projectiles. Transforming into paper also enables the user to fly freely. In addition, by using strange symbols written on the pages of an ancient book, the user is able to produce various elemental and physiological effects.<br><br>Simon used his ability to fly by transforming into paper, which allowed him to travel between islands without a ship. In combat, he launched sheets of paper as projectiles and used the strange symbols on the pages to inflict various effects on his opponents. He also used his ability to heal his injuries and avoid attacks.<br><br>Weakness:<br> Although paper would normally be weak against fire, the user can counter this weakness by using a symbol with the power to suppress fire. This was demonstrated when Simon was able to counter the flames of Usopp's Kaen Boshi. However, if the pages are splashed with paint, the symbols lose their power and fire becomes a substantial risk. Aside from this, it is also subject to the the standard Devil Fruit weaknesses."
     },
@@ -1812,7 +1812,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 911",
         anime:"Anime Debut: Episode 894",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Tanuki.JPG",
+        imginfo:"./info/tanuki.JPG",
         acharacter:"./users/bunbuku.png",
         info:"Devil Fruit that allows its user to transform into a tanuki hybrid and a full tanuki at will. It was eaten by Tenguyama Hitetsu's teapot.<br><br>Usage:<br> This fruit offers no combat capabilities, but the fruit can be given to an inanimate object to serve as a household pet.<br><br>Weakness:<br>Users of this fruit are also subject to the standard Devil Fruit weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -1861,7 +1861,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 553",
         anime:"Anime Debut: Episode 462",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Dalmation.JPG",
+        imginfo:"./info/dalmation.JPG",
         acharacter:"./users/dal.png",
         info:" Devil Fruit that allows him to transform into a dalmatian.<br><br>Appearance:<br>With his Devil Fruit powers active, Dalmatian takes the form of a muscular, bipedal dalmatian human hybrid. The top part of his head from his nose up and his arms and legs are that of a dalmatian: a white dog with black spots all over the body. He also has a long tail.<br><br>Usage:<br> allowing them to mimic the appearance and characteristics of this distinctive canine breed. This unique ability opens up various possibilities for both combat and everyday life, as the user can harness the agility, speed, and keen senses of a Dalmatian.<br><br>Weakness:<br>Aside from the standard Devil Fruit weakness, this fruit does not seem to have any specific weaknesses."
     },
@@ -1886,7 +1886,7 @@ const zoanNormal = [
         anime:"Anime Debut: 434",
         Status: "(Awakened)",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Zebra.JPG",
+        imginfo:"./info/zebra.JPG",
         acharacter:"./users/minazebra.png",
         info:"Devil Fruit user that ate a fruit that allows him to turn into a zebra.<br><br>Appearance:<br>Stuck in his Zoan form, Minozebra is a large bipedal zebra with a human abdomen. He has a runny nose and large lips like every other Jailer Beast. Also he has long elegant hair.<br><br>Awakened<br> Because he is an Awakened Zoan, he is able to recover rapidly even after suffering high amounts of damage. However, his Awakening is also a failure, and he has succumbed fully into an animalistic mindset.<br><br>Weakness:<br>Aside from the standard Devil Fruit weakness, this fruit does not seem to have any specific weaknesses. <br><br>Not much information was revealed for this fruit!"
     },
@@ -1898,7 +1898,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 516",
         anime:"Anime Debut: Episode 409",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Cobra.JPG",
+        imginfo:"./info/cobra.JPG",
         acharacter:"./users/marigold.png",
         info:"Devil Fruit that allows its user to turn into a king cobra hybrid and a full king cobra at will.<br><br>Usage:<br>The fruit's major strength, as demonstrated by Marigold, is that along with physical strength gained from their transformed forms, they gain a long versatile body that they can use like a real king cobra, as well as the ability to spit purple venom for long ranged combat.<br><br> As a cobra is a predatory reptile, Marigold is better adapted for combat than normal Zoan types. The hybrid form also seems to endow the user incredible resilience to heat and fire, and could even use fire itself wreathed on the user's person as a weapon. Capable of striking her opponents at long range, constrict them.<br><br>Weakness:<br>The tail of the form can be tied to an object to limit their movement and leave them vulnerable. Other than that, this fruit so far does not seem to have any specific weaknesses outside the standard Devil Fruit weaknesses."
     },
@@ -1910,7 +1910,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 516",
         anime:"Anime Debut: Episode 409",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Anaconda.png",
+        imginfo:"./info/anaconda.png",
         acharacter:"./users/sander.png",
         info:"Devil Fruit that allows its user to transform into an anaconda hybrid and a full anaconda at will.<br><br>Usage:<br>The fruit's major strength, as demonstrated by Sandersonia, is that along with physical strength gained from their transformed forms, they gain a long, powerful, muscular and versatile body that they can use like a real anaconda to constrict enemies with powerful coils, as well as sharp fangs.<br><br>Being a carnivorous reptile, Sandersonia is better adapted for combat than normal Zoans. Forming her hair like seven snakes, Sandersonia uses them, along with her own head, like a hydra like beast to attack an opponent. The fangs of these snakes are as strong as steel, and are capable of crushing stone. It aims to attack the target from all possible directions, leaving no percent chance of a blind spot for the attack.<br><br>Weakness:<br>The tail of the form can be tied to an object to limit their movement and leave them vulnerable. Other than that, this fruit so far does not seem to have any specific weaknesses outside the standard Devil Fruit weaknesses."
     },
@@ -1922,7 +1922,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 553",
         anime:"Anime Debut: Episode 467",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Caterpillar.JPG",
+        imginfo:"./info/caterpillar.JPG",
         acharacter:"./users/epi.png",
         info:" Devil Fruit that allows him to transform into a caterpillar.<br><br>Appearance:<br> In hybrid form, he can retain his human head and hands, but grows caterpillar like sections on his chest, with the colored stripes on his shirt seemingly merging with them, and also larger, more rotund forearms.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -1934,7 +1934,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 710",
         anime:"Anime Debut: Episode 640",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Rhino.JPG",
+        imginfo:"./info/rhino.JPG",
         acharacter:"./users/kabu.png",
         info:" Devil Fruit that allows its user to transform into a rhinoceros beetle hybrid and full rhinoceros beetle at will.<br><br>Usage:<br> Giving them wings, a second pair of arms, and a horn. By increasing his speed to the highest levels, Kabu rushes towards his targets while spinning to headbutt his enemies. The momentum is powerful enough to send four executives of the Doflamingo Pirates flying.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -1946,7 +1946,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 717",
         anime:"Anime Debut: Episode 647",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Hornet.JPG",
+        imginfo:"./info/hornet.JPG",
         acharacter:"./users/bian.png",
         info:"Devil Fruit that allows its user to transform into a hornet hybrid and full hornet at will.<br><br>Appearance:<br>While in her bee hybrid form, she has a second pair of arms, a pair of gray antennae that curves out over the brim of her hat, and transparent orange insect wings.<br><br>Usage<br> Giving them a second pair of arms, wings, and a stinger. <br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -1984,7 +1984,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 365",
         anime:"Anime Debut: Episode 254",
         fruitbox:"./image/unknown.png",  
-        imginfo:"./info/Elephant.JPG",
+        imginfo:"./info/elephant.JPG",
         acharacter:"./users/funk.png",
         info:" Devil Fruit that allows the user to transform into an elephant hybrid and a full elephant at will. It was eaten by Spandam's sword.<br><br>Appearance:<br>Fully transformed, he appears as a gentle, friendly looking elephant, about one or two heads taller than Spandam.<br><br>In his hybrid form, his head and upper torso (notably smaller than those of his full beast form) extend from the hilt in a serpent like manner, with the blade melding into his trunk.<br><br>Usage:<br>The most basic strength of the fruit is that it gives its user the abilities of an elephant, including an increase in size and raw strength. In the case of Spandam's sword, the fruit's most major strength is that it has given life to an otherwise inanimate object. With this, Spandam has been given a unique weapon with which to fight.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses."
     },
@@ -1996,7 +1996,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 420",
         anime:"Anime Debut: Episode 302",
         fruitbox:"./image/unknown.png",  
-        imginfo:"./info/Onigumo.JPG",
+        imginfo:"./info/onigumo.JPG",
         acharacter:"./users/onigumo.png",
         info:"Devil Fruit that allows him to transform into a spider.<br><br>Usage:<br>Using this power he is able to grow three pairs of spider like black arms from his hair, as well as a spider like abdomen. With these spider like appendages and his own two human arms, he is capable of wielding a total of eight sabers.<br><br>Weakness:<br>This fruit does not seem to have any specific weaknesses, aside from the standard Devil Fruit weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -2008,7 +2008,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 160",
         anime:"Anime Debut: Episode 103",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Mole.JPG",
+        imginfo:"./info/mole.JPG",
         acharacter:"./users/drophy.png",
         info:"Devil Fruit that allows its user to transform into a mole hybrid and a full mole at will.<br><br>Usage:<br>The major strength of the fruit, as demonstrated by Drophy, is that the user is able to move underground as if they were swimming in a pool. They are also able to attack enemies with sharp mole claws the size of bananas. A powerful enough user will just simply smash through any stone structures in their way without losing any speed whilst traveling underground.<br><br> The fruit can be used by moving underground in a sequence of events, greatly resembled to the game of whack a mole to confuse and attack enemies from their blind spot.<br><br>Weakness:<br>The major weakness of this is that all the tunnels that are dug are interconnected. This means a large scale attack, like an explosion, sent into the tunnels could greatly damage the user and their allies."
     },
@@ -2022,7 +2022,7 @@ const zoanNormal = [
         anime:"Anime Debut: 432",
         Status: "(Awakened)",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Koala.JPG",
+        imginfo:"./info/koala.JPG",
         acharacter:"./users/minakoala.png",
         info:" Devil Fruit user that ate a fruit that allows him to turn into a koala.<br><br>Appearance:<br>In his Zoan form, Minokoala is a large yellow koala. He has cutesy eyes, large lips, and a runny nose.<br><br>Awakened:<br> Because he is an Awakened Zoan, he is able to recover rapidly even after suffering high amounts of damage. His Awakening however would ultimately be a failure, turning Minokoala into near feral beast.<br><br>Weakness:<br>Aside from the standard Devil Fruit weakness, this fruit does not seem to have any specific weaknesses.<br><br>Not much information was revealed for this fruit!", 
     },
@@ -2035,7 +2035,7 @@ const zoanNormal = [
         anime:"Anime Debut: 433",
         Status: "(Awakened)",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Rhino1.JPG",
+        imginfo:"./info/rhino1.JPG",
         acharacter:"./users/minarhino.png",
         info:"Devil Fruit that allows him to turn into a blue rhinoceros.<br><br>Usage:<br>This fruit gives him the capilities of a rhino giving tough skin and a horn that can bash through hard stone.<br><br>Appearance:<br>In his Zoan form, Minorhinoceros is a large bipedal blue rhinoceros. He has cutesy eyes, large lips, and a runny nose like the other Jailer Beasts. <br><br>Awakened:<br> Because he is an Awakened Zoan, he is able to recover rapidly even after suffering high amounts of damage. His Awakening however would ultimately be a failure, turning Minokoala into near feral beast.<br><br>Weakness:<br>Aside from the standard Devil Fruit weakness, this fruit does not seem to have any specific weaknesses.<br><br>Not much information was revealed for this fruit!"
     },
@@ -2047,7 +2047,7 @@ const zoanNormal = [
         manga:"Manga Debut: Chapter 651",
         anime:"Anime Debut: Episode 570",
         fruitbox:"./image/unknown.png",
-        imginfo:"./info/Turtle.JPG",
+        imginfo:"./info/turtle.JPG",
         acharacter:"./users/pekoms.png",
         info:" Devil Fruit that allows the user to become a turtle hybrid and full turtle at will.<br><br>Usage:<br>This turtle has a nearly impenetrable protective shell (hard as diamond, according to Pekoms), being able to protect against bullets and collapsing buildings.<br><br>Weakness:<br>However, being a turtle, the user will become naturally slower, and the transformation also causes the user's clothes to slip off. Also, this fruit does not offer many offensive capabilities, so Pekoms only uses this fruit to protect himself from attacks.<br><br>Not much information was revealed for this fruit!"
     },
@@ -2208,9 +2208,9 @@ const zoanMythical = [
         Status: "(Awakened)",
         Type:"(Mythical Zoan)",
         fruit:"./image/gomu.png",
-        fruitbox:"./info/snake.JPG",
-        imginfo:"./info/gear5.JPG",
-        acharacter:"./users/nika1.png",
+        fruitbox:"./info/snake.jpg",
+        imginfo:"./info/gear5.jpg",
+        acharacter:"./users/nika2.png",
    //     bCharacter:"./users/nika1.png",
         info:"The fruit's major strength, is that the user's body permanently adopts the properties of rubber. <br><br>Usage:<br> Their body can stretch, bend, bounce, inflate, and twist much like said substance, even when their power is nullified by way of submergence in water or Seastone exposure. Unlike most other Devil Fruits, the effects of the Gomu Gomu no Mi are always active, making the user's body permanently rubbery. The user becomes almost completely immune to blunt damage, including bodily attacks, blunt weapons, bullets, and even cannonballs, all of which will simply bounce off from their skin. The fruit enables all parts of the consumer's body to behave like rubber, including their organs. This means that certain actions that otherwise would be impossible to do with a normal human body, such as pumping one's own blood or bones with air, can be achieved through this ability for extra speed or power. Furthermore, thanks to rubber's natural insulating properties, the user is also immune to electrical attacks.<br><br>Awakened:<br>Once the fruit is awakened, the user undergoes a drastic transformation where their hair and clothing turns white, their hair resembles flames, their eyebrows resemble spirals, and gains ringed pupils, in addition to steam wrapped around him. The user can alter their physique without the need of inflating their bones or muscles. Zoan's transformation abilities and the Paramecia's environmental alteration, even elements like natural lightning. However, unique to this fruit is that it can extend to living beings, as Luffy could influence flesh as if it was rubber too. This fruit give the user (toon force) like abilities from running on air to affecting others around him.<br><br>Weakness:<br>Despite all the great advantages the user gets by using the fruit, there are a number of weaknesses. One major risk of the user's powers is that their stretched limbs take a moment to retract back into place, leaving them vulnerable to attacks in the moments when their limbs are stretched. One of the biggest weaknesses that Gomu Gomu no Mi users possess is their susceptibility to cutting attacks and bladed weapons." 
     },
@@ -2316,7 +2316,7 @@ const zoanMythical = [
         manga:"Manga Debut: Chapter 795",
         anime:"Anime Debut: Episode 736",
         Type:"(Mythical Zoan)" ,
-        fruit:"./image/Uo1.png",
+        fruit:"./image/uo1.png",
         fruitbox:"./info/kaido1.JPG",
         imginfo:"./info/kaido.JPG",
         acharacter:"./users/kaido.png",
