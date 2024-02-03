@@ -1,4 +1,4 @@
-import {devilFruits, logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanArtificial, zoanMythical, zoanNormal} from './data.js';
+import {devilFruits, zoanArtificial} from './data.js';
 
 function fruits(){
 //Print logia fruits
@@ -22,49 +22,56 @@ document.getElementById('fruits').style.opacity = 1;
                                                             document.getElementById('smileFruit').style.display = 'none';
     //loop that prints all the names and japanes names of the devil fruits and appends them as button into a ul
         let data = '';
-            for(let i = 0; i < logia.length; i++){
-                data += '<button id="logia' + i + '">' + logia[i].name + '<br>' + logia[i].jname + '</button>';
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "logia"){
+                data += '<button id="logia' + i + '">' + devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                }
             }
             document.querySelector('#oL').style.display = "flex";
         document.getElementById('oL').innerHTML = data;
     //second for loop that activates when you click on a certain index. Grabs the index and paste it as the i value only printing out the values for that object
-        for(let i = 0; i < logia.length; i++){
+        for(let i = 0; i < devilFruits.length; i++){
+            if(devilFruits[i].type === "logia"){
            let option = document.getElementById('logia'+ i); 
            
                 option.onclick = function(){
                     console.log(option);
-                        document.getElementById('Dname').innerHTML = logia[i].name + " (" + logia[i].jname + ")";
-                            document.getElementById('Duser').innerHTML = logia[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ logia[i].element;
-                                document.getElementById('Dinfo').innerHTML = logia[i].info;
-                                    document.getElementById('extra').innerHTML =logia[i].manga + "<br>" + logia[i].anime;
-                                        document.getElementById('fruits').src = logia[i].fruit;
-                                            document.getElementById('user').src = logia[i].acharacter;
+                        document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                            document.getElementById('Duser').innerHTML = devilFruits[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                                document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                    document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                        document.getElementById('fruits').src = devilFruits[i].fruit;
+                                            document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                                logia[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                                devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
                                             
-                                                logia[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                                devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                                logia[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                                    document.getElementById('user1').src = logia[i].acharacter;
+                                                devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                                    document.getElementById('user1').src = devilFruits[i].acharacter;
                                                 
-                                                logia[i].ufruit == ""? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                                devilFruits[i].ufruit == ""? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                                logia[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                                    document.getElementById('Ufruit').src = logia[i].ufruit;
+                                                devilFruits[i].ufruit == ""? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                                    document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                                logia[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                    document.getElementById('fruitBox').src = logia[i].fruitbox;
+                                                devilFruits[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                    document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
-                                                logia[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                    document.getElementById('imgInfo').src = logia[i].imginfo;
+                                                devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                    document.getElementById('imgInfo').src = devilFruits[i].imginfo;
                                           
                                 document.getElementById('infoPage').style.display = "block";
                             document.querySelector('#optionBox').style.display = "none"; 
                         document.getElementById('wrapper').style.display = "none";
                 }
                
-        }      
+        } else{
+        //for some reason without this else statement the code doesnt work it can be completely emtpy but without the code falls apart.
+        }
+    }     
 };
+
 
 //print zoan fruits
 document.getElementById('zd').onclick = function (){
@@ -90,93 +97,105 @@ document.getElementById('normal').onclick = function (){
     document.querySelector('#back').style.display = "block";
         document.querySelector('#zbutton').style.display = "none";
         let data = '';
-            for(let i = 0; i < zoanNormal.length; i++){
-                data += '<button id="zoanNormal' + i + '">'+ zoanNormal[i].name + '<br>' + zoanNormal[i].jname + '</button>';
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "zoannormal"){
+                data += '<button id="zoannormal' + i  + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                }
             }
         document.querySelector('#oz1').style.display = "flex";
     document.getElementById('oz1').innerHTML = data;
 
-    for(let i = 0; i < zoanNormal.length; i++){
-        let option = document.getElementById('zoanNormal'+ i); 
+    for(let i = 0; i < devilFruits.length; i++){
+        if(devilFruits[i].type === "zoannormal"){
+        let option = document.getElementById('zoannormal'+ i); 
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanNormal[i].name + " (" + zoanNormal[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanNormal[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanNormal[i].element;
-                            document.getElementById('Dinfo').innerHTML = zoanNormal[i].info;
-                                document.getElementById('extra').innerHTML =zoanNormal[i].manga + "<br>" + zoanNormal[i].anime;
-                                    document.getElementById('fruits').src = zoanNormal[i].fruit;
-                                        document.getElementById('user').src = zoanNormal[i].acharacter;
+                     document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = devilFruits[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                            document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                    document.getElementById('fruits').src = devilFruits[i].fruit;
+                                        document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                        zoanNormal[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                        devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
                                         
-                                        zoanNormal[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                        document.getElementById('user1').src = zoanNormal[i].acharacter;
+                                        devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = devilFruits[i].acharacter;
                                     
-                                        zoanNormal[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                        devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                        zoanNormal[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                        devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                        zoanNormal[i].fruitbox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                            document.getElementById('fruitBox').src = zoanNormal[i].fruitbox;
+                                        devilFruits[i].fruitbox == null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
-                                        zoanNormal[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-                                            document.getElementById('char').src = zoanNormal[i].character;
+                                        devilFruits[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+                                            document.getElementById('char').src = devilFruits[i].character;
 
-                                        zoanNormal[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                            document.getElementById('Ufruit').src = zoanNormal[i].ufruit;
+                                        devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                            document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                        zoanNormal[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                            document.getElementById('imgInfo').src = zoanNormal[i].imginfo;
+                                        devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = devilFruits[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
-                }    
+                }
+            }else{
+                //for some reason without this else statement the code doesnt work it can be completely emtpy but without the code falls apart.
+            }    
         } 
  }
+
  //print ancient zoan        
 document.getElementById('ancient').onclick = function (){
     document.querySelector('#back').style.display = "block";
         document.querySelector('#zbutton').style.display = "none";
         let data = '';
-            for(let i = 0; i < zoanAnicent.length; i++){
-                data += '<button id="zoanAnicent' + i + '">'+ zoanAnicent[i].name + '<br>' + zoanAnicent[i].jname + '</button>';
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "zoananicent"){
+                data += '<button id="zoananicent' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                }
             }
         document.querySelector('#oz1').style.display = "flex";
     document.getElementById('oz1').innerHTML = data;
 
-    for(let i = 0; i < zoanAnicent.length; i++){
-        let option = document.getElementById('zoanAnicent'+ i); 
-            
+    for(let i = 0; i < devilFruits.length; i++){
+        if(devilFruits[i].type === "zoananicent"){
+        let option = document.getElementById('zoananicent'+ i);      
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanAnicent[i].name + " (" + zoanAnicent[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanAnicent[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanAnicent[i].element;
-                            document.getElementById('Dinfo').innerHTML = zoanAnicent[i].info;
-                                document.getElementById('extra').innerHTML =zoanAnicent[i].manga + "<br>" + zoanAnicent[i].anime;
-                                    document.getElementById('fruits').src = zoanAnicent[i].fruit;
-                                        document.getElementById('user').src = logia[i].acharacter;
+                     document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = devilFruits[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                            document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                    document.getElementById('fruits').src = devilFruits[i].fruit;
+                                        document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                        zoanAnicent[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";                                 
+                                        devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";                                 
 
-                                        zoanAnicent[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                        document.getElementById('user1').src = zoanAnicent[i].acharacter;
+                                        devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = devilFruits[i].acharacter;
 
-                                        zoanAnicent[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                        devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                        zoanAnicent[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                        devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                        zoanAnicent[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                            document.getElementById('fruitBox').src = zoanAnicent[i].fruitbox;
+                                        devilFruits[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                            document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
-                                        zoanAnicent[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                            document.getElementById('imgInfo').src = zoanAnicent[i].imginfo;
+                                        devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                            document.getElementById('imgInfo').src = devilFruits[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
-                }    
+                } 
+            }else{
+                //for some reason without this else statement the code doesnt work it can be completely emtpy but without the code falls apart.
+            }   
         }
  }
 //print mythical zoan
@@ -184,47 +203,53 @@ document.getElementById('mythical').onclick = function (){
     document.querySelector('#zbutton').style.display = "none";
         document.querySelector('#back').style.display = "block";
         let data = '';
-            for(let i = 0; i < zoanMythical.length; i++){
-                data += '<button id="zoanMythical' + i + '">'+ zoanMythical[i].name + '<br>' + zoanMythical[i].jname + '</button>';
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "zoanmythical"){
+                data += '<button id="zoanMythical' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                }
             }
         document.querySelector('#oz1').style.display = "flex";
     document.getElementById('oz1').innerHTML = data;
 
     
-    for(let i = 0; i < zoanMythical.length; i++){
+    for(let i = 0; i < devilFruits.length; i++){
+        if(devilFruits[i].type === "zoanmythical"){
         let option = document.getElementById('zoanMythical'+ i);
             
              option.onclick = function(){
                  console.log(option);
-                     document.getElementById('Dname').innerHTML = zoanMythical[i].name + " (" + zoanMythical[i].jname + ")";
-                        document.getElementById('Duser').innerHTML = zoanMythical[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanMythical[i].element;
-                            document.getElementById('Dinfo').innerHTML = zoanMythical[i].info;
-                                document.getElementById('extra').innerHTML =zoanMythical[i].manga + "<br>" + zoanMythical[i].anime;
-                                    document.getElementById('fruits').src = zoanMythical[i].fruit;
-                                        document.getElementById('user').src = zoanMythical[i].acharacter;
+                     document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                        document.getElementById('Duser').innerHTML = devilFruits[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                            document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                    document.getElementById('fruits').src = devilFruits[i].fruit;
+                                        document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                    zoanMythical[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                    devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
-                                    zoanMythical[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                        document.getElementById('user1').src = zoanMythical[i].acharacter;
+                                    devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = devilFruits[i].acharacter;
 
-                                    zoanMythical[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                    devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                    zoanMythical[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                    devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                    zoanMythical[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                        document.getElementById('Ufruit').src = zoanMythical[i].ufruit;
+                                    devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                        document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                    zoanMythical[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                        document.getElementById('fruitBox').src = zoanMythical[i].fruitbox;
+                                    devilFruits[i].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
                    
-                                    zoanMythical[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                        document.getElementById('imgInfo').src = zoanMythical[i].imginfo;
+                                    devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = devilFruits[i].imginfo;
 
                              document.getElementById('infoPage').style.display = "block";
                          document.querySelector('#optionBox').style.display = "none"; 
                      document.getElementById('wrapper').style.display = "none";
-                }    
+                }  
+            }else{
+                //for some reason without this else statement the code doesnt work it can be completely emtpy but without the code falls apart.
+            }  
         }
 }
 //print artificial zoan
@@ -298,19 +323,19 @@ document.getElementById('artificial').onclick = function (){
 //BUG i need to double click user button if momonosuke was shown
     document.getElementById('kaido').onclick = function (){
         document.getElementById('user').style.display= "none";
-            document.getElementById('Dname').innerHTML = zoanMythical[8].name + " (" + zoanMythical[8].jname + ")";
-                document.getElementById('Duser').innerHTML = zoanMythical[8].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ zoanMythical[8].element;
-                    document.getElementById('Dinfo').innerHTML = zoanMythical[8].info;
-                        document.getElementById('extra').innerHTML =zoanMythical[8].manga + "<br>" + zoanMythical[8].anime;
-                            document.getElementById('fruits').src = zoanMythical[8].fruit;
-                                document.getElementById('user').src = zoanMythical[8].acharacter;
+            document.getElementById('Dname').innerHTML = devilFruits[183].name + " (" + devilFruits[183].jname + ")";
+                document.getElementById('Duser').innerHTML = devilFruits[183].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[8].element;
+                    document.getElementById('Dinfo').innerHTML = devilFruits[183].info;
+                        document.getElementById('extra').innerHTML =devilFruits[183].manga + "<br>" + devilFruits[183].anime;
+                            document.getElementById('fruits').src = devilFruits[183].fruit;
+                                document.getElementById('user').src = devilFruits[183].acharacter;
 
-                                zoanMythical[8].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = zoanMythical[8].fruitbox;
+                                devilFruits[183].fruitbox == ""? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = devilFruits[183].fruitbox;
 
                                 
-                                zoanMythical[8].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = zoanMythical[8].imginfo;
+                                devilFruits[183].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = devilFruits[183].imginfo;
 
                                     document.getElementById('fruits').style.opacity = 1;
                                 document.getElementById('fruits').style.display = 'block';  
@@ -335,9 +360,10 @@ document.getElementById('artificial').onclick = function (){
                 document.querySelector('#oz1').style.display = "flex";
             document.getElementById('oz1').innerHTML = data;
     }
-}   
+}  
 };
 
+//print paramecia fruits
 document.getElementById('pd').onclick = function (){
     document.querySelector('#oz1').style.display = "none";
         document.querySelector('#op1').style.display = "none";
@@ -360,93 +386,107 @@ document.getElementById('body').onclick = function (){
 document.querySelector('#back').style.display = "block";
     document.querySelector('#pbutton').style.display = "none";
         let data = '';
-            for(let i = 0; i < parBody.length; i++){
-                data += '<button id="parBody' + i + '">'+ parBody[i].name + '<br>' + parBody[i].jname + '</button>';
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "parbody"){
+                data += '<button id="parBody' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                }
             }
             document.querySelector('#op1').style.display = "flex";
          document.getElementById('op1').innerHTML = data;
 
-         for(let i = 0; i < parBody.length; i++){
+         for(let i = 0; i < devilFruits.length; i++){
+            if(devilFruits[i].type === "parbody"){
             let option = document.getElementById('parBody'+ i); 
                 
                  option.onclick = function(){
                      console.log(option);
-                         document.getElementById('Dname').innerHTML = parBody[i].name + " (" + parBody[i].jname + ")";
-                            document.getElementById('Duser').innerHTML = parBody[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parBody[i].element;
-                                document.getElementById('Dinfo').innerHTML = parBody[i].info;
-                                    document.getElementById('extra').innerHTML =parBody[i].manga + "<br>" + parBody[i].anime;
-                                        document.getElementById("fruits").src = parBody[i].fruit;
-                                            document.getElementById('user').src = parBody[i].acharacter;
+                         document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                            document.getElementById('Duser').innerHTML = devilFruits[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                                document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                    document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                        document.getElementById("fruits").src = devilFruits[i].fruit;
+                                            document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                parBody[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
-                                parBody[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                    document.getElementById('user1').src = parBody[i].acharacter;
+                                devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                    document.getElementById('user1').src = devilFruits[i].acharacter;
                                             
-                                parBody[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
         
-                                parBody[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
         
-                                parBody[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                    document.getElementById('Ufruit').src = parBody[i].ufruit;
+                                devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                    document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                parBody[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = parBody[i].imginfo;
+                                devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = devilFruits[i].imginfo;
                                              
-                                parBody[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = parBody[i].fruitbox;
+                                devilFruits[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
   
                                  document.getElementById('infoPage').style.display = "block";
                              document.querySelector('#optionBox').style.display = "none"; 
                          document.getElementById('wrapper').style.display = "none";
-                }    
+                }   
+            }else{
+                    //for some reason without this else statement the code doesnt work it can be completely emtpy but without the code falls apart.
+            } 
         }
 }
+
+
 //print para environment     
 document.getElementById('environment').onclick = function (){
     document.querySelector('#back').style.display = "block";
         document.querySelector('#pbutton').style.display = "none";
             let data = '';
-                for(let i = 0; i < parEnv.length; i++){
-                    data += '<button id="parEnv' + i + '">'+ parEnv[i].name + '<br>' + parEnv[i].jname + '</button>';
+                for(let i = 0; i < devilFruits.length; i++){
+                    if(devilFruits[i].type === "parenv"){
+                    data += '<button id="parEnv' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                    }
                 }
                 document.querySelector('#op1').style.display = "flex";
             document.getElementById('op1').innerHTML = data;
 
-            for(let i = 0; i < parEnv.length; i++){
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "parenv"){
                 let option = document.getElementById('parEnv'+ i); 
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parEnv[i].name + " (" + parEnv[i].jname + ")";
-                                document.getElementById('Duser').innerHTML = parEnv[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parEnv[i].element;
-                                    document.getElementById('Dinfo').innerHTML = parEnv[i].info;
-                                        document.getElementById('extra').innerHTML =parEnv[i].manga + "<br>" + parEnv[i].anime;
-                                            document.getElementById('fruits').src = parEnv[i].fruit;
-                                                document.getElementById('user').src = parEnv[i].acharacter;
+                             document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                                document.getElementById('Duser').innerHTML = devilFruits[i].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                                    document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                        document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                            document.getElementById('fruits').src = devilFruits[i].fruit;
+                                                document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                parEnv[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
-                                parEnv[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                    document.getElementById('user1').src = parEnv[i].acharacter;
+                                devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                    document.getElementById('user1').src = devilFruits[i].acharacter;
                                     
-                                parEnv[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                parEnv[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                parEnv[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                    document.getElementById('Ufruit').src = parEnv[i].ufruit;
+                                devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                    document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                parEnv[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                    document.getElementById('imgInfo').src = parEnv[i].imginfo;
+                                devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                    document.getElementById('imgInfo').src = devilFruits[i].imginfo;
                                              
-                                parEnv[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                    document.getElementById('fruitBox').src = parEnv[i].fruitbox;
+                                devilFruits[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                    document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
                      }    
+                    }else{
+                        
+                    }
             }
 }
 //print para substance
@@ -454,49 +494,55 @@ document.getElementById('substance').onclick = function (){
     document.querySelector('#pbutton').style.display = "none";
         document.querySelector('#back').style.display = "block";
             let data = '';
-                for(let i = 0; i < parSub.length; i++){
-                    data += '<button id="parSub' + i + '">'+ parSub[i].name + '<br>' + parSub[i].jname + '</button>';
+                for(let i = 0; i < devilFruits.length; i++){
+                    if(devilFruits[i].type === "parsub"){
+                    data += '<button id="parSub' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                    }
                 }
                 document.querySelector('#op1').style.display = "flex";
             document.getElementById('op1').innerHTML = data;
 
-            for(let i = 0; i < parSub.length; i++){
+            for(let i = 0; i < devilFruits.length; i++){
+                if(devilFruits[i].type === "parsub"){
                 let option = document.getElementById('parSub'+ i); 
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parSub[i].name + " (" + parSub[i].jname + ")";
-                                document.getElementById('Duser').innerHTML = parSub[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parSub[i].element;
-                                    document.getElementById('Dinfo').innerHTML = parSub[i].info;
-                                        document.getElementById('extra').innerHTML =parSub[i].manga + "<br>" + parSub[i].anime;
-                                            document.getElementById('fruits').src = parSub[i].fruit;
-                                                document.getElementById('user').src = parSub[i].acharacter;
+                             document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")";
+                                document.getElementById('Duser').innerHTML = devilFruits[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                                    document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                        document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                            document.getElementById('fruits').src = devilFruits[i].fruit;
+                                                document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                    parSub[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                    devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
-                                    parSub[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                        document.getElementById('user1').src = parSub[i].acharacter;
+                                    devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                        document.getElementById('user1').src = devilFruits[i].acharacter;
                                     
-                                    parSub[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                    devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
 
-                                    parSub[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                    devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
 
-                                    parSub[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                        document.getElementById('Ufruit').src = parSub[i].ufruit;
+                                    devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                        document.getElementById('Ufruit').src = devilFruits[i].ufruit;
 
-                                    parSub[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                        document.getElementById('imgInfo').src = parSub[i].imginfo;
+                                    devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                        document.getElementById('imgInfo').src = devilFruits[i].imginfo;
                                                  
-                                    parSub[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                        document.getElementById('fruitBox').src = parSub[i].fruitbox;
+                                    devilFruits[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                        document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
-                                    parSub[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-                                        document.getElementById('char').src = parSub[i].character;
+                                    devilFruits[i].character == null? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+                                        document.getElementById('char').src = devilFruits[i].character;
                           
                                         document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
-                     }    
+                     } 
+                    }else{
+
+                    }   
             }
 }
 //print para power
@@ -504,51 +550,59 @@ document.getElementById('power').onclick = function (){
     document.querySelector('#pbutton').style.display = "none";
         document.querySelector('#back').style.display = "block";
             let data = '';
-                for(let i = 0; i < parPow.length; i++){
-                    data += '<button id="parPow' + i + '">'+ parPow[i].name + '<br>' + parPow[i].jname + '</button>';
+                for(let i = 0; i < devilFruits.length; i++){
+                    if(devilFruits[i].type === "parpow"){
+                    data += '<button id="parPow' + i + '">'+ devilFruits[i].name + '<br>' + devilFruits[i].jname + '</button>';
+                    }
                 }
                 document.querySelector('#op1').style.display = "flex";
             document.getElementById('op1').innerHTML = data;
 
-            for(let i = 0; i < parPow.length; i++){
+            for(let i = 0; i < devilFruits.length; i++){
+                 if(devilFruits[i].type === "parpow"){
                 let option = document.getElementById('parPow'+ i); 
                     
                      option.onclick = function(){
                          console.log(option);
-                             document.getElementById('Dname').innerHTML = parPow[i].name + " (" + parPow[i].jname + ")" ;
-                                document.getElementById('Duser').innerHTML = parPow[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ parPow[i].element;
-                                    document.getElementById('Dinfo').innerHTML = parPow[i].info;
-                                        document.getElementById('extra').innerHTML =parPow[i].manga + "<br>" + parPow[i].anime;
-                                            document.getElementById('fruits').src = parPow[i].fruit ;
-                                                document.getElementById('user').src = parPow[i].acharacter;
+                             document.getElementById('Dname').innerHTML = devilFruits[i].name + " (" + devilFruits[i].jname + ")" ;
+                                document.getElementById('Duser').innerHTML = devilFruits[i].user  + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+ devilFruits[i].element;
+                                    document.getElementById('Dinfo').innerHTML = devilFruits[i].info;
+                                        document.getElementById('extra').innerHTML =devilFruits[i].manga + "<br>" + devilFruits[i].anime;
+                                            document.getElementById('fruits').src = devilFruits[i].fruit ;
+                                                document.getElementById('user').src = devilFruits[i].acharacter;
 
-                                            parPow[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
+                                            devilFruits[i].fruit == null? document.getElementById('hat').style.display = "none": document.getElementById('hat').style.display = "block";
 
-                                            parPow[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-                                                document.getElementById('user1').src = parPow[i].acharacter;
+                                            devilFruits[i].fruit == null? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+                                                document.getElementById('user1').src = devilFruits[i].acharacter;
                                                         
-                                            parPow[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+                                            devilFruits[i].fruit == null? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
                     
-                                            parPow[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
+                                            devilFruits[i].ufruit == null? console.log("...") : document.getElementById('userButton').style.display = "block";
                     
 
-                                            parPow[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-                                                document.getElementById('Ufruit').src = parPow[i].ufruit;
+                                            devilFruits[i].ufruit == null? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+                                                document.getElementById('Ufruit').src = devilFruits[i].ufruit;
         
-                                            parPow[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-                                                document.getElementById('imgInfo').src = parPow[i].imginfo;
+                                            devilFruits[i].imginfo == null? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+                                                document.getElementById('imgInfo').src = devilFruits[i].imginfo;
                                                          
-                                            parPow[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-                                                document.getElementById('fruitBox').src = parPow[i].fruitbox;
+                                            devilFruits[i].fruitbox ==   null? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+                                                document.getElementById('fruitBox').src = devilFruits[i].fruitbox;
 
                                      document.getElementById('infoPage').style.display = "block";
                                  document.querySelector('#optionBox').style.display = "none"; 
                              document.getElementById('wrapper').style.display = "none";
                      }    
+                 }else{
+
+                 }
             }
 }
 };
-}
+
+
+};
 
 function option(){
 //x button to close the option box
@@ -609,19 +663,4 @@ document.getElementById("darkmode").addEventListener ('click', function () {
 
 fruits();
 option();
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 

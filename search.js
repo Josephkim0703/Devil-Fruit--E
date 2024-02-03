@@ -1,4 +1,4 @@
-import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanNormal} from './data.js';
+import {devilFruits} from './data.js';
 //BIG BUG all the code works the only issue is the search bar
 //when you type it filters all the fruits the problem is that since all my fruits are separated into the different arrays 
 //it only lets whatever array is on top to work while the rest dont until they reach the top like a stack(the buttons that get generated)
@@ -10,7 +10,7 @@ import {logia, parBody, parEnv, parPow, parSub, zoanAnicent, zoanMythical, zoanN
 //3: make it so you have to type the name of the fruit exactly but i would also have to rewrite the search.js file as when the buttons get generated the names are printed as log0 etc not the name
 //so it would be compared to that and not the name so my value would never match
 
-let shown = false;
+/*let shown = false;
 
 document.getElementById('searchBar').onclick = function () {
     if (shown == false) {
@@ -20,112 +20,288 @@ document.getElementById('searchBar').onclick = function () {
 }
 document.getElementById('x-error').onclick = function () {
     document.getElementById('error').style.display = "none";
-}
+}*/
+
 function search(){
 
-document.getElementById("searchBar").addEventListener("input", e =>{
-    document.getElementById("searchBox").style.display = "block";
-        const value = e.target.value.toLowerCase();
+    document.getElementById("searchBar").addEventListener("input", e => {
+
+        document.getElementById("searchBox").style.display = "block";
         document.getElementById("allFruit").style.display = "block";
+
+        const value = e.target.value.toLowerCase();
     
-        const allFruits = [
-            { type: 'log', fruit: logia },
-            { type: 'nor', fruit: zoanNormal },
-            { type: 'anc', fruit: zoanAnicent },
-            { type: 'myth', fruit: zoanMythical },
-            { type: 'body', fruit: parBody },
-            { type: 'env', fruit: parEnv },
-            { type: 'sub', fruit: parSub },
-            { type: 'pow', fruit: parPow },
-          ];
-          
-          const filteredItems = [];
-          
-          allFruits.forEach((category) => {
-            category.fruit.forEach((fruit, index) => {
-              if (fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)) {
-                filteredItems.push({ type: category.type, index });
-              }
-            });
-          });
-      //  console.log(filteredItems)
+        const filteredItems = devilFruits.filter(fruit =>
+            fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)
+        );
+    
         generateButtons(filteredItems);
-
+    });
     
-//makes the buttons responsive
-        if (filteredItems.length > 0) {
-            let type = filteredItems[0].type;
-            let selectedFunction = typeFunctionMap[type];
-        
-            if (selectedFunction) {
-                selectedFunction(filteredItems);
-            }
-        }
-});
-}
-//an object that corrosponds the name to the function
-let typeFunctionMap = {
-    'nor': getZoanNormal,
-    'anc': getZoanAncient,
-    'myth': getZoanMythical,
-    'body': getParBody,
-    'env': getParEnv,
-    'sub': getParSub,
-    'pow': getParPow,
-    'log': getLogia,
-};
-
-function generateButtons(filteredItems) {
-    let data = '';
-
-    if (filteredItems.length > 0) {
+    function generateButtons(filteredItems) {
+        let data = '';
+    
         for (let i = 0; i < filteredItems.length; i++) {
-            let { type, index } = filteredItems[i];
-            let currentItem = getItemByTypeAndIndex(type, index);
-
-            data += `<button id="${type}${index}">${currentItem.name}<br>${currentItem.jname}</button>`;
+            data += '<button id="devilFruit' + i + '">' + filteredItems[i].name + '<br>' + filteredItems[i].jname + '</button>';
         }
-    } else {
-        data = '<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo matching items found</p>';
-    }
+    
+        document.querySelector('#oL').style.display = "flex";
+        document.getElementById("allFruit").innerHTML = data;
 
-    document.getElementById('allFruit').innerHTML = data;
+        document.getElementById("allFruit").onclick = function (e) {
+
+            const target = e.target;
+
+            if (target.tagName === "BUTTON") {
+                const index = parseInt(target.id.replace("devilFruit", ""));
+
+                button(filteredItems[index]);
+            }
+        };
+    }
+    
+    function button(selectedItem) {
+
+        if(selectedItem.type === "logia"){
+        document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+        document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+        document.getElementById('Dinfo').innerHTML = selectedItem.info;
+        document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+        document.getElementById('fruits').src = selectedItem.fruit;
+        document.getElementById('user').src = selectedItem.acharacter;
+
+        selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+        document.getElementById('char').src = selectedItem.character;
+
+        selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+        selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+        selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+        document.getElementById('user1').src = selectedItem.acharacter;
+
+        selectedItem.ufruit == "" ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+        selectedItem.ufruit == "" ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+        document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+        selectedItem.fruitbox == "" ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+        document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+        selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+        document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+        document.getElementById("gifters").style.display = "none";
+        document.getElementById("kaido").style.display = "none";
+        document.getElementById("smile").style.display = "none";
+    
+        document.getElementById('infoPage').style.display = "block";
+        document.querySelector('#optionBox').style.display = "none";
+        document.getElementById('wrapper').style.display = "none";
+
+    }else if(selectedItem.type === "zoannormal"){
+
+        document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+            document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+            document.getElementById('Dinfo').innerHTML = selectedItem.info;
+            document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+            document.getElementById('fruits').src = selectedItem.fruit;
+            document.getElementById('user').src = selectedItem.acharacter;
+
+            selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+            document.getElementById('char').src = selectedItem.character;
+
+            selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+            selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+            selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+            document.getElementById('user1').src = selectedItem.acharacter;
+
+            selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+            selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+            document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+            selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+            document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+            selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+            document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+    }else if(selectedItem.type === "zoananicent"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+    }else if(selectedItem.type === "zoanmythical"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
+    }else if(selectedItem.type === "parbody"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
+    }else if(selectedItem.type === "parsub"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
+    }else if(selectedItem.type === "parenv"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
+    }else if(selectedItem.type === "parpow"){
+    document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
+    document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
+    document.getElementById('Dinfo').innerHTML = selectedItem.info;
+    document.getElementById('extra').innerHTML = selectedItem.manga + "<br>" + selectedItem.anime;
+    document.getElementById('fruits').src = selectedItem.fruit;
+    document.getElementById('user').src = selectedItem.acharacter;
+
+    selectedItem.character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
+    document.getElementById('char').src = selectedItem.character;
+
+    selectedItem.fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
+    document.getElementById('user1').src = selectedItem.acharacter;
+
+    selectedItem.ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
+
+    selectedItem.ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
+    document.getElementById('Ufruit').src = selectedItem.ufruit;
+
+    selectedItem.fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
+    document.getElementById('fruitBox').src = selectedItem.fruitbox;
+
+    selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
+    document.getElementById('imgInfo').src = selectedItem.imginfo;
 }
-
-function getItemByTypeAndIndex(type, index) {
-    if (type === 'nor') {
-        return zoanNormal[index];
-    }
-
-    if (type === 'anc') {
-        return zoanAnicent[index];
-    }
-
-    if (type === 'myth') {
-        return zoanMythical[index];
-    }
-
-    if (type === 'body') {
-        return parBody[index];
-    }
-
-    if (type === 'env') {
-        return parEnv[index];
-    }
-
-    if (type === 'sub') {
-        return parSub[index];
-    }
-
-    if (type === 'pow') {
-        return parPow[index];
-    }
-
-    if (type === 'log') {
-        return logia[index];
     }
 }
-
+   
 function exit(){
     document.getElementById("wrapper").onclick = function() {
         document.getElementById("searchBox").style.display = "none";
@@ -172,412 +348,6 @@ function exit(){
     });
 
 }
-
-function getLogia(filteredItems) {
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('log' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = logia[filteredItems[i].index].name + " (" + logia[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = logia[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + logia[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = logia[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = logia[filteredItems[i].index].manga + "<br>" + logia[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = logia[filteredItems[i].index].fruit;
-            document.getElementById('user').src = logia[filteredItems[i].index].acharacter;
-
-            logia[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = logia[filteredItems[i].index].character;
-
-            logia[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            logia[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            logia[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = logia[filteredItems[i].index].acharacter;
-
-            logia[filteredItems[i].index].ufruit == "" ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            logia[filteredItems[i].index].ufruit == "" ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = logia[filteredItems[i].index].ufruit;
-
-            logia[filteredItems[i].index].fruitbox == "" ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = logia[filteredItems[i].index].fruitbox;
-
-            logia[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = logia[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-
-function getZoanNormal(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('nor' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = zoanNormal[filteredItems[i].index].name + " (" + zoanNormal[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = zoanNormal[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + zoanNormal[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = zoanNormal[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = zoanNormal[filteredItems[i].index].manga + "<br>" + zoanNormal[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = zoanNormal[filteredItems[i].index].fruit;
-            document.getElementById('user').src = zoanNormal[filteredItems[i].index].acharacter;
-
-            zoanNormal[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = zoanNormal[filteredItems[i].index].character;
-
-            zoanNormal[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            zoanNormal[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            zoanNormal[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = zoanNormal[filteredItems[i].index].acharacter;
-
-            zoanNormal[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            zoanNormal[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = zoanNormal[filteredItems[i].index].ufruit;
-
-            zoanNormal[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanNormal[filteredItems[i].index].fruitbox;
-
-            zoanNormal[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanNormal[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getZoanAncient(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('anc' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = zoanAnicent[filteredItems[i].index].name + " (" + zoanAnicent[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = zoanAnicent[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + zoanAnicent[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = zoanAnicent[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = zoanAnicent[filteredItems[i].index].manga + "<br>" + zoanAnicent[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = zoanAnicent[filteredItems[i].index].fruit;
-            document.getElementById('user').src = zoanAnicent[filteredItems[i].index].acharacter;
-
-            zoanAnicent[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = zoanAnicent[filteredItems[i].index].character;
-
-            zoanAnicent[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            zoanAnicent[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            zoanAnicent[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = zoanAnicent[filteredItems[i].index].acharacter;
-
-            zoanAnicent[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            zoanAnicent[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = zoanAnicent[filteredItems[i].index].ufruit;
-
-            zoanAnicent[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanAnicent[filteredItems[i].index].fruitbox;
-
-            zoanAnicent[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanAnicent[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getZoanMythical(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('myth' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = zoanMythical[filteredItems[i].index].name + " (" + zoanMythical[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = zoanMythical[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + zoanMythical[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = zoanMythical[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = zoanMythical[filteredItems[i].index].manga + "<br>" + zoanMythical[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = zoanMythical[filteredItems[i].index].fruit;
-            document.getElementById('user').src = zoanMythical[filteredItems[i].index].acharacter;
-
-            zoanMythical[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = zoanMythical[filteredItems[i].index].character;
-
-            zoanMythical[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            zoanMythical[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            zoanMythical[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = zoanMythical[filteredItems[i].index].acharacter;
-
-            zoanMythical[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            zoanMythical[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = zoanMythical[filteredItems[i].index].ufruit;
-
-            zoanMythical[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = zoanMythical[filteredItems[i].index].fruitbox;
-
-            zoanMythical[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = zoanMythical[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getParBody(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('body' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = parBody[filteredItems[i].index].name + " (" + parBody[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = parBody[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + parBody[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = parBody[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = parBody[filteredItems[i].index].manga + "<br>" + parBody[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = parBody[filteredItems[i].index].fruit;
-            document.getElementById('user').src = parBody[filteredItems[i].index].acharacter;
-
-            parBody[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = parBody[filteredItems[i].index].character;
-
-            parBody[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            parBody[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            parBody[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = parBody[filteredItems[i].index].acharacter;
-
-            parBody[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            parBody[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = parBody[filteredItems[i].index].ufruit;
-
-            parBody[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parBody[filteredItems[i].index].fruitbox;
-
-            parBody[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parBody[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getParEnv(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('env' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = parEnv[filteredItems[i].index].name + " (" + parEnv[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = parEnv[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + parEnv[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = parEnv[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = parEnv[filteredItems[i].index].manga + "<br>" + parEnv[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = parEnv[filteredItems[i].index].fruit;
-            document.getElementById('user').src = parEnv[filteredItems[i].index].acharacter;
-
-            parEnv[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = parEnv[filteredItems[i].index].character;
-
-            parEnv[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            parEnv[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            parEnv[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = parEnv[filteredItems[i].index].acharacter;
-
-            parEnv[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            parEnv[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = parEnv[filteredItems[i].index].ufruit;
-
-            parEnv[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parEnv[filteredItems[i].index].fruitbox;
-
-            parEnv[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parEnv[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getParSub(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('sub' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = parSub[filteredItems[i].index].name + " (" + parSub[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = parSub[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + parSub[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = parSub[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = parSub[filteredItems[i].index].manga + "<br>" + parSub[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = parSub[filteredItems[i].index].fruit;
-            document.getElementById('user').src = parSub[filteredItems[i].index].acharacter;
-
-            parSub[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = parSub[filteredItems[i].index].character;
-
-            parSub[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            parSub[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            parSub[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = parSub[filteredItems[i].index].acharacter;
-
-            parSub[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            parSub[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = parSub[filteredItems[i].index].ufruit;
-
-            parSub[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parSub[filteredItems[i].index].fruitbox;
-
-            parSub[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parSub[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-function getParPow(filteredItems){
-    document.getElementById('fruits').style.opacity = 1;
-    document.querySelector('#pbutton').style.display = "none";
-    document.querySelector('#optionBox').style.display = "none";
-    document.querySelector('#gifters').style.display = 'none';
-    document.querySelector('#kaido').style.display = 'none';
-    document.querySelector('#smile').style.display = 'none';
-
-
-     for (let i = 0; i < filteredItems.length; i++) {
-        let option = document.getElementById('pow' + filteredItems[i].index);
-
-        option.onclick = function () {
-            console.log(option);
-
-            document.getElementById('Dname').innerHTML = parPow[filteredItems[i].index].name + " (" + parPow[filteredItems[i].index].jname + ")";
-            document.getElementById('Duser').innerHTML = parPow[filteredItems[i].index].user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + parPow[filteredItems[i].index].element;
-            document.getElementById('Dinfo').innerHTML = parPow[filteredItems[i].index].info;
-            document.getElementById('extra').innerHTML = parPow[filteredItems[i].index].manga + "<br>" + parPow[filteredItems[i].index].anime;
-            document.getElementById('fruits').src = parPow[filteredItems[i].index].fruit;
-            document.getElementById('user').src = parPow[filteredItems[i].index].acharacter;
-
-            parPow[filteredItems[i].index].character == null ? document.getElementById('char').style.display = "none" : document.getElementById('char').style.display = "block";
-            document.getElementById('char').src = parPow[filteredItems[i].index].character;
-
-            parPow[filteredItems[i].index].fruit == null ? document.getElementById('hat').style.display = "none" : document.getElementById('hat').style.display = "block";
-
-            parPow[filteredItems[i].index].fruit == null ? document.getElementById('userButton').style.display = "none" : document.getElementById('userButton').style.display = "block";
-
-            parPow[filteredItems[i].index].fruit == null ? document.getElementById('user1').style.display = "block" : document.getElementById('user1').style.display = "none";
-            document.getElementById('user1').src = parPow[filteredItems[i].index].acharacter;
-
-            parPow[filteredItems[i].index].ufruit == null ? console.log("...") : document.getElementById('userButton').style.display = "block";
-
-            parPow[filteredItems[i].index].ufruit == null ? document.getElementById('Ufruit').style.display = "none" : document.getElementById('Ufruit').style.display = "block";
-            document.getElementById('Ufruit').src = parPow[filteredItems[i].index].ufruit;
-
-            parPow[filteredItems[i].index].fruitbox == null ? document.getElementById('fruitBox').style.display = "none" : document.getElementById('fruitBox').style.display = "block";
-            document.getElementById('fruitBox').src = parPow[filteredItems[i].index].fruitbox;
-
-            parPow[filteredItems[i].index].imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
-            document.getElementById('imgInfo').src = parPow[filteredItems[i].index].imginfo;
-
-            document.getElementById('infoPage').style.display = "block";
-            document.querySelector('#optionBox').style.display = "none";
-            document.getElementById('wrapper').style.display = "none";
-        };
-    }
-}
-
-
-   
-
-
 
 search();
 exit();
