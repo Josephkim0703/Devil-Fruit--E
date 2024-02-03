@@ -24,7 +24,7 @@ function search(){
     
         //creates new buttons for each filtered items an gives unique id
         for (let i = 0; i < filteredItems.length; i++) {
-            data += '<button id="devilFruit' + i + '">' + filteredItems[i].name + '<br>' + filteredItems[i].jname + '</button>';
+            data += '<button id="' + i + '">' + filteredItems[i].name + '<br>' + filteredItems[i].jname + '</button>';
         }
     
         document.querySelector('#oL').style.display = "flex";
@@ -32,14 +32,13 @@ function search(){
 
         //gets all the buttons created and makes an onclick function where the value clicked becomes target
         document.getElementById("allFruit").onclick = function (e) {
-            const target = e.target;
-
-            //not sure took this from chatgpt
-            if (target.tagName === "BUTTON") {
-                const index = parseInt(target.id.replace("devilFruit", ""));
+            const buttonId = e.target;
+            
+            //sets index to the buttons id number made in line 27
+                const index = parseInt(buttonId.id);
 
                 button(filteredItems[index]);
-            }
+            
         };
     }
     
