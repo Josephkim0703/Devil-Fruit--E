@@ -33,7 +33,13 @@ function search(){
         //gets all the buttons created and makes an onclick function where the value clicked becomes target
         document.getElementById("allFruit").onclick = function (e) {
             const buttonId = e.target;
-            
+            document.getElementById("searchBox").style.display = "none";
+            document.getElementById("searchBar").value = "";
+            document.getElementById("allFruit").style.display = "none";
+            document.getElementById("fruitButton").style.display = "none";
+            document.getElementById("user").style.display = "none";
+            document.getElementById("fruits").style.display = "block";
+            document.getElementById("Ufruit").style.opacity = 1;
             //sets index to the buttons id number made in line 27
                 const index = parseInt(buttonId.id);
 
@@ -311,16 +317,6 @@ function exit(){
         }
     });
 
-    document.getElementById("allFruit").onclick = function() {
-        document.getElementById('error').style.display = "none";
-        document.getElementById("searchBox").style.display = "none";
-        document.getElementById("searchBar").value = "";
-        document.getElementById("allFruit").style.display = "none";
-        document.getElementById("fruitButton").style.display = "none";
-        document.getElementById("user").style.display = "none";
-        document.getElementById("fruits").style.display = "block";
-        document.getElementById("Ufruit").style.opacity = 1;
-    };
 
     document.getElementById("searchBar").addEventListener("keyup", function(event){
         if( document.getElementById("searchBar").value == ""){
