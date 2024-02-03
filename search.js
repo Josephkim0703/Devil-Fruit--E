@@ -43,7 +43,7 @@ function search(){
     }
     
     function button(selectedItem) {
-
+        document.getElementById('fruitButton').style.display = "none" 
         if(selectedItem.type === "logia"){
         document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
         document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -72,6 +72,7 @@ function search(){
 
         selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
         document.getElementById('imgInfo').src = selectedItem.imginfo;
+       
 
         document.getElementById("gifters").style.display = "none";
         document.getElementById("kaido").style.display = "none";
