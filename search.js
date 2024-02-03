@@ -1,46 +1,28 @@
 import {devilFruits} from './data.js';
-//BIG BUG all the code works the only issue is the search bar
-//when you type it filters all the fruits the problem is that since all my fruits are separated into the different arrays 
-//it only lets whatever array is on top to work while the rest dont until they reach the top like a stack(the buttons that get generated)
-//so if i type hito in the search bar 4 fruits will appear one from the zoanNormal array and 3 from zoanMythical but only zoanNormal button will work since its array is on top
-//while the rest dont. I honestly gave up as theres 3 ways I can go about this problem
 
-//1: rewrite my data.js file to be one array of object and put in a (type) to seperate the different fruits but then i would have to also rewrite the layout.js file
-//2: rewrite my search.js file from scratch again
-//3: make it so you have to type the name of the fruit exactly but i would also have to rewrite the search.js file as when the buttons get generated the names are printed as log0 etc not the name
-//so it would be compared to that and not the name so my value would never match
-
-/*let shown = false;
-
-document.getElementById('searchBar').onclick = function () {
-    if (shown == false) {
-        document.getElementById('error').style.display = "block";  
-        shown = true;   
-    }
-}
-document.getElementById('x-error').onclick = function () {
-    document.getElementById('error').style.display = "none";
-}*/
 
 function search(){
 
     document.getElementById("searchBar").addEventListener("input", e => {
-
+        //turns on the search bar buttons
         document.getElementById("searchBox").style.display = "block";
         document.getElementById("allFruit").style.display = "block";
-
+        //get users value and turns it into lower case
         const value = e.target.value.toLowerCase();
     
+        //filters the devilfruits array and turns each element name into lowercase and seeing if it includes the value
         const filteredItems = devilFruits.filter(fruit =>
             fruit.name.toLowerCase().includes(value) || fruit.jname.toLowerCase().includes(value)
         );
     
-        generateButtons(filteredItems);
+        //then sends the filtered items to create the new buttons 
+        makebutton(filteredItems);
     });
     
-    function generateButtons(filteredItems) {
+    function makebutton(filteredItems) {
         let data = '';
     
+        //creates new buttons for each filtered items an gives unique id
         for (let i = 0; i < filteredItems.length; i++) {
             data += '<button id="devilFruit' + i + '">' + filteredItems[i].name + '<br>' + filteredItems[i].jname + '</button>';
         }
@@ -48,10 +30,11 @@ function search(){
         document.querySelector('#oL').style.display = "flex";
         document.getElementById("allFruit").innerHTML = data;
 
+        //gets all the buttons created and makes an onclick function where the value clicked becomes target
         document.getElementById("allFruit").onclick = function (e) {
-
             const target = e.target;
 
+            //not sure took this from chatgpt
             if (target.tagName === "BUTTON") {
                 const index = parseInt(target.id.replace("devilFruit", ""));
 
