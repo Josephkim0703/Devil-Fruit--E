@@ -24,7 +24,7 @@ Welcome to the Devil Fruit Encyclopedia, your ultimate guide to all known Devil 
 2. **Info Buttons:**
    - Hover over the image of the fruit to get detailed information on the type of fruit it is.
 
-   ![Info Buttons](./assets/hover.PNG)
+   ![Info Buttons](./assets/hoverinfo.PNG)
 
 3. **Filter Buttons:**
    - Click on the type of fruit you would like to see (Zoan, Logia, Paramecia) Once clicked it will give you a list of all the fruits that fall under that category.
