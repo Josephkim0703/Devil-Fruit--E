@@ -49,8 +49,7 @@ function search(){
     }
     
     function button(selectedItem) {
-        document.getElementById('fruitButton').style.display = "none" 
-        if(selectedItem.type === "logia"){
+    if(selectedItem.type === "logia"){
         document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
         document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
         document.getElementById('Dinfo').innerHTML = selectedItem.info;
@@ -79,7 +78,6 @@ function search(){
         selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
         document.getElementById('imgInfo').src = selectedItem.imginfo;
        
-
         document.getElementById("gifters").style.display = "none";
         document.getElementById("kaido").style.display = "none";
         document.getElementById("smile").style.display = "none";
@@ -118,6 +116,14 @@ function search(){
             selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
             document.getElementById('imgInfo').src = selectedItem.imginfo;
 
+            document.getElementById("gifters").style.display = "none";
+            document.getElementById("kaido").style.display = "none";
+            document.getElementById("smile").style.display = "none";
+        
+            document.getElementById('infoPage').style.display = "block";
+            document.querySelector('#optionBox').style.display = "none";
+            document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "zoananicent"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -147,6 +153,14 @@ function search(){
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
 
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "zoanmythical"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -175,6 +189,15 @@ function search(){
 
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "parbody"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -203,6 +226,15 @@ function search(){
 
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
+    
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "parsub"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -231,6 +263,15 @@ function search(){
 
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "parenv"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -259,6 +300,15 @@ function search(){
 
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
+
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
+
     }else if(selectedItem.type === "parpow"){
     document.getElementById('Dname').innerHTML = selectedItem.name + " (" + selectedItem.jname + ")";
     document.getElementById('Duser').innerHTML = selectedItem.user + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp" + selectedItem.element;
@@ -287,6 +337,14 @@ function search(){
 
     selectedItem.imginfo == null ? document.getElementById('imgInfo').style.display = "none" : document.getElementById('imgInfo').style.display = "block";
     document.getElementById('imgInfo').src = selectedItem.imginfo;
+ 
+    document.getElementById("gifters").style.display = "none";
+    document.getElementById("kaido").style.display = "none";
+    document.getElementById("smile").style.display = "none";
+
+    document.getElementById('infoPage').style.display = "block";
+    document.querySelector('#optionBox').style.display = "none";
+    document.getElementById('wrapper').style.display = "none";
 }
     }
 }
